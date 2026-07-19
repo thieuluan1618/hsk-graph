@@ -1,0 +1,23 @@
+---
+interface Props {
+  wordCount: number;
+  hubCount: number;
+}
+const { wordCount, hubCount } = Astro.props;
+---
+
+<div id="top">
+  <div id="brand">
+    <div class="kicker">HSK Buddy</div>
+    <h1>HSK 1 &amp; 2 Vocabulary Graph <span class="zh">词汇图谱</span></h1>
+    <div class="sub">
+      <b id="wc">{wordCount}</b> từ · <b id="hc">{hubCount}</b> chữ chung · kéo · phóng to · 🔊 bấm vào từ để nghe
+    </div>
+  </div>
+  <div id="searchWrap">
+    <span class="ic">⌕</span>
+    <input id="search" placeholder="Tìm từ · pinyin · nghĩa…" autocomplete="off" spellcheck="false" />
+    <button id="searchClear">✕</button>
+    <div id="searchCount"></div>
+  </div>
+</div>

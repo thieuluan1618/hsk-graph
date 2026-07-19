@@ -1,0 +1,32 @@
+---
+// Static shell for the word detail panel; content is filled in by
+// src/lib/detail-panel.ts when a node is selected.
+---
+
+<div id="detail">
+  <div class="dhead">
+    <div class="glow" id="dglow"></div>
+    <button class="dclose" id="dclose">✕</button>
+    <div class="zh" id="d-zh"></div>
+    <div class="row1"><span class="py" id="d-py"></span><span id="d-badges"></span></div>
+    <button class="audio-btn" id="d-audio" title="Bản âm thanh phát âm sẽ ra mắt ở bản cập nhật tới">
+      <span class="pw">▶</span><span id="d-audio-t">Nghe phát âm — sắp ra mắt</span>
+    </button>
+  </div>
+  <div class="dbody">
+    <div class="mean"><div class="en" id="d-en"></div><div class="vi" id="d-vi"></div></div>
+    <div class="meta-grid">
+      <div class="m"><div class="k">Từ loại</div><div class="v" id="d-pos"></div></div>
+      <div class="m"><div class="k">Hán–Việt</div><div class="v hv" id="d-hv"></div></div>
+    </div>
+    <div class="ex" id="d-ex">
+      <div class="rh">Ví dụ · Example</div>
+      <div class="ex-zh" id="d-ex-zh"></div>
+      <div class="ex-py" id="d-ex-py"></div>
+      <div class="ex-en" id="d-ex-en"></div>
+      <div class="ex-vi" id="d-ex-vi"></div>
+      <button class="ex-audio" id="d-ex-audio"><span class="pw">▶</span><span id="d-ex-audio-t">Nghe câu — sắp có</span></button>
+    </div>
+    <div class="rel"><div class="rh" id="d-relh">Từ liên quan</div><div id="d-rel"></div></div>
+  </div>
+</div>

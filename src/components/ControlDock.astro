@@ -1,0 +1,64 @@
+---
+import graphData from '../data/graph.json';
+
+// Legend entries are data-driven: one per theme that has word members.
+const legendEntries = graphData.themes
+  .filter((t) => t.code !== 'HUB')
+  .map((t) => ({
+    ...t,
+    count: graphData.nodes.filter((n) => n.kind === 'word' && n.theme === t.code).length,
+  }))
+  .filter((t) => t.count > 0);
+---
+
+<div id="dock">
+  <div id="dockToggle"><span>Bộ điều khiển</span><span class="ar">▾</span></div>
+  <div class="dock-sec">
+    <div class="dock-h">Cấp độ · Level</div>
+    <div class="seg" id="segLevel">
+      <button data-lv="all" class="on">Tất cả</button>
+      <button data-lv="1">HSK 1</button>
+      <button data-lv="2">HSK 2</button>
+    </div>
+  </div>
+  <div class="dock-sec">
+    <div class="tog" data-tog="group">
+      <span class="lab"><span class="dot"></span>Gom theo chủ đề</span><span class="sw on" id="sw-group"></span>
+    </div>
+    <div class="tog" data-tog="hubs">
+      <span class="lab"><span class="dot" style="background:#eaf0fb;box-shadow:0 0 8px #eaf0fb"></span>Chữ chung (hub)</span><span class="sw on" id="sw-hubs"></span>
+    </div>
+    <div class="tog" data-tog="spokes">
+      <span class="lab"><span class="dot" style="background:#7d8597;box-shadow:none"></span>Đường nối chủ đề</span><span class="sw" id="sw-spokes"></span>
+    </div>
+  </div>
+  <div class="dock-sec">
+    <div class="dock-h">Khoảng cách · Spacing</div>
+    <input type="range" id="spread" class="range" min="0.45" max="2.4" step="0.05" value="1" />
+    <div class="range-lab"><span>Gần · gọn</span><span>Xa · thoáng</span></div>
+  </div>
+  <div class="dock-sec">
+    <div class="dock-h">
+      Chủ đề · Themes
+      <span id="legReset" style="cursor:pointer;color:var(--accent);text-transform:none;letter-spacing:0;font-weight:600">reset</span>
+    </div>
+    <div id="legend">
+      {
+        legendEntries.map((t) => (
+          <div class="lg" data-code={t.code}>
+            <span class="c" style={`background:${t.color};color:${t.color}`} />
+            <span class="nm">
+              {t.vi}
+              <small>{t.en}</small>
+            </span>
+            <span class="ct">{t.count}</span>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+  <div class="dock-foot">
+    <button class="btn" id="btnReset">⟲ Về giữa</button>
+    <button class="btn" id="btnShuffle">✦ Xáo trộn</button>
+  </div>
+</div>
