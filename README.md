@@ -1,5 +1,7 @@
 # HSK 1–2 Vocabulary Graph
 
+**Live demo:** https://main.d1ve9js1shhxc6.amplifyapp.com/
+
 Astro + D3 refactor of the single-file demo `../HSK 1-2 Vocabulary Graph.html`.
 An interactive force-directed graph of HSK 1–2 vocabulary with search, theme
 filters, a word detail panel, and pronunciation audio (word + example sentence).
