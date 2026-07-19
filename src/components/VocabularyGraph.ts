@@ -29,9 +29,11 @@ const interactions = createInteractions(cv, scene, state, sim, renderer.draw, {
   onSelect(n) {
     detail.open(n);
     void playWord(n.hz);
+    clearSearch();
   },
   onClear() {
     detail.close();
+    clearSearch();
   },
 });
 
@@ -42,6 +44,7 @@ const detail = createDetailPanel(scene, {
   },
   onClose() {
     clearSelection();
+    clearSearch();
   },
 });
 
@@ -50,6 +53,7 @@ function selectNode(n: GraphNode): void {
   interactions.setFocus(n);
   detail.open(n);
   void playWord(n.hz);
+  clearSearch();
 }
 
 function clearSelection(): void {
@@ -168,6 +172,18 @@ D('legReset').addEventListener('click', () => setThemeSolo(null));
 const searchEl = D('search') as HTMLInputElement;
 const scEl = D('searchCount');
 const searchClear = D('searchClear');
+
+/** Clear any active search match + its UI. Called when a node is selected
+ *  so the search fade-out doesn't persist on top of the focus highlight. */
+function clearSearch(): void {
+  if (!state.searchMatch && !searchEl.value) return;
+  state.searchMatch = null;
+  searchEl.value = '';
+  scEl.textContent = '';
+  searchClear.style.display = 'none';
+  renderer.draw();
+}
+
 searchEl.addEventListener('input', () => {
   searchClear.style.display = searchEl.value ? 'block' : 'none';
   setSearch(searchEl.value.trim());
