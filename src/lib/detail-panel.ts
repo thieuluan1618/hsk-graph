@@ -4,6 +4,7 @@ import { hasSentenceAudio, hasWordAudio, playSentence, playWord } from './audio'
 import type { Scene } from './graph-layout';
 import { makeNodeColor } from './graph-layout';
 import type { GraphNode } from './types';
+import HanziWriter from 'hanzi-writer';
 
 export interface DetailPanelCallbacks {
   /** A related-word chip was clicked. */
@@ -26,6 +27,50 @@ interface RelatedGroup {
 export function createDetailPanel(scene: Scene, cb: DetailPanelCallbacks): DetailPanel {
   const D = (id: string) => document.getElementById(id)!;
   const nodeColor = makeNodeColor(scene.themeMap);
+
+  // ---- stroke order (HanziWriter) ----
+  let writers: HanziWriter[] = [];
+
+  function clearStrokes(): void {
+    writers = [];
+    D('d-stroke-grid').innerHTML = '';
+  }
+
+  async function buildStrokes(hz: string): Promise<void> {
+    clearStrokes();
+    const grid = D('d-stroke-grid');
+    for (const ch of hz) {
+      const cell = document.createElement('div');
+      cell.className = 'stroke-cell';
+      const target = document.createElement('div');
+      target.className = 'stroke-target';
+      cell.appendChild(target);
+      grid.appendChild(cell);
+      try {
+        const w = HanziWriter.create(target, ch, {
+          width: 72,
+          height: 72,
+          padding: 4,
+          strokeColor: '#eef1fa',
+          outlineColor: 'rgba(255,255,255,.08)',
+          drawingColor: '#8be8dd',
+          showOutline: true,
+          strokeAnimationSpeed: 1,
+          delayBetweenStrokes: 120,
+        });
+        writers.push(w);
+        w.animateCharacter();
+      } catch {
+        // character not in hanzi-writer database
+        cell.textContent = ch;
+        cell.classList.add('fallback');
+      }
+    }
+  }
+
+  function replayStrokes(): void {
+    writers.forEach((w) => w.animateCharacter());
+  }
 
   /** Group sibling words by shared hub character. */
   function relatedGroups(n: GraphNode): RelatedGroup[] {
@@ -116,17 +161,22 @@ export function createDetailPanel(scene: Scene, cb: DetailPanelCallbacks): Detai
     D('d-audio-t').textContent = hasA ? 'Nghe phát âm' : 'Chưa có âm thanh';
     ab.onclick = hasA ? () => void playWord(n.hz) : null;
 
+    // stroke order
+    void buildStrokes(n.hz);
+
     D('detail').classList.add('show');
   }
 
   function close(): void {
     D('detail').classList.remove('show');
+    clearStrokes();
   }
 
   D('dclose').addEventListener('click', () => {
     close();
     cb.onClose();
   });
+  D('d-stroke-play').addEventListener('click', replayStrokes);
 
   return { open, close };
 }

@@ -26,6 +26,8 @@ export interface GraphState {
   focusSet: Set<string> | null;
   /** Current zoom/pan transform. */
   transform: ZoomTransform;
+  /** Font family for Chinese characters (canvas + DOM). */
+  hanziFont: string;
 }
 
 export function createState(): GraphState {
@@ -44,6 +46,7 @@ export function createState(): GraphState {
     hoverNode: null,
     focusSet: null,
     transform: zoomIdentity,
+    hanziFont: 'Noto Sans SC',
   };
 }
 

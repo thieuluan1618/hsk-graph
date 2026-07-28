@@ -61,6 +61,26 @@ function clearSelection(): void {
   interactions.setFocus(null);
 }
 
+// ---- hanzi font switcher ----
+
+function setHanziFont(font: string): void {
+  state.hanziFont = font;
+  // update all DOM elements that hardcode 'Noto Sans SC'
+  document.querySelectorAll<HTMLElement>('#brand h1 .zh, #detail .zh, .ex-zh, .rel .grp .gc b, .chip .z').forEach((el) => {
+    el.style.fontFamily = `'${font}', sans-serif`;
+  });
+  // update font picker button states
+  document.querySelectorAll('#fontPicker button').forEach((b) =>
+    b.classList.toggle('on', (b as HTMLButtonElement).dataset.font === font),
+  );
+  // re-render canvas with new font
+  renderer.draw();
+}
+
+document.querySelectorAll<HTMLButtonElement>('#fontPicker button').forEach((b) =>
+  b.addEventListener('click', () => setHanziFont(b.dataset.font!)),
+);
+
 // ---- named state updates ----
 
 function setLevelFilter(lv: LevelFilter): void {

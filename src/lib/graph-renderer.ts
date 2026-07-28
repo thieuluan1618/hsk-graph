@@ -112,7 +112,7 @@ export function createRenderer(cv: HTMLCanvasElement, scene: Scene, state: Graph
       // characters inside
       const c = nchars(n);
       const fs = Math.min(isHub ? 26 : 24, (2 * r - 10) / c);
-      ctx.font = `600 ${fs}px "Noto Sans SC", sans-serif`;
+      ctx.font = `600 ${fs}px "${state.hanziFont}", sans-serif`;
       if (isHub) {
         ctx.fillStyle = `rgba(16,18,28,${al})`;
         ctx.fillText(n.hz, n.x, n.y + fs * 0.04);
