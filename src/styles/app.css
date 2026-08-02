@@ -94,6 +94,7 @@ canvas.pointing{cursor:pointer}
 .badge.hsk1{background:rgba(139,232,221,.16);color:#8be8dd}
 .badge.hsk2{background:rgba(179,136,235,.18);color:#c5a6f5}
 .badge.hub{background:rgba(234,240,251,.16);color:#eaf0fb}
+.badge.supplementary{background:rgba(255,183,3,.14);color:#ffca4b}
 .badge.pos{background:rgba(255,255,255,.07);color:var(--muted);text-transform:none;font-weight:600}
 .audio-btn{position:relative;z-index:2;margin-top:12px;display:flex;align-items:center;gap:9px;width:100%;
   border:1px dashed var(--stroke2);background:rgba(255,255,255,.03);color:var(--muted);font-family:inherit;

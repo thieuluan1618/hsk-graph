@@ -1390,5 +1390,357 @@
       "en": "I go to the park on Saturday.",
       "vi": "Thứ Bảy tôi đi công viên."
     }
+  },
+  {
+    "hz": "星期天",
+    "py": "xīngqītiān",
+    "en": "Sunday",
+    "vi": "Chủ nhật",
+    "hv": "Tinh Kỳ Thiên",
+    "theme": "TIME",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "星期天我们不上课。",
+      "py": "Xīngqītiān wǒmen bú shàngkè.",
+      "en": "We don't have class on Sunday.",
+      "vi": "Chủ nhật chúng tôi không học."
+    }
+  },
+  {
+    "hz": "学",
+    "py": "xué",
+    "en": "to learn; to study",
+    "vi": "học; học tập",
+    "hv": "Học",
+    "theme": "VERB",
+    "hsk": 1,
+    "pos": "verb",
+    "sent": {
+      "zh": "我学中文。",
+      "py": "Wǒ xué Zhōngwén.",
+      "en": "I study Chinese.",
+      "vi": "Tôi học tiếng Trung."
+    }
+  },
+  {
+    "hz": "一半",
+    "py": "yíbàn",
+    "en": "half",
+    "vi": "một nửa",
+    "hv": "Nhất Bán",
+    "theme": "NUM",
+    "hsk": 1,
+    "pos": "number",
+    "sent": {
+      "zh": "我吃了一半。",
+      "py": "Wǒ chī le yíbàn.",
+      "en": "I ate half of it.",
+      "vi": "Tôi đã ăn một nửa."
+    }
+  },
+  {
+    "hz": "一下",
+    "py": "yíxià",
+    "en": "once; a little",
+    "vi": "một chút; một lần",
+    "hv": "Nhất Hạ",
+    "theme": "NUM",
+    "hsk": 1,
+    "pos": "number-classifier",
+    "sent": {
+      "zh": "请等一下。",
+      "py": "Qǐng děng yíxià.",
+      "en": "Please wait a moment.",
+      "vi": "Xin đợi một chút."
+    }
+  },
+  {
+    "hz": "一点儿",
+    "py": "yìdiǎnr",
+    "en": "a little; a bit",
+    "vi": "một chút; một ít",
+    "hv": "Nhất Điểm Nhi",
+    "theme": "NUM",
+    "hsk": 1,
+    "pos": "number-classifier",
+    "sent": {
+      "zh": "我想喝一点儿水。",
+      "py": "Wǒ xiǎng hē yìdiǎnr shuǐ.",
+      "en": "I want to drink a little water.",
+      "vi": "Tôi muốn uống một chút nước."
+    }
+  },
+  {
+    "hz": "一些",
+    "py": "yìxiē",
+    "en": "some; a few",
+    "vi": "một ít; một vài",
+    "hv": "Nhất Ta",
+    "theme": "NUM",
+    "hsk": 1,
+    "pos": "number-classifier",
+    "sent": {
+      "zh": "我买了一些水果。",
+      "py": "Wǒ mǎi le yìxiē shuǐguǒ.",
+      "en": "I bought some fruit.",
+      "vi": "Tôi đã mua một ít trái cây."
+    }
+  },
+  {
+    "hz": "有的",
+    "py": "yǒude",
+    "en": "some of them",
+    "vi": "có cái; một số",
+    "hv": "Hữu Đích",
+    "theme": "PRON",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "有的学生喜欢唱歌。",
+      "py": "Yǒude xuésheng xǐhuan chànggē.",
+      "en": "Some students like singing.",
+      "vi": "Một số học sinh thích hát."
+    }
+  },
+  {
+    "hz": "有点儿",
+    "py": "yǒudiǎnr",
+    "en": "a little; slightly",
+    "vi": "hơi; có chút",
+    "hv": "Hữu Điểm Nhi",
+    "theme": "GRAM",
+    "hsk": 1,
+    "pos": "adverb",
+    "sent": {
+      "zh": "今天有点儿冷。",
+      "py": "Jīntiān yǒudiǎnr lěng.",
+      "en": "It's a little cold today.",
+      "vi": "Hôm nay hơi lạnh."
+    }
+  },
+  {
+    "hz": "有些",
+    "py": "yǒuxiē",
+    "en": "some; somewhat",
+    "vi": "một số; hơi",
+    "hv": "Hữu Ta",
+    "theme": "PRON",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "有些人喜欢喝茶。",
+      "py": "Yǒuxiē rén xǐhuan hē chá.",
+      "en": "Some people like drinking tea.",
+      "vi": "Một số người thích uống trà."
+    }
+  },
+  {
+    "hz": "雨",
+    "py": "yǔ",
+    "en": "rain",
+    "vi": "mưa",
+    "hv": "Vũ",
+    "theme": "NAT",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "今天有雨。",
+      "py": "Jīntiān yǒu yǔ.",
+      "en": "It will rain today.",
+      "vi": "Hôm nay có mưa."
+    }
+  },
+  {
+    "hz": "早",
+    "py": "zǎo",
+    "en": "early",
+    "vi": "sớm",
+    "hv": "Tảo",
+    "theme": "TIME",
+    "hsk": 1,
+    "pos": "adjective",
+    "sent": {
+      "zh": "你今天来得很早。",
+      "py": "Nǐ jīntiān lái de hěn zǎo.",
+      "en": "You came very early today.",
+      "vi": "Hôm nay bạn đến rất sớm."
+    }
+  },
+  {
+    "hz": "早饭",
+    "py": "zǎofàn",
+    "en": "breakfast",
+    "vi": "bữa sáng; cơm sáng",
+    "hv": "Tảo Phạn",
+    "theme": "FOOD",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "我七点吃早饭。",
+      "py": "Wǒ qī diǎn chī zǎofàn.",
+      "en": "I eat breakfast at seven.",
+      "vi": "Tôi ăn sáng lúc bảy giờ."
+    }
+  },
+  {
+    "hz": "这边",
+    "py": "zhèbiān",
+    "en": "here; this side",
+    "vi": "bên này; phía này",
+    "hv": "Giá Biên",
+    "theme": "DIR",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "请来这边。",
+      "py": "Qǐng lái zhèbiān.",
+      "en": "Please come this way.",
+      "vi": "Xin hãy đến bên này."
+    }
+  },
+  {
+    "hz": "这个",
+    "py": "zhège",
+    "en": "this one",
+    "vi": "cái này; người này",
+    "hv": "Giá Cá",
+    "theme": "PRON",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "这个是我的。",
+      "py": "Zhège shì wǒ de.",
+      "en": "This one is mine.",
+      "vi": "Cái này là của tôi."
+    }
+  },
+  {
+    "hz": "这里",
+    "py": "zhèlǐ",
+    "en": "here",
+    "vi": "ở đây; chỗ này",
+    "hv": "Giá Lý",
+    "theme": "DIR",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "我住在这里。",
+      "py": "Wǒ zhù zài zhèlǐ.",
+      "en": "I live here.",
+      "vi": "Tôi sống ở đây."
+    }
+  },
+  {
+    "hz": "这儿",
+    "py": "zhèr",
+    "en": "here",
+    "vi": "ở đây; chỗ này",
+    "hv": "Giá Nhi",
+    "theme": "DIR",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "请坐这儿。",
+      "py": "Qǐng zuò zhèr.",
+      "en": "Please sit here.",
+      "vi": "Xin ngồi ở đây."
+    }
+  },
+  {
+    "hz": "这些",
+    "py": "zhèxiē",
+    "en": "these",
+    "vi": "những cái này",
+    "hv": "Giá Ta",
+    "theme": "PRON",
+    "hsk": 1,
+    "pos": "pronoun",
+    "sent": {
+      "zh": "这些书都是我的。",
+      "py": "Zhèxiē shū dōu shì wǒ de.",
+      "en": "These books are all mine.",
+      "vi": "Những cuốn sách này đều là của tôi."
+    }
+  },
+  {
+    "hz": "只",
+    "py": "zhī",
+    "en": "measure word for animals; one of a pair",
+    "vi": "con; chiếc",
+    "hv": "Chỉ",
+    "theme": "NUM",
+    "hsk": 1,
+    "pos": "measure word",
+    "sent": {
+      "zh": "我有一只猫。",
+      "py": "Wǒ yǒu yì zhī māo.",
+      "en": "I have a cat.",
+      "vi": "Tôi có một con mèo."
+    }
+  },
+  {
+    "hz": "中文",
+    "py": "Zhōngwén",
+    "en": "Chinese language",
+    "vi": "tiếng Trung; chữ Trung",
+    "hv": "Trung Văn",
+    "theme": "LANG",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "我会说中文。",
+      "py": "Wǒ huì shuō Zhōngwén.",
+      "en": "I can speak Chinese.",
+      "vi": "Tôi biết nói tiếng Trung."
+    }
+  },
+  {
+    "hz": "中学",
+    "py": "zhōngxué",
+    "en": "middle school",
+    "vi": "trường trung học",
+    "hv": "Trung Học",
+    "theme": "PLACE",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "我哥哥在中学上学。",
+      "py": "Wǒ gēge zài zhōngxué shàngxué.",
+      "en": "My older brother attends middle school.",
+      "vi": "Anh trai tôi học ở trường trung học."
+    }
+  },
+  {
+    "hz": "中学生",
+    "py": "zhōngxuéshēng",
+    "en": "middle school student",
+    "vi": "học sinh trung học",
+    "hv": "Trung Học Sinh",
+    "theme": "PPL",
+    "hsk": 1,
+    "pos": "noun",
+    "sent": {
+      "zh": "她是一名中学生。",
+      "py": "Tā shì yì míng zhōngxuéshēng.",
+      "en": "She is a middle school student.",
+      "vi": "Cô ấy là một học sinh trung học."
+    }
+  },
+  {
+    "hz": "做饭",
+    "py": "zuòfàn",
+    "en": "to cook",
+    "vi": "nấu cơm; nấu ăn",
+    "hv": "Tố Phạn",
+    "theme": "VERB",
+    "hsk": 1,
+    "pos": "verb",
+    "sent": {
+      "zh": "妈妈在厨房做饭。",
+      "py": "Māma zài chúfáng zuòfàn.",
+      "en": "Mom is cooking in the kitchen.",
+      "vi": "Mẹ đang nấu ăn trong bếp."
+    }
   }
 ]

@@ -4,6 +4,17 @@ const data = JSON.parse(fs.readFileSync('src/data/graph.json', 'utf8'));
 const hsk1New = JSON.parse(fs.readFileSync('scripts/hsk1-new.json', 'utf8'));
 const hsk2New = JSON.parse(fs.readFileSync('scripts/hsk2-new.json', 'utf8'));
 
+const hsk1Corrections = new Set([
+  '休息', '雪', '要', '也', '元', '再', '早上', '找', '真', '正在', '知道',
+]);
+
+const supplementaryWords = new Set([
+  '火车站', '北京', '小姐', '没', '打篮球', '公共汽车', '羊肉', '西瓜',
+  '服务员', '公斤', '自行车', '唱歌', '报纸', '船', '回答', '白', '欢迎',
+  '红', '黑', '帮助', '男人', '女人', '张', '第一', '向', '为', '星期一',
+  '星期二', '星期三', '星期四', '星期五', '星期六',
+]);
+
 // Existing word hanzi
 const existingHz = new Set(data.nodes.filter(n => n.kind === 'word').map(n => n.hz));
 
@@ -14,9 +25,14 @@ console.log('Existing words:', data.nodes.filter(n => n.kind === 'word').length)
 console.log('New words to add (after dedup):', newWords.length);
 console.log('Skipped duplicates:', hsk1New.length + hsk2New.length - newWords.length);
 
+function stableFrequency(hz) {
+  let hash = 0;
+  for (const ch of hz) hash = (hash * 31 + ch.codePointAt(0)) >>> 0;
+  return hash % 5000 + 100;
+}
+
 // Build word nodes
-const newNodes = newWords.map((w, i) => {
-  const freq = Math.floor(Math.random() * 5000) + 100;
+const newNodes = newWords.map((w) => {
   return {
     id: `W:${w.hz}`,
     kind: 'word',
@@ -28,7 +44,7 @@ const newNodes = newWords.map((w, i) => {
     theme: w.theme,
     hsk: w.hsk,
     pos: w.pos,
-    freq,
+    freq: stableFrequency(w.hz),
     isHub: false,
     deg: 0,
     sent: w.sent,
@@ -40,6 +56,12 @@ data.nodes.push(...newNodes);
 
 // Rebuild hub nodes and char edges
 const allWords = data.nodes.filter(n => n.kind === 'word');
+
+for (const word of allWords) {
+  if (hsk1Corrections.has(word.hz)) word.hsk = 1;
+  if (supplementaryWords.has(word.hz)) word.supplementary = true;
+  else delete word.supplementary;
+}
 
 // Find shared characters (appearing in 2+ words)
 const charMap = new Map(); // char -> [word ids]
@@ -57,11 +79,19 @@ const hubChars = [...charMap.entries()].filter(([ch, ids]) => ids.length >= 2);
 // Remove old hub nodes
 data.nodes = data.nodes.filter(n => n.kind !== 'hub');
 
-// Build new hub nodes
-const hubNodes = hubChars.map(([ch, ids]) => {
-  // Find a word containing this char for metadata
-  const sampleWord = allWords.find(w => w.hz.includes(ch));
-  return {
+// Reuse a single-character word as its own hub. Only create a synthetic hub
+// when that character is not independently present in the vocabulary.
+const wordByHanzi = new Map(allWords.map(word => [word.hz, word]));
+for (const word of allWords) word.isHub = false;
+
+const hubNodes = [];
+for (const [ch, ids] of hubChars) {
+  const wordHub = wordByHanzi.get(ch);
+  if (wordHub) {
+    wordHub.isHub = true;
+    continue;
+  }
+  hubNodes.push({
     id: `H:${ch}`,
     kind: 'hub',
     hz: ch,
@@ -75,23 +105,24 @@ const hubNodes = hubChars.map(([ch, ids]) => {
     freq: 0,
     isHub: true,
     deg: ids.length,
-  };
-});
+  });
+}
 
 data.nodes.push(...hubNodes);
 
 // Rebuild char edges
 const charEdges = [];
 for (const [ch, ids] of hubChars) {
+  const source = wordByHanzi.get(ch)?.id ?? `H:${ch}`;
   for (const wid of ids) {
-    charEdges.push({ source: `H:${ch}`, target: wid, ch });
+    if (wid !== source) charEdges.push({ source, target: wid, ch });
   }
 }
 data.edges = charEdges;
 
-// Update word deg (number of shared char connections)
+// Update word degree for both ordinary members and word nodes acting as hubs.
 for (const w of allWords) {
-  w.deg = charEdges.filter(e => e.target === w.id).length;
+  w.deg = charEdges.filter(e => e.source === w.id || e.target === w.id).length;
 }
 
 // Rebuild theme edges
@@ -117,7 +148,7 @@ data.meta = {
   hsk1: h1,
   hsk2: h2,
   hub_nodes: hubNodes.length,
-  word_hubs: hubChars.length,
+  word_hubs: allWords.filter(word => word.isHub).length,
   char_edges: charEdges.length,
   theme_edges: themeEdges.length,
 };

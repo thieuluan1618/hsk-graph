@@ -100,6 +100,7 @@ export function createDetailPanel(scene: Scene, cb: DetailPanelCallbacks): Detai
     let badges = '';
     if (n.kind === 'hub') badges += '<span class="badge hub">chữ chung</span>';
     else badges += `<span class="badge hsk${n.hsk}">HSK ${n.hsk}</span>`;
+    if (n.supplementary) badges += ' <span class="badge supplementary">bổ sung</span>';
     if (n.pos) badges += ` <span class="badge pos">${n.pos}</span>`;
     D('d-badges').innerHTML = badges;
     D('d-en').textContent = n.en || '';

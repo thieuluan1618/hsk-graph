@@ -1,12 +1,12 @@
 {
   "meta": {
-    "total_words": 507,
-    "hsk1": 277,
-    "hsk2": 230,
-    "hub_nodes": 175,
-    "word_hubs": 175,
-    "char_edges": 610,
-    "theme_edges": 507
+    "total_words": 529,
+    "hsk1": 310,
+    "hsk2": 219,
+    "hub_nodes": 48,
+    "word_hubs": 133,
+    "char_edges": 525,
+    "theme_edges": 529
   },
   "themes": [
     {
@@ -234,7 +234,8 @@
         "py": "Wǒ zài huǒchēzhàn.",
         "en": "I'm at the train station.",
         "vi": "Tôi ở ga tàu."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:杯子",
@@ -270,7 +271,7 @@
       "pos": "verb",
       "freq": 5648,
       "isHub": false,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "今天下雨。",
         "py": "Jīntiān xià yǔ.",
@@ -297,7 +298,8 @@
         "py": "Wǒ xiǎng qù Běijīng.",
         "en": "I want to go to Beijing.",
         "vi": "Tôi muốn đi Bắc Kinh."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:椅子",
@@ -584,8 +586,8 @@
       "hsk": 1,
       "pos": "noun, bound morpheme",
       "freq": 1910,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "我想喝茶。",
         "py": "Wǒ xiǎng hē chá.",
@@ -696,7 +698,8 @@
         "py": "Xiǎojiě, nǐ hǎo!",
         "en": "Hello, miss!",
         "vi": "Chào cô!"
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:衣服",
@@ -941,7 +944,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 1013,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我在读书。",
@@ -1068,7 +1071,7 @@
       "pos": "noun",
       "freq": 913,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "这个字怎么读？",
         "py": "Zhège zì zěnme dú?",
@@ -1235,7 +1238,7 @@
       "hsk": 1,
       "pos": "numeral, time word",
       "freq": 802,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我六点回家。",
@@ -1382,7 +1385,7 @@
       "hsk": 1,
       "pos": "numeral, time word",
       "freq": 664,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我有二十块钱。",
@@ -1445,8 +1448,8 @@
       "hsk": 1,
       "pos": "measure word",
       "freq": 611,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 5,
       "sent": {
         "zh": "我买了一些水果。",
         "py": "Wǒ mǎi le yìxiē shuǐguǒ.",
@@ -1508,7 +1511,7 @@
       "hsk": 1,
       "pos": "numeral, time word",
       "freq": 563,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我有五个苹果。",
@@ -1529,8 +1532,8 @@
       "hsk": 1,
       "pos": "noun, bound morpheme",
       "freq": 560,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "我在看书。",
         "py": "Wǒ zài kàn shū.",
@@ -1571,8 +1574,8 @@
       "hsk": 1,
       "pos": "pronoun, modal particle",
       "freq": 547,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 4,
       "sent": {
         "zh": "你是哪国人？",
         "py": "Nǐ shì nǎ guó rén?",
@@ -1718,7 +1721,7 @@
       "hsk": 1,
       "pos": "numeral, time word",
       "freq": 481,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我家有四个人。",
@@ -1866,7 +1869,7 @@
       "pos": "time word, bound morpheme",
       "freq": 395,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "今天是十月一日。",
         "py": "Jīntiān shì shí yuè yī rì.",
@@ -2012,7 +2015,7 @@
       "hsk": 1,
       "pos": "numeral, time word",
       "freq": 233,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我有三个朋友。",
@@ -2055,7 +2058,7 @@
       "pos": "verb, measure word",
       "freq": 225,
       "isHub": true,
-      "deg": 1,
+      "deg": 3,
       "sent": {
         "zh": "我要回家了。",
         "py": "Wǒ yào huí jiā le.",
@@ -2075,7 +2078,7 @@
       "hsk": 1,
       "pos": "pronoun, measure word",
       "freq": 222,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我有三本书。",
@@ -2117,7 +2120,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 216,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "请喝茶。",
@@ -2160,7 +2163,7 @@
       "pos": "verb, measure word",
       "freq": 195,
       "isHub": true,
-      "deg": 1,
+      "deg": 4,
       "sent": {
         "zh": "请开门。",
         "py": "Qǐng kāi mén.",
@@ -2180,8 +2183,8 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 190,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "请听老师说。",
         "py": "Qǐng tīng lǎoshī shuō.",
@@ -2327,7 +2330,7 @@
       "hsk": 1,
       "pos": "verb, verb/noun",
       "freq": 130,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我爱我的家。",
@@ -2370,7 +2373,7 @@
       "pos": "noun, measure word",
       "freq": 124,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "我家有五个人。",
         "py": "Wǒ jiā yǒu wǔ ge rén.",
@@ -2433,7 +2436,7 @@
       "pos": "adjective, adverb",
       "freq": 100,
       "isHub": true,
-      "deg": 1,
+      "deg": 8,
       "sent": {
         "zh": "这个杯子很小。",
         "py": "Zhège bēizi hěn xiǎo.",
@@ -2538,7 +2541,7 @@
       "pos": "measure word, time word",
       "freq": 79,
       "isHub": true,
-      "deg": 1,
+      "deg": 4,
       "sent": {
         "zh": "今年是二零二六年。",
         "py": "Jīnnián shì èr líng èr liù nián.",
@@ -2579,8 +2582,8 @@
       "hsk": 1,
       "pos": "direction word, measure word",
       "freq": 75,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 4,
       "sent": {
         "zh": "猫在房间里。",
         "py": "Māo zài fángjiān lǐ.",
@@ -2601,7 +2604,7 @@
       "pos": "verb, direction word",
       "freq": 70,
       "isHub": true,
-      "deg": 1,
+      "deg": 8,
       "sent": {
         "zh": "猫在椅子下。",
         "py": "Māo zài yǐzi xià.",
@@ -2622,7 +2625,7 @@
       "pos": "adjective, adverb",
       "freq": 66,
       "isHub": true,
-      "deg": 1,
+      "deg": 3,
       "sent": {
         "zh": "这个房间很大。",
         "py": "Zhège fángjiān hěn dà.",
@@ -2643,13 +2646,14 @@
       "pos": "adverb, verb",
       "freq": 63,
       "isHub": true,
-      "deg": 1,
+      "deg": 4,
       "sent": {
         "zh": "我没看见他。",
         "py": "Wǒ méi kànjiàn tā.",
         "en": "I didn't see him.",
         "vi": "Tôi không nhìn thấy anh ấy."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:点",
@@ -2663,8 +2667,8 @@
       "hsk": 1,
       "pos": "measure word, noun",
       "freq": 58,
-      "isHub": false,
-      "deg": 0,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "现在三点。",
         "py": "Xiànzài sān diǎn.",
@@ -2705,8 +2709,8 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 53,
-      "isHub": false,
-      "deg": 0,
+      "isHub": true,
+      "deg": 1,
       "sent": {
         "zh": "你在做什么？",
         "py": "Nǐ zài zuò shénme?",
@@ -2727,7 +2731,7 @@
       "pos": "verb, particle",
       "freq": 52,
       "isHub": true,
-      "deg": 1,
+      "deg": 3,
       "sent": {
         "zh": "我喜欢看书。",
         "py": "Wǒ xǐhuan kàn shū.",
@@ -2747,8 +2751,8 @@
       "hsk": 1,
       "pos": "pronoun, conjunction",
       "freq": 48,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 7,
       "sent": {
         "zh": "那是我的书。",
         "py": "Nà shì wǒ de shū.",
@@ -2811,7 +2815,7 @@
       "pos": "verb",
       "freq": 38,
       "isHub": true,
-      "deg": 1,
+      "deg": 7,
       "sent": {
         "zh": "你去哪儿？",
         "py": "Nǐ qù nǎr?",
@@ -2831,7 +2835,7 @@
       "hsk": 1,
       "pos": "pronoun",
       "freq": 38,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "她是我妈妈。",
@@ -2873,8 +2877,8 @@
       "hsk": 1,
       "pos": "verb, direction word",
       "freq": 31,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 7,
       "sent": {
         "zh": "请来我家。",
         "py": "Qǐng lái wǒ jiā.",
@@ -2895,7 +2899,7 @@
       "pos": "direction word, verb",
       "freq": 29,
       "isHub": true,
-      "deg": 1,
+      "deg": 12,
       "sent": {
         "zh": "请上车。",
         "py": "Qǐng shàng chē.",
@@ -2936,7 +2940,7 @@
       "hsk": 1,
       "pos": "verb, noun",
       "freq": 23,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我会说汉语。",
@@ -2958,7 +2962,7 @@
       "pos": "numeral, adverb",
       "freq": 21,
       "isHub": true,
-      "deg": 1,
+      "deg": 8,
       "sent": {
         "zh": "我有一个哥哥。",
         "py": "Wǒ yǒu yí ge gēge.",
@@ -2979,7 +2983,7 @@
       "pos": "adjective, adverb",
       "freq": 20,
       "isHub": true,
-      "deg": 1,
+      "deg": 7,
       "sent": {
         "zh": "你好！",
         "py": "Nǐ hǎo!",
@@ -2999,8 +3003,8 @@
       "hsk": 1,
       "pos": "measure word, bound morpheme",
       "freq": 19,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 4,
       "sent": {
         "zh": "我有两个朋友。",
         "py": "Wǒ yǒu liǎng ge péngyou.",
@@ -3042,7 +3046,7 @@
       "pos": "noun",
       "freq": 19,
       "isHub": true,
-      "deg": 1,
+      "deg": 3,
       "sent": {
         "zh": "他是好人。",
         "py": "Tā shì hǎo rén.",
@@ -3083,8 +3087,8 @@
       "hsk": 1,
       "pos": "pronoun",
       "freq": 11,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 7,
       "sent": {
         "zh": "这是我的家。",
         "py": "Zhè shì wǒ de jiā.",
@@ -3104,7 +3108,7 @@
       "hsk": 1,
       "pos": "pronoun",
       "freq": 10,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他是我的老师。",
@@ -3126,7 +3130,7 @@
       "pos": "adverb",
       "freq": 9,
       "isHub": true,
-      "deg": 1,
+      "deg": 5,
       "sent": {
         "zh": "我不喝茶。",
         "py": "Wǒ bù hē chá.",
@@ -3146,8 +3150,8 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 9,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 6,
       "sent": {
         "zh": "我有一个妹妹。",
         "py": "Wǒ yǒu yí ge mèimei.",
@@ -3167,8 +3171,8 @@
       "hsk": 1,
       "pos": "pronoun",
       "freq": 5,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我爱你。",
         "py": "Wǒ ài nǐ.",
@@ -3189,7 +3193,7 @@
       "pos": "preposition, verb",
       "freq": 5,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "我在家。",
         "py": "Wǒ zài jiā.",
@@ -3210,7 +3214,7 @@
       "pos": "verb",
       "freq": 4,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "我是老师。",
         "py": "Wǒ shì lǎoshī.",
@@ -3272,8 +3276,8 @@
       "hsk": 1,
       "pos": "particle, noun",
       "freq": 1,
-      "isHub": false,
-      "deg": 0,
+      "isHub": true,
+      "deg": 1,
       "sent": {
         "zh": "这是老师的书。",
         "py": "Zhè shì lǎoshī de shū.",
@@ -3300,7 +3304,8 @@
         "py": "Wǒ xǐhuan dǎ lánqiú.",
         "en": "I like playing basketball.",
         "vi": "Tôi thích chơi bóng rổ."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:公共汽车",
@@ -3321,7 +3326,8 @@
         "py": "Wǒ zuò gōnggòng qìchē shàngbān.",
         "en": "I take the bus to work.",
         "vi": "Tôi đi làm bằng xe buýt."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:羊肉",
@@ -3342,7 +3348,8 @@
         "py": "Wǒ xǐhuan chī yángròu.",
         "en": "I like to eat mutton.",
         "vi": "Tôi thích ăn thịt cừu."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:晴",
@@ -3384,7 +3391,8 @@
         "py": "Wǒ xiǎng chī xīguā.",
         "en": "I want to eat watermelon.",
         "vi": "Tôi muốn ăn dưa hấu."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:跑步",
@@ -3447,7 +3455,8 @@
         "py": "Fúwùyuán hěn máng.",
         "en": "The waiter is busy.",
         "vi": "Nhân viên phục vụ rất bận."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:教室",
@@ -3489,7 +3498,8 @@
         "py": "Wǒ mǎi le liǎng gōngjīn shuǐguǒ.",
         "en": "I bought two kilos of fruit.",
         "vi": "Tôi mua hai ký hoa quả."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:左边",
@@ -3608,7 +3618,7 @@
       "hsk": 2,
       "pos": "verb, noun",
       "freq": 3576,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我姓王。",
@@ -3657,7 +3667,8 @@
         "py": "Zhè shì wǒ de zìxíngchē.",
         "en": "This is my bicycle.",
         "vi": "Đây là xe đạp của tôi."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:牛奶",
@@ -3720,7 +3731,8 @@
         "py": "Wǒ xǐhuan chànggē.",
         "en": "I like singing.",
         "vi": "Tôi thích hát."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:便宜",
@@ -3951,7 +3963,8 @@
         "py": "Wǒ zài kàn bàozhǐ.",
         "en": "I'm reading the newspaper.",
         "vi": "Tôi đang đọc báo."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:妹妹",
@@ -3983,7 +3996,7 @@
       "vi": "tuyết",
       "hv": "Tuyết",
       "theme": "NAT",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "noun",
       "freq": 1971,
       "isHub": false,
@@ -4154,8 +4167,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 1517,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我们上午有课。",
         "py": "Wǒmen shàngwǔ yǒu kè.",
@@ -4287,7 +4300,8 @@
         "py": "Wǒ zuò chuán qù.",
         "en": "I go by boat.",
         "vi": "Tôi đi bằng thuyền."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:洗",
@@ -4301,7 +4315,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 1298,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我在洗衣服。",
@@ -4319,7 +4333,7 @@
       "vi": "nghỉ ngơi",
       "hv": "Hưu Tức",
       "theme": "VERB",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "verb, verb/noun",
       "freq": 1225,
       "isHub": false,
@@ -4434,7 +4448,8 @@
         "py": "Qǐng huídá wèntí.",
         "en": "Please answer the question.",
         "vi": "Hãy trả lời câu hỏi."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:早上",
@@ -4445,11 +4460,11 @@
       "vi": "buổi sáng sớm",
       "hv": "Tảo Thượng",
       "theme": "TIME",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "time word",
       "freq": 1092,
       "isHub": false,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "早上我喝牛奶。",
         "py": "Zǎoshang wǒ hē niúnǎi.",
@@ -4490,8 +4505,8 @@
       "hsk": 2,
       "pos": "noun, measure word",
       "freq": 956,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我买了两张票。",
         "py": "Wǒ mǎi le liǎng zhāng piào.",
@@ -4532,14 +4547,15 @@
       "hsk": 2,
       "pos": "adjective, personal name",
       "freq": 930,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "她穿白衣服。",
         "py": "Tā chuān bái yīfu.",
         "en": "She wears white clothes.",
         "vi": "Cô ấy mặc áo trắng."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:离",
@@ -4574,7 +4590,7 @@
       "hsk": 1,
       "pos": "verb, adjective",
       "freq": 859,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我今天很忙。",
@@ -4665,7 +4681,8 @@
         "py": "Huānyíng nǐ lái wǒ jiā.",
         "en": "Welcome to my home.",
         "vi": "Chào mừng bạn đến nhà tôi."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:红",
@@ -4679,14 +4696,15 @@
       "hsk": 2,
       "pos": "adjective, verb",
       "freq": 794,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我喜欢红色。",
         "py": "Wǒ xǐhuan hóngsè.",
         "en": "I like the color red.",
         "vi": "Tôi thích màu đỏ."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:介绍",
@@ -4718,7 +4736,7 @@
       "vi": "đồng (nhân dân tệ)",
       "hv": "Nguyên",
       "theme": "NUM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "measure word, time morpheme",
       "freq": 744,
       "isHub": false,
@@ -4763,14 +4781,15 @@
       "hsk": 2,
       "pos": "adjective, bound morpheme",
       "freq": 724,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我喜欢黑色。",
         "py": "Wǒ xǐhuan hēisè.",
         "en": "I like the color black.",
         "vi": "Tôi thích màu đen."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:药",
@@ -4784,7 +4803,7 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 701,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "你要吃药。",
@@ -4889,7 +4908,7 @@
       "hsk": 2,
       "pos": "verb, noun",
       "freq": 531,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "这个字错了。",
@@ -4938,7 +4957,8 @@
         "py": "Xièxie nǐ de bāngzhù.",
         "en": "Thank you for your help.",
         "vi": "Cảm ơn sự giúp đỡ của bạn."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:外",
@@ -4952,8 +4972,8 @@
       "hsk": 1,
       "pos": "direction word",
       "freq": 489,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "猫在门外。",
         "py": "Māo zài mén wài.",
@@ -4994,8 +5014,8 @@
       "hsk": 2,
       "pos": "noun, measure word",
       "freq": 422,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "这个门很大。",
         "py": "Zhège mén hěn dà.",
@@ -5012,7 +5032,7 @@
       "vi": "đang",
       "hv": "Chính Tại",
       "theme": "GRAM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "adverb",
       "freq": 420,
       "isHub": false,
@@ -5043,7 +5063,8 @@
         "py": "Nàge nánrén shì lǎoshī.",
         "en": "That man is a teacher.",
         "vi": "Người đàn ông kia là giáo viên."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:玩",
@@ -5057,7 +5078,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 415,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "孩子们在玩。",
@@ -5078,8 +5099,8 @@
       "hsk": 2,
       "pos": "noun, measure word",
       "freq": 409,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我认识路。",
         "py": "Wǒ rènshi lù.",
@@ -5148,7 +5169,8 @@
         "py": "Nàge nǚrén shì yīshēng.",
         "en": "That woman is a doctor.",
         "vi": "Người phụ nữ kia là bác sĩ."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:笑",
@@ -5246,8 +5268,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 338,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "请进！",
         "py": "Qǐng jìn!",
@@ -5295,7 +5317,8 @@
         "py": "Wǒ yào yì zhāng piào.",
         "en": "I want one ticket.",
         "vi": "Tôi muốn một vé."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:件",
@@ -5331,7 +5354,7 @@
       "pos": "adjective, adverb",
       "freq": 290,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "他很高。",
         "py": "Tā hěn gāo.",
@@ -5415,7 +5438,7 @@
       "pos": "verb, bound morpheme",
       "freq": 246,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "我想问你。",
         "py": "Wǒ xiǎng wèn nǐ.",
@@ -5463,7 +5486,8 @@
         "py": "Wǒ shì dì-yī.",
         "en": "I'm first.",
         "vi": "Tôi là người đầu tiên."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:公司",
@@ -5631,7 +5655,8 @@
         "py": "Qǐng xiàng qián zǒu.",
         "en": "Please walk forward.",
         "vi": "Hãy đi về phía trước."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:觉得",
@@ -5709,7 +5734,7 @@
       "pos": "adjective, adverb",
       "freq": 153,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "他走得很快。",
         "py": "Tā zǒu de hěn kuài.",
@@ -5726,7 +5751,7 @@
       "vi": "tìm",
       "hv": "Trảo",
       "theme": "VERB",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "verb",
       "freq": 152,
       "isHub": false,
@@ -5855,7 +5880,7 @@
       "hsk": 1,
       "pos": "pronoun",
       "freq": 114,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "它是我的猫。",
@@ -5897,7 +5922,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 109,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我们走吧！",
@@ -5915,7 +5940,7 @@
       "vi": "biết",
       "hv": "Tri Đạo",
       "theme": "VERB",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "verb",
       "freq": 105,
       "isHub": false,
@@ -5978,7 +6003,7 @@
       "vi": "lại; nữa",
       "hv": "Tái",
       "theme": "GRAM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "adverb, bound morpheme",
       "freq": 91,
       "isHub": true,
@@ -6024,7 +6049,7 @@
       "pos": "verb, measure word",
       "freq": 85,
       "isHub": true,
-      "deg": 1,
+      "deg": 5,
       "sent": {
         "zh": "他出去了。",
         "py": "Tā chūqu le.",
@@ -6083,7 +6108,7 @@
       "vi": "thật; thật sự",
       "hv": "Chân",
       "theme": "GRAM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "adverb, adjective",
       "freq": 76,
       "isHub": false,
@@ -6107,7 +6132,7 @@
       "hsk": 2,
       "pos": "preposition, bound morpheme",
       "freq": 70,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我从北京来。",
@@ -6150,7 +6175,7 @@
       "pos": "particle, verb",
       "freq": 58,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "他跑得很快。",
         "py": "Tā pǎo de hěn kuài.",
@@ -6192,13 +6217,14 @@
       "pos": "preposition, verb",
       "freq": 58,
       "isHub": true,
-      "deg": 1,
+      "deg": 2,
       "sent": {
         "zh": "这是为你做的。",
         "py": "Zhè shì wèi nǐ zuò de.",
         "en": "This is made for you.",
         "vi": "Cái này làm cho bạn."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:让",
@@ -6275,7 +6301,7 @@
       "hsk": 1,
       "pos": "adverb, verb",
       "freq": 37,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我还没吃饭。",
@@ -6314,7 +6340,7 @@
       "vi": "cũng",
       "hv": "Dã",
       "theme": "GRAM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "adverb, modal particle",
       "freq": 23,
       "isHub": false,
@@ -6335,11 +6361,11 @@
       "vi": "muốn; cần; sẽ",
       "hv": "Yếu",
       "theme": "GRAM",
-      "hsk": 2,
+      "hsk": 1,
       "pos": "verb",
       "freq": 19,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我要一杯茶。",
         "py": "Wǒ yào yì bēi chá.",
@@ -6381,8 +6407,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 18,
-      "members": 18
+      "deg": 22,
+      "members": 22
     },
     {
       "id": "T:NUM",
@@ -6397,8 +6423,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 31,
-      "members": 31
+      "deg": 36,
+      "members": 36
     },
     {
       "id": "T:TIME",
@@ -6413,8 +6439,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 41,
-      "members": 41
+      "deg": 43,
+      "members": 43
     },
     {
       "id": "T:FAM",
@@ -6445,8 +6471,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 22,
-      "members": 22
+      "deg": 23,
+      "members": 23
     },
     {
       "id": "T:FOOD",
@@ -6461,8 +6487,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 22,
-      "members": 22
+      "deg": 23,
+      "members": 23
     },
     {
       "id": "T:BODY",
@@ -6493,8 +6519,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 109,
-      "members": 109
+      "deg": 111,
+      "members": 111
     },
     {
       "id": "T:ADJ",
@@ -6525,8 +6551,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 25,
-      "members": 25
+      "deg": 26,
+      "members": 26
     },
     {
       "id": "T:TRANS",
@@ -6573,8 +6599,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 28,
-      "members": 28
+      "deg": 31,
+      "members": 31
     },
     {
       "id": "T:Q",
@@ -6605,8 +6631,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 53,
-      "members": 53
+      "deg": 54,
+      "members": 54
     },
     {
       "id": "T:SOC",
@@ -6637,8 +6663,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 6,
-      "members": 6
+      "deg": 7,
+      "members": 7
     },
     {
       "id": "T:ANIM",
@@ -6669,8 +6695,8 @@
       "pos": "",
       "freq": 0,
       "isHub": false,
-      "deg": 14,
-      "members": 14
+      "deg": 15,
+      "members": 15
     },
     {
       "id": "W:白天",
@@ -6705,8 +6731,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4990,
-      "isHub": false,
-      "deg": 0,
+      "isHub": true,
+      "deg": 1,
       "sent": {
         "zh": "我半个苹果都没吃。",
         "py": "Wǒ bàn ge píngguǒ dōu méi chī.",
@@ -6747,8 +6773,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 1448,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 6,
       "sent": {
         "zh": "学校在马路边。",
         "py": "Xuéxiào zài mǎlù biān.",
@@ -6768,8 +6794,8 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 3490,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "他病了，没去上班。",
         "py": "Tā bìng le, méi qù shàngbān.",
@@ -6810,7 +6836,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 4330,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "她喜欢唱歌。",
@@ -6852,8 +6878,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4524,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 9,
       "sent": {
         "zh": "他的车很新。",
         "py": "Tā de chē hěn xīn.",
@@ -6915,7 +6941,7 @@
       "hsk": 1,
       "pos": "prefix",
       "freq": 4483,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他是第一个到的人。",
@@ -6936,8 +6962,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4270,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 5,
       "sent": {
         "zh": "这家店很大。",
         "py": "Zhè jiā diàn hěn dà.",
@@ -7020,7 +7046,7 @@
       "hsk": 1,
       "pos": "adjective",
       "freq": 880,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "你说得对。",
@@ -7041,8 +7067,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4947,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 7,
       "sent": {
         "zh": "妈妈在做饭。",
         "py": "Māma zài zuò fàn.",
@@ -7083,7 +7109,7 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 120,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "等十分钟。",
@@ -7104,7 +7130,7 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4732,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "这首歌很好听。",
@@ -7125,8 +7151,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 2678,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "中国是一个大国。",
         "py": "Zhōngguó shì yí ge dà guó.",
@@ -7230,7 +7256,7 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 2407,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "学校在商店后面。",
@@ -7293,8 +7319,8 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 1503,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "明天见。",
         "py": "Míngtiān jiàn.",
@@ -7398,7 +7424,7 @@
       "hsk": 1,
       "pos": "measure word",
       "freq": 2340,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他家有三口人。",
@@ -7461,8 +7487,8 @@
       "hsk": 1,
       "pos": "suffix",
       "freq": 4137,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 5,
       "sent": {
         "zh": "我们都是学生。",
         "py": "Wǒmen dōu shì xuésheng.",
@@ -7734,8 +7760,8 @@
       "hsk": 1,
       "pos": "adjective",
       "freq": 3168,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "那个男的是我哥哥。",
         "py": "Nàge nán de shì wǒ gēge.",
@@ -7818,8 +7844,8 @@
       "hsk": 1,
       "pos": "adjective",
       "freq": 4752,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 5,
       "sent": {
         "zh": "那个女的是老师。",
         "py": "Nàge nǚ de shì lǎoshī.",
@@ -7881,7 +7907,7 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 4869,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "学校在前面。",
@@ -7965,8 +7991,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 3202,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我有事要告诉你。",
         "py": "Wǒ yǒu shì yào gàosu nǐ.",
@@ -8007,7 +8033,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 1862,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他很晚才睡。",
@@ -8028,7 +8054,7 @@
       "hsk": 1,
       "pos": "verb",
       "freq": 2000,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他说汉语很好。",
@@ -8112,8 +8138,8 @@
       "hsk": 1,
       "pos": "noun",
       "freq": 890,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 6,
       "sent": {
         "zh": "我一天工作八个小时。",
         "py": "Wǒ yì tiān gōngzuò bā ge xiǎoshí.",
@@ -8175,8 +8201,8 @@
       "hsk": 1,
       "pos": "adjective",
       "freq": 1145,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "今天我回来得很晚。",
         "py": "Jīntiān wǒ huílai de hěn wǎn.",
@@ -8371,7 +8397,8 @@
         "py": "Xīngqīyī wǒmen shàngkè.",
         "en": "We have class on Monday.",
         "vi": "Thứ Hai chúng tôi có lớp."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:星期二",
@@ -8392,7 +8419,8 @@
         "py": "Xīngqīèr wǒ qù chāoshì.",
         "en": "I go to the supermarket on Tuesday.",
         "vi": "Thứ Ba tôi đi siêu thị."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:星期三",
@@ -8413,7 +8441,8 @@
         "py": "Xīngqīsān xiàwǔ wǒ yǒu kè.",
         "en": "I have class on Wednesday afternoon.",
         "vi": "Chiều thứ Tư tôi có lớp."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:星期四",
@@ -8434,7 +8463,8 @@
         "py": "Xīngqīsì wǒ yào kǎoshì.",
         "en": "I have an exam on Thursday.",
         "vi": "Thứ Năm tôi phải thi."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:星期五",
@@ -8455,7 +8485,8 @@
         "py": "Xīngqīwǔ shì zuìhòu yì tiān.",
         "en": "Friday is the last day.",
         "vi": "Thứ Sáu là ngày cuối cùng."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:星期六",
@@ -8476,7 +8507,8 @@
         "py": "Xīngqīliù wǒ qù gōngyuán.",
         "en": "I go to the park on Saturday.",
         "vi": "Thứ Bảy tôi đi công viên."
-      }
+      },
+      "supplementary": true
     },
     {
       "id": "W:啊",
@@ -8553,8 +8585,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 1566,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "我在二班。",
         "py": "Wǒ zài èr bān.",
@@ -8574,8 +8606,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 2006,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "请帮帮我。",
         "py": "Qǐng bāng bāng wǒ.",
@@ -8616,8 +8648,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 4013,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "我买了一个包。",
         "py": "Wǒ mǎi le yí ge bāo.",
@@ -8826,7 +8858,7 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 2024,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我房间有一张床。",
@@ -8889,8 +8921,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 4505,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 4,
       "sent": {
         "zh": "他打篮球打得很好。",
         "py": "Tā dǎ lánqiú dǎ de hěn hǎo.",
@@ -8952,7 +8984,7 @@
       "hsk": 2,
       "pos": "conjunction",
       "freq": 1254,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我想去，但没时间。",
@@ -8973,7 +9005,7 @@
       "hsk": 2,
       "pos": "particle",
       "freq": 4783,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他慢慢地走。",
@@ -9036,7 +9068,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 3063,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "别动！",
@@ -9057,7 +9089,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 3901,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "飞机飞得很高。",
@@ -9162,8 +9194,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 4419,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "马路时要小心。",
         "py": "Guò mǎlù shí yào xiǎoxīn.",
@@ -9477,8 +9509,8 @@
       "hsk": 2,
       "pos": "measure word",
       "freq": 2500,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "这间房间很大。",
         "py": "Zhè jiān fángjiān hěn dà.",
@@ -9498,7 +9530,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 3701,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他教我们汉语。",
@@ -9624,7 +9656,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 4311,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "下周要考汉语。",
@@ -9876,8 +9908,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 5090,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 8,
       "sent": {
         "zh": "商店在马路对面。",
         "py": "Shāngdiàn zài mǎlù duìmiàn.",
@@ -9897,8 +9929,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 1823,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "这个班有二十名学生。",
         "py": "Zhè ge bān yǒu èrshí míng xuésheng.",
@@ -10086,7 +10118,7 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 1284,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他跑得很快。",
@@ -10128,8 +10160,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 4340,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "那个球是他的。",
         "py": "Nàge qiú shì tā de.",
@@ -10149,7 +10181,7 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 3453,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "我不吃肉。",
@@ -10275,8 +10307,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 5043,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 5,
       "sent": {
         "zh": "上课时不要说话。",
         "py": "Shàngkè shí búyào shuōhuà.",
@@ -10296,8 +10328,8 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 4115,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 3,
       "sent": {
         "zh": "他的手很大。",
         "py": "Tā de shǒu hěn dà.",
@@ -10401,7 +10433,7 @@
       "hsk": 2,
       "pos": "measure word",
       "freq": 838,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "这条鱼很大。",
@@ -10821,8 +10853,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 419,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "他会游得很快。",
         "py": "Tā huì yóu de hěn kuài.",
@@ -10884,7 +10916,7 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 1496,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "右边有一家商店。",
@@ -10905,8 +10937,8 @@
       "hsk": 2,
       "pos": "verb",
       "freq": 4492,
-      "isHub": false,
-      "deg": 1,
+      "isHub": true,
+      "deg": 2,
       "sent": {
         "zh": "请站在这里。",
         "py": "Qǐng zhàn zài zhèlǐ.",
@@ -10968,7 +11000,7 @@
       "hsk": 2,
       "pos": "adverb",
       "freq": 1347,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "他正在吃饭。",
@@ -11073,7 +11105,7 @@
       "hsk": 2,
       "pos": "noun",
       "freq": 4744,
-      "isHub": false,
+      "isHub": true,
       "deg": 1,
       "sent": {
         "zh": "左边是图书馆。",
@@ -11083,19 +11115,466 @@
       }
     },
     {
-      "id": "H:不",
-      "kind": "hub",
-      "hz": "不",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
+      "id": "W:星期天",
+      "kind": "word",
+      "hz": "星期天",
+      "py": "xīngqītiān",
+      "en": "Sunday",
+      "vi": "Chủ nhật",
+      "hv": "Tinh Kỳ Thiên",
+      "theme": "TIME",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 4717,
+      "isHub": false,
+      "deg": 3,
+      "sent": {
+        "zh": "星期天我们不上课。",
+        "py": "Xīngqītiān wǒmen bú shàngkè.",
+        "en": "We don't have class on Sunday.",
+        "vi": "Chủ nhật chúng tôi không học."
+      }
+    },
+    {
+      "id": "W:学",
+      "kind": "word",
+      "hz": "学",
+      "py": "xué",
+      "en": "to learn; to study",
+      "vi": "học; học tập",
+      "hv": "Học",
+      "theme": "VERB",
+      "hsk": 1,
+      "pos": "verb",
+      "freq": 3498,
       "isHub": true,
-      "deg": 6
+      "deg": 12,
+      "sent": {
+        "zh": "我学中文。",
+        "py": "Wǒ xué Zhōngwén.",
+        "en": "I study Chinese.",
+        "vi": "Tôi học tiếng Trung."
+      }
+    },
+    {
+      "id": "W:一半",
+      "kind": "word",
+      "hz": "一半",
+      "py": "yíbàn",
+      "en": "half",
+      "vi": "một nửa",
+      "hv": "Nhất Bán",
+      "theme": "NUM",
+      "hsk": 1,
+      "pos": "number",
+      "freq": 430,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "我吃了一半。",
+        "py": "Wǒ chī le yíbàn.",
+        "en": "I ate half of it.",
+        "vi": "Tôi đã ăn một nửa."
+      }
+    },
+    {
+      "id": "W:一下",
+      "kind": "word",
+      "hz": "一下",
+      "py": "yíxià",
+      "en": "once; a little",
+      "vi": "một chút; một lần",
+      "hv": "Nhất Hạ",
+      "theme": "NUM",
+      "hsk": 1,
+      "pos": "number-classifier",
+      "freq": 4087,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "请等一下。",
+        "py": "Qǐng děng yíxià.",
+        "en": "Please wait a moment.",
+        "vi": "Xin đợi một chút."
+      }
+    },
+    {
+      "id": "W:一点儿",
+      "kind": "word",
+      "hz": "一点儿",
+      "py": "yìdiǎnr",
+      "en": "a little; a bit",
+      "vi": "một chút; một ít",
+      "hv": "Nhất Điểm Nhi",
+      "theme": "NUM",
+      "hsk": 1,
+      "pos": "number-classifier",
+      "freq": 4714,
+      "isHub": false,
+      "deg": 3,
+      "sent": {
+        "zh": "我想喝一点儿水。",
+        "py": "Wǒ xiǎng hē yìdiǎnr shuǐ.",
+        "en": "I want to drink a little water.",
+        "vi": "Tôi muốn uống một chút nước."
+      }
+    },
+    {
+      "id": "W:一些",
+      "kind": "word",
+      "hz": "一些",
+      "py": "yìxiē",
+      "en": "some; a few",
+      "vi": "một ít; một vài",
+      "hv": "Nhất Ta",
+      "theme": "NUM",
+      "hsk": 1,
+      "pos": "number-classifier",
+      "freq": 4231,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "我买了一些水果。",
+        "py": "Wǒ mǎi le yìxiē shuǐguǒ.",
+        "en": "I bought some fruit.",
+        "vi": "Tôi đã mua một ít trái cây."
+      }
+    },
+    {
+      "id": "W:有的",
+      "kind": "word",
+      "hz": "有的",
+      "py": "yǒude",
+      "en": "some of them",
+      "vi": "có cái; một số",
+      "hv": "Hữu Đích",
+      "theme": "PRON",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 3127,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "有的学生喜欢唱歌。",
+        "py": "Yǒude xuésheng xǐhuan chànggē.",
+        "en": "Some students like singing.",
+        "vi": "Một số học sinh thích hát."
+      }
+    },
+    {
+      "id": "W:有点儿",
+      "kind": "word",
+      "hz": "有点儿",
+      "py": "yǒudiǎnr",
+      "en": "a little; slightly",
+      "vi": "hơi; có chút",
+      "hv": "Hữu Điểm Nhi",
+      "theme": "GRAM",
+      "hsk": 1,
+      "pos": "adverb",
+      "freq": 3763,
+      "isHub": false,
+      "deg": 3,
+      "sent": {
+        "zh": "今天有点儿冷。",
+        "py": "Jīntiān yǒudiǎnr lěng.",
+        "en": "It's a little cold today.",
+        "vi": "Hôm nay hơi lạnh."
+      }
+    },
+    {
+      "id": "W:有些",
+      "kind": "word",
+      "hz": "有些",
+      "py": "yǒuxiē",
+      "en": "some; somewhat",
+      "vi": "một số; hơi",
+      "hv": "Hữu Ta",
+      "theme": "PRON",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 2910,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "有些人喜欢喝茶。",
+        "py": "Yǒuxiē rén xǐhuan hē chá.",
+        "en": "Some people like drinking tea.",
+        "vi": "Một số người thích uống trà."
+      }
+    },
+    {
+      "id": "W:雨",
+      "kind": "word",
+      "hz": "雨",
+      "py": "yǔ",
+      "en": "rain",
+      "vi": "mưa",
+      "hv": "Vũ",
+      "theme": "NAT",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 3732,
+      "isHub": true,
+      "deg": 1,
+      "sent": {
+        "zh": "今天有雨。",
+        "py": "Jīntiān yǒu yǔ.",
+        "en": "It will rain today.",
+        "vi": "Hôm nay có mưa."
+      }
+    },
+    {
+      "id": "W:早",
+      "kind": "word",
+      "hz": "早",
+      "py": "zǎo",
+      "en": "early",
+      "vi": "sớm",
+      "hv": "Tảo",
+      "theme": "TIME",
+      "hsk": 1,
+      "pos": "adjective",
+      "freq": 1189,
+      "isHub": true,
+      "deg": 2,
+      "sent": {
+        "zh": "你今天来得很早。",
+        "py": "Nǐ jīntiān lái de hěn zǎo.",
+        "en": "You came very early today.",
+        "vi": "Hôm nay bạn đến rất sớm."
+      }
+    },
+    {
+      "id": "W:早饭",
+      "kind": "word",
+      "hz": "早饭",
+      "py": "zǎofàn",
+      "en": "breakfast",
+      "vi": "bữa sáng; cơm sáng",
+      "hv": "Tảo Phạn",
+      "theme": "FOOD",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 3136,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "我七点吃早饭。",
+        "py": "Wǒ qī diǎn chī zǎofàn.",
+        "en": "I eat breakfast at seven.",
+        "vi": "Tôi ăn sáng lúc bảy giờ."
+      }
+    },
+    {
+      "id": "W:这边",
+      "kind": "word",
+      "hz": "这边",
+      "py": "zhèbiān",
+      "en": "here; this side",
+      "vi": "bên này; phía này",
+      "hv": "Giá Biên",
+      "theme": "DIR",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 3468,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "请来这边。",
+        "py": "Qǐng lái zhèbiān.",
+        "en": "Please come this way.",
+        "vi": "Xin hãy đến bên này."
+      }
+    },
+    {
+      "id": "W:这个",
+      "kind": "word",
+      "hz": "这个",
+      "py": "zhège",
+      "en": "this one",
+      "vi": "cái này; người này",
+      "hv": "Giá Cá",
+      "theme": "PRON",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 1685,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "这个是我的。",
+        "py": "Zhège shì wǒ de.",
+        "en": "This one is mine.",
+        "vi": "Cái này là của tôi."
+      }
+    },
+    {
+      "id": "W:这里",
+      "kind": "word",
+      "hz": "这里",
+      "py": "zhèlǐ",
+      "en": "here",
+      "vi": "ở đây; chỗ này",
+      "hv": "Giá Lý",
+      "theme": "DIR",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 3999,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "我住在这里。",
+        "py": "Wǒ zhù zài zhèlǐ.",
+        "en": "I live here.",
+        "vi": "Tôi sống ở đây."
+      }
+    },
+    {
+      "id": "W:这儿",
+      "kind": "word",
+      "hz": "这儿",
+      "py": "zhèr",
+      "en": "here",
+      "vi": "ở đây; chỗ này",
+      "hv": "Giá Nhi",
+      "theme": "DIR",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 2474,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "请坐这儿。",
+        "py": "Qǐng zuò zhèr.",
+        "en": "Please sit here.",
+        "vi": "Xin ngồi ở đây."
+      }
+    },
+    {
+      "id": "W:这些",
+      "kind": "word",
+      "hz": "这些",
+      "py": "zhèxiē",
+      "en": "these",
+      "vi": "những cái này",
+      "hv": "Giá Ta",
+      "theme": "PRON",
+      "hsk": 1,
+      "pos": "pronoun",
+      "freq": 1798,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "这些书都是我的。",
+        "py": "Zhèxiē shū dōu shì wǒ de.",
+        "en": "These books are all mine.",
+        "vi": "Những cuốn sách này đều là của tôi."
+      }
+    },
+    {
+      "id": "W:只",
+      "kind": "word",
+      "hz": "只",
+      "py": "zhī",
+      "en": "measure word for animals; one of a pair",
+      "vi": "con; chiếc",
+      "hv": "Chỉ",
+      "theme": "NUM",
+      "hsk": 1,
+      "pos": "measure word",
+      "freq": 1582,
+      "isHub": false,
+      "deg": 0,
+      "sent": {
+        "zh": "我有一只猫。",
+        "py": "Wǒ yǒu yì zhī māo.",
+        "en": "I have a cat.",
+        "vi": "Tôi có một con mèo."
+      }
+    },
+    {
+      "id": "W:中文",
+      "kind": "word",
+      "hz": "中文",
+      "py": "Zhōngwén",
+      "en": "Chinese language",
+      "vi": "tiếng Trung; chữ Trung",
+      "hv": "Trung Văn",
+      "theme": "LANG",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 1494,
+      "isHub": false,
+      "deg": 1,
+      "sent": {
+        "zh": "我会说中文。",
+        "py": "Wǒ huì shuō Zhōngwén.",
+        "en": "I can speak Chinese.",
+        "vi": "Tôi biết nói tiếng Trung."
+      }
+    },
+    {
+      "id": "W:中学",
+      "kind": "word",
+      "hz": "中学",
+      "py": "zhōngxué",
+      "en": "middle school",
+      "vi": "trường trung học",
+      "hv": "Trung Học",
+      "theme": "PLACE",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 3901,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "我哥哥在中学上学。",
+        "py": "Wǒ gēge zài zhōngxué shàngxué.",
+        "en": "My older brother attends middle school.",
+        "vi": "Anh trai tôi học ở trường trung học."
+      }
+    },
+    {
+      "id": "W:中学生",
+      "kind": "word",
+      "hz": "中学生",
+      "py": "zhōngxuéshēng",
+      "en": "middle school student",
+      "vi": "học sinh trung học",
+      "hv": "Trung Học Sinh",
+      "theme": "PPL",
+      "hsk": 1,
+      "pos": "noun",
+      "freq": 2914,
+      "isHub": false,
+      "deg": 3,
+      "sent": {
+        "zh": "她是一名中学生。",
+        "py": "Tā shì yì míng zhōngxuéshēng.",
+        "en": "She is a middle school student.",
+        "vi": "Cô ấy là một học sinh trung học."
+      }
+    },
+    {
+      "id": "W:做饭",
+      "kind": "word",
+      "hz": "做饭",
+      "py": "zuòfàn",
+      "en": "to cook",
+      "vi": "nấu cơm; nấu ăn",
+      "hv": "Tố Phạn",
+      "theme": "VERB",
+      "hsk": 1,
+      "pos": "verb",
+      "freq": 2047,
+      "isHub": false,
+      "deg": 2,
+      "sent": {
+        "zh": "妈妈在厨房做饭。",
+        "py": "Māma zài chúfáng zuòfàn.",
+        "en": "Mom is cooking in the kitchen.",
+        "vi": "Mẹ đang nấu ăn trong bếp."
+      }
     },
     {
       "id": "H:气",
@@ -11111,21 +11590,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 2
-    },
-    {
-      "id": "H:饭",
-      "kind": "hub",
-      "hz": "饭",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
     },
     {
       "id": "H:汉",
@@ -11158,36 +11622,6 @@
       "deg": 2
     },
     {
-      "id": "H:车",
-      "kind": "hub",
-      "hz": "车",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 10
-    },
-    {
-      "id": "H:站",
-      "kind": "hub",
-      "hz": "站",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
       "id": "H:子",
       "kind": "hub",
       "hz": "子",
@@ -11203,69 +11637,9 @@
       "deg": 11
     },
     {
-      "id": "H:下",
-      "kind": "hub",
-      "hz": "下",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:没",
-      "kind": "hub",
-      "hz": "没",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
       "id": "H:商",
       "kind": "hub",
       "hz": "商",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:店",
-      "kind": "hub",
-      "hz": "店",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
-      "id": "H:水",
-      "kind": "hub",
-      "hz": "水",
       "py": "",
       "en": "",
       "vi": "",
@@ -11293,21 +11667,6 @@
       "deg": 2
     },
     {
-      "id": "H:出",
-      "kind": "hub",
-      "hz": "出",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
       "id": "H:中",
       "kind": "hub",
       "hz": "中",
@@ -11320,7 +11679,7 @@
       "pos": "bound morpheme",
       "freq": 0,
       "isHub": true,
-      "deg": 3
+      "deg": 6
     },
     {
       "id": "H:午",
@@ -11338,51 +11697,6 @@
       "deg": 4
     },
     {
-      "id": "H:再",
-      "kind": "hub",
-      "hz": "再",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:见",
-      "kind": "hub",
-      "hz": "见",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:上",
-      "kind": "hub",
-      "hz": "上",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 13
-    },
-    {
       "id": "H:星",
       "kind": "hub",
       "hz": "星",
@@ -11395,7 +11709,7 @@
       "pos": "bound morpheme",
       "freq": 0,
       "isHub": true,
-      "deg": 8
+      "deg": 9
     },
     {
       "id": "H:期",
@@ -11410,97 +11724,7 @@
       "pos": "bound morpheme",
       "freq": 0,
       "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:茶",
-      "kind": "hub",
-      "hz": "茶",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:学",
-      "kind": "hub",
-      "hz": "学",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 10
-    },
-    {
-      "id": "H:前",
-      "kind": "hub",
-      "hz": "前",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:面",
-      "kind": "hub",
-      "hz": "面",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
       "deg": 9
-    },
-    {
-      "id": "H:天",
-      "kind": "hub",
-      "hz": "天",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
-      "id": "H:对",
-      "kind": "hub",
-      "hz": "对",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
     },
     {
       "id": "H:起",
@@ -11516,21 +11740,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 4
-    },
-    {
-      "id": "H:小",
-      "kind": "hub",
-      "hz": "小",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 9
     },
     {
       "id": "H:姐",
@@ -11608,36 +11817,6 @@
       "deg": 3
     },
     {
-      "id": "H:后",
-      "kind": "hub",
-      "hz": "后",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:打",
-      "kind": "hub",
-      "hz": "打",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
       "id": "H:电",
       "kind": "hub",
       "hz": "电",
@@ -11668,21 +11847,6 @@
       "deg": 3
     },
     {
-      "id": "H:飞",
-      "kind": "hub",
-      "hz": "飞",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
       "id": "H:机",
       "kind": "hub",
       "hz": "机",
@@ -11696,36 +11860,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 4
-    },
-    {
-      "id": "H:读",
-      "kind": "hub",
-      "hz": "读",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:睡",
-      "kind": "hub",
-      "hz": "睡",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
     },
     {
       "id": "H:觉",
@@ -11743,66 +11877,6 @@
       "deg": 2
     },
     {
-      "id": "H:高",
-      "kind": "hub",
-      "hz": "高",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:字",
-      "kind": "hub",
-      "hz": "字",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:说",
-      "kind": "hub",
-      "hz": "说",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:女",
-      "kind": "hub",
-      "hz": "女",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
       "id": "H:儿",
       "kind": "hub",
       "hz": "儿",
@@ -11815,37 +11889,7 @@
       "pos": "bound morpheme",
       "freq": 0,
       "isHub": true,
-      "deg": 10
-    },
-    {
-      "id": "H:看",
-      "kind": "hub",
-      "hz": "看",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:名",
-      "kind": "hub",
-      "hz": "名",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
+      "deg": 13
     },
     {
       "id": "H:医",
@@ -11875,67 +11919,7 @@
       "pos": "bound morpheme",
       "freq": 0,
       "isHub": true,
-      "deg": 7
-    },
-    {
-      "id": "H:六",
-      "kind": "hub",
-      "hz": "六",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:国",
-      "kind": "hub",
-      "hz": "国",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:二",
-      "kind": "hub",
-      "hz": "二",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:些",
-      "kind": "hub",
-      "hz": "些",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
+      "deg": 8
     },
     {
       "id": "H:院",
@@ -11953,99 +11937,9 @@
       "deg": 2
     },
     {
-      "id": "H:五",
-      "kind": "hub",
-      "hz": "五",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:书",
-      "kind": "hub",
-      "hz": "书",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:哪",
-      "kind": "hub",
-      "hz": "哪",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
       "id": "H:影",
       "kind": "hub",
       "hz": "影",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:少",
-      "kind": "hub",
-      "hz": "少",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:多",
-      "kind": "hub",
-      "hz": "多",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:四",
-      "kind": "hub",
-      "hz": "四",
       "py": "",
       "en": "",
       "vi": "",
@@ -12071,36 +11965,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 2
-    },
-    {
-      "id": "H:分",
-      "kind": "hub",
-      "hz": "分",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:日",
-      "kind": "hub",
-      "hz": "日",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
     },
     {
       "id": "H:朋",
@@ -12133,21 +11997,6 @@
       "deg": 4
     },
     {
-      "id": "H:三",
-      "kind": "hub",
-      "hz": "三",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
       "id": "H:西",
       "kind": "hub",
       "hz": "西",
@@ -12163,99 +12012,9 @@
       "deg": 2
     },
     {
-      "id": "H:回",
-      "kind": "hub",
-      "hz": "回",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:本",
-      "kind": "hub",
-      "hz": "本",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:请",
-      "kind": "hub",
-      "hz": "请",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:开",
-      "kind": "hub",
-      "hz": "开",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
-      "id": "H:听",
-      "kind": "hub",
-      "hz": "听",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
       "id": "H:今",
       "kind": "hub",
       "hz": "今",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:吃",
-      "kind": "hub",
-      "hz": "吃",
       "py": "",
       "en": "",
       "vi": "",
@@ -12283,51 +12042,6 @@
       "deg": 2
     },
     {
-      "id": "H:爱",
-      "kind": "hub",
-      "hz": "爱",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:家",
-      "kind": "hub",
-      "hz": "家",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:时",
-      "kind": "hub",
-      "hz": "时",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
       "id": "H:候",
       "kind": "hub",
       "hz": "候",
@@ -12341,66 +12055,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 2
-    },
-    {
-      "id": "H:年",
-      "kind": "hub",
-      "hz": "年",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
-      "id": "H:在",
-      "kind": "hub",
-      "hz": "在",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:里",
-      "kind": "hub",
-      "hz": "里",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:大",
-      "kind": "hub",
-      "hz": "大",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
     },
     {
       "id": "H:什",
@@ -12418,261 +12072,6 @@
       "deg": 2
     },
     {
-      "id": "H:那",
-      "kind": "hub",
-      "hz": "那",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:能",
-      "kind": "hub",
-      "hz": "能",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:去",
-      "kind": "hub",
-      "hz": "去",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:她",
-      "kind": "hub",
-      "hz": "她",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:来",
-      "kind": "hub",
-      "hz": "来",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:会",
-      "kind": "hub",
-      "hz": "会",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:一",
-      "kind": "hub",
-      "hz": "一",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 5
-    },
-    {
-      "id": "H:好",
-      "kind": "hub",
-      "hz": "好",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 8
-    },
-    {
-      "id": "H:个",
-      "kind": "hub",
-      "hz": "个",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:人",
-      "kind": "hub",
-      "hz": "人",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:我",
-      "kind": "hub",
-      "hz": "我",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:们",
-      "kind": "hub",
-      "hz": "们",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
-      "id": "H:这",
-      "kind": "hub",
-      "hz": "这",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:他",
-      "kind": "hub",
-      "hz": "他",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:有",
-      "kind": "hub",
-      "hz": "有",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:你",
-      "kind": "hub",
-      "hz": "你",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:是",
-      "kind": "hub",
-      "hz": "是",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
       "id": "H:篮",
       "kind": "hub",
       "hz": "篮",
@@ -12688,21 +12087,6 @@
       "deg": 2
     },
     {
-      "id": "H:球",
-      "kind": "hub",
-      "hz": "球",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
       "id": "H:公",
       "kind": "hub",
       "hz": "公",
@@ -12716,141 +12100,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 4
-    },
-    {
-      "id": "H:肉",
-      "kind": "hub",
-      "hz": "肉",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:跑",
-      "kind": "hub",
-      "hz": "跑",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:手",
-      "kind": "hub",
-      "hz": "手",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:教",
-      "kind": "hub",
-      "hz": "教",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:左",
-      "kind": "hub",
-      "hz": "左",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:边",
-      "kind": "hub",
-      "hz": "边",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 6
-    },
-    {
-      "id": "H:病",
-      "kind": "hub",
-      "hz": "病",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:游",
-      "kind": "hub",
-      "hz": "游",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:姓",
-      "kind": "hub",
-      "hz": "姓",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
     },
     {
       "id": "H:自",
@@ -12883,81 +12132,6 @@
       "deg": 3
     },
     {
-      "id": "H:右",
-      "kind": "hub",
-      "hz": "右",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:唱",
-      "kind": "hub",
-      "hz": "唱",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:歌",
-      "kind": "hub",
-      "hz": "歌",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:题",
-      "kind": "hub",
-      "hz": "题",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:床",
-      "kind": "hub",
-      "hz": "床",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
       "id": "H:场",
       "kind": "hub",
       "hz": "场",
@@ -12986,96 +12160,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 5
-    },
-    {
-      "id": "H:考",
-      "kind": "hub",
-      "hz": "考",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:课",
-      "kind": "hub",
-      "hz": "课",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:班",
-      "kind": "hub",
-      "hz": "班",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:间",
-      "kind": "hub",
-      "hz": "间",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:洗",
-      "kind": "hub",
-      "hz": "洗",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:动",
-      "kind": "hub",
-      "hz": "动",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
     },
     {
       "id": "H:意",
@@ -13108,306 +12192,6 @@
       "deg": 4
     },
     {
-      "id": "H:票",
-      "kind": "hub",
-      "hz": "票",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:白",
-      "kind": "hub",
-      "hz": "白",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:忙",
-      "kind": "hub",
-      "hz": "忙",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:红",
-      "kind": "hub",
-      "hz": "红",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:黑",
-      "kind": "hub",
-      "hz": "黑",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:药",
-      "kind": "hub",
-      "hz": "药",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:快",
-      "kind": "hub",
-      "hz": "快",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:错",
-      "kind": "hub",
-      "hz": "错",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:晚",
-      "kind": "hub",
-      "hz": "晚",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:帮",
-      "kind": "hub",
-      "hz": "帮",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:外",
-      "kind": "hub",
-      "hz": "外",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:门",
-      "kind": "hub",
-      "hz": "门",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:正",
-      "kind": "hub",
-      "hz": "正",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:男",
-      "kind": "hub",
-      "hz": "男",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:玩",
-      "kind": "hub",
-      "hz": "玩",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:路",
-      "kind": "hub",
-      "hz": "路",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:进",
-      "kind": "hub",
-      "hz": "进",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:事",
-      "kind": "hub",
-      "hz": "事",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:问",
-      "kind": "hub",
-      "hz": "问",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:第",
-      "kind": "hub",
-      "hz": "第",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
       "id": "H:孩",
       "kind": "hub",
       "hz": "孩",
@@ -13436,21 +12220,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 2
-    },
-    {
-      "id": "H:得",
-      "kind": "hub",
-      "hz": "得",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
     },
     {
       "id": "H:以",
@@ -13483,66 +12252,6 @@
       "deg": 2
     },
     {
-      "id": "H:但",
-      "kind": "hub",
-      "hz": "但",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:它",
-      "kind": "hub",
-      "hz": "它",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:走",
-      "kind": "hub",
-      "hz": "走",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:为",
-      "kind": "hub",
-      "hz": "为",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
       "id": "H:经",
       "kind": "hub",
       "hz": "经",
@@ -13556,126 +12265,6 @@
       "freq": 0,
       "isHub": true,
       "deg": 2
-    },
-    {
-      "id": "H:从",
-      "kind": "hub",
-      "hz": "从",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:还",
-      "kind": "hub",
-      "hz": "还",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:要",
-      "kind": "hub",
-      "hz": "要",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 3
-    },
-    {
-      "id": "H:包",
-      "kind": "hub",
-      "hz": "包",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
-    },
-    {
-      "id": "H:口",
-      "kind": "hub",
-      "hz": "口",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:条",
-      "kind": "hub",
-      "hz": "条",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:地",
-      "kind": "hub",
-      "hz": "地",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 2
-    },
-    {
-      "id": "H:过",
-      "kind": "hub",
-      "hz": "过",
-      "py": "",
-      "en": "",
-      "vi": "",
-      "hv": "",
-      "theme": "HUB",
-      "hsk": 0,
-      "pos": "bound morpheme",
-      "freq": 0,
-      "isHub": true,
-      "deg": 4
     },
     {
       "id": "H:绿",
@@ -13710,32 +12299,27 @@
   ],
   "edges": [
     {
-      "source": "H:不",
+      "source": "W:不",
       "target": "W:不客气",
       "ch": "不"
     },
     {
-      "source": "H:不",
+      "source": "W:不",
       "target": "W:对不起",
       "ch": "不"
     },
     {
-      "source": "H:不",
-      "target": "W:不",
-      "ch": "不"
-    },
-    {
-      "source": "H:不",
+      "source": "W:不",
       "target": "W:不要",
       "ch": "不"
     },
     {
-      "source": "H:不",
+      "source": "W:不",
       "target": "W:不错",
       "ch": "不"
     },
     {
-      "source": "H:不",
+      "source": "W:不",
       "target": "W:不好意思",
       "ch": "不"
     },
@@ -13750,33 +12334,38 @@
       "ch": "气"
     },
     {
-      "source": "H:饭",
+      "source": "W:饭",
       "target": "W:饭馆",
       "ch": "饭"
     },
     {
-      "source": "H:饭",
+      "source": "W:饭",
       "target": "W:米饭",
       "ch": "饭"
     },
     {
-      "source": "H:饭",
-      "target": "W:饭",
-      "ch": "饭"
-    },
-    {
-      "source": "H:饭",
+      "source": "W:饭",
       "target": "W:饭店",
       "ch": "饭"
     },
     {
-      "source": "H:饭",
+      "source": "W:饭",
       "target": "W:晚饭",
       "ch": "饭"
     },
     {
-      "source": "H:饭",
+      "source": "W:饭",
       "target": "W:午饭",
+      "ch": "饭"
+    },
+    {
+      "source": "W:饭",
+      "target": "W:早饭",
+      "ch": "饭"
+    },
+    {
+      "source": "W:饭",
+      "target": "W:做饭",
       "ch": "饭"
     },
     {
@@ -13800,68 +12389,58 @@
       "ch": "火"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:火车站",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:出租车",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:公共汽车",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:自行车",
       "ch": "车"
     },
     {
-      "source": "H:车",
-      "target": "W:车",
-      "ch": "车"
-    },
-    {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:火车",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:开车",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:车站",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:打车",
       "ch": "车"
     },
     {
-      "source": "H:车",
+      "source": "W:车",
       "target": "W:公交车",
       "ch": "车"
     },
     {
-      "source": "H:站",
+      "source": "W:站",
       "target": "W:火车站",
       "ch": "站"
     },
     {
-      "source": "H:站",
+      "source": "W:站",
       "target": "W:车站",
-      "ch": "站"
-    },
-    {
-      "source": "H:站",
-      "target": "W:站",
       "ch": "站"
     },
     {
@@ -13920,67 +12499,67 @@
       "ch": "子"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下雨",
       "ch": "下"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下午",
       "ch": "下"
     },
     {
-      "source": "H:下",
-      "target": "W:下",
-      "ch": "下"
-    },
-    {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下班",
       "ch": "下"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下课",
       "ch": "下"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下来",
       "ch": "下"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下面",
       "ch": "下"
     },
     {
-      "source": "H:下",
+      "source": "W:下",
       "target": "W:下去",
       "ch": "下"
     },
     {
-      "source": "H:没",
+      "source": "W:下",
+      "target": "W:一下",
+      "ch": "下"
+    },
+    {
+      "source": "W:雨",
+      "target": "W:下雨",
+      "ch": "雨"
+    },
+    {
+      "source": "W:没",
       "target": "W:没关系",
       "ch": "没"
     },
     {
-      "source": "H:没",
-      "target": "W:没",
-      "ch": "没"
-    },
-    {
-      "source": "H:没",
+      "source": "W:没",
       "target": "W:没事",
       "ch": "没"
     },
     {
-      "source": "H:没",
+      "source": "W:没",
       "target": "W:没有",
       "ch": "没"
     },
     {
-      "source": "H:没",
+      "source": "W:没",
       "target": "W:没意思",
       "ch": "没"
     },
@@ -13995,43 +12574,33 @@
       "ch": "商"
     },
     {
-      "source": "H:店",
+      "source": "W:店",
       "target": "W:商店",
       "ch": "店"
     },
     {
-      "source": "H:店",
-      "target": "W:店",
-      "ch": "店"
-    },
-    {
-      "source": "H:店",
+      "source": "W:店",
       "target": "W:饭店",
       "ch": "店"
     },
     {
-      "source": "H:店",
+      "source": "W:店",
       "target": "W:书店",
       "ch": "店"
     },
     {
-      "source": "H:店",
+      "source": "W:店",
       "target": "W:酒店",
       "ch": "店"
     },
     {
-      "source": "H:店",
+      "source": "W:店",
       "target": "W:药店",
       "ch": "店"
     },
     {
-      "source": "H:水",
+      "source": "W:水",
       "target": "W:水果",
-      "ch": "水"
-    },
-    {
-      "source": "H:水",
-      "target": "W:水",
       "ch": "水"
     },
     {
@@ -14045,32 +12614,27 @@
       "ch": "果"
     },
     {
-      "source": "H:出",
+      "source": "W:出",
       "target": "W:出租车",
       "ch": "出"
     },
     {
-      "source": "H:出",
-      "target": "W:出",
-      "ch": "出"
-    },
-    {
-      "source": "H:出",
+      "source": "W:出",
       "target": "W:出国",
       "ch": "出"
     },
     {
-      "source": "H:出",
+      "source": "W:出",
       "target": "W:出来",
       "ch": "出"
     },
     {
-      "source": "H:出",
+      "source": "W:出",
       "target": "W:出门",
       "ch": "出"
     },
     {
-      "source": "H:出",
+      "source": "W:出",
       "target": "W:出去",
       "ch": "出"
     },
@@ -14087,6 +12651,21 @@
     {
       "source": "H:中",
       "target": "W:高中",
+      "ch": "中"
+    },
+    {
+      "source": "H:中",
+      "target": "W:中文",
+      "ch": "中"
+    },
+    {
+      "source": "H:中",
+      "target": "W:中学",
+      "ch": "中"
+    },
+    {
+      "source": "H:中",
+      "target": "W:中学生",
       "ch": "中"
     },
     {
@@ -14110,97 +12689,82 @@
       "ch": "午"
     },
     {
-      "source": "H:再",
+      "source": "W:再",
       "target": "W:再见",
       "ch": "再"
     },
     {
-      "source": "H:再",
-      "target": "W:再",
-      "ch": "再"
-    },
-    {
-      "source": "H:见",
+      "source": "W:见",
       "target": "W:再见",
       "ch": "见"
     },
     {
-      "source": "H:见",
+      "source": "W:见",
       "target": "W:看见",
       "ch": "见"
     },
     {
-      "source": "H:见",
-      "target": "W:见",
-      "ch": "见"
-    },
-    {
-      "source": "H:见",
+      "source": "W:见",
       "target": "W:听见",
       "ch": "见"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上午",
       "ch": "上"
     },
     {
-      "source": "H:上",
-      "target": "W:上",
-      "ch": "上"
-    },
-    {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上班",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:早上",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:晚上",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上课",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上学",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:路上",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上来",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上面",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上去",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:上网",
       "ch": "上"
     },
     {
-      "source": "H:上",
+      "source": "W:上",
       "target": "W:网上",
       "ch": "上"
     },
@@ -14245,6 +12809,11 @@
       "ch": "星"
     },
     {
+      "source": "H:星",
+      "target": "W:星期天",
+      "ch": "星"
+    },
+    {
       "source": "H:期",
       "target": "W:星期",
       "ch": "期"
@@ -14285,168 +12854,163 @@
       "ch": "期"
     },
     {
-      "source": "H:茶",
-      "target": "W:茶",
-      "ch": "茶"
+      "source": "H:期",
+      "target": "W:星期天",
+      "ch": "期"
     },
     {
-      "source": "H:茶",
+      "source": "W:茶",
       "target": "W:红茶",
       "ch": "茶"
     },
     {
-      "source": "H:茶",
+      "source": "W:茶",
       "target": "W:绿茶",
       "ch": "茶"
     },
     {
-      "source": "H:茶",
+      "source": "W:茶",
       "target": "W:奶茶",
       "ch": "茶"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:同学",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:学习",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:学生",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:学校",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:大学",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:大学生",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:上学",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:小学",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:小学生",
       "ch": "学"
     },
     {
-      "source": "H:学",
+      "source": "W:学",
       "target": "W:开学",
       "ch": "学"
     },
     {
-      "source": "H:前",
+      "source": "W:学",
+      "target": "W:中学",
+      "ch": "学"
+    },
+    {
+      "source": "W:学",
+      "target": "W:中学生",
+      "ch": "学"
+    },
+    {
+      "source": "W:前",
       "target": "W:前面",
       "ch": "前"
     },
     {
-      "source": "H:前",
-      "target": "W:前",
-      "ch": "前"
-    },
-    {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:前面",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:后面",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:面包",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:面条儿",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:里面",
       "ch": "面"
     },
     {
-      "source": "H:面",
-      "target": "W:面",
-      "ch": "面"
-    },
-    {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:上面",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:外面",
       "ch": "面"
     },
     {
-      "source": "H:面",
+      "source": "W:面",
       "target": "W:下面",
       "ch": "面"
     },
     {
-      "source": "H:天",
+      "source": "W:天",
       "target": "W:天气",
       "ch": "天"
     },
     {
-      "source": "H:天",
+      "source": "W:天",
       "target": "W:昨天",
       "ch": "天"
     },
     {
-      "source": "H:天",
+      "source": "W:天",
       "target": "W:明天",
       "ch": "天"
     },
     {
-      "source": "H:天",
+      "source": "W:天",
       "target": "W:今天",
       "ch": "天"
     },
     {
-      "source": "H:天",
+      "source": "W:天",
       "target": "W:白天",
       "ch": "天"
     },
     {
-      "source": "H:天",
-      "target": "W:天",
+      "source": "W:天",
+      "target": "W:星期天",
       "ch": "天"
     },
     {
-      "source": "H:对",
+      "source": "W:对",
       "target": "W:对不起",
-      "ch": "对"
-    },
-    {
-      "source": "H:对",
-      "target": "W:对",
       "ch": "对"
     },
     {
@@ -14470,47 +13034,42 @@
       "ch": "起"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小姐",
       "ch": "小"
     },
     {
-      "source": "H:小",
-      "target": "W:小",
-      "ch": "小"
-    },
-    {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小时",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小朋友",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小学",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小学生",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:从小",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小孩儿",
       "ch": "小"
     },
     {
-      "source": "H:小",
+      "source": "W:小",
       "target": "W:小时候",
       "ch": "小"
     },
@@ -14595,37 +13154,27 @@
       "ch": "样"
     },
     {
-      "source": "H:后",
+      "source": "W:后",
       "target": "W:后面",
       "ch": "后"
     },
     {
-      "source": "H:后",
-      "target": "W:后",
-      "ch": "后"
-    },
-    {
-      "source": "H:打",
+      "source": "W:打",
       "target": "W:打电话",
       "ch": "打"
     },
     {
-      "source": "H:打",
+      "source": "W:打",
       "target": "W:打篮球",
       "ch": "打"
     },
     {
-      "source": "H:打",
-      "target": "W:打",
-      "ch": "打"
-    },
-    {
-      "source": "H:打",
+      "source": "W:打",
       "target": "W:打车",
       "ch": "打"
     },
     {
-      "source": "H:打",
+      "source": "W:打",
       "target": "W:打开",
       "ch": "打"
     },
@@ -14675,13 +13224,8 @@
       "ch": "话"
     },
     {
-      "source": "H:飞",
+      "source": "W:飞",
       "target": "W:飞机",
-      "ch": "飞"
-    },
-    {
-      "source": "H:飞",
-      "target": "W:飞",
       "ch": "飞"
     },
     {
@@ -14705,23 +13249,13 @@
       "ch": "机"
     },
     {
-      "source": "H:读",
-      "target": "W:读",
-      "ch": "读"
-    },
-    {
-      "source": "H:读",
+      "source": "W:读",
       "target": "W:读书",
       "ch": "读"
     },
     {
-      "source": "H:睡",
+      "source": "W:睡",
       "target": "W:睡觉",
-      "ch": "睡"
-    },
-    {
-      "source": "H:睡",
-      "target": "W:睡",
       "ch": "睡"
     },
     {
@@ -14735,72 +13269,52 @@
       "ch": "觉"
     },
     {
-      "source": "H:高",
+      "source": "W:高",
       "target": "W:高兴",
       "ch": "高"
     },
     {
-      "source": "H:高",
-      "target": "W:高",
-      "ch": "高"
-    },
-    {
-      "source": "H:高",
+      "source": "W:高",
       "target": "W:高中",
       "ch": "高"
     },
     {
-      "source": "H:字",
-      "target": "W:字",
-      "ch": "字"
-    },
-    {
-      "source": "H:字",
+      "source": "W:字",
       "target": "W:名字",
       "ch": "字"
     },
     {
-      "source": "H:字",
+      "source": "W:字",
       "target": "W:汉字",
       "ch": "字"
     },
     {
-      "source": "H:说",
+      "source": "W:说",
       "target": "W:说话",
       "ch": "说"
     },
     {
-      "source": "H:说",
-      "target": "W:说",
-      "ch": "说"
-    },
-    {
-      "source": "H:女",
+      "source": "W:女",
       "target": "W:女儿",
       "ch": "女"
     },
     {
-      "source": "H:女",
+      "source": "W:女",
       "target": "W:女人",
       "ch": "女"
     },
     {
-      "source": "H:女",
-      "target": "W:女",
-      "ch": "女"
-    },
-    {
-      "source": "H:女",
+      "source": "W:女",
       "target": "W:女朋友",
       "ch": "女"
     },
     {
-      "source": "H:女",
+      "source": "W:女",
       "target": "W:女士",
       "ch": "女"
     },
     {
-      "source": "H:女",
+      "source": "W:女",
       "target": "W:女孩儿",
       "ch": "女"
     },
@@ -14855,37 +13369,42 @@
       "ch": "儿"
     },
     {
-      "source": "H:看",
+      "source": "H:儿",
+      "target": "W:一点儿",
+      "ch": "儿"
+    },
+    {
+      "source": "H:儿",
+      "target": "W:有点儿",
+      "ch": "儿"
+    },
+    {
+      "source": "H:儿",
+      "target": "W:这儿",
+      "ch": "儿"
+    },
+    {
+      "source": "W:看",
       "target": "W:看见",
       "ch": "看"
     },
     {
-      "source": "H:看",
-      "target": "W:看",
-      "ch": "看"
-    },
-    {
-      "source": "H:看",
+      "source": "W:看",
       "target": "W:好看",
       "ch": "看"
     },
     {
-      "source": "H:看",
+      "source": "W:看",
       "target": "W:看病",
       "ch": "看"
     },
     {
-      "source": "H:名",
+      "source": "W:名",
       "target": "W:名字",
       "ch": "名"
     },
     {
-      "source": "H:名",
-      "target": "W:名",
-      "ch": "名"
-    },
-    {
-      "source": "H:名",
+      "source": "W:名",
       "target": "W:姓名",
       "ch": "名"
     },
@@ -14935,58 +13454,58 @@
       "ch": "生"
     },
     {
-      "source": "H:六",
-      "target": "W:六",
-      "ch": "六"
+      "source": "H:生",
+      "target": "W:中学生",
+      "ch": "生"
     },
     {
-      "source": "H:六",
+      "source": "W:六",
       "target": "W:星期六",
       "ch": "六"
     },
     {
-      "source": "H:国",
+      "source": "W:国",
       "target": "W:中国",
       "ch": "国"
     },
     {
-      "source": "H:国",
-      "target": "W:国",
-      "ch": "国"
-    },
-    {
-      "source": "H:国",
+      "source": "W:国",
       "target": "W:出国",
       "ch": "国"
     },
     {
-      "source": "H:国",
+      "source": "W:国",
       "target": "W:外国",
       "ch": "国"
     },
     {
-      "source": "H:二",
-      "target": "W:二",
-      "ch": "二"
-    },
-    {
-      "source": "H:二",
+      "source": "W:二",
       "target": "W:星期二",
       "ch": "二"
     },
     {
-      "source": "H:些",
-      "target": "W:些",
-      "ch": "些"
-    },
-    {
-      "source": "H:些",
+      "source": "W:些",
       "target": "W:哪些",
       "ch": "些"
     },
     {
-      "source": "H:些",
+      "source": "W:些",
       "target": "W:那些",
+      "ch": "些"
+    },
+    {
+      "source": "W:些",
+      "target": "W:一些",
+      "ch": "些"
+    },
+    {
+      "source": "W:些",
+      "target": "W:有些",
+      "ch": "些"
+    },
+    {
+      "source": "W:些",
+      "target": "W:这些",
       "ch": "些"
     },
     {
@@ -15000,57 +13519,42 @@
       "ch": "院"
     },
     {
-      "source": "H:五",
-      "target": "W:五",
-      "ch": "五"
-    },
-    {
-      "source": "H:五",
+      "source": "W:五",
       "target": "W:星期五",
       "ch": "五"
     },
     {
-      "source": "H:书",
-      "target": "W:书",
-      "ch": "书"
-    },
-    {
-      "source": "H:书",
+      "source": "W:书",
       "target": "W:读书",
       "ch": "书"
     },
     {
-      "source": "H:书",
+      "source": "W:书",
       "target": "W:书店",
       "ch": "书"
     },
     {
-      "source": "H:书",
+      "source": "W:书",
       "target": "W:书包",
       "ch": "书"
     },
     {
-      "source": "H:哪",
-      "target": "W:哪",
-      "ch": "哪"
-    },
-    {
-      "source": "H:哪",
+      "source": "W:哪",
       "target": "W:哪个",
       "ch": "哪"
     },
     {
-      "source": "H:哪",
+      "source": "W:哪",
       "target": "W:哪里",
       "ch": "哪"
     },
     {
-      "source": "H:哪",
+      "source": "W:哪",
       "target": "W:哪儿",
       "ch": "哪"
     },
     {
-      "source": "H:哪",
+      "source": "W:哪",
       "target": "W:哪些",
       "ch": "哪"
     },
@@ -15065,32 +13569,17 @@
       "ch": "影"
     },
     {
-      "source": "H:少",
-      "target": "W:少",
-      "ch": "少"
-    },
-    {
-      "source": "H:少",
+      "source": "W:少",
       "target": "W:多少",
       "ch": "少"
     },
     {
-      "source": "H:多",
+      "source": "W:多",
       "target": "W:多少",
       "ch": "多"
     },
     {
-      "source": "H:多",
-      "target": "W:多",
-      "ch": "多"
-    },
-    {
-      "source": "H:四",
-      "target": "W:四",
-      "ch": "四"
-    },
-    {
-      "source": "H:四",
+      "source": "W:四",
       "target": "W:星期四",
       "ch": "四"
     },
@@ -15105,27 +13594,17 @@
       "ch": "明"
     },
     {
-      "source": "H:分",
+      "source": "W:分",
       "target": "W:分钟",
       "ch": "分"
     },
     {
-      "source": "H:分",
-      "target": "W:分",
-      "ch": "分"
-    },
-    {
-      "source": "H:日",
-      "target": "W:日",
-      "ch": "日"
-    },
-    {
-      "source": "H:日",
+      "source": "W:日",
       "target": "W:生日",
       "ch": "日"
     },
     {
-      "source": "H:日",
+      "source": "W:日",
       "target": "W:星期日",
       "ch": "日"
     },
@@ -15170,12 +13649,7 @@
       "ch": "友"
     },
     {
-      "source": "H:三",
-      "target": "W:三",
-      "ch": "三"
-    },
-    {
-      "source": "H:三",
+      "source": "W:三",
       "target": "W:星期三",
       "ch": "三"
     },
@@ -15190,82 +13664,57 @@
       "ch": "西"
     },
     {
-      "source": "H:回",
-      "target": "W:回",
-      "ch": "回"
-    },
-    {
-      "source": "H:回",
+      "source": "W:回",
       "target": "W:回答",
       "ch": "回"
     },
     {
-      "source": "H:回",
+      "source": "W:回",
       "target": "W:回来",
       "ch": "回"
     },
     {
-      "source": "H:回",
+      "source": "W:回",
       "target": "W:回去",
       "ch": "回"
     },
     {
-      "source": "H:本",
-      "target": "W:本",
-      "ch": "本"
-    },
-    {
-      "source": "H:本",
+      "source": "W:本",
       "target": "W:本子",
       "ch": "本"
     },
     {
-      "source": "H:请",
-      "target": "W:请",
-      "ch": "请"
-    },
-    {
-      "source": "H:请",
+      "source": "W:请",
       "target": "W:请问",
       "ch": "请"
     },
     {
-      "source": "H:开",
-      "target": "W:开",
-      "ch": "开"
-    },
-    {
-      "source": "H:开",
+      "source": "W:开",
       "target": "W:开始",
       "ch": "开"
     },
     {
-      "source": "H:开",
+      "source": "W:开",
       "target": "W:开车",
       "ch": "开"
     },
     {
-      "source": "H:开",
+      "source": "W:开",
       "target": "W:打开",
       "ch": "开"
     },
     {
-      "source": "H:开",
+      "source": "W:开",
       "target": "W:开学",
       "ch": "开"
     },
     {
-      "source": "H:听",
-      "target": "W:听",
-      "ch": "听"
-    },
-    {
-      "source": "H:听",
+      "source": "W:听",
       "target": "W:好听",
       "ch": "听"
     },
     {
-      "source": "H:听",
+      "source": "W:听",
       "target": "W:听见",
       "ch": "听"
     },
@@ -15280,12 +13729,7 @@
       "ch": "今"
     },
     {
-      "source": "H:吃",
-      "target": "W:吃",
-      "ch": "吃"
-    },
-    {
-      "source": "H:吃",
+      "source": "W:吃",
       "target": "W:好吃",
       "ch": "吃"
     },
@@ -15300,57 +13744,42 @@
       "ch": "欢"
     },
     {
-      "source": "H:爱",
-      "target": "W:爱",
-      "ch": "爱"
-    },
-    {
-      "source": "H:爱",
+      "source": "W:爱",
       "target": "W:爱好",
       "ch": "爱"
     },
     {
-      "source": "H:家",
-      "target": "W:家",
-      "ch": "家"
-    },
-    {
-      "source": "H:家",
+      "source": "W:家",
       "target": "W:大家",
       "ch": "家"
     },
     {
-      "source": "H:家",
+      "source": "W:家",
       "target": "W:家人",
       "ch": "家"
     },
     {
-      "source": "H:时",
+      "source": "W:时",
       "target": "W:时候",
       "ch": "时"
     },
     {
-      "source": "H:时",
+      "source": "W:时",
       "target": "W:小时",
       "ch": "时"
     },
     {
-      "source": "H:时",
+      "source": "W:时",
       "target": "W:时间",
       "ch": "时"
     },
     {
-      "source": "H:时",
-      "target": "W:时",
-      "ch": "时"
-    },
-    {
-      "source": "H:时",
+      "source": "W:时",
       "target": "W:小时候",
       "ch": "时"
     },
     {
-      "source": "H:时",
+      "source": "W:时",
       "target": "W:有时",
       "ch": "时"
     },
@@ -15365,84 +13794,79 @@
       "ch": "候"
     },
     {
-      "source": "H:年",
-      "target": "W:年",
-      "ch": "年"
-    },
-    {
-      "source": "H:年",
+      "source": "W:年",
       "target": "W:去年",
       "ch": "年"
     },
     {
-      "source": "H:年",
+      "source": "W:年",
       "target": "W:今年",
       "ch": "年"
     },
     {
-      "source": "H:年",
+      "source": "W:年",
       "target": "W:明年",
       "ch": "年"
     },
     {
-      "source": "H:年",
+      "source": "W:年",
       "target": "W:过年",
       "ch": "年"
     },
     {
-      "source": "H:在",
+      "source": "W:在",
       "target": "W:现在",
       "ch": "在"
     },
     {
-      "source": "H:在",
-      "target": "W:在",
-      "ch": "在"
-    },
-    {
-      "source": "H:在",
+      "source": "W:在",
       "target": "W:正在",
       "ch": "在"
     },
     {
-      "source": "H:里",
-      "target": "W:里",
-      "ch": "里"
-    },
-    {
-      "source": "H:里",
+      "source": "W:里",
       "target": "W:哪里",
       "ch": "里"
     },
     {
-      "source": "H:里",
+      "source": "W:里",
       "target": "W:那里",
       "ch": "里"
     },
     {
-      "source": "H:里",
+      "source": "W:里",
       "target": "W:里面",
       "ch": "里"
     },
     {
-      "source": "H:大",
-      "target": "W:大",
-      "ch": "大"
+      "source": "W:里",
+      "target": "W:这里",
+      "ch": "里"
     },
     {
-      "source": "H:大",
+      "source": "W:大",
       "target": "W:大家",
       "ch": "大"
     },
     {
-      "source": "H:大",
+      "source": "W:大",
       "target": "W:大学",
       "ch": "大"
     },
     {
-      "source": "H:大",
+      "source": "W:大",
       "target": "W:大学生",
       "ch": "大"
+    },
+    {
+      "source": "W:点",
+      "target": "W:一点儿",
+      "ch": "点"
+    },
+    {
+      "source": "W:点",
+      "target": "W:有点儿",
+      "ch": "点"
     },
     {
       "source": "H:什",
@@ -15455,376 +13879,366 @@
       "ch": "什"
     },
     {
-      "source": "H:那",
-      "target": "W:那",
-      "ch": "那"
+      "source": "W:做",
+      "target": "W:做饭",
+      "ch": "做"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那边",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那个",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那里",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那儿",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那些",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那么",
       "ch": "那"
     },
     {
-      "source": "H:那",
+      "source": "W:那",
       "target": "W:那样",
       "ch": "那"
     },
     {
-      "source": "H:能",
-      "target": "W:能",
-      "ch": "能"
-    },
-    {
-      "source": "H:能",
+      "source": "W:能",
       "target": "W:可能",
       "ch": "能"
     },
     {
-      "source": "H:去",
-      "target": "W:去",
-      "ch": "去"
-    },
-    {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:去年",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:出去",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:过去",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:回去",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:进去",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:上去",
       "ch": "去"
     },
     {
-      "source": "H:去",
+      "source": "W:去",
       "target": "W:下去",
       "ch": "去"
     },
     {
-      "source": "H:她",
-      "target": "W:她",
-      "ch": "她"
-    },
-    {
-      "source": "H:她",
+      "source": "W:她",
       "target": "W:她们",
       "ch": "她"
     },
     {
-      "source": "H:来",
-      "target": "W:来",
-      "ch": "来"
-    },
-    {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:出来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:过来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:回来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:进来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:起来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:上来",
       "ch": "来"
     },
     {
-      "source": "H:来",
+      "source": "W:来",
       "target": "W:下来",
       "ch": "来"
     },
     {
-      "source": "H:会",
-      "target": "W:会",
-      "ch": "会"
-    },
-    {
-      "source": "H:会",
+      "source": "W:会",
       "target": "W:一会儿",
       "ch": "会"
     },
     {
-      "source": "H:一",
-      "target": "W:一",
-      "ch": "一"
-    },
-    {
-      "source": "H:一",
+      "source": "W:一",
       "target": "W:第一",
       "ch": "一"
     },
     {
-      "source": "H:一",
+      "source": "W:一",
       "target": "W:一起",
       "ch": "一"
     },
     {
-      "source": "H:一",
+      "source": "W:一",
       "target": "W:星期一",
       "ch": "一"
     },
     {
-      "source": "H:一",
+      "source": "W:一",
       "target": "W:一会儿",
       "ch": "一"
     },
     {
-      "source": "H:好",
-      "target": "W:好",
-      "ch": "好"
+      "source": "W:一",
+      "target": "W:一半",
+      "ch": "一"
     },
     {
-      "source": "H:好",
+      "source": "W:一",
+      "target": "W:一下",
+      "ch": "一"
+    },
+    {
+      "source": "W:一",
+      "target": "W:一点儿",
+      "ch": "一"
+    },
+    {
+      "source": "W:一",
+      "target": "W:一些",
+      "ch": "一"
+    },
+    {
+      "source": "W:好",
       "target": "W:好吃",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:好看",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:好听",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:好玩儿",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:你好",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:爱好",
       "ch": "好"
     },
     {
-      "source": "H:好",
+      "source": "W:好",
       "target": "W:不好意思",
       "ch": "好"
     },
     {
-      "source": "H:个",
-      "target": "W:个",
-      "ch": "个"
-    },
-    {
-      "source": "H:个",
+      "source": "W:个",
       "target": "W:哪个",
       "ch": "个"
     },
     {
-      "source": "H:个",
+      "source": "W:个",
       "target": "W:那个",
       "ch": "个"
     },
     {
-      "source": "H:个",
+      "source": "W:个",
       "target": "W:个子",
       "ch": "个"
     },
     {
-      "source": "H:人",
-      "target": "W:人",
-      "ch": "人"
+      "source": "W:个",
+      "target": "W:这个",
+      "ch": "个"
     },
     {
-      "source": "H:人",
+      "source": "W:人",
       "target": "W:男人",
       "ch": "人"
     },
     {
-      "source": "H:人",
+      "source": "W:人",
       "target": "W:女人",
       "ch": "人"
     },
     {
-      "source": "H:人",
+      "source": "W:人",
       "target": "W:家人",
       "ch": "人"
     },
     {
-      "source": "H:我",
+      "source": "W:我",
       "target": "W:我们",
       "ch": "我"
     },
     {
-      "source": "H:我",
-      "target": "W:我",
-      "ch": "我"
-    },
-    {
-      "source": "H:们",
+      "source": "W:们",
       "target": "W:我们",
       "ch": "们"
     },
     {
-      "source": "H:们",
-      "target": "W:们",
-      "ch": "们"
-    },
-    {
-      "source": "H:们",
+      "source": "W:们",
       "target": "W:你们",
       "ch": "们"
     },
     {
-      "source": "H:们",
+      "source": "W:们",
       "target": "W:他们",
       "ch": "们"
     },
     {
-      "source": "H:们",
+      "source": "W:们",
       "target": "W:它们",
       "ch": "们"
     },
     {
-      "source": "H:们",
+      "source": "W:们",
       "target": "W:她们",
       "ch": "们"
     },
     {
-      "source": "H:这",
-      "target": "W:这",
-      "ch": "这"
-    },
-    {
-      "source": "H:这",
+      "source": "W:这",
       "target": "W:这么",
       "ch": "这"
     },
     {
-      "source": "H:这",
+      "source": "W:这",
       "target": "W:这样",
       "ch": "这"
     },
     {
-      "source": "H:他",
-      "target": "W:他",
-      "ch": "他"
+      "source": "W:这",
+      "target": "W:这边",
+      "ch": "这"
     },
     {
-      "source": "H:他",
+      "source": "W:这",
+      "target": "W:这个",
+      "ch": "这"
+    },
+    {
+      "source": "W:这",
+      "target": "W:这里",
+      "ch": "这"
+    },
+    {
+      "source": "W:这",
+      "target": "W:这儿",
+      "ch": "这"
+    },
+    {
+      "source": "W:这",
+      "target": "W:这些",
+      "ch": "这"
+    },
+    {
+      "source": "W:他",
       "target": "W:他们",
       "ch": "他"
     },
     {
-      "source": "H:有",
-      "target": "W:有",
-      "ch": "有"
-    },
-    {
-      "source": "H:有",
+      "source": "W:有",
       "target": "W:没有",
       "ch": "有"
     },
     {
-      "source": "H:有",
+      "source": "W:有",
       "target": "W:有意思",
       "ch": "有"
     },
     {
-      "source": "H:有",
+      "source": "W:有",
       "target": "W:有时",
       "ch": "有"
     },
     {
-      "source": "H:你",
-      "target": "W:你",
-      "ch": "你"
+      "source": "W:有",
+      "target": "W:有的",
+      "ch": "有"
     },
     {
-      "source": "H:你",
+      "source": "W:有",
+      "target": "W:有点儿",
+      "ch": "有"
+    },
+    {
+      "source": "W:有",
+      "target": "W:有些",
+      "ch": "有"
+    },
+    {
+      "source": "W:你",
       "target": "W:你好",
       "ch": "你"
     },
     {
-      "source": "H:你",
+      "source": "W:你",
       "target": "W:你们",
       "ch": "你"
     },
     {
-      "source": "H:是",
-      "target": "W:是",
-      "ch": "是"
-    },
-    {
-      "source": "H:是",
+      "source": "W:是",
       "target": "W:但是",
       "ch": "是"
     },
     {
-      "source": "H:是",
+      "source": "W:是",
       "target": "W:还是",
       "ch": "是"
     },
     {
+      "source": "W:的",
+      "target": "W:有的",
+      "ch": "的"
+    },
+    {
       "source": "H:篮",
       "target": "W:打篮球",
       "ch": "篮"
@@ -15835,22 +14249,17 @@
       "ch": "篮"
     },
     {
-      "source": "H:球",
+      "source": "W:球",
       "target": "W:打篮球",
       "ch": "球"
     },
     {
-      "source": "H:球",
+      "source": "W:球",
       "target": "W:篮球",
       "ch": "球"
     },
     {
-      "source": "H:球",
-      "target": "W:球",
-      "ch": "球"
-    },
-    {
-      "source": "H:球",
+      "source": "W:球",
       "target": "W:足球",
       "ch": "球"
     },
@@ -15875,132 +14284,92 @@
       "ch": "公"
     },
     {
-      "source": "H:肉",
+      "source": "W:肉",
       "target": "W:羊肉",
       "ch": "肉"
     },
     {
-      "source": "H:肉",
-      "target": "W:肉",
-      "ch": "肉"
-    },
-    {
-      "source": "H:跑",
+      "source": "W:跑",
       "target": "W:跑步",
       "ch": "跑"
     },
     {
-      "source": "H:跑",
-      "target": "W:跑",
-      "ch": "跑"
-    },
-    {
-      "source": "H:手",
+      "source": "W:手",
       "target": "W:手表",
       "ch": "手"
     },
     {
-      "source": "H:手",
+      "source": "W:手",
       "target": "W:手机",
       "ch": "手"
     },
     {
-      "source": "H:手",
-      "target": "W:手",
-      "ch": "手"
-    },
-    {
-      "source": "H:手",
+      "source": "W:手",
       "target": "W:洗手间",
       "ch": "手"
     },
     {
-      "source": "H:教",
+      "source": "W:教",
       "target": "W:教室",
       "ch": "教"
     },
     {
-      "source": "H:教",
-      "target": "W:教",
-      "ch": "教"
-    },
-    {
-      "source": "H:左",
+      "source": "W:左",
       "target": "W:左边",
       "ch": "左"
     },
     {
-      "source": "H:左",
-      "target": "W:左",
-      "ch": "左"
-    },
-    {
-      "source": "H:边",
+      "source": "W:边",
       "target": "W:左边",
       "ch": "边"
     },
     {
-      "source": "H:边",
+      "source": "W:边",
       "target": "W:右边",
       "ch": "边"
     },
     {
-      "source": "H:边",
+      "source": "W:边",
       "target": "W:旁边",
       "ch": "边"
     },
     {
-      "source": "H:边",
-      "target": "W:边",
-      "ch": "边"
-    },
-    {
-      "source": "H:边",
+      "source": "W:边",
       "target": "W:那边",
       "ch": "边"
     },
     {
-      "source": "H:边",
+      "source": "W:边",
       "target": "W:外边",
       "ch": "边"
     },
     {
-      "source": "H:病",
+      "source": "W:边",
+      "target": "W:这边",
+      "ch": "边"
+    },
+    {
+      "source": "W:病",
       "target": "W:生病",
       "ch": "病"
     },
     {
-      "source": "H:病",
-      "target": "W:病",
-      "ch": "病"
-    },
-    {
-      "source": "H:病",
+      "source": "W:病",
       "target": "W:看病",
       "ch": "病"
     },
     {
-      "source": "H:游",
+      "source": "W:游",
       "target": "W:游泳",
       "ch": "游"
     },
     {
-      "source": "H:游",
+      "source": "W:游",
       "target": "W:旅游",
       "ch": "游"
     },
     {
-      "source": "H:游",
-      "target": "W:游",
-      "ch": "游"
-    },
-    {
-      "source": "H:姓",
-      "target": "W:姓",
-      "ch": "姓"
-    },
-    {
-      "source": "H:姓",
+      "source": "W:姓",
       "target": "W:姓名",
       "ch": "姓"
     },
@@ -16030,53 +14399,28 @@
       "ch": "奶"
     },
     {
-      "source": "H:右",
+      "source": "W:右",
       "target": "W:右边",
       "ch": "右"
     },
     {
-      "source": "H:右",
-      "target": "W:右",
-      "ch": "右"
-    },
-    {
-      "source": "H:唱",
+      "source": "W:唱",
       "target": "W:唱歌",
       "ch": "唱"
     },
     {
-      "source": "H:唱",
-      "target": "W:唱",
-      "ch": "唱"
-    },
-    {
-      "source": "H:歌",
+      "source": "W:歌",
       "target": "W:唱歌",
       "ch": "歌"
     },
     {
-      "source": "H:歌",
-      "target": "W:歌",
-      "ch": "歌"
-    },
-    {
-      "source": "H:题",
-      "target": "W:题",
-      "ch": "题"
-    },
-    {
-      "source": "H:题",
+      "source": "W:题",
       "target": "W:问题",
       "ch": "题"
     },
     {
-      "source": "H:床",
+      "source": "W:床",
       "target": "W:起床",
-      "ch": "床"
-    },
-    {
-      "source": "H:床",
-      "target": "W:床",
       "ch": "床"
     },
     {
@@ -16115,84 +14459,64 @@
       "ch": "色"
     },
     {
-      "source": "H:考",
+      "source": "W:考",
       "target": "W:考试",
       "ch": "考"
     },
     {
-      "source": "H:考",
-      "target": "W:考",
-      "ch": "考"
-    },
-    {
-      "source": "H:课",
-      "target": "W:课",
-      "ch": "课"
-    },
-    {
-      "source": "H:课",
+      "source": "W:课",
       "target": "W:上课",
       "ch": "课"
     },
     {
-      "source": "H:课",
+      "source": "W:课",
       "target": "W:下课",
       "ch": "课"
     },
     {
-      "source": "H:班",
+      "source": "W:班",
       "target": "W:上班",
       "ch": "班"
     },
     {
-      "source": "H:班",
+      "source": "W:班",
       "target": "W:下班",
       "ch": "班"
     },
     {
-      "source": "H:班",
-      "target": "W:班",
-      "ch": "班"
-    },
-    {
-      "source": "H:间",
+      "source": "W:间",
       "target": "W:房间",
       "ch": "间"
     },
     {
-      "source": "H:间",
+      "source": "W:间",
       "target": "W:时间",
       "ch": "间"
     },
     {
-      "source": "H:间",
-      "target": "W:间",
-      "ch": "间"
-    },
-    {
-      "source": "H:间",
+      "source": "W:间",
       "target": "W:洗手间",
       "ch": "间"
     },
     {
-      "source": "H:洗",
-      "target": "W:洗",
-      "ch": "洗"
-    },
-    {
-      "source": "H:洗",
+      "source": "W:洗",
       "target": "W:洗手间",
       "ch": "洗"
     },
     {
-      "source": "H:动",
+      "source": "W:动",
       "target": "W:运动",
       "ch": "动"
     },
     {
-      "source": "H:动",
-      "target": "W:动",
-      "ch": "动"
+      "source": "W:早",
+      "target": "W:早上",
+      "ch": "早"
+    },
+    {
+      "source": "W:早",
+      "target": "W:早饭",
+      "ch": "早"
     },
     {
       "source": "H:意",
@@ -16235,283 +14559,183 @@
       "ch": "思"
     },
     {
-      "source": "H:票",
-      "target": "W:票",
-      "ch": "票"
-    },
-    {
-      "source": "H:票",
+      "source": "W:票",
       "target": "W:机票",
       "ch": "票"
     },
     {
-      "source": "H:票",
+      "source": "W:票",
       "target": "W:门票",
       "ch": "票"
     },
     {
-      "source": "H:白",
-      "target": "W:白",
-      "ch": "白"
-    },
-    {
-      "source": "H:白",
+      "source": "W:白",
       "target": "W:白天",
       "ch": "白"
     },
     {
-      "source": "H:白",
+      "source": "W:白",
       "target": "W:白色",
       "ch": "白"
     },
     {
-      "source": "H:忙",
-      "target": "W:忙",
-      "ch": "忙"
-    },
-    {
-      "source": "H:忙",
+      "source": "W:忙",
       "target": "W:帮忙",
       "ch": "忙"
     },
     {
-      "source": "H:红",
-      "target": "W:红",
-      "ch": "红"
-    },
-    {
-      "source": "H:红",
+      "source": "W:红",
       "target": "W:红茶",
       "ch": "红"
     },
     {
-      "source": "H:红",
+      "source": "W:红",
       "target": "W:红色",
       "ch": "红"
     },
     {
-      "source": "H:黑",
-      "target": "W:黑",
-      "ch": "黑"
-    },
-    {
-      "source": "H:黑",
+      "source": "W:黑",
       "target": "W:黑色",
       "ch": "黑"
     },
     {
-      "source": "H:药",
-      "target": "W:药",
-      "ch": "药"
-    },
-    {
-      "source": "H:药",
+      "source": "W:药",
       "target": "W:药店",
       "ch": "药"
     },
     {
-      "source": "H:快",
+      "source": "W:快",
       "target": "W:快乐",
       "ch": "快"
     },
     {
-      "source": "H:快",
-      "target": "W:快",
-      "ch": "快"
-    },
-    {
-      "source": "H:快",
+      "source": "W:快",
       "target": "W:快要",
       "ch": "快"
     },
     {
-      "source": "H:错",
-      "target": "W:错",
-      "ch": "错"
-    },
-    {
-      "source": "H:错",
+      "source": "W:错",
       "target": "W:不错",
       "ch": "错"
     },
     {
-      "source": "H:晚",
+      "source": "W:晚",
       "target": "W:晚上",
       "ch": "晚"
     },
     {
-      "source": "H:晚",
-      "target": "W:晚",
-      "ch": "晚"
-    },
-    {
-      "source": "H:晚",
+      "source": "W:晚",
       "target": "W:晚饭",
       "ch": "晚"
     },
     {
-      "source": "H:帮",
+      "source": "W:帮",
       "target": "W:帮助",
       "ch": "帮"
     },
     {
-      "source": "H:帮",
-      "target": "W:帮",
-      "ch": "帮"
-    },
-    {
-      "source": "H:帮",
+      "source": "W:帮",
       "target": "W:帮忙",
       "ch": "帮"
     },
     {
-      "source": "H:外",
-      "target": "W:外",
-      "ch": "外"
-    },
-    {
-      "source": "H:外",
+      "source": "W:外",
       "target": "W:外边",
       "ch": "外"
     },
     {
-      "source": "H:外",
+      "source": "W:外",
       "target": "W:外国",
       "ch": "外"
     },
     {
-      "source": "H:外",
+      "source": "W:外",
       "target": "W:外面",
       "ch": "外"
     },
     {
-      "source": "H:门",
-      "target": "W:门",
-      "ch": "门"
-    },
-    {
-      "source": "H:门",
+      "source": "W:门",
       "target": "W:出门",
       "ch": "门"
     },
     {
-      "source": "H:门",
+      "source": "W:门",
       "target": "W:门口",
       "ch": "门"
     },
     {
-      "source": "H:门",
+      "source": "W:门",
       "target": "W:门票",
       "ch": "门"
     },
     {
-      "source": "H:正",
+      "source": "W:正",
       "target": "W:正在",
       "ch": "正"
     },
     {
-      "source": "H:正",
-      "target": "W:正",
-      "ch": "正"
-    },
-    {
-      "source": "H:男",
+      "source": "W:男",
       "target": "W:男人",
       "ch": "男"
     },
     {
-      "source": "H:男",
-      "target": "W:男",
-      "ch": "男"
-    },
-    {
-      "source": "H:男",
+      "source": "W:男",
       "target": "W:男朋友",
       "ch": "男"
     },
     {
-      "source": "H:男",
+      "source": "W:男",
       "target": "W:男孩儿",
       "ch": "男"
     },
     {
-      "source": "H:玩",
-      "target": "W:玩",
-      "ch": "玩"
-    },
-    {
-      "source": "H:玩",
+      "source": "W:玩",
       "target": "W:好玩儿",
       "ch": "玩"
     },
     {
-      "source": "H:路",
-      "target": "W:路",
-      "ch": "路"
-    },
-    {
-      "source": "H:路",
+      "source": "W:路",
       "target": "W:路上",
       "ch": "路"
     },
     {
-      "source": "H:路",
+      "source": "W:路",
       "target": "W:走路",
       "ch": "路"
     },
     {
-      "source": "H:进",
-      "target": "W:进",
-      "ch": "进"
-    },
-    {
-      "source": "H:进",
+      "source": "W:进",
       "target": "W:进来",
       "ch": "进"
     },
     {
-      "source": "H:进",
+      "source": "W:进",
       "target": "W:进去",
       "ch": "进"
     },
     {
-      "source": "H:事",
+      "source": "W:事",
       "target": "W:事情",
       "ch": "事"
     },
     {
-      "source": "H:事",
+      "source": "W:事",
       "target": "W:没事",
       "ch": "事"
     },
     {
-      "source": "H:事",
-      "target": "W:事",
-      "ch": "事"
-    },
-    {
-      "source": "H:问",
-      "target": "W:问",
-      "ch": "问"
-    },
-    {
-      "source": "H:问",
+      "source": "W:问",
       "target": "W:问题",
       "ch": "问"
     },
     {
-      "source": "H:问",
+      "source": "W:问",
       "target": "W:请问",
       "ch": "问"
     },
     {
-      "source": "H:第",
+      "source": "W:第",
       "target": "W:第一",
-      "ch": "第"
-    },
-    {
-      "source": "H:第",
-      "target": "W:第",
       "ch": "第"
     },
     {
@@ -16545,17 +14769,12 @@
       "ch": "常"
     },
     {
-      "source": "H:得",
+      "source": "W:得",
       "target": "W:觉得",
       "ch": "得"
     },
     {
-      "source": "H:得",
-      "target": "W:得",
-      "ch": "得"
-    },
-    {
-      "source": "H:得",
+      "source": "W:得",
       "target": "W:记得",
       "ch": "得"
     },
@@ -16580,47 +14799,27 @@
       "ch": "可"
     },
     {
-      "source": "H:但",
+      "source": "W:但",
       "target": "W:但是",
       "ch": "但"
     },
     {
-      "source": "H:但",
-      "target": "W:但",
-      "ch": "但"
-    },
-    {
-      "source": "H:它",
-      "target": "W:它",
-      "ch": "它"
-    },
-    {
-      "source": "H:它",
+      "source": "W:它",
       "target": "W:它们",
       "ch": "它"
     },
     {
-      "source": "H:走",
-      "target": "W:走",
-      "ch": "走"
-    },
-    {
-      "source": "H:走",
+      "source": "W:走",
       "target": "W:走路",
       "ch": "走"
     },
     {
-      "source": "H:为",
+      "source": "W:为",
       "target": "W:因为",
       "ch": "为"
     },
     {
-      "source": "H:为",
-      "target": "W:为",
-      "ch": "为"
-    },
-    {
-      "source": "H:为",
+      "source": "W:为",
       "target": "W:为什么",
       "ch": "为"
     },
@@ -16635,107 +14834,72 @@
       "ch": "经"
     },
     {
-      "source": "H:从",
-      "target": "W:从",
-      "ch": "从"
-    },
-    {
-      "source": "H:从",
+      "source": "W:从",
       "target": "W:从小",
       "ch": "从"
     },
     {
-      "source": "H:还",
-      "target": "W:还",
-      "ch": "还"
-    },
-    {
-      "source": "H:还",
+      "source": "W:还",
       "target": "W:还是",
       "ch": "还"
     },
     {
-      "source": "H:要",
-      "target": "W:要",
-      "ch": "要"
-    },
-    {
-      "source": "H:要",
+      "source": "W:要",
       "target": "W:不要",
       "ch": "要"
     },
     {
-      "source": "H:要",
+      "source": "W:要",
       "target": "W:快要",
       "ch": "要"
     },
     {
-      "source": "H:包",
+      "source": "W:半",
+      "target": "W:一半",
+      "ch": "半"
+    },
+    {
+      "source": "W:包",
       "target": "W:包子",
       "ch": "包"
     },
     {
-      "source": "H:包",
+      "source": "W:包",
       "target": "W:面包",
       "ch": "包"
     },
     {
-      "source": "H:包",
-      "target": "W:包",
-      "ch": "包"
-    },
-    {
-      "source": "H:包",
+      "source": "W:包",
       "target": "W:书包",
       "ch": "包"
     },
     {
-      "source": "H:口",
-      "target": "W:口",
-      "ch": "口"
-    },
-    {
-      "source": "H:口",
+      "source": "W:口",
       "target": "W:门口",
       "ch": "口"
     },
     {
-      "source": "H:条",
+      "source": "W:条",
       "target": "W:面条儿",
       "ch": "条"
     },
     {
-      "source": "H:条",
-      "target": "W:条",
-      "ch": "条"
-    },
-    {
-      "source": "H:地",
-      "target": "W:地",
-      "ch": "地"
-    },
-    {
-      "source": "H:地",
+      "source": "W:地",
       "target": "W:地铁",
       "ch": "地"
     },
     {
-      "source": "H:过",
-      "target": "W:过",
-      "ch": "过"
-    },
-    {
-      "source": "H:过",
+      "source": "W:过",
       "target": "W:过来",
       "ch": "过"
     },
     {
-      "source": "H:过",
+      "source": "W:过",
       "target": "W:过年",
       "ch": "过"
     },
     {
-      "source": "H:过",
+      "source": "W:过",
       "target": "W:过去",
       "ch": "过"
     },
@@ -18788,6 +16952,94 @@
     {
       "source": "T:DIR",
       "target": "W:左"
+    },
+    {
+      "source": "T:TIME",
+      "target": "W:星期天"
+    },
+    {
+      "source": "T:VERB",
+      "target": "W:学"
+    },
+    {
+      "source": "T:NUM",
+      "target": "W:一半"
+    },
+    {
+      "source": "T:NUM",
+      "target": "W:一下"
+    },
+    {
+      "source": "T:NUM",
+      "target": "W:一点儿"
+    },
+    {
+      "source": "T:NUM",
+      "target": "W:一些"
+    },
+    {
+      "source": "T:PRON",
+      "target": "W:有的"
+    },
+    {
+      "source": "T:GRAM",
+      "target": "W:有点儿"
+    },
+    {
+      "source": "T:PRON",
+      "target": "W:有些"
+    },
+    {
+      "source": "T:NAT",
+      "target": "W:雨"
+    },
+    {
+      "source": "T:TIME",
+      "target": "W:早"
+    },
+    {
+      "source": "T:FOOD",
+      "target": "W:早饭"
+    },
+    {
+      "source": "T:DIR",
+      "target": "W:这边"
+    },
+    {
+      "source": "T:PRON",
+      "target": "W:这个"
+    },
+    {
+      "source": "T:DIR",
+      "target": "W:这里"
+    },
+    {
+      "source": "T:DIR",
+      "target": "W:这儿"
+    },
+    {
+      "source": "T:PRON",
+      "target": "W:这些"
+    },
+    {
+      "source": "T:NUM",
+      "target": "W:只"
+    },
+    {
+      "source": "T:LANG",
+      "target": "W:中文"
+    },
+    {
+      "source": "T:PLACE",
+      "target": "W:中学"
+    },
+    {
+      "source": "T:PPL",
+      "target": "W:中学生"
+    },
+    {
+      "source": "T:VERB",
+      "target": "W:做饭"
     }
   ]
 }

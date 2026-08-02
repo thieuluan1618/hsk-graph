@@ -36,5 +36,12 @@ filters, a word detail panel, and pronunciation audio (word + example sentence).
 
 - The original embedded ~6.2 MB of base64 audio inline; it now lives as static
   files loaded on demand, so the initial page is ~200 KB of JS (gzip ~59 KB).
+- Audio provenance:
+  - The 232 added word and sentence clips use Microsoft Azure Neural TTS voice
+    `zh-CN-XiaoxiaoNeural` (Xiaoxiao / 晓晓). Word rate is `-12%`; example
+    sentence rate is `-5%`. Output is mono MP3 at 24 kHz and about 48 kbps.
+  - The 297 original clips are a female Mainland Mandarin neural voice, likely
+    Xiaoxiao or a similar voice, but the embedded source audio contains no
+    provider or voice ID, so its exact identity is unconfirmed.
 - The "Đường nối chủ đề" (theme spokes) toggle drew nothing in the original
   because theme links were never resolved to node references; this is fixed.

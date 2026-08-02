@@ -33,6 +33,8 @@ export interface NodeDatum {
   deg: number;
   sent?: Sentence;
   members?: number;
+  /** Useful vocabulary retained outside the referenced HSK 1–2 lists. */
+  supplementary?: boolean;
 }
 
 /** A live simulation node. Positions exist once the simulation initializes. */
