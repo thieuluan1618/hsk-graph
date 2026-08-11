@@ -9,15 +9,21 @@ const { wordCount, hubCount } = Astro.props;
 <div id="top">
   <div id="brand">
     <div class="kicker">HSK Buddy</div>
-    <h1>HSK 1 &amp; 2 Vocabulary Graph <span class="zh">词汇图谱</span></h1>
-    <div class="sub">
+    <h1>HSK 1–3 Vocabulary Graph <span class="zh">词汇图谱</span></h1>
+    <div class="sub" data-i18n-html="brandSub" data-wc={wordCount} data-hc={hubCount}>
       <b id="wc">{wordCount}</b> từ · <b id="hc">{hubCount}</b> chữ chung · kéo · phóng to · 🔊 bấm vào từ để nghe
     </div>
   </div>
-  <div id="searchWrap">
-    <span class="ic">⌕</span>
-    <input id="search" placeholder="Tìm từ · pinyin · nghĩa…" autocomplete="off" spellcheck="false" />
-    <button id="searchClear">✕</button>
-    <div id="searchCount"></div>
+  <div id="topRight">
+    <div id="langPick">
+      <button data-lang="vi" class="on">VI</button>
+      <button data-lang="en">EN</button>
+    </div>
+    <div id="searchWrap">
+      <span class="ic">⌕</span>
+      <input id="search" placeholder="Tìm từ · pinyin · nghĩa…" data-i18n-placeholder="searchPh" autocomplete="off" spellcheck="false" />
+      <button id="searchClear">✕</button>
+      <div id="searchCount"></div>
+    </div>
   </div>
 </div>

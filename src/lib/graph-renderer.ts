@@ -71,7 +71,8 @@ export function createRenderer(cv: HTMLCanvasElement, scene: Scene, state: Graph
         ctx.fillStyle = col;
         ctx.shadowColor = col;
         ctx.shadowBlur = 14 / k;
-        ctx.fillText(scene.themeMap[n.theme]?.vi ?? n.en, n.x, n.y);
+        const tm = scene.themeMap[n.theme];
+        ctx.fillText((state.lang === 'en' ? tm?.en : tm?.vi) ?? n.en, n.x, n.y);
         ctx.shadowBlur = 0;
         ctx.globalAlpha = 1;
       }
@@ -84,10 +85,13 @@ export function createRenderer(cv: HTMLCanvasElement, scene: Scene, state: Graph
       if (n.kind === 'theme' || !visible(state, n)) continue;
       const r = radius(n);
       const col = nodeColor(n);
-      const al = activeAlpha(state, n);
       const isFoc = !!(focusSet && focusSet.has(n.id));
       const isSel = !!(selNode && selNode.id === n.id);
       const isHub = n.kind === 'hub';
+      const isKnown = n.kind === 'word' && state.known.has(n.hz);
+      const baseAl = activeAlpha(state, n);
+      // known words fade back so unlearned vocabulary stands out
+      const al = isKnown && !isFoc && !isSel ? baseAl * 0.32 : baseAl;
       ctx.globalAlpha = al;
       // circle
       ctx.shadowColor = col;
@@ -133,6 +137,18 @@ export function createRenderer(cv: HTMLCanvasElement, scene: Scene, state: Graph
         ctx.fillStyle = `rgba(255,255,255,${0.74 * al})`;
         ctx.fillText(n.py, n.x, n.y + r + ps * 0.95);
         ctx.shadowBlur = 0;
+      }
+      // known badge (drawn at full alpha so it reads even on dimmed nodes)
+      if (isKnown) {
+        ctx.globalAlpha = baseAl;
+        const bs = Math.max(10 / k, r * 0.55);
+        ctx.font = `800 ${bs}px Inter, sans-serif`;
+        ctx.lineWidth = bs / 3.5;
+        ctx.lineJoin = 'round';
+        ctx.strokeStyle = 'rgba(8,10,18,.85)';
+        ctx.strokeText('✓', n.x + r * 0.85, n.y - r * 0.85);
+        ctx.fillStyle = '#8be8dd';
+        ctx.fillText('✓', n.x + r * 0.85, n.y - r * 0.85);
       }
       ctx.globalAlpha = 1;
     }

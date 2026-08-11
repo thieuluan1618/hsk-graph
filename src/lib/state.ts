@@ -1,7 +1,8 @@
 import { zoomIdentity, type ZoomTransform } from 'd3';
+import type { Lang } from './i18n';
 import type { GraphNode } from './types';
 
-export type LevelFilter = 'all' | '1' | '2';
+export type LevelFilter = 'all' | '1' | '2' | '3';
 
 /** Single source of truth for all interactive UI state. */
 export interface GraphState {
@@ -28,6 +29,18 @@ export interface GraphState {
   transform: ZoomTransform;
   /** Font family for Chinese characters (canvas + DOM). */
   hanziFont: string;
+  /** Hanzi of words the learner marked as known (persisted via progress.ts). */
+  known: Set<string>;
+  /** Hide known words from the graph. */
+  hideKnownOn: boolean;
+  /** Show only the frequency-slider study set when below 100%. */
+  paretoOn: boolean;
+  /** Fraction of the selected HSK vocabulary shown by the frequency slider. */
+  paretoRatio: number;
+  /** Word ids in the current level-aware frequency study set. */
+  paretoIds: Set<string>;
+  /** UI language (persisted via i18n.ts). */
+  lang: Lang;
 }
 
 export function createState(): GraphState {
@@ -47,6 +60,12 @@ export function createState(): GraphState {
     focusSet: null,
     transform: zoomIdentity,
     hanziFont: 'Noto Sans SC',
+    known: new Set(),
+    hideKnownOn: false,
+    paretoOn: false,
+    paretoRatio: 1,
+    paretoIds: new Set(),
+    lang: 'vi',
   };
 }
 
@@ -56,6 +75,8 @@ export function visible(state: GraphState, n: GraphNode): boolean {
   if (n.kind === 'hub' && !state.hubsOn) return false;
   if (state.levelFilter !== 'all' && n.kind === 'word' && n.hsk !== +state.levelFilter) return false;
   if (n.kind === 'word') {
+    if (state.paretoOn && !state.paretoIds.has(n.id)) return false;
+    if (state.hideKnownOn && state.known.has(n.hz)) return false;
     if (state.soloTheme && n.theme !== state.soloTheme) return false;
     if (state.offThemes.has(n.theme)) return false;
   }

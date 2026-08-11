@@ -9,31 +9,71 @@ const legendEntries = graphData.themes
     count: graphData.nodes.filter((n) => n.kind === 'word' && n.theme === t.code).length,
   }))
   .filter((t) => t.count > 0);
+
+// Word totals per HSK level for the progress section.
+const levelTotals = [1, 2, 3].map((lv) => ({
+  lv,
+  total: graphData.nodes.filter((n) => n.kind === 'word' && n.hsk === lv).length,
+}));
 ---
 
 <div id="dock">
-  <div id="dockToggle"><span>Bộ điều khiển</span><span class="ar">▾</span></div>
+  <div id="dockToggle"><span data-i18n="controls">Bộ điều khiển</span><span class="ar">▾</span></div>
   <div class="dock-sec">
-    <div class="dock-h">Cấp độ · Level</div>
-    <div class="seg" id="segLevel">
-      <button data-lv="all" class="on">Tất cả</button>
-      <button data-lv="1">HSK 1</button>
-      <button data-lv="2">HSK 2</button>
+    <div class="dock-h" data-i18n="level">Cấp độ · Level</div>
+    <input type="range" id="lvSlider" class="range" min="0" max="3" step="1" value="0" />
+    <div class="range-lab lv-labs" id="lvLabs">
+      <span class="on" data-i18n="all">Tất cả</span>
+      <span>HSK 1</span>
+      <span>HSK 2</span>
+      <span>HSK 3</span>
     </div>
   </div>
   <div class="dock-sec">
     <div class="tog" data-tog="group">
-      <span class="lab"><span class="dot"></span>Gom theo chủ đề</span><span class="sw on" id="sw-group"></span>
+      <span class="lab"><span class="dot"></span><span data-i18n="togGroup">Gom theo chủ đề</span></span><span class="sw on" id="sw-group"></span>
     </div>
     <div class="tog" data-tog="hubs">
-      <span class="lab"><span class="dot" style="background:#eaf0fb;box-shadow:0 0 8px #eaf0fb"></span>Chữ chung (hub)</span><span class="sw on" id="sw-hubs"></span>
+      <span class="lab"><span class="dot" style="background:#eaf0fb;box-shadow:0 0 8px #eaf0fb"></span><span data-i18n="togHubs">Chữ chung (hub)</span></span><span class="sw on" id="sw-hubs"></span>
     </div>
     <div class="tog" data-tog="spokes">
-      <span class="lab"><span class="dot" style="background:#7d8597;box-shadow:none"></span>Đường nối chủ đề</span><span class="sw" id="sw-spokes"></span>
+      <span class="lab"><span class="dot" style="background:#7d8597;box-shadow:none"></span><span data-i18n="togSpokes">Đường nối chủ đề</span></span><span class="sw" id="sw-spokes"></span>
+    </div>
+    <div class="tog" data-tog="known">
+      <span class="lab"><span class="dot" style="background:#8be8dd;box-shadow:0 0 8px #8be8dd"></span><span data-i18n="togHideKnown">Ẩn từ đã thuộc</span></span><span class="sw" id="sw-known"></span>
+    </div>
+  </div>
+  <div class="dock-sec frequency-control">
+    <div class="dock-h">
+      <span data-i18n="frequencyLearning">Học theo tần suất</span>
+      <span class="frequency-value" id="frequencyValue" data-i18n="all">Tất cả</span>
+    </div>
+    <input type="range" id="frequencySlider" class="range frequency-range" min="10" max="100" step="10" value="100" />
+    <div class="range-lab frequency-labs">
+      <span>Top 10%</span><span>Top 50%</span><span data-i18n="all">Tất cả</span>
+    </div>
+    <div class="frequency-summary" id="frequencySummary" aria-live="polite"></div>
+    <div class="frequency-source">
+      <span data-i18n="freqSourceLabel">Nguồn hội thoại</span>:
+      <a href="https://doi.org/10.1371/journal.pone.0010729" target="_blank" rel="noreferrer">SUBTLEX-CH</a>
     </div>
   </div>
   <div class="dock-sec">
-    <div class="dock-h">Font chữ Hán · Hanzi font</div>
+    <div class="dock-h" data-i18n="progress">Tiến độ · Progress</div>
+    <div id="progress">
+      {
+        levelTotals.map(({ lv, total }) => (
+          <div class="prog" data-lv={lv}>
+            <span class="pl">HSK {lv}</span>
+            <span class="pbar"><span class="pfill" /></span>
+            <span class="pct">0/{total}</span>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+  <div class="dock-sec">
+    <div class="dock-h" data-i18n="font">Font chữ Hán · Hanzi font</div>
     <div id="fontPicker" class="font-picker">
       <button data-font="Noto Sans SC" class="on">Noto Sans</button>
       <button data-font="Noto Serif SC">Noto Serif</button>
@@ -42,13 +82,13 @@ const legendEntries = graphData.themes
     </div>
   </div>
   <div class="dock-sec">
-    <div class="dock-h">Khoảng cách · Spacing</div>
+    <div class="dock-h" data-i18n="spacing">Khoảng cách · Spacing</div>
     <input type="range" id="spread" class="range" min="0.45" max="2.4" step="0.05" value="1" />
-    <div class="range-lab"><span>Gần · gọn</span><span>Xa · thoáng</span></div>
+    <div class="range-lab"><span data-i18n="near">Gần · gọn</span><span data-i18n="far">Xa · thoáng</span></div>
   </div>
   <div class="dock-sec">
     <div class="dock-h">
-      Chủ đề · Themes
+      <span data-i18n="themes">Chủ đề · Themes</span>
       <span id="legReset" style="cursor:pointer;color:var(--accent);text-transform:none;letter-spacing:0;font-weight:600">reset</span>
     </div>
     <div id="legend">
@@ -57,8 +97,8 @@ const legendEntries = graphData.themes
           <div class="lg" data-code={t.code}>
             <span class="c" style={`background:${t.color};color:${t.color}`} />
             <span class="nm">
-              {t.vi}
-              <small>{t.en}</small>
+              <span class="n-vi">{t.vi}<small>{t.en}</small></span>
+              <span class="n-en">{t.en}<small>{t.vi}</small></span>
             </span>
             <span class="ct">{t.count}</span>
           </div>
@@ -67,7 +107,7 @@ const legendEntries = graphData.themes
     </div>
   </div>
   <div class="dock-foot">
-    <button class="btn" id="btnReset">⟲ Về giữa</button>
-    <button class="btn" id="btnShuffle">✦ Xáo trộn</button>
+    <button class="btn" id="btnReset" data-i18n="recenter">⟲ Về giữa</button>
+    <button class="btn" id="btnShuffle" data-i18n="shuffle">✦ Xáo trộn</button>
   </div>
 </div>

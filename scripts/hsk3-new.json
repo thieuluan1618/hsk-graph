@@ -1,0 +1,7650 @@
+[
+ {
+  "hz": "阿姨",
+  "py": "āyí",
+  "en": "aunt",
+  "vi": "dì; cô",
+  "hv": "A Di",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "阿姨在家吗？",
+   "py": "Āyí zài jiā ma?",
+   "en": "Is Auntie at home?",
+   "vi": "Dì có ở nhà không?"
+  }
+ },
+ {
+  "hz": "矮",
+  "py": "ǎi",
+  "en": "short",
+  "vi": "thấp; lùn",
+  "hv": "Ải",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "他比我矮一点。",
+   "py": "Tā bǐ wǒ ǎi yìdiǎn.",
+   "en": "He is a little shorter than me.",
+   "vi": "Anh ấy thấp hơn tôi một chút."
+  }
+ },
+ {
+  "hz": "爱人",
+  "py": "àiren",
+  "en": "spouse",
+  "vi": "vợ; chồng",
+  "hv": "Ái Nhân",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我爱人在医院工作。",
+   "py": "Wǒ àiren zài yīyuàn gōngzuò.",
+   "en": "My spouse works at a hospital.",
+   "vi": "Vợ/chồng tôi làm việc ở bệnh viện."
+  }
+ },
+ {
+  "hz": "安静",
+  "py": "ānjìng",
+  "en": "quiet",
+  "vi": "yên tĩnh",
+  "hv": "An Tĩnh",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这里很安静。",
+   "py": "Zhèlǐ hěn ānjìng.",
+   "en": "It is very quiet here.",
+   "vi": "Ở đây rất yên tĩnh."
+  }
+ },
+ {
+  "hz": "安全",
+  "py": "ānquán",
+  "en": "safe",
+  "vi": "an toàn",
+  "hv": "An Toàn",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "晚上开车要安全。",
+   "py": "Wǎnshang kāichē yào ānquán.",
+   "en": "Drive safely at night.",
+   "vi": "Lái xe buổi tối phải an toàn."
+  }
+ },
+ {
+  "hz": "把",
+  "py": "bǎ",
+  "en": "measure word for handled objects; marks a fronted object",
+  "vi": "cái (đồ vật có tay cầm); đưa tân ngữ lên trước",
+  "hv": "Bả",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "measure word, preposition",
+  "sent": {
+   "zh": "请把门打开。",
+   "py": "Qǐng bǎ mén dǎkāi.",
+   "en": "Please open the door.",
+   "vi": "Vui lòng mở cửa ra."
+  }
+ },
+ {
+  "hz": "搬",
+  "py": "bān",
+  "en": "move; carry",
+  "vi": "chuyển; bê",
+  "hv": "Ban",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们一起搬桌子。",
+   "py": "Wǒmen yìqǐ bān zhuōzi.",
+   "en": "Let's move the table together.",
+   "vi": "Chúng ta cùng chuyển cái bàn."
+  }
+ },
+ {
+  "hz": "班级",
+  "py": "bānjí",
+  "en": "class; grade",
+  "vi": "lớp học",
+  "hv": "Ban Cấp",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们班级有二十人。",
+   "py": "Wǒmen bānjí yǒu èrshí rén.",
+   "en": "Our class has twenty people.",
+   "vi": "Lớp chúng tôi có hai mươi người."
+  }
+ },
+ {
+  "hz": "搬家",
+  "py": "bānjiā",
+  "en": "move house",
+  "vi": "chuyển nhà",
+  "hv": "Ban Gia",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们下月搬家。",
+   "py": "Wǒmen xià yuè bānjiā.",
+   "en": "We are moving next month.",
+   "vi": "Tháng sau chúng tôi chuyển nhà."
+  }
+ },
+ {
+  "hz": "办",
+  "py": "bàn",
+  "en": "do; handle",
+  "vi": "làm; giải quyết",
+  "hv": "Biện",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "这件事怎么办？",
+   "py": "Zhè jiàn shì zěnme bàn?",
+   "en": "How should we handle this?",
+   "vi": "Việc này phải làm thế nào?"
+  }
+ },
+ {
+  "hz": "办法",
+  "py": "bànfǎ",
+  "en": "way; solution",
+  "vi": "cách; biện pháp",
+  "hv": "Biện Pháp",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们想个好办法吧。",
+   "py": "Wǒmen xiǎng ge hǎo bànfǎ ba.",
+   "en": "Let's think of a good solution.",
+   "vi": "Chúng ta nghĩ một cách hay đi."
+  }
+ },
+ {
+  "hz": "办公室",
+  "py": "bàngōngshì",
+  "en": "office",
+  "vi": "văn phòng",
+  "hv": "Biện Công Thất",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "老师在办公室。",
+   "py": "Lǎoshī zài bàngōngshì.",
+   "en": "The teacher is in the office.",
+   "vi": "Giáo viên ở trong văn phòng."
+  }
+ },
+ {
+  "hz": "半天",
+  "py": "bàntiān",
+  "en": "half a day; a long time",
+  "vi": "nửa ngày; hồi lâu",
+  "hv": "Bán Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "number, measure word",
+  "sent": {
+   "zh": "我等了半天。",
+   "py": "Wǒ děng le bàntiān.",
+   "en": "I waited for a long time.",
+   "vi": "Tôi đã đợi hồi lâu."
+  }
+ },
+ {
+  "hz": "饱",
+  "py": "bǎo",
+  "en": "full",
+  "vi": "no",
+  "hv": "Bão",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "我已经吃饱了。",
+   "py": "Wǒ yǐjīng chī bǎo le.",
+   "en": "I am already full.",
+   "vi": "Tôi đã ăn no rồi."
+  }
+ },
+ {
+  "hz": "北",
+  "py": "běi",
+  "en": "north",
+  "vi": "phía bắc",
+  "hv": "Bắc",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "学校在城北。",
+   "py": "Xuéxiào zài chéng běi.",
+   "en": "The school is in the north of the city.",
+   "vi": "Trường học ở phía bắc thành phố."
+  }
+ },
+ {
+  "hz": "北方",
+  "py": "běifāng",
+  "en": "the north",
+  "vi": "phương bắc; miền Bắc",
+  "hv": "Bắc Phương",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "北方冬天很冷。",
+   "py": "Běifāng dōngtiān hěn lěng.",
+   "en": "Winters are cold in the north.",
+   "vi": "Mùa đông ở miền Bắc rất lạnh."
+  }
+ },
+ {
+  "hz": "被",
+  "py": "bèi",
+  "en": "by; passive marker",
+  "vi": "bị; được",
+  "hv": "Bị",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "preposition",
+  "sent": {
+   "zh": "杯子被他打坏了。",
+   "py": "Bēizi bèi tā dǎ huài le.",
+   "en": "The cup was broken by him.",
+   "vi": "Cái cốc bị anh ấy làm vỡ rồi."
+  }
+ },
+ {
+  "hz": "笔记",
+  "py": "bǐjì",
+  "en": "notes",
+  "vi": "ghi chép; bài ghi",
+  "hv": "Bút Ký",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请看看我的笔记。",
+   "py": "Qǐng kànkan wǒ de bǐjì.",
+   "en": "Please look at my notes.",
+   "vi": "Hãy xem ghi chép của tôi."
+  }
+ },
+ {
+  "hz": "比较",
+  "py": "bǐjiào",
+  "en": "compare; relatively; than",
+  "vi": "so sánh; khá; hơn",
+  "hv": "Tỷ Giảo",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb, preposition, adverb",
+  "sent": {
+   "zh": "今天比较冷。",
+   "py": "Jīntiān bǐjiào lěng.",
+   "en": "It is relatively cold today.",
+   "vi": "Hôm nay khá lạnh."
+  }
+ },
+ {
+  "hz": "笔记本",
+  "py": "bǐjìběn",
+  "en": "notebook",
+  "vi": "vở ghi chép",
+  "hv": "Bút Ký Bản",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "笔记本在桌上。",
+   "py": "Bǐjìběn zài zhuō shàng.",
+   "en": "The notebook is on the table.",
+   "vi": "Quyển vở ở trên bàn."
+  }
+ },
+ {
+  "hz": "比如",
+  "py": "bǐrú",
+  "en": "for example",
+  "vi": "ví dụ; chẳng hạn",
+  "hv": "Tỷ Như",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我爱水果，比如苹果。",
+   "py": "Wǒ ài shuǐguǒ, bǐrú píngguǒ.",
+   "en": "I love fruit, for example apples.",
+   "vi": "Tôi thích trái cây, chẳng hạn như táo."
+  }
+ },
+ {
+  "hz": "比赛",
+  "py": "bǐsài",
+  "en": "compete; game; match",
+  "vi": "thi đấu; cuộc thi; trận đấu",
+  "hv": "Tỷ Tái",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "明天有足球比赛。",
+   "py": "Míngtiān yǒu zúqiú bǐsài.",
+   "en": "There is a football match tomorrow.",
+   "vi": "Ngày mai có trận bóng đá."
+  }
+ },
+ {
+  "hz": "必须",
+  "py": "bìxū",
+  "en": "must",
+  "vi": "phải; nhất định phải",
+  "hv": "Tất Tu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "你必须早点睡。",
+   "py": "Nǐ bìxū zǎodiǎn shuì.",
+   "en": "You must go to bed earlier.",
+   "vi": "Bạn phải đi ngủ sớm hơn."
+  }
+ },
+ {
+  "hz": "变",
+  "py": "biàn",
+  "en": "change; become",
+  "vi": "thay đổi; trở nên",
+  "hv": "Biến",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "天气变冷了。",
+   "py": "Tiānqì biàn lěng le.",
+   "en": "The weather has turned cold.",
+   "vi": "Thời tiết trở lạnh rồi."
+  }
+ },
+ {
+  "hz": "遍",
+  "py": "biàn",
+  "en": "measure word for actions",
+  "vi": "lần; lượt",
+  "hv": "Biến",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "请再说一遍。",
+   "py": "Qǐng zài shuō yí biàn.",
+   "en": "Please say it once more.",
+   "vi": "Vui lòng nói lại một lần nữa."
+  }
+ },
+ {
+  "hz": "变成",
+  "py": "biànchéng",
+  "en": "become; turn into",
+  "vi": "biến thành; trở thành",
+  "hv": "Biến Thành",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "水变成冰了。",
+   "py": "Shuǐ biànchéng bīng le.",
+   "en": "The water turned into ice.",
+   "vi": "Nước đã biến thành băng."
+  }
+ },
+ {
+  "hz": "变化",
+  "py": "biànhuà",
+  "en": "change",
+  "vi": "thay đổi; sự biến đổi",
+  "hv": "Biến Hóa",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "这里变化很大。",
+   "py": "Zhèlǐ biànhuà hěn dà.",
+   "en": "This place has changed a lot.",
+   "vi": "Nơi đây thay đổi rất nhiều."
+  }
+ },
+ {
+  "hz": "表演",
+  "py": "biǎoyǎn",
+  "en": "perform; act",
+  "vi": "biểu diễn",
+  "hv": "Biểu Diễn",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "她表演得很好。",
+   "py": "Tā biǎoyǎn de hěn hǎo.",
+   "en": "She performed very well.",
+   "vi": "Cô ấy biểu diễn rất hay."
+  }
+ },
+ {
+  "hz": "别的",
+  "py": "biéde",
+  "en": "other",
+  "vi": "khác",
+  "hv": "Biệt Đích",
+  "theme": "PRON",
+  "hsk": 3,
+  "pos": "pronoun",
+  "sent": {
+   "zh": "你有别的办法吗？",
+   "py": "Nǐ yǒu biéde bànfǎ ma?",
+   "en": "Do you have another solution?",
+   "vi": "Bạn có cách nào khác không?"
+  }
+ },
+ {
+  "hz": "别人",
+  "py": "biérén",
+  "en": "other people",
+  "vi": "người khác",
+  "hv": "Biệt Nhân",
+  "theme": "PRON",
+  "hsk": 3,
+  "pos": "pronoun",
+  "sent": {
+   "zh": "不要拿别人的东西。",
+   "py": "Búyào ná biérén de dōngxi.",
+   "en": "Do not take other people's things.",
+   "vi": "Đừng lấy đồ của người khác."
+  }
+ },
+ {
+  "hz": "宾馆",
+  "py": "bīnguǎn",
+  "en": "hotel",
+  "vi": "khách sạn",
+  "hv": "Tân Quán",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "宾馆就在前面。",
+   "py": "Bīnguǎn jiù zài qiánmiàn.",
+   "en": "The hotel is just ahead.",
+   "vi": "Khách sạn ở ngay phía trước."
+  }
+ },
+ {
+  "hz": "冰",
+  "py": "bīng",
+  "en": "ice; freeze",
+  "vi": "băng; đông lạnh",
+  "hv": "Băng",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun, verb",
+  "sent": {
+   "zh": "水里有很多冰。",
+   "py": "Shuǐ lǐ yǒu hěn duō bīng.",
+   "en": "There is a lot of ice in the water.",
+   "vi": "Trong nước có rất nhiều băng."
+  }
+ },
+ {
+  "hz": "冰激凌",
+  "py": "bīngjīlíng",
+  "en": "ice cream",
+  "vi": "kem",
+  "hv": "Băng Kích Lăng",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "孩子喜欢吃冰激凌。",
+   "py": "Háizi xǐhuan chī bīngjīlíng.",
+   "en": "Children like eating ice cream.",
+   "vi": "Trẻ em thích ăn kem."
+  }
+ },
+ {
+  "hz": "冰箱",
+  "py": "bīngxiāng",
+  "en": "refrigerator",
+  "vi": "tủ lạnh",
+  "hv": "Băng Tương",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "牛奶在冰箱里。",
+   "py": "Niúnǎi zài bīngxiāng lǐ.",
+   "en": "The milk is in the refrigerator.",
+   "vi": "Sữa ở trong tủ lạnh."
+  }
+ },
+ {
+  "hz": "病人",
+  "py": "bìngrén",
+  "en": "patient",
+  "vi": "bệnh nhân",
+  "hv": "Bệnh Nhân",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "医生正在看病人。",
+   "py": "Yīshēng zhèngzài kàn bìngrén.",
+   "en": "The doctor is seeing a patient.",
+   "vi": "Bác sĩ đang khám cho bệnh nhân."
+  }
+ },
+ {
+  "hz": "不但",
+  "py": "búdàn",
+  "en": "not only",
+  "vi": "không những; không chỉ",
+  "hv": "Bất Đãn",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "他不但聪明，还很努力。",
+   "py": "Tā búdàn cōngmíng, hái hěn nǔlì.",
+   "en": "He is not only smart but also hardworking.",
+   "vi": "Anh ấy không chỉ thông minh mà còn chăm chỉ."
+  }
+ },
+ {
+  "hz": "不见",
+  "py": "bújiàn",
+  "en": "disappear; not see",
+  "vi": "không thấy; biến mất",
+  "hv": "Bất Kiến",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我的手机不见了。",
+   "py": "Wǒ de shǒujī bújiàn le.",
+   "en": "My phone is missing.",
+   "vi": "Điện thoại của tôi biến mất rồi."
+  }
+ },
+ {
+  "hz": "不用",
+  "py": "búyòng",
+  "en": "need not",
+  "vi": "không cần",
+  "hv": "Bất Dụng",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "你不用担心。",
+   "py": "Nǐ búyòng dānxīn.",
+   "en": "You don't need to worry.",
+   "vi": "Bạn không cần lo lắng."
+  }
+ },
+ {
+  "hz": "不同",
+  "py": "bùtóng",
+  "en": "different",
+  "vi": "khác nhau",
+  "hv": "Bất Đồng",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "我们的想法不同。",
+   "py": "Wǒmen de xiǎngfǎ bùtóng.",
+   "en": "Our ideas are different.",
+   "vi": "Ý kiến của chúng tôi khác nhau."
+  }
+ },
+ {
+  "hz": "不久",
+  "py": "bùjiǔ",
+  "en": "soon; not long after",
+  "vi": "không lâu; chẳng bao lâu",
+  "hv": "Bất Cửu",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "他不久就回来了。",
+   "py": "Tā bùjiǔ jiù huílai le.",
+   "en": "He came back soon afterward.",
+   "vi": "Chẳng bao lâu sau anh ấy đã trở về."
+  }
+ },
+ {
+  "hz": "不行",
+  "py": "bùxíng",
+  "en": "not allowed; won't do; not good",
+  "vi": "không được; không ổn",
+  "hv": "Bất Hành",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb, adjective",
+  "sent": {
+   "zh": "今天不行，明天吧。",
+   "py": "Jīntiān bùxíng, míngtiān ba.",
+   "en": "Today won't work; let's do tomorrow.",
+   "vi": "Hôm nay không được, để ngày mai nhé."
+  }
+ },
+ {
+  "hz": "才",
+  "py": "cái",
+  "en": "only; not until; just",
+  "vi": "mới; chỉ",
+  "hv": "Tài",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "他九点才起床。",
+   "py": "Tā jiǔ diǎn cái qǐchuáng.",
+   "en": "He did not get up until nine.",
+   "vi": "Mãi chín giờ anh ấy mới thức dậy."
+  }
+ },
+ {
+  "hz": "菜单",
+  "py": "càidān",
+  "en": "menu",
+  "vi": "thực đơn",
+  "hv": "Thái Đơn",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请给我看菜单。",
+   "py": "Qǐng gěi wǒ kàn càidān.",
+   "en": "Please show me the menu.",
+   "vi": "Vui lòng cho tôi xem thực đơn."
+  }
+ },
+ {
+  "hz": "参加",
+  "py": "cānjiā",
+  "en": "join; attend",
+  "vi": "tham gia",
+  "hv": "Tham Gia",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我想参加比赛。",
+   "py": "Wǒ xiǎng cānjiā bǐsài.",
+   "en": "I want to enter the competition.",
+   "vi": "Tôi muốn tham gia cuộc thi."
+  }
+ },
+ {
+  "hz": "草",
+  "py": "cǎo",
+  "en": "grass",
+  "vi": "cỏ",
+  "hv": "Thảo",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这里的草很绿。",
+   "py": "Zhèlǐ de cǎo hěn lǜ.",
+   "en": "The grass here is very green.",
+   "vi": "Cỏ ở đây rất xanh."
+  }
+ },
+ {
+  "hz": "草地",
+  "py": "cǎodì",
+  "en": "grassland; lawn",
+  "vi": "bãi cỏ; đồng cỏ",
+  "hv": "Thảo Địa",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "孩子们在草地上玩。",
+   "py": "Háizimen zài cǎodì shàng wán.",
+   "en": "The children are playing on the grass.",
+   "vi": "Bọn trẻ đang chơi trên bãi cỏ."
+  }
+ },
+ {
+  "hz": "层",
+  "py": "céng",
+  "en": "layer; floor",
+  "vi": "tầng; lớp",
+  "hv": "Tằng",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "我住在三层。",
+   "py": "Wǒ zhù zài sān céng.",
+   "en": "I live on the third floor.",
+   "vi": "Tôi sống ở tầng ba."
+  }
+ },
+ {
+  "hz": "查",
+  "py": "chá",
+  "en": "check; look up",
+  "vi": "tra; kiểm tra",
+  "hv": "Tra",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我来查一下词典。",
+   "py": "Wǒ lái chá yíxià cídiǎn.",
+   "en": "Let me look it up in the dictionary.",
+   "vi": "Để tôi tra từ điển một chút."
+  }
+ },
+ {
+  "hz": "差",
+  "py": "chà",
+  "en": "bad; poor; lack",
+  "vi": "kém; thiếu",
+  "hv": "Sai",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, verb",
+  "sent": {
+   "zh": "他的中文不差。",
+   "py": "Tā de Zhōngwén bú chà.",
+   "en": "His Chinese is not bad.",
+   "vi": "Tiếng Trung của anh ấy không tệ."
+  }
+ },
+ {
+  "hz": "差不多",
+  "py": "chàbuduō",
+  "en": "almost; similar; nearly",
+  "vi": "gần như; xấp xỉ; tương tự",
+  "hv": "Sai Bất Đa",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, adverb",
+  "sent": {
+   "zh": "我们到得差不多。",
+   "py": "Wǒmen dào de chàbuduō.",
+   "en": "We arrived at about the same time.",
+   "vi": "Chúng tôi đến gần như cùng lúc."
+  }
+ },
+ {
+  "hz": "尝",
+  "py": "cháng",
+  "en": "taste; try",
+  "vi": "nếm; thử",
+  "hv": "Thường",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你尝一尝这个菜。",
+   "py": "Nǐ cháng yì cháng zhège cài.",
+   "en": "Try this dish.",
+   "vi": "Bạn nếm thử món này đi."
+  }
+ },
+ {
+  "hz": "常",
+  "py": "cháng",
+  "en": "often; frequently",
+  "vi": "thường; thường xuyên",
+  "hv": "Thường",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我常去那个公园。",
+   "py": "Wǒ cháng qù nàge gōngyuán.",
+   "en": "I often go to that park.",
+   "vi": "Tôi thường đến công viên đó."
+  }
+ },
+ {
+  "hz": "常见",
+  "py": "chángjiàn",
+  "en": "common; commonly seen",
+  "vi": "thường gặp; phổ biến",
+  "hv": "Thường Kiến",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这种花很常见。",
+   "py": "Zhè zhǒng huā hěn chángjiàn.",
+   "en": "This kind of flower is very common.",
+   "vi": "Loài hoa này rất phổ biến."
+  }
+ },
+ {
+  "hz": "常用",
+  "py": "chángyòng",
+  "en": "commonly used",
+  "vi": "thường dùng",
+  "hv": "Thường Dụng",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这是一个常用词。",
+   "py": "Zhè shì yí ge chángyòng cí.",
+   "en": "This is a commonly used word.",
+   "vi": "Đây là một từ thường dùng."
+  }
+ },
+ {
+  "hz": "常常",
+  "py": "chángcháng",
+  "en": "often",
+  "vi": "thường xuyên",
+  "hv": "Thường Thường",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "她常常帮助我。",
+   "py": "Tā chángcháng bāngzhù wǒ.",
+   "en": "She often helps me.",
+   "vi": "Cô ấy thường xuyên giúp tôi."
+  }
+ },
+ {
+  "hz": "衬衫",
+  "py": "chènshān",
+  "en": "shirt",
+  "vi": "áo sơ mi",
+  "hv": "Sấn Sam",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这件衬衫很漂亮。",
+   "py": "Zhè jiàn chènshān hěn piàoliang.",
+   "en": "This shirt is beautiful.",
+   "vi": "Chiếc áo sơ mi này rất đẹp."
+  }
+ },
+ {
+  "hz": "成绩",
+  "py": "chéngjì",
+  "en": "score; grade; achievement",
+  "vi": "thành tích; điểm số",
+  "hv": "Thành Tích",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他的成绩很好。",
+   "py": "Tā de chéngjì hěn hǎo.",
+   "en": "His grades are very good.",
+   "vi": "Thành tích của anh ấy rất tốt."
+  }
+ },
+ {
+  "hz": "城市",
+  "py": "chéngshì",
+  "en": "city",
+  "vi": "thành phố",
+  "hv": "Thành Thị",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个城市很大。",
+   "py": "Zhège chéngshì hěn dà.",
+   "en": "This city is very large.",
+   "vi": "Thành phố này rất lớn."
+  }
+ },
+ {
+  "hz": "迟到",
+  "py": "chídào",
+  "en": "be late",
+  "vi": "đến muộn; đi trễ",
+  "hv": "Trì Đáo",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "上课不要迟到。",
+   "py": "Shàngkè búyào chídào.",
+   "en": "Don't be late for class.",
+   "vi": "Đừng đi học muộn."
+  }
+ },
+ {
+  "hz": "出发",
+  "py": "chūfā",
+  "en": "set out; leave",
+  "vi": "xuất phát; khởi hành",
+  "hv": "Xuất Phát",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们八点出发。",
+   "py": "Wǒmen bā diǎn chūfā.",
+   "en": "We leave at eight.",
+   "vi": "Chúng ta xuất phát lúc tám giờ."
+  }
+ },
+ {
+  "hz": "出生",
+  "py": "chūshēng",
+  "en": "be born",
+  "vi": "sinh ra; chào đời",
+  "hv": "Xuất Sinh",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我出生在北京。",
+   "py": "Wǒ chūshēng zài Běijīng.",
+   "en": "I was born in Beijing.",
+   "vi": "Tôi sinh ra ở Bắc Kinh."
+  }
+ },
+ {
+  "hz": "出院",
+  "py": "chūyuàn",
+  "en": "be discharged from hospital",
+  "vi": "xuất viện",
+  "hv": "Xuất Viện",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他明天可以出院。",
+   "py": "Tā míngtiān kěyǐ chūyuàn.",
+   "en": "He can leave the hospital tomorrow.",
+   "vi": "Ngày mai anh ấy có thể xuất viện."
+  }
+ },
+ {
+  "hz": "初中",
+  "py": "chūzhōng",
+  "en": "junior high school",
+  "vi": "trung học cơ sở; cấp hai",
+  "hv": "Sơ Trung",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我弟弟上初中。",
+   "py": "Wǒ dìdi shàng chūzhōng.",
+   "en": "My younger brother attends junior high school.",
+   "vi": "Em trai tôi học cấp hai."
+  }
+ },
+ {
+  "hz": "除了",
+  "py": "chúle",
+  "en": "except; besides",
+  "vi": "ngoài; ngoại trừ",
+  "hv": "Trừ Liễu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "preposition",
+  "sent": {
+   "zh": "除了他，大家都来了。",
+   "py": "Chúle tā, dàjiā dōu lái le.",
+   "en": "Everyone came except him.",
+   "vi": "Ngoài anh ấy ra, mọi người đều đã đến."
+  }
+ },
+ {
+  "hz": "春天",
+  "py": "chūntiān",
+  "en": "spring",
+  "vi": "mùa xuân",
+  "hv": "Xuân Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "春天天气很暖和。",
+   "py": "Chūntiān tiānqì hěn nuǎnhuo.",
+   "en": "The weather is warm in spring.",
+   "vi": "Thời tiết mùa xuân rất ấm áp."
+  }
+ },
+ {
+  "hz": "词典",
+  "py": "cídiǎn",
+  "en": "dictionary",
+  "vi": "từ điển",
+  "hv": "Từ Điển",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这本词典很好用。",
+   "py": "Zhè běn cídiǎn hěn hǎoyòng.",
+   "en": "This dictionary is very useful.",
+   "vi": "Quyển từ điển này rất dễ dùng."
+  }
+ },
+ {
+  "hz": "聪明",
+  "py": "cōngmíng",
+  "en": "smart; clever",
+  "vi": "thông minh",
+  "hv": "Thông Minh",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这个孩子很聪明。",
+   "py": "Zhège háizi hěn cōngmíng.",
+   "en": "This child is very clever.",
+   "vi": "Đứa trẻ này rất thông minh."
+  }
+ },
+ {
+  "hz": "打扫",
+  "py": "dǎsǎo",
+  "en": "clean",
+  "vi": "quét dọn; dọn dẹp",
+  "hv": "Đả Tảo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我正在打扫房间。",
+   "py": "Wǒ zhèngzài dǎsǎo fángjiān.",
+   "en": "I am cleaning the room.",
+   "vi": "Tôi đang dọn phòng."
+  }
+ },
+ {
+  "hz": "打算",
+  "py": "dǎsuàn",
+  "en": "plan; intend",
+  "vi": "dự định; kế hoạch",
+  "hv": "Đả Toán",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "你周末打算做什么？",
+   "py": "Nǐ zhōumò dǎsuàn zuò shénme?",
+   "en": "What do you plan to do this weekend?",
+   "vi": "Cuối tuần bạn định làm gì?"
+  }
+ },
+ {
+  "hz": "大概",
+  "py": "dàgài",
+  "en": "general; rough; probably; approximately",
+  "vi": "đại khái; khoảng; có lẽ",
+  "hv": "Đại Khái",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adjective, adverb, noun",
+  "sent": {
+   "zh": "他大概十点到。",
+   "py": "Tā dàgài shí diǎn dào.",
+   "en": "He will probably arrive around ten.",
+   "vi": "Có lẽ anh ấy đến khoảng mười giờ."
+  }
+ },
+ {
+  "hz": "大人",
+  "py": "dàren",
+  "en": "adult",
+  "vi": "người lớn",
+  "hv": "Đại Nhân",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "大人也喜欢这个。",
+   "py": "Dàren yě xǐhuan zhège.",
+   "en": "Adults like this too.",
+   "vi": "Người lớn cũng thích cái này."
+  }
+ },
+ {
+  "hz": "大小",
+  "py": "dàxiǎo",
+  "en": "size",
+  "vi": "kích cỡ; lớn nhỏ",
+  "hv": "Đại Tiểu",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这两件大小一样。",
+   "py": "Zhè liǎng jiàn dàxiǎo yíyàng.",
+   "en": "These two are the same size.",
+   "vi": "Hai món này có cùng kích cỡ."
+  }
+ },
+ {
+  "hz": "大熊猫",
+  "py": "dàxióngmāo",
+  "en": "giant panda",
+  "vi": "gấu trúc lớn",
+  "hv": "Đại Hùng Miêu",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "大熊猫爱吃竹子。",
+   "py": "Dàxióngmāo ài chī zhúzi.",
+   "en": "Giant pandas love eating bamboo.",
+   "vi": "Gấu trúc lớn thích ăn tre."
+  }
+ },
+ {
+  "hz": "大衣",
+  "py": "dàyī",
+  "en": "coat",
+  "vi": "áo khoác dài",
+  "hv": "Đại Y",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "天冷了，穿上大衣。",
+   "py": "Tiān lěng le, chuān shàng dàyī.",
+   "en": "It is cold; put on your coat.",
+   "vi": "Trời lạnh rồi, hãy mặc áo khoác vào."
+  }
+ },
+ {
+  "hz": "带",
+  "py": "dài",
+  "en": "bring; take; belt",
+  "vi": "mang; đem; dây lưng",
+  "hv": "Đới",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "别忘了带雨伞。",
+   "py": "Bié wàng le dài yǔsǎn.",
+   "en": "Don't forget to bring an umbrella.",
+   "vi": "Đừng quên mang ô."
+  }
+ },
+ {
+  "hz": "担心",
+  "py": "dānxīn",
+  "en": "worry",
+  "vi": "lo lắng",
+  "hv": "Đam Tâm",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "妈妈很担心你。",
+   "py": "Māma hěn dānxīn nǐ.",
+   "en": "Mom is very worried about you.",
+   "vi": "Mẹ rất lo cho bạn."
+  }
+ },
+ {
+  "hz": "蛋糕",
+  "py": "dàngāo",
+  "en": "cake",
+  "vi": "bánh ngọt; bánh kem",
+  "hv": "Đản Cao",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个蛋糕真好吃。",
+   "py": "Zhège dàngāo zhēn hǎochī.",
+   "en": "This cake is really delicious.",
+   "vi": "Chiếc bánh này thật ngon."
+  }
+ },
+ {
+  "hz": "当然",
+  "py": "dāngrán",
+  "en": "of course",
+  "vi": "đương nhiên; tất nhiên",
+  "hv": "Đương Nhiên",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我当然愿意去。",
+   "py": "Wǒ dāngrán yuànyì qù.",
+   "en": "Of course I am willing to go.",
+   "vi": "Tất nhiên tôi sẵn lòng đi."
+  }
+ },
+ {
+  "hz": "到处",
+  "py": "dàochù",
+  "en": "everywhere",
+  "vi": "khắp nơi; đâu đâu cũng",
+  "hv": "Đáo Xứ",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "公园里到处是花。",
+   "py": "Gōngyuán lǐ dàochù shì huā.",
+   "en": "There are flowers everywhere in the park.",
+   "vi": "Trong công viên đâu đâu cũng có hoa."
+  }
+ },
+ {
+  "hz": "得到",
+  "py": "dédào",
+  "en": "get; obtain",
+  "vi": "nhận được; đạt được",
+  "hv": "Đắc Đáo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我得到了大家的帮助。",
+   "py": "Wǒ dédào le dàjiā de bāngzhù.",
+   "en": "I received everyone's help.",
+   "vi": "Tôi đã nhận được sự giúp đỡ của mọi người."
+  }
+ },
+ {
+  "hz": "得分",
+  "py": "défēn",
+  "en": "score; get points",
+  "vi": "ghi điểm; điểm số",
+  "hv": "Đắc Phân",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "他考试得分很高。",
+   "py": "Tā kǎoshì défēn hěn gāo.",
+   "en": "He scored highly on the exam.",
+   "vi": "Anh ấy đạt điểm cao trong kỳ thi."
+  }
+ },
+ {
+  "hz": "的话",
+  "py": "dehuà",
+  "en": "if; in case",
+  "vi": "nếu; nếu như",
+  "hv": "Đích Thoại",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "particle",
+  "sent": {
+   "zh": "你去的话，我也去。",
+   "py": "Nǐ qù dehuà, wǒ yě qù.",
+   "en": "If you go, I'll go too.",
+   "vi": "Nếu bạn đi thì tôi cũng đi."
+  }
+ },
+ {
+  "hz": "灯",
+  "py": "dēng",
+  "en": "lamp; light",
+  "vi": "đèn",
+  "hv": "Đăng",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请把灯打开。",
+   "py": "Qǐng bǎ dēng dǎkāi.",
+   "en": "Please turn on the light.",
+   "vi": "Vui lòng bật đèn lên."
+  }
+ },
+ {
+  "hz": "地点",
+  "py": "dìdiǎn",
+  "en": "place; location",
+  "vi": "địa điểm",
+  "hv": "Địa Điểm",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "地点已经定了。",
+   "py": "Dìdiǎn yǐjīng dìng le.",
+   "en": "The location has been decided.",
+   "vi": "Địa điểm đã được quyết định rồi."
+  }
+ },
+ {
+  "hz": "地方",
+  "py": "dìfang",
+  "en": "place",
+  "vi": "nơi; chỗ",
+  "hv": "Địa Phương",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这是个好地方。",
+   "py": "Zhè shì ge hǎo dìfang.",
+   "en": "This is a nice place.",
+   "vi": "Đây là một nơi đẹp."
+  }
+ },
+ {
+  "hz": "地图",
+  "py": "dìtú",
+  "en": "map",
+  "vi": "bản đồ",
+  "hv": "Địa Đồ",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "地图在桌子上。",
+   "py": "Dìtú zài zhuōzi shàng.",
+   "en": "The map is on the table.",
+   "vi": "Bản đồ ở trên bàn."
+  }
+ },
+ {
+  "hz": "电",
+  "py": "diàn",
+  "en": "electricity; give an electric shock",
+  "vi": "điện; làm điện giật",
+  "hv": "Điện",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun, verb",
+  "sent": {
+   "zh": "家里没有电了。",
+   "py": "Jiālǐ méiyǒu diàn le.",
+   "en": "There is no electricity at home.",
+   "vi": "Nhà bị mất điện rồi."
+  }
+ },
+ {
+  "hz": "电梯",
+  "py": "diàntī",
+  "en": "elevator",
+  "vi": "thang máy",
+  "hv": "Điện Thê",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们坐电梯上去。",
+   "py": "Wǒmen zuò diàntī shàngqu.",
+   "en": "Let's take the elevator up.",
+   "vi": "Chúng ta đi thang máy lên nhé."
+  }
+ },
+ {
+  "hz": "电子书",
+  "py": "diànzǐshū",
+  "en": "e-book",
+  "vi": "sách điện tử",
+  "hv": "Điện Tử Thư",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢看电子书。",
+   "py": "Wǒ xǐhuan kàn diànzǐshū.",
+   "en": "I like reading e-books.",
+   "vi": "Tôi thích đọc sách điện tử."
+  }
+ },
+ {
+  "hz": "丢",
+  "py": "diū",
+  "en": "lose; throw away",
+  "vi": "làm mất; vứt",
+  "hv": "Đâu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "别把钥匙丢了。",
+   "py": "Bié bǎ yàoshi diū le.",
+   "en": "Don't lose the key.",
+   "vi": "Đừng làm mất chìa khóa."
+  }
+ },
+ {
+  "hz": "东",
+  "py": "dōng",
+  "en": "east",
+  "vi": "phía đông",
+  "hv": "Đông",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "太阳从东边出来。",
+   "py": "Tàiyáng cóng dōngbian chūlái.",
+   "en": "The sun rises in the east.",
+   "vi": "Mặt trời mọc từ phía đông."
+  }
+ },
+ {
+  "hz": "东北",
+  "py": "dōngběi",
+  "en": "northeast",
+  "vi": "đông bắc",
+  "hv": "Đông Bắc",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他住在城东北。",
+   "py": "Tā zhù zài chéng dōngběi.",
+   "en": "He lives in the northeast of the city.",
+   "vi": "Anh ấy sống ở phía đông bắc thành phố."
+  }
+ },
+ {
+  "hz": "东方",
+  "py": "dōngfāng",
+  "en": "east",
+  "vi": "phương đông",
+  "hv": "Đông Phương",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "太阳在东方升起。",
+   "py": "Tàiyáng zài dōngfāng shēngqǐ.",
+   "en": "The sun rises in the east.",
+   "vi": "Mặt trời mọc ở phương đông."
+  }
+ },
+ {
+  "hz": "东南",
+  "py": "dōngnán",
+  "en": "southeast",
+  "vi": "đông nam",
+  "hv": "Đông Nam",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "学校在城东南。",
+   "py": "Xuéxiào zài chéng dōngnán.",
+   "en": "The school is southeast of the city.",
+   "vi": "Trường học ở phía đông nam thành phố."
+  }
+ },
+ {
+  "hz": "冬天",
+  "py": "dōngtiān",
+  "en": "winter",
+  "vi": "mùa đông",
+  "hv": "Đông Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "冬天常常下雪。",
+   "py": "Dōngtiān chángcháng xiàxuě.",
+   "en": "It often snows in winter.",
+   "vi": "Mùa đông thường có tuyết rơi."
+  }
+ },
+ {
+  "hz": "懂得",
+  "py": "dǒngde",
+  "en": "understand",
+  "vi": "hiểu; biết",
+  "hv": "Đổng Đắc",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他懂得怎么做。",
+   "py": "Tā dǒngde zěnme zuò.",
+   "en": "He knows how to do it.",
+   "vi": "Anh ấy biết phải làm thế nào."
+  }
+ },
+ {
+  "hz": "动物",
+  "py": "dòngwù",
+  "en": "animal",
+  "vi": "động vật",
+  "hv": "Động Vật",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢小动物。",
+   "py": "Wǒ xǐhuan xiǎo dòngwù.",
+   "en": "I like small animals.",
+   "vi": "Tôi thích động vật nhỏ."
+  }
+ },
+ {
+  "hz": "动物园",
+  "py": "dòngwùyuán",
+  "en": "zoo",
+  "vi": "vườn thú; sở thú",
+  "hv": "Động Vật Viên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "周末去动物园吧。",
+   "py": "Zhōumò qù dòngwùyuán ba.",
+   "en": "Let's go to the zoo this weekend.",
+   "vi": "Cuối tuần đi sở thú nhé."
+  }
+ },
+ {
+  "hz": "短",
+  "py": "duǎn",
+  "en": "short",
+  "vi": "ngắn",
+  "hv": "Đoản",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这条裤子太短了。",
+   "py": "Zhè tiáo kùzi tài duǎn le.",
+   "en": "These pants are too short.",
+   "vi": "Chiếc quần này ngắn quá."
+  }
+ },
+ {
+  "hz": "短裤",
+  "py": "duǎnkù",
+  "en": "shorts",
+  "vi": "quần đùi; quần soóc",
+  "hv": "Đoản Khố",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "夏天我穿短裤。",
+   "py": "Xiàtiān wǒ chuān duǎnkù.",
+   "en": "I wear shorts in summer.",
+   "vi": "Mùa hè tôi mặc quần đùi."
+  }
+ },
+ {
+  "hz": "段",
+  "py": "duàn",
+  "en": "segment; paragraph",
+  "vi": "đoạn",
+  "hv": "Đoạn",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "请读这一段。",
+   "py": "Qǐng dú zhè yí duàn.",
+   "en": "Please read this paragraph.",
+   "vi": "Vui lòng đọc đoạn này."
+  }
+ },
+ {
+  "hz": "锻炼",
+  "py": "duànliàn",
+  "en": "exercise",
+  "vi": "rèn luyện; tập thể dục",
+  "hv": "Đoán Luyện",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我每天锻炼身体。",
+   "py": "Wǒ měitiān duànliàn shēntǐ.",
+   "en": "I exercise every day.",
+   "vi": "Tôi rèn luyện cơ thể mỗi ngày."
+  }
+ },
+ {
+  "hz": "对话",
+  "py": "duìhuà",
+  "en": "dialogue; conversation",
+  "vi": "đối thoại; hội thoại",
+  "hv": "Đối Thoại",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们练习这段对话。",
+   "py": "Wǒmen liànxí zhè duàn duìhuà.",
+   "en": "We practice this dialogue.",
+   "vi": "Chúng tôi luyện đoạn hội thoại này."
+  }
+ },
+ {
+  "hz": "饿",
+  "py": "è",
+  "en": "hungry",
+  "vi": "đói",
+  "hv": "Ngạ",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "我饿了，吃饭吧。",
+   "py": "Wǒ è le, chīfàn ba.",
+   "en": "I'm hungry; let's eat.",
+   "vi": "Tôi đói rồi, ăn cơm thôi."
+  }
+ },
+ {
+  "hz": "而且",
+  "py": "érqiě",
+  "en": "and; moreover",
+  "vi": "hơn nữa; mà còn",
+  "hv": "Nhi Thả",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "他聪明而且认真。",
+   "py": "Tā cōngming érqiě rènzhēn.",
+   "en": "He is smart and hardworking.",
+   "vi": "Anh ấy thông minh hơn nữa còn chăm chỉ."
+  }
+ },
+ {
+  "hz": "耳朵",
+  "py": "ěrduo",
+  "en": "ear",
+  "vi": "tai",
+  "hv": "Nhĩ Đóa",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的耳朵有点疼。",
+   "py": "Wǒ de ěrduo yǒudiǎn téng.",
+   "en": "My ear hurts a little.",
+   "vi": "Tai tôi hơi đau."
+  }
+ },
+ {
+  "hz": "耳机",
+  "py": "ěrjī",
+  "en": "earphones",
+  "vi": "tai nghe",
+  "hv": "Nhĩ Cơ",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这副耳机很好用。",
+   "py": "Zhè fù ěrjī hěn hǎoyòng.",
+   "en": "These earphones work well.",
+   "vi": "Chiếc tai nghe này dùng rất tốt."
+  }
+ },
+ {
+  "hz": "发",
+  "py": "fā",
+  "en": "send; issue",
+  "vi": "gửi; phát",
+  "hv": "Phát",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我给你发照片。",
+   "py": "Wǒ gěi nǐ fā zhàopiàn.",
+   "en": "I'll send you a photo.",
+   "vi": "Tôi gửi ảnh cho bạn."
+  }
+ },
+ {
+  "hz": "发烧",
+  "py": "fāshāo",
+  "en": "have a fever",
+  "vi": "bị sốt",
+  "hv": "Phát Thiêu",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "孩子发烧了。",
+   "py": "Háizi fāshāo le.",
+   "en": "The child has a fever.",
+   "vi": "Đứa trẻ bị sốt rồi."
+  }
+ },
+ {
+  "hz": "发生",
+  "py": "fāshēng",
+  "en": "happen; occur",
+  "vi": "xảy ra",
+  "hv": "Phát Sinh",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "这里发生了什么？",
+   "py": "Zhèlǐ fāshēng le shénme?",
+   "en": "What happened here?",
+   "vi": "Ở đây đã xảy ra chuyện gì?"
+  }
+ },
+ {
+  "hz": "发现",
+  "py": "fāxiàn",
+  "en": "find; discover",
+  "vi": "phát hiện",
+  "hv": "Phát Hiện",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我发现一个问题。",
+   "py": "Wǒ fāxiàn yí ge wèntí.",
+   "en": "I found a problem.",
+   "vi": "Tôi phát hiện một vấn đề."
+  }
+ },
+ {
+  "hz": "发展",
+  "py": "fāzhǎn",
+  "en": "develop",
+  "vi": "phát triển",
+  "hv": "Phát Triển",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "城市发展得很快。",
+   "py": "Chéngshì fāzhǎn de hěn kuài.",
+   "en": "The city is developing quickly.",
+   "vi": "Thành phố phát triển rất nhanh."
+  }
+ },
+ {
+  "hz": "方便",
+  "py": "fāngbiàn",
+  "en": "convenient",
+  "vi": "tiện; thuận tiện",
+  "hv": "Phương Tiện",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "坐地铁很方便。",
+   "py": "Zuò dìtiě hěn fāngbiàn.",
+   "en": "Taking the subway is convenient.",
+   "vi": "Đi tàu điện ngầm rất tiện."
+  }
+ },
+ {
+  "hz": "方便面",
+  "py": "fāngbiànmiàn",
+  "en": "instant noodles",
+  "vi": "mì ăn liền",
+  "hv": "Phương Tiện Miến",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我不常吃方便面。",
+   "py": "Wǒ bù cháng chī fāngbiànmiàn.",
+   "en": "I don't often eat instant noodles.",
+   "vi": "Tôi không thường ăn mì ăn liền."
+  }
+ },
+ {
+  "hz": "方法",
+  "py": "fāngfǎ",
+  "en": "method; way",
+  "vi": "phương pháp; cách",
+  "hv": "Phương Pháp",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个方法很简单。",
+   "py": "Zhège fāngfǎ hěn jiǎndān.",
+   "en": "This method is simple.",
+   "vi": "Phương pháp này rất đơn giản."
+  }
+ },
+ {
+  "hz": "方向",
+  "py": "fāngxiàng",
+  "en": "direction",
+  "vi": "phương hướng; hướng",
+  "hv": "Phương Hướng",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们走错方向了。",
+   "py": "Wǒmen zǒu cuò fāngxiàng le.",
+   "en": "We went in the wrong direction.",
+   "vi": "Chúng ta đi sai hướng rồi."
+  }
+ },
+ {
+  "hz": "房子",
+  "py": "fángzi",
+  "en": "house",
+  "vi": "nhà; căn nhà",
+  "hv": "Phòng Tử",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这房子很漂亮。",
+   "py": "Zhè fángzi hěn piàoliang.",
+   "en": "This house is beautiful.",
+   "vi": "Căn nhà này rất đẹp."
+  }
+ },
+ {
+  "hz": "放",
+  "py": "fàng",
+  "en": "put; place",
+  "vi": "đặt; để",
+  "hv": "Phóng",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "把书放在桌上。",
+   "py": "Bǎ shū fàng zài zhuō shàng.",
+   "en": "Put the book on the table.",
+   "vi": "Đặt sách lên bàn."
+  }
+ },
+ {
+  "hz": "放假",
+  "py": "fàngjià",
+  "en": "have a holiday",
+  "vi": "nghỉ; nghỉ lễ",
+  "hv": "Phóng Giả",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们明天放假。",
+   "py": "Wǒmen míngtiān fàngjià.",
+   "en": "We have a holiday tomorrow.",
+   "vi": "Ngày mai chúng tôi được nghỉ."
+  }
+ },
+ {
+  "hz": "放心",
+  "py": "fàngxīn",
+  "en": "feel at ease; rest assured",
+  "vi": "yên tâm",
+  "hv": "Phóng Tâm",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你放心，我会来。",
+   "py": "Nǐ fàngxīn, wǒ huì lái.",
+   "en": "Don't worry; I'll come.",
+   "vi": "Bạn cứ yên tâm, tôi sẽ đến."
+  }
+ },
+ {
+  "hz": "放学",
+  "py": "fàngxué",
+  "en": "finish school",
+  "vi": "tan học",
+  "hv": "Phóng Học",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们五点放学。",
+   "py": "Wǒmen wǔ diǎn fàngxué.",
+   "en": "School ends at five for us.",
+   "vi": "Chúng tôi tan học lúc năm giờ."
+  }
+ },
+ {
+  "hz": "分开",
+  "py": "fēnkāi",
+  "en": "separate; part",
+  "vi": "tách ra; chia ra",
+  "hv": "Phân Khai",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请把它们分开。",
+   "py": "Qǐng bǎ tāmen fēnkāi.",
+   "en": "Please separate them.",
+   "vi": "Vui lòng tách chúng ra."
+  }
+ },
+ {
+  "hz": "风",
+  "py": "fēng",
+  "en": "wind",
+  "vi": "gió",
+  "hv": "Phong",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "今天的风很大。",
+   "py": "Jīntiān de fēng hěn dà.",
+   "en": "It is very windy today.",
+   "vi": "Hôm nay gió rất mạnh."
+  }
+ },
+ {
+  "hz": "封",
+  "py": "fēng",
+  "en": "measure word for letters; seal",
+  "vi": "phong; niêm phong",
+  "hv": "Phong",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word, verb",
+  "sent": {
+   "zh": "我收到一封信。",
+   "py": "Wǒ shōudào yì fēng xìn.",
+   "en": "I received a letter.",
+   "vi": "Tôi nhận được một lá thư."
+  }
+ },
+ {
+  "hz": "夫妻",
+  "py": "fūqī",
+  "en": "husband and wife; married couple",
+  "vi": "vợ chồng",
+  "hv": "Phu Thê",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他们是年轻夫妻。",
+   "py": "Tāmen shì niánqīng fūqī.",
+   "en": "They are a young married couple.",
+   "vi": "Họ là một đôi vợ chồng trẻ."
+  }
+ },
+ {
+  "hz": "服务",
+  "py": "fúwù",
+  "en": "serve; service",
+  "vi": "phục vụ",
+  "hv": "Phục Vụ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "这家店服务很好。",
+   "py": "Zhè jiā diàn fúwù hěn hǎo.",
+   "en": "This shop has good service.",
+   "vi": "Cửa hàng này phục vụ rất tốt."
+  }
+ },
+ {
+  "hz": "附近",
+  "py": "fùjìn",
+  "en": "nearby; vicinity",
+  "vi": "gần đây; vùng lân cận",
+  "hv": "Phụ Cận",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "附近有一家医院。",
+   "py": "Fùjìn yǒu yì jiā yīyuàn.",
+   "en": "There is a hospital nearby.",
+   "vi": "Gần đây có một bệnh viện."
+  }
+ },
+ {
+  "hz": "复习",
+  "py": "fùxí",
+  "en": "review",
+  "vi": "ôn tập",
+  "hv": "Phục Tập",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "晚上我要复习。",
+   "py": "Wǎnshang wǒ yào fùxí.",
+   "en": "I need to review tonight.",
+   "vi": "Tối nay tôi phải ôn bài."
+  }
+ },
+ {
+  "hz": "该",
+  "py": "gāi",
+  "en": "should; ought to",
+  "vi": "nên; cần phải",
+  "hv": "Cai",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你该回家了。",
+   "py": "Nǐ gāi huí jiā le.",
+   "en": "You should go home.",
+   "vi": "Bạn nên về nhà rồi."
+  }
+ },
+ {
+  "hz": "干净",
+  "py": "gānjìng",
+  "en": "clean",
+  "vi": "sạch sẽ",
+  "hv": "Can Tịnh",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "房间很干净。",
+   "py": "Fángjiān hěn gānjìng.",
+   "en": "The room is clean.",
+   "vi": "Căn phòng rất sạch sẽ."
+  }
+ },
+ {
+  "hz": "感兴趣",
+  "py": "gǎn xìngqù",
+  "en": "be interested in",
+  "vi": "cảm thấy hứng thú; quan tâm",
+  "hv": "Cảm Hứng Thú",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我对中文感兴趣。",
+   "py": "Wǒ duì Zhōngwén gǎn xìngqù.",
+   "en": "I am interested in Chinese.",
+   "vi": "Tôi hứng thú với tiếng Trung."
+  }
+ },
+ {
+  "hz": "感到",
+  "py": "gǎndào",
+  "en": "feel",
+  "vi": "cảm thấy",
+  "hv": "Cảm Đáo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我感到很高兴。",
+   "py": "Wǒ gǎndào hěn gāoxìng.",
+   "en": "I feel very happy.",
+   "vi": "Tôi cảm thấy rất vui."
+  }
+ },
+ {
+  "hz": "感冒",
+  "py": "gǎnmào",
+  "en": "cold; catch a cold",
+  "vi": "cảm cúm; bị cảm",
+  "hv": "Cảm Mạo",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun, verb",
+  "sent": {
+   "zh": "我昨天感冒了。",
+   "py": "Wǒ zuótiān gǎnmào le.",
+   "en": "I caught a cold yesterday.",
+   "vi": "Hôm qua tôi bị cảm."
+  }
+ },
+ {
+  "hz": "干",
+  "py": "gàn",
+  "en": "do; work",
+  "vi": "làm; làm việc",
+  "hv": "Cán",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你在干什么？",
+   "py": "Nǐ zài gàn shénme?",
+   "en": "What are you doing?",
+   "vi": "Bạn đang làm gì vậy?"
+  }
+ },
+ {
+  "hz": "刚",
+  "py": "gāng",
+  "en": "just; just now",
+  "vi": "vừa; vừa mới",
+  "hv": "Cương",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我刚到家。",
+   "py": "Wǒ gāng dào jiā.",
+   "en": "I just got home.",
+   "vi": "Tôi vừa về đến nhà."
+  }
+ },
+ {
+  "hz": "刚才",
+  "py": "gāngcái",
+  "en": "just now",
+  "vi": "vừa nãy",
+  "hv": "Cương Tài",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "time word",
+  "sent": {
+   "zh": "刚才谁来了？",
+   "py": "Gāngcái shéi lái le?",
+   "en": "Who came just now?",
+   "vi": "Vừa nãy ai đã đến?"
+  }
+ },
+ {
+  "hz": "刚刚",
+  "py": "gānggāng",
+  "en": "just now; a moment ago",
+  "vi": "vừa mới; vừa lúc nãy",
+  "hv": "Cương Cương",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "他刚刚出去了。",
+   "py": "Tā gānggāng chūqu le.",
+   "en": "He just went out.",
+   "vi": "Anh ấy vừa mới ra ngoài."
+  }
+ },
+ {
+  "hz": "高铁",
+  "py": "gāotiě",
+  "en": "high-speed rail",
+  "vi": "tàu cao tốc; đường sắt cao tốc",
+  "hv": "Cao Thiết",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们坐高铁去。",
+   "py": "Wǒmen zuò gāotiě qù.",
+   "en": "We'll go by high-speed train.",
+   "vi": "Chúng ta đi bằng tàu cao tốc."
+  }
+ },
+ {
+  "hz": "根据",
+  "py": "gēnjù",
+  "en": "base on; according to; basis",
+  "vi": "căn cứ; dựa theo",
+  "hv": "Căn Cứ",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb, preposition, noun",
+  "sent": {
+   "zh": "请根据地图来找。",
+   "py": "Qǐng gēnjù dìtú lái zhǎo.",
+   "en": "Please search according to the map.",
+   "vi": "Vui lòng tìm theo bản đồ."
+  }
+ },
+ {
+  "hz": "更",
+  "py": "gèng",
+  "en": "more; even more",
+  "vi": "hơn; càng",
+  "hv": "Cánh",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "今天比昨天更冷。",
+   "py": "Jīntiān bǐ zuótiān gèng lěng.",
+   "en": "Today is colder than yesterday.",
+   "vi": "Hôm nay lạnh hơn hôm qua."
+  }
+ },
+ {
+  "hz": "公园",
+  "py": "gōngyuán",
+  "en": "park",
+  "vi": "công viên",
+  "hv": "Công Viên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们去公园走走。",
+   "py": "Wǒmen qù gōngyuán zǒuzou.",
+   "en": "Let's take a walk in the park.",
+   "vi": "Chúng ta đi dạo trong công viên nhé."
+  }
+ },
+ {
+  "hz": "工作日",
+  "py": "gōngzuòrì",
+  "en": "workday",
+  "vi": "ngày làm việc",
+  "hv": "Công Tác Nhật",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "工作日我很忙。",
+   "py": "Gōngzuòrì wǒ hěn máng.",
+   "en": "I am busy on workdays.",
+   "vi": "Ngày làm việc tôi rất bận."
+  }
+ },
+ {
+  "hz": "故事",
+  "py": "gùshi",
+  "en": "story",
+  "vi": "câu chuyện",
+  "hv": "Cố Sự",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个故事很有意思。",
+   "py": "Zhège gùshi hěn yǒuyìsi.",
+   "en": "This story is interesting.",
+   "vi": "Câu chuyện này rất thú vị."
+  }
+ },
+ {
+  "hz": "刮",
+  "py": "guā",
+  "en": "scrape; blow",
+  "vi": "cạo; thổi",
+  "hv": "Quát",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "外面刮大风了。",
+   "py": "Wàimian guā dàfēng le.",
+   "en": "A strong wind is blowing outside.",
+   "vi": "Bên ngoài nổi gió lớn rồi."
+  }
+ },
+ {
+  "hz": "关",
+  "py": "guān",
+  "en": "close; turn off; pass",
+  "vi": "đóng; tắt; cửa ải",
+  "hv": "Quan",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "请关上门。",
+   "py": "Qǐng guān shàng mén.",
+   "en": "Please close the door.",
+   "vi": "Vui lòng đóng cửa lại."
+  }
+ },
+ {
+  "hz": "关机",
+  "py": "guānjī",
+  "en": "turn off a device",
+  "vi": "tắt máy",
+  "hv": "Quan Cơ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "上课前请关机。",
+   "py": "Shàngkè qián qǐng guānjī.",
+   "en": "Please turn off your phone before class.",
+   "vi": "Vui lòng tắt máy trước giờ học."
+  }
+ },
+ {
+  "hz": "关系",
+  "py": "guānxì",
+  "en": "relationship; relate",
+  "vi": "quan hệ; liên quan",
+  "hv": "Quan Hệ",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "noun, verb",
+  "sent": {
+   "zh": "他们关系很好。",
+   "py": "Tāmen guānxì hěn hǎo.",
+   "en": "They have a good relationship.",
+   "vi": "Quan hệ của họ rất tốt."
+  }
+ },
+ {
+  "hz": "关心",
+  "py": "guānxīn",
+  "en": "care about; be concerned",
+  "vi": "quan tâm",
+  "hv": "Quan Tâm",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "谢谢你关心我。",
+   "py": "Xièxie nǐ guānxīn wǒ.",
+   "en": "Thank you for caring about me.",
+   "vi": "Cảm ơn bạn đã quan tâm tôi."
+  }
+ },
+ {
+  "hz": "关于",
+  "py": "guānyú",
+  "en": "about; regarding",
+  "vi": "về; liên quan đến",
+  "hv": "Quan Ư",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "preposition",
+  "sent": {
+   "zh": "这是关于学习的书。",
+   "py": "Zhè shì guānyú xuéxí de shū.",
+   "en": "This is a book about studying.",
+   "vi": "Đây là sách về việc học."
+  }
+ },
+ {
+  "hz": "关注",
+  "py": "guānzhù",
+  "en": "pay attention to; follow",
+  "vi": "chú ý; theo dõi",
+  "hv": "Quan Chú",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请关注天气变化。",
+   "py": "Qǐng guānzhù tiānqì biànhuà.",
+   "en": "Please pay attention to weather changes.",
+   "vi": "Hãy chú ý sự thay đổi thời tiết."
+  }
+ },
+ {
+  "hz": "国家",
+  "py": "guójiā",
+  "en": "country; nation",
+  "vi": "quốc gia; đất nước",
+  "hv": "Quốc Gia",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你去过哪些国家？",
+   "py": "Nǐ qùguo nǎxiē guójiā?",
+   "en": "Which countries have you visited?",
+   "vi": "Bạn đã từng đến những quốc gia nào?"
+  }
+ },
+ {
+  "hz": "过节",
+  "py": "guòjié",
+  "en": "celebrate a festival",
+  "vi": "ăn lễ; đón lễ",
+  "hv": "Quá Tiết",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们一起回家过节。",
+   "py": "Wǒmen yìqǐ huí jiā guòjié.",
+   "en": "Let's go home to celebrate the festival together.",
+   "vi": "Chúng ta cùng về nhà đón lễ."
+  }
+ },
+ {
+  "hz": "海",
+  "py": "hǎi",
+  "en": "sea",
+  "vi": "biển",
+  "hv": "Hải",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我想去看海。",
+   "py": "Wǒ xiǎng qù kàn hǎi.",
+   "en": "I want to go see the sea.",
+   "vi": "Tôi muốn đi ngắm biển."
+  }
+ },
+ {
+  "hz": "害怕",
+  "py": "hàipà",
+  "en": "be afraid; fear",
+  "vi": "sợ; sợ hãi",
+  "hv": "Hại Phạ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "妹妹害怕小狗。",
+   "py": "Mèimei hàipà xiǎogǒu.",
+   "en": "My younger sister is afraid of puppies.",
+   "vi": "Em gái sợ chó con."
+  }
+ },
+ {
+  "hz": "好多",
+  "py": "hǎoduō",
+  "en": "many; a lot",
+  "vi": "rất nhiều; bao nhiêu",
+  "hv": "Hảo Đa",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "number",
+  "sent": {
+   "zh": "公园里有好多人。",
+   "py": "Gōngyuán lǐ yǒu hǎoduō rén.",
+   "en": "There are many people in the park.",
+   "vi": "Trong công viên có rất nhiều người."
+  }
+ },
+ {
+  "hz": "好久",
+  "py": "hǎojiǔ",
+  "en": "a long time",
+  "vi": "rất lâu; lâu lắm",
+  "hv": "Hảo Cửu",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "好久没见你了。",
+   "py": "Hǎojiǔ méi jiàn nǐ le.",
+   "en": "I haven't seen you for a long time.",
+   "vi": "Lâu lắm rồi không gặp bạn."
+  }
+ },
+ {
+  "hz": "好像",
+  "py": "hǎoxiàng",
+  "en": "seem; as if; perhaps",
+  "vi": "hình như; có vẻ",
+  "hv": "Hảo Tượng",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb, adverb",
+  "sent": {
+   "zh": "他好像不在家。",
+   "py": "Tā hǎoxiàng bú zài jiā.",
+   "en": "He doesn't seem to be home.",
+   "vi": "Hình như anh ấy không ở nhà."
+  }
+ },
+ {
+  "hz": "号码",
+  "py": "hàomǎ",
+  "en": "number; code",
+  "vi": "số; mã số",
+  "hv": "Hiệu Mã",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请告诉我号码。",
+   "py": "Qǐng gàosu wǒ hàomǎ.",
+   "en": "Please tell me the number.",
+   "vi": "Vui lòng cho tôi biết số."
+  }
+ },
+ {
+  "hz": "河",
+  "py": "hé",
+  "en": "river",
+  "vi": "sông",
+  "hv": "Hà",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "村子旁边有条河。",
+   "py": "Cūnzi pángbiān yǒu tiáo hé.",
+   "en": "There is a river beside the village.",
+   "vi": "Bên cạnh ngôi làng có một con sông."
+  }
+ },
+ {
+  "hz": "合适",
+  "py": "héshì",
+  "en": "suitable; appropriate",
+  "vi": "phù hợp; thích hợp",
+  "hv": "Hợp Thích",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这件衣服很合适。",
+   "py": "Zhè jiàn yīfu hěn héshì.",
+   "en": "This piece of clothing fits well.",
+   "vi": "Bộ quần áo này rất vừa vặn."
+  }
+ },
+ {
+  "hz": "黑板",
+  "py": "hēibǎn",
+  "en": "blackboard",
+  "vi": "bảng đen",
+  "hv": "Hắc Bản",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "老师在黑板上写字。",
+   "py": "Lǎoshī zài hēibǎn shàng xiězì.",
+   "en": "The teacher writes on the blackboard.",
+   "vi": "Giáo viên viết chữ trên bảng đen."
+  }
+ },
+ {
+  "hz": "红绿灯",
+  "py": "hónglǜdēng",
+  "en": "traffic light",
+  "vi": "đèn giao thông",
+  "hv": "Hồng Lục Đăng",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "前面有红绿灯。",
+   "py": "Qiánmiàn yǒu hónglǜdēng.",
+   "en": "There is a traffic light ahead.",
+   "vi": "Phía trước có đèn giao thông."
+  }
+ },
+ {
+  "hz": "后来",
+  "py": "hòulái",
+  "en": "later; afterwards",
+  "vi": "sau đó; về sau",
+  "hv": "Hậu Lai",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "time word",
+  "sent": {
+   "zh": "后来他回家了。",
+   "py": "Hòulái tā huí jiā le.",
+   "en": "Later, he went home.",
+   "vi": "Sau đó anh ấy đã về nhà."
+  }
+ },
+ {
+  "hz": "后年",
+  "py": "hòunián",
+  "en": "the year after next",
+  "vi": "năm kia",
+  "hv": "Hậu Niên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "time word",
+  "sent": {
+   "zh": "我后年去中国。",
+   "py": "Wǒ hòunián qù Zhōngguó.",
+   "en": "I will go to China the year after next.",
+   "vi": "Năm kia tôi sẽ đi Trung Quốc."
+  }
+ },
+ {
+  "hz": "后天",
+  "py": "hòutiān",
+  "en": "the day after tomorrow",
+  "vi": "ngày kia",
+  "hv": "Hậu Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "time word",
+  "sent": {
+   "zh": "我们后天见面。",
+   "py": "Wǒmen hòutiān jiànmiàn.",
+   "en": "We'll meet the day after tomorrow.",
+   "vi": "Ngày kia chúng ta gặp nhau."
+  }
+ },
+ {
+  "hz": "护照",
+  "py": "hùzhào",
+  "en": "passport",
+  "vi": "hộ chiếu",
+  "hv": "Hộ Chiếu",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请带好你的护照。",
+   "py": "Qǐng dài hǎo nǐ de hùzhào.",
+   "en": "Please bring your passport.",
+   "vi": "Hãy mang theo hộ chiếu của bạn."
+  }
+ },
+ {
+  "hz": "花园",
+  "py": "huāyuán",
+  "en": "garden",
+  "vi": "vườn hoa",
+  "hv": "Hoa Viên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "花园里有很多花。",
+   "py": "Huāyuán lǐ yǒu hěn duō huā.",
+   "en": "There are many flowers in the garden.",
+   "vi": "Trong vườn có rất nhiều hoa."
+  }
+ },
+ {
+  "hz": "画家",
+  "py": "huàjiā",
+  "en": "painter; artist",
+  "vi": "họa sĩ",
+  "hv": "Họa Gia",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他是一位画家。",
+   "py": "Tā shì yí wèi huàjiā.",
+   "en": "He is a painter.",
+   "vi": "Anh ấy là một họa sĩ."
+  }
+ },
+ {
+  "hz": "环境",
+  "py": "huánjìng",
+  "en": "environment",
+  "vi": "môi trường",
+  "hv": "Hoàn Cảnh",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这里的环境很好。",
+   "py": "Zhèlǐ de huánjìng hěn hǎo.",
+   "en": "The environment here is very good.",
+   "vi": "Môi trường ở đây rất tốt."
+  }
+ },
+ {
+  "hz": "换",
+  "py": "huàn",
+  "en": "exchange; change",
+  "vi": "đổi; thay",
+  "hv": "Hoán",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我想换一件衣服。",
+   "py": "Wǒ xiǎng huàn yí jiàn yīfu.",
+   "en": "I want to exchange an item of clothing.",
+   "vi": "Tôi muốn đổi một bộ quần áo."
+  }
+ },
+ {
+  "hz": "黄色",
+  "py": "huángsè",
+  "en": "yellow",
+  "vi": "màu vàng",
+  "hv": "Hoàng Sắc",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢黄色。",
+   "py": "Wǒ xǐhuan huángsè.",
+   "en": "I like yellow.",
+   "vi": "Tôi thích màu vàng."
+  }
+ },
+ {
+  "hz": "会议",
+  "py": "huìyì",
+  "en": "meeting",
+  "vi": "cuộc họp; hội nghị",
+  "hv": "Hội Nghị",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "会议九点开始。",
+   "py": "Huìyì jiǔ diǎn kāishǐ.",
+   "en": "The meeting starts at nine.",
+   "vi": "Cuộc họp bắt đầu lúc chín giờ."
+  }
+ },
+ {
+  "hz": "或",
+  "py": "huò",
+  "en": "or; perhaps",
+  "vi": "hoặc; có lẽ",
+  "hv": "Hoặc",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction, adverb",
+  "sent": {
+   "zh": "或早或晚都可以。",
+   "py": "Huò zǎo huò wǎn dōu kěyǐ.",
+   "en": "Either early or late is fine.",
+   "vi": "Sớm hoặc muộn đều được."
+  }
+ },
+ {
+  "hz": "或者",
+  "py": "huòzhě",
+  "en": "or",
+  "vi": "hoặc; hoặc là",
+  "hv": "Hoặc Giả",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "你喝茶或者咖啡？",
+   "py": "Nǐ hē chá huòzhě kāfēi?",
+   "en": "Do you drink tea or coffee?",
+   "vi": "Bạn uống trà hay cà phê?"
+  }
+ },
+ {
+  "hz": "鸡",
+  "py": "jī",
+  "en": "chicken",
+  "vi": "gà; con gà",
+  "hv": "Kê",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我家有三只鸡。",
+   "py": "Wǒ jiā yǒu sān zhī jī.",
+   "en": "My family has three chickens.",
+   "vi": "Nhà tôi có ba con gà."
+  }
+ },
+ {
+  "hz": "几乎",
+  "py": "jīhū",
+  "en": "almost",
+  "vi": "hầu như; gần như",
+  "hv": "Kỷ Hồ",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我几乎每天跑步。",
+   "py": "Wǒ jīhū měitiān pǎobù.",
+   "en": "I run almost every day.",
+   "vi": "Tôi chạy bộ hầu như mỗi ngày."
+  }
+ },
+ {
+  "hz": "机会",
+  "py": "jīhuì",
+  "en": "opportunity; chance",
+  "vi": "cơ hội",
+  "hv": "Cơ Hội",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这是一个好机会。",
+   "py": "Zhè shì yí ge hǎo jīhuì.",
+   "en": "This is a good opportunity.",
+   "vi": "Đây là một cơ hội tốt."
+  }
+ },
+ {
+  "hz": "极",
+  "py": "jí",
+  "en": "extremely",
+  "vi": "cực kỳ; rất",
+  "hv": "Cực",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我高兴极了。",
+   "py": "Wǒ gāoxìng jí le.",
+   "en": "I am extremely happy.",
+   "vi": "Tôi vui cực kỳ."
+  }
+ },
+ {
+  "hz": "急",
+  "py": "jí",
+  "en": "urgent; worry",
+  "vi": "gấp; sốt ruột",
+  "hv": "Cấp",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, verb",
+  "sent": {
+   "zh": "别急，慢慢说。",
+   "py": "Bié jí, mànmàn shuō.",
+   "en": "Don't rush; speak slowly.",
+   "vi": "Đừng vội, cứ từ từ nói."
+  }
+ },
+ {
+  "hz": "记",
+  "py": "jì",
+  "en": "remember",
+  "vi": "nhớ; ghi nhớ",
+  "hv": "Ký",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请记一下他的名字。",
+   "py": "Qǐng jì yíxià tā de míngzi.",
+   "en": "Please note his name.",
+   "vi": "Hãy ghi lại tên của anh ấy."
+  }
+ },
+ {
+  "hz": "季",
+  "py": "jì",
+  "en": "season",
+  "vi": "mùa; quý",
+  "hv": "Quý",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "一年分为四季。",
+   "py": "Yì nián fēnwéi sì jì.",
+   "en": "A year is divided into four seasons.",
+   "vi": "Một năm được chia thành bốn mùa."
+  }
+ },
+ {
+  "hz": "季节",
+  "py": "jìjié",
+  "en": "season",
+  "vi": "mùa; mùa trong năm",
+  "hv": "Quý Tiết",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你喜欢哪个季节？",
+   "py": "Nǐ xǐhuan nǎge jìjié?",
+   "en": "Which season do you like?",
+   "vi": "Bạn thích mùa nào?"
+  }
+ },
+ {
+  "hz": "加",
+  "py": "jiā",
+  "en": "add",
+  "vi": "thêm; cộng",
+  "hv": "Gia",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请加一点儿水。",
+   "py": "Qǐng jiā yìdiǎnr shuǐ.",
+   "en": "Please add a little water.",
+   "vi": "Hãy thêm một chút nước."
+  }
+ },
+ {
+  "hz": "假期",
+  "py": "jiàqī",
+  "en": "vacation; holiday",
+  "vi": "kỳ nghỉ",
+  "hv": "Giả Kỳ",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "假期你去哪儿？",
+   "py": "Jiàqī nǐ qù nǎr?",
+   "en": "Where are you going during the vacation?",
+   "vi": "Kỳ nghỉ bạn đi đâu?"
+  }
+ },
+ {
+  "hz": "坚持",
+  "py": "jiānchí",
+  "en": "persist; keep doing",
+  "vi": "kiên trì; duy trì",
+  "hv": "Kiên Trì",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请坚持每天练习。",
+   "py": "Qǐng jiānchí měitiān liànxí.",
+   "en": "Please keep practicing every day.",
+   "vi": "Hãy kiên trì luyện tập mỗi ngày."
+  }
+ },
+ {
+  "hz": "检查",
+  "py": "jiǎnchá",
+  "en": "check; inspect",
+  "vi": "kiểm tra",
+  "hv": "Kiểm Tra",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "医生检查了我的身体。",
+   "py": "Yīshēng jiǎnchá le wǒ de shēntǐ.",
+   "en": "The doctor examined my body.",
+   "vi": "Bác sĩ đã kiểm tra sức khỏe của tôi."
+  }
+ },
+ {
+  "hz": "简单",
+  "py": "jiǎndān",
+  "en": "simple",
+  "vi": "đơn giản",
+  "hv": "Giản Đơn",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这个问题很简单。",
+   "py": "Zhège wèntí hěn jiǎndān.",
+   "en": "This question is simple.",
+   "vi": "Câu hỏi này rất đơn giản."
+  }
+ },
+ {
+  "hz": "检票",
+  "py": "jiǎnpiào",
+  "en": "check tickets",
+  "vi": "soát vé; kiểm vé",
+  "hv": "Kiểm Phiếu",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "上车前要检票。",
+   "py": "Shàng chē qián yào jiǎnpiào.",
+   "en": "Tickets must be checked before boarding.",
+   "vi": "Trước khi lên xe phải soát vé."
+  }
+ },
+ {
+  "hz": "健康",
+  "py": "jiànkāng",
+  "en": "healthy",
+  "vi": "khỏe mạnh; sức khỏe",
+  "hv": "Kiện Khang",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "运动让身体健康。",
+   "py": "Yùndòng ràng shēntǐ jiànkāng.",
+   "en": "Exercise keeps the body healthy.",
+   "vi": "Vận động giúp cơ thể khỏe mạnh."
+  }
+ },
+ {
+  "hz": "见面",
+  "py": "jiànmiàn",
+  "en": "meet",
+  "vi": "gặp mặt; gặp nhau",
+  "hv": "Kiến Diện",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们明天见面吧。",
+   "py": "Wǒmen míngtiān jiànmiàn ba.",
+   "en": "Let's meet tomorrow.",
+   "vi": "Ngày mai chúng ta gặp nhau nhé."
+  }
+ },
+ {
+  "hz": "讲",
+  "py": "jiǎng",
+  "en": "speak; talk",
+  "vi": "nói; giảng",
+  "hv": "Giảng",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "老师讲得很清楚。",
+   "py": "Lǎoshī jiǎng de hěn qīngchu.",
+   "en": "The teacher explains very clearly.",
+   "vi": "Giáo viên giảng rất rõ."
+  }
+ },
+ {
+  "hz": "角",
+  "py": "jiǎo",
+  "en": "jiao; one-tenth of a yuan",
+  "vi": "hào; một phần mười tệ",
+  "hv": "Giác",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "这个本子五角钱。",
+   "py": "Zhège běnzi wǔ jiǎo qián.",
+   "en": "This notebook costs five jiao.",
+   "vi": "Quyển vở này giá năm hào."
+  }
+ },
+ {
+  "hz": "脚",
+  "py": "jiǎo",
+  "en": "foot",
+  "vi": "bàn chân; chân",
+  "hv": "Cước",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的脚有点儿疼。",
+   "py": "Wǒ de jiǎo yǒudiǎnr téng.",
+   "en": "My foot hurts a little.",
+   "vi": "Chân tôi hơi đau."
+  }
+ },
+ {
+  "hz": "接",
+  "py": "jiē",
+  "en": "pick up; receive",
+  "vi": "đón; nhận",
+  "hv": "Tiếp",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "爸爸来机场接我。",
+   "py": "Bàba lái jīchǎng jiē wǒ.",
+   "en": "Dad is coming to the airport to pick me up.",
+   "vi": "Bố đến sân bay đón tôi."
+  }
+ },
+ {
+  "hz": "街",
+  "py": "jiē",
+  "en": "street",
+  "vi": "đường phố; phố",
+  "hv": "Nhai",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这条街很安静。",
+   "py": "Zhè tiáo jiē hěn ānjìng.",
+   "en": "This street is quiet.",
+   "vi": "Con phố này rất yên tĩnh."
+  }
+ },
+ {
+  "hz": "节",
+  "py": "jié",
+  "en": "section; lesson; festival; joint",
+  "vi": "đoạn; tiết học; ngày lễ; khớp",
+  "hv": "Tiết",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word, noun, verb",
+  "sent": {
+   "zh": "下午有两节课。",
+   "py": "Xiàwǔ yǒu liǎng jié kè.",
+   "en": "There are two classes in the afternoon.",
+   "vi": "Buổi chiều có hai tiết học."
+  }
+ },
+ {
+  "hz": "结婚",
+  "py": "jiéhūn",
+  "en": "marry; get married",
+  "vi": "kết hôn; cưới",
+  "hv": "Kết Hôn",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他们明年结婚。",
+   "py": "Tāmen míngnián jiéhūn.",
+   "en": "They will get married next year.",
+   "vi": "Năm sau họ sẽ kết hôn."
+  }
+ },
+ {
+  "hz": "节目",
+  "py": "jiémù",
+  "en": "program; show",
+  "vi": "chương trình; tiết mục",
+  "hv": "Tiết Mục",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个节目很好看。",
+   "py": "Zhège jiémù hěn hǎokàn.",
+   "en": "This program is very enjoyable.",
+   "vi": "Chương trình này rất hay."
+  }
+ },
+ {
+  "hz": "节日",
+  "py": "jiérì",
+  "en": "festival; holiday",
+  "vi": "ngày lễ; lễ hội",
+  "hv": "Tiết Nhật",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这是一个重要的节日。",
+   "py": "Zhè shì yí ge zhòngyào de jiérì.",
+   "en": "This is an important festival.",
+   "vi": "Đây là một ngày lễ quan trọng."
+  }
+ },
+ {
+  "hz": "结束",
+  "py": "jiéshù",
+  "en": "end; finish",
+  "vi": "kết thúc",
+  "hv": "Kết Thúc",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "电影十点结束。",
+   "py": "Diànyǐng shí diǎn jiéshù.",
+   "en": "The movie ends at ten.",
+   "vi": "Bộ phim kết thúc lúc mười giờ."
+  }
+ },
+ {
+  "hz": "解决",
+  "py": "jiějué",
+  "en": "solve; resolve",
+  "vi": "giải quyết",
+  "hv": "Giải Quyết",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们一起解决问题。",
+   "py": "Wǒmen yìqǐ jiějué wèntí.",
+   "en": "Let's solve the problem together.",
+   "vi": "Chúng ta cùng giải quyết vấn đề."
+  }
+ },
+ {
+  "hz": "姐妹",
+  "py": "jiěmèi",
+  "en": "sisters",
+  "vi": "chị em gái",
+  "hv": "Tỷ Muội",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她们是姐妹。",
+   "py": "Tāmen shì jiěmèi.",
+   "en": "They are sisters.",
+   "vi": "Họ là chị em gái."
+  }
+ },
+ {
+  "hz": "借",
+  "py": "jiè",
+  "en": "borrow; lend",
+  "vi": "mượn; cho mượn",
+  "hv": "Tá",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我能借你的书吗？",
+   "py": "Wǒ néng jiè nǐ de shū ma?",
+   "en": "May I borrow your book?",
+   "vi": "Tôi có thể mượn sách của bạn không?"
+  }
+ },
+ {
+  "hz": "斤",
+  "py": "jīn",
+  "en": "jin; half a kilogram",
+  "vi": "cân; nửa kilôgam",
+  "hv": "Cân",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "我买了两斤苹果。",
+   "py": "Wǒ mǎi le liǎng jīn píngguǒ.",
+   "en": "I bought one kilogram of apples.",
+   "vi": "Tôi đã mua một cân táo."
+  }
+ },
+ {
+  "hz": "经过",
+  "py": "jīngguò",
+  "en": "pass; process",
+  "vi": "đi qua; trải qua; quá trình",
+  "hv": "Kinh Quá",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "每天我都经过这里。",
+   "py": "Měitiān wǒ dōu jīngguò zhèlǐ.",
+   "en": "I pass by here every day.",
+   "vi": "Mỗi ngày tôi đều đi qua đây."
+  }
+ },
+ {
+  "hz": "经理",
+  "py": "jīnglǐ",
+  "en": "manager",
+  "vi": "giám đốc; quản lý",
+  "hv": "Kinh Lý",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "经理正在开会。",
+   "py": "Jīnglǐ zhèngzài kāihuì.",
+   "en": "The manager is in a meeting.",
+   "vi": "Giám đốc đang họp."
+  }
+ },
+ {
+  "hz": "久",
+  "py": "jiǔ",
+  "en": "long; for a long time",
+  "vi": "lâu",
+  "hv": "Cửu",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "我等了很久。",
+   "py": "Wǒ děng le hěn jiǔ.",
+   "en": "I waited for a long time.",
+   "vi": "Tôi đã đợi rất lâu."
+  }
+ },
+ {
+  "hz": "酒",
+  "py": "jiǔ",
+  "en": "alcohol; liquor",
+  "vi": "rượu",
+  "hv": "Tửu",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他不喜欢喝酒。",
+   "py": "Tā bù xǐhuan hē jiǔ.",
+   "en": "He doesn't like drinking alcohol.",
+   "vi": "Anh ấy không thích uống rượu."
+  }
+ },
+ {
+  "hz": "旧",
+  "py": "jiù",
+  "en": "old; used",
+  "vi": "cũ",
+  "hv": "Cựu",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这件衣服太旧了。",
+   "py": "Zhè jiàn yīfu tài jiù le.",
+   "en": "This item of clothing is too old.",
+   "vi": "Bộ quần áo này cũ quá rồi."
+  }
+ },
+ {
+  "hz": "句",
+  "py": "jù",
+  "en": "sentence; measure word for sentences",
+  "vi": "câu; lượng từ cho câu",
+  "hv": "Cú",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "请说一句中文。",
+   "py": "Qǐng shuō yí jù Zhōngwén.",
+   "en": "Please say one sentence in Chinese.",
+   "vi": "Hãy nói một câu tiếng Trung."
+  }
+ },
+ {
+  "hz": "句子",
+  "py": "jùzi",
+  "en": "sentence",
+  "vi": "câu",
+  "hv": "Cú Tử",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个句子很简单。",
+   "py": "Zhège jùzi hěn jiǎndān.",
+   "en": "This sentence is simple.",
+   "vi": "Câu này rất đơn giản."
+  }
+ },
+ {
+  "hz": "决定",
+  "py": "juédìng",
+  "en": "decide; decision",
+  "vi": "quyết định",
+  "hv": "Quyết Định",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "我决定明天回家。",
+   "py": "Wǒ juédìng míngtiān huí jiā.",
+   "en": "I decided to go home tomorrow.",
+   "vi": "Tôi quyết định ngày mai về nhà."
+  }
+ },
+ {
+  "hz": "卡",
+  "py": "kǎ",
+  "en": "card",
+  "vi": "thẻ",
+  "hv": "Tạp",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请给我一张卡。",
+   "py": "Qǐng gěi wǒ yì zhāng kǎ.",
+   "en": "Please give me a card.",
+   "vi": "Hãy đưa tôi một tấm thẻ."
+  }
+ },
+ {
+  "hz": "开花",
+  "py": "kāihuā",
+  "en": "bloom; flower",
+  "vi": "nở hoa",
+  "hv": "Khai Hoa",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "春天花都开花了。",
+   "py": "Chūntiān huā dōu kāihuā le.",
+   "en": "The flowers all bloom in spring.",
+   "vi": "Mùa xuân hoa đều nở rồi."
+  }
+ },
+ {
+  "hz": "开会",
+  "py": "kāihuì",
+  "en": "have a meeting",
+  "vi": "họp; mở cuộc họp",
+  "hv": "Khai Hội",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他们正在开会。",
+   "py": "Tāmen zhèngzài kāihuì.",
+   "en": "They are having a meeting.",
+   "vi": "Họ đang họp."
+  }
+ },
+ {
+  "hz": "开机",
+  "py": "kāijī",
+  "en": "turn on a device",
+  "vi": "khởi động máy; mở máy",
+  "hv": "Khai Cơ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "电脑不能开机。",
+   "py": "Diànnǎo bù néng kāijī.",
+   "en": "The computer cannot start up.",
+   "vi": "Máy tính không thể khởi động."
+  }
+ },
+ {
+  "hz": "开心",
+  "py": "kāixīn",
+  "en": "happy",
+  "vi": "vui vẻ",
+  "hv": "Khai Tâm",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "今天我很开心。",
+   "py": "Jīntiān wǒ hěn kāixīn.",
+   "en": "I am very happy today.",
+   "vi": "Hôm nay tôi rất vui."
+  }
+ },
+ {
+  "hz": "看来",
+  "py": "kànlái",
+  "en": "it seems; apparently",
+  "vi": "xem ra; có vẻ",
+  "hv": "Khán Lai",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "看来他不会来了。",
+   "py": "Kànlái tā bú huì lái le.",
+   "en": "It seems he won't come.",
+   "vi": "Xem ra anh ấy sẽ không đến nữa."
+  }
+ },
+ {
+  "hz": "可",
+  "py": "kě",
+  "en": "but; yet",
+  "vi": "nhưng; thế mà",
+  "hv": "Khả",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction, adverb",
+  "sent": {
+   "zh": "我可不喜欢下雨。",
+   "py": "Wǒ kě bù xǐhuan xiàyǔ.",
+   "en": "I really don't like rain.",
+   "vi": "Tôi thật sự không thích trời mưa."
+  }
+ },
+ {
+  "hz": "渴",
+  "py": "kě",
+  "en": "thirsty",
+  "vi": "khát",
+  "hv": "Khát",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "我渴了，想喝水。",
+   "py": "Wǒ kě le, xiǎng hē shuǐ.",
+   "en": "I'm thirsty and want some water.",
+   "vi": "Tôi khát rồi, muốn uống nước."
+  }
+ },
+ {
+  "hz": "可爱",
+  "py": "kě’ài",
+  "en": "lovely; cute",
+  "vi": "đáng yêu; dễ thương",
+  "hv": "Khả Ái",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这只小猫很可爱。",
+   "py": "Zhè zhī xiǎomāo hěn kě’ài.",
+   "en": "This kitten is very cute.",
+   "vi": "Chú mèo con này rất đáng yêu."
+  }
+ },
+ {
+  "hz": "可是",
+  "py": "kěshì",
+  "en": "but; however",
+  "vi": "nhưng; thế nhưng",
+  "hv": "Khả Thị",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "我想去，可是没时间。",
+   "py": "Wǒ xiǎng qù, kěshì méi shíjiān.",
+   "en": "I want to go, but I have no time.",
+   "vi": "Tôi muốn đi nhưng không có thời gian."
+  }
+ },
+ {
+  "hz": "刻",
+  "py": "kè",
+  "en": "quarter hour; carve",
+  "vi": "khắc; mười lăm phút",
+  "hv": "Khắc",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "measure word, verb",
+  "sent": {
+   "zh": "现在三点一刻。",
+   "py": "Xiànzài sān diǎn yí kè.",
+   "en": "It is now a quarter past three.",
+   "vi": "Bây giờ là ba giờ mười lăm."
+  }
+ },
+ {
+  "hz": "课本",
+  "py": "kèběn",
+  "en": "textbook",
+  "vi": "sách giáo khoa",
+  "hv": "Khóa Bản",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请打开课本。",
+   "py": "Qǐng dǎkāi kèběn.",
+   "en": "Please open the textbook.",
+   "vi": "Hãy mở sách giáo khoa."
+  }
+ },
+ {
+  "hz": "客人",
+  "py": "kèrén",
+  "en": "guest; visitor",
+  "vi": "khách; khách mời",
+  "hv": "Khách Nhân",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "家里来了客人。",
+   "py": "Jiālǐ lái le kèrén.",
+   "en": "A guest has come to the house.",
+   "vi": "Nhà có khách đến."
+  }
+ },
+ {
+  "hz": "课文",
+  "py": "kèwén",
+  "en": "text; lesson text",
+  "vi": "bài khóa",
+  "hv": "Khóa Văn",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们一起读课文。",
+   "py": "Wǒmen yìqǐ dú kèwén.",
+   "en": "Let's read the lesson text together.",
+   "vi": "Chúng ta cùng đọc bài khóa."
+  }
+ },
+ {
+  "hz": "空调",
+  "py": "kōngtiáo",
+  "en": "air conditioner",
+  "vi": "máy điều hòa",
+  "hv": "Không Điều",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请打开空调。",
+   "py": "Qǐng dǎkāi kōngtiáo.",
+   "en": "Please turn on the air conditioner.",
+   "vi": "Hãy bật máy điều hòa."
+  }
+ },
+ {
+  "hz": "哭",
+  "py": "kū",
+  "en": "cry",
+  "vi": "khóc",
+  "hv": "Khốc",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "妹妹为什么哭？",
+   "py": "Mèimei wèishénme kū?",
+   "en": "Why is the younger sister crying?",
+   "vi": "Tại sao em gái khóc?"
+  }
+ },
+ {
+  "hz": "筷子",
+  "py": "kuàizi",
+  "en": "chopsticks",
+  "vi": "đũa; đôi đũa",
+  "hv": "Khoái Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我会用筷子吃饭。",
+   "py": "Wǒ huì yòng kuàizi chīfàn.",
+   "en": "I can eat with chopsticks.",
+   "vi": "Tôi biết dùng đũa ăn cơm."
+  }
+ },
+ {
+  "hz": "矿泉水",
+  "py": "kuàngquánshuǐ",
+  "en": "mineral water",
+  "vi": "nước khoáng",
+  "hv": "Khoáng Tuyền Thủy",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请给我一瓶矿泉水。",
+   "py": "Qǐng gěi wǒ yì píng kuàngquánshuǐ.",
+   "en": "Please give me a bottle of mineral water.",
+   "vi": "Cho tôi một chai nước khoáng."
+  }
+ },
+ {
+  "hz": "来自",
+  "py": "láizì",
+  "en": "come from",
+  "vi": "đến từ",
+  "hv": "Lai Tự",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我来自越南。",
+   "py": "Wǒ láizì Yuènán.",
+   "en": "I come from Vietnam.",
+   "vi": "Tôi đến từ Việt Nam."
+  }
+ },
+ {
+  "hz": "蓝",
+  "py": "lán",
+  "en": "blue",
+  "vi": "xanh lam; xanh dương",
+  "hv": "Lam",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "天空很蓝。",
+   "py": "Tiānkōng hěn lán.",
+   "en": "The sky is very blue.",
+   "vi": "Bầu trời rất xanh."
+  }
+ },
+ {
+  "hz": "老",
+  "py": "lǎo",
+  "en": "old; aged; always",
+  "vi": "già; lâu năm; luôn",
+  "hv": "Lão",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, prefix, adverb",
+  "sent": {
+   "zh": "那位老人很老。",
+   "py": "Nà wèi lǎorén hěn lǎo.",
+   "en": "That elderly person is very old.",
+   "vi": "Người cao tuổi ấy rất già."
+  }
+ },
+ {
+  "hz": "老人",
+  "py": "lǎorén",
+  "en": "elderly person",
+  "vi": "người già; người cao tuổi",
+  "hv": "Lão Nhân",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "老人每天去公园。",
+   "py": "Lǎorén měitiān qù gōngyuán.",
+   "en": "The elderly person goes to the park every day.",
+   "vi": "Người cao tuổi đi công viên mỗi ngày."
+  }
+ },
+ {
+  "hz": "离开",
+  "py": "líkāi",
+  "en": "leave; depart",
+  "vi": "rời khỏi; rời đi",
+  "hv": "Ly Khai",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他已经离开学校了。",
+   "py": "Tā yǐjīng líkāi xuéxiào le.",
+   "en": "He has already left school.",
+   "vi": "Anh ấy đã rời trường rồi."
+  }
+ },
+ {
+  "hz": "礼物",
+  "py": "lǐwù",
+  "en": "gift; present",
+  "vi": "quà; quà tặng",
+  "hv": "Lễ Vật",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这是给你的礼物。",
+   "py": "Zhè shì gěi nǐ de lǐwù.",
+   "en": "This is a gift for you.",
+   "vi": "Đây là quà dành cho bạn."
+  }
+ },
+ {
+  "hz": "历史",
+  "py": "lìshǐ",
+  "en": "history",
+  "vi": "lịch sử",
+  "hv": "Lịch Sử",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢学历史。",
+   "py": "Wǒ xǐhuan xué lìshǐ.",
+   "en": "I like studying history.",
+   "vi": "Tôi thích học lịch sử."
+  }
+ },
+ {
+  "hz": "脸",
+  "py": "liǎn",
+  "en": "face",
+  "vi": "mặt; khuôn mặt",
+  "hv": "Kiểm",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她的脸有点儿红。",
+   "py": "Tā de liǎn yǒudiǎnr hóng.",
+   "en": "Her face is a little red.",
+   "vi": "Mặt cô ấy hơi đỏ."
+  }
+ },
+ {
+  "hz": "练",
+  "py": "liàn",
+  "en": "practice; train",
+  "vi": "luyện; tập",
+  "hv": "Luyện",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我每天练汉字。",
+   "py": "Wǒ měitiān liàn Hànzì.",
+   "en": "I practice Chinese characters every day.",
+   "vi": "Tôi luyện chữ Hán mỗi ngày."
+  }
+ },
+ {
+  "hz": "练习",
+  "py": "liànxí",
+  "en": "practice; exercise",
+  "vi": "luyện tập; bài tập",
+  "hv": "Luyện Tập",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "请做这个练习。",
+   "py": "Qǐng zuò zhège liànxí.",
+   "en": "Please do this exercise.",
+   "vi": "Hãy làm bài tập này."
+  }
+ },
+ {
+  "hz": "凉快",
+  "py": "liángkuai",
+  "en": "cool",
+  "vi": "mát mẻ",
+  "hv": "Lương Khoái",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "秋天很凉快。",
+   "py": "Qiūtiān hěn liángkuai.",
+   "en": "Autumn is cool.",
+   "vi": "Mùa thu rất mát mẻ."
+  }
+ },
+ {
+  "hz": "辆",
+  "py": "liàng",
+  "en": "measure word for vehicles",
+  "vi": "chiếc (xe)",
+  "hv": "Lượng",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "我买了一辆车。",
+   "py": "Wǒ mǎi le yí liàng chē.",
+   "en": "I bought a car.",
+   "vi": "Tôi đã mua một chiếc xe."
+  }
+ },
+ {
+  "hz": "聊",
+  "py": "liáo",
+  "en": "to chat",
+  "vi": "trò chuyện",
+  "hv": "Liêu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们聊一会儿吧。",
+   "py": "Wǒmen liáo yíhuìr ba.",
+   "en": "Let's chat for a while.",
+   "vi": "Chúng ta trò chuyện một lát nhé."
+  }
+ },
+ {
+  "hz": "聊天儿",
+  "py": "liáotiānr",
+  "en": "to chat",
+  "vi": "trò chuyện",
+  "hv": "Liêu Thiên Nhi",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我喜欢和她聊天儿。",
+   "py": "Wǒ xǐhuan hé tā liáotiānr.",
+   "en": "I like chatting with her.",
+   "vi": "Tôi thích trò chuyện với cô ấy."
+  }
+ },
+ {
+  "hz": "了解",
+  "py": "liǎojiě",
+  "en": "to understand",
+  "vi": "hiểu; tìm hiểu",
+  "hv": "Liễu Giải",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我很了解他。",
+   "py": "Wǒ hěn liǎojiě tā.",
+   "en": "I know him well.",
+   "vi": "Tôi rất hiểu anh ấy."
+  }
+ },
+ {
+  "hz": "邻居",
+  "py": "línjū",
+  "en": "neighbor",
+  "vi": "hàng xóm",
+  "hv": "Lân Cư",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她是我的邻居。",
+   "py": "Tā shì wǒ de línjū.",
+   "en": "She is my neighbor.",
+   "vi": "Cô ấy là hàng xóm của tôi."
+  }
+ },
+ {
+  "hz": "留学",
+  "py": "liúxué",
+  "en": "to study abroad",
+  "vi": "du học",
+  "hv": "Lưu Học",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他去中国留学。",
+   "py": "Tā qù Zhōngguó liúxué.",
+   "en": "He is going to China to study abroad.",
+   "vi": "Anh ấy sang Trung Quốc du học."
+  }
+ },
+ {
+  "hz": "留学生",
+  "py": "liúxuéshēng",
+  "en": "overseas student",
+  "vi": "du học sinh",
+  "hv": "Lưu Học Sinh",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我是越南留学生。",
+   "py": "Wǒ shì Yuènán liúxuéshēng.",
+   "en": "I am a Vietnamese overseas student.",
+   "vi": "Tôi là du học sinh Việt Nam."
+  }
+ },
+ {
+  "hz": "楼梯",
+  "py": "lóutī",
+  "en": "stairs",
+  "vi": "cầu thang",
+  "hv": "Lâu Thê",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他正在上楼梯。",
+   "py": "Tā zhèngzài shàng lóutī.",
+   "en": "He is going up the stairs.",
+   "vi": "Anh ấy đang lên cầu thang."
+  }
+ },
+ {
+  "hz": "路边",
+  "py": "lùbiān",
+  "en": "roadside",
+  "vi": "ven đường",
+  "hv": "Lộ Biên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "路边有一家商店。",
+   "py": "Lùbiān yǒu yì jiā shāngdiàn.",
+   "en": "There is a shop by the roadside.",
+   "vi": "Ven đường có một cửa hàng."
+  }
+ },
+ {
+  "hz": "路口",
+  "py": "lùkǒu",
+  "en": "intersection",
+  "vi": "ngã tư; giao lộ",
+  "hv": "Lộ Khẩu",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "前面的路口向左走。",
+   "py": "Qiánmiàn de lùkǒu xiàng zuǒ zǒu.",
+   "en": "Turn left at the intersection ahead.",
+   "vi": "Đến ngã tư phía trước rẽ trái."
+  }
+ },
+ {
+  "hz": "马",
+  "py": "mǎ",
+  "en": "horse",
+  "vi": "ngựa",
+  "hv": "Mã",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "那匹马跑得很快。",
+   "py": "Nà pǐ mǎ pǎo de hěn kuài.",
+   "en": "That horse runs very fast.",
+   "vi": "Con ngựa đó chạy rất nhanh."
+  }
+ },
+ {
+  "hz": "马路",
+  "py": "mǎlù",
+  "en": "road",
+  "vi": "đường phố",
+  "hv": "Mã Lộ",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "过马路要小心。",
+   "py": "Guò mǎlù yào xiǎoxīn.",
+   "en": "Be careful when crossing the road.",
+   "vi": "Qua đường phải cẩn thận."
+  }
+ },
+ {
+  "hz": "马上",
+  "py": "mǎshàng",
+  "en": "immediately",
+  "vi": "ngay lập tức",
+  "hv": "Mã Thượng",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "我马上就回来。",
+   "py": "Wǒ mǎshàng jiù huílai.",
+   "en": "I'll be right back.",
+   "vi": "Tôi sẽ quay lại ngay."
+  }
+ },
+ {
+  "hz": "满意",
+  "py": "mǎnyì",
+  "en": "to be satisfied",
+  "vi": "hài lòng",
+  "hv": "Mãn Ý",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我对工作很满意。",
+   "py": "Wǒ duì gōngzuò hěn mǎnyì.",
+   "en": "I am very satisfied with the work.",
+   "vi": "Tôi rất hài lòng với công việc."
+  }
+ },
+ {
+  "hz": "毛",
+  "py": "máo",
+  "en": "a tenth of a yuan; hair",
+  "vi": "hào; lông",
+  "hv": "Mao",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word, noun",
+  "sent": {
+   "zh": "这个苹果五毛钱。",
+   "py": "Zhège píngguǒ wǔ máo qián.",
+   "en": "This apple costs five mao.",
+   "vi": "Quả táo này giá năm hào."
+  }
+ },
+ {
+  "hz": "米",
+  "py": "mǐ",
+  "en": "meter",
+  "vi": "mét",
+  "hv": "Mễ",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "他身高一米八。",
+   "py": "Tā shēngāo yì mǐ bā.",
+   "en": "He is 1.8 meters tall.",
+   "vi": "Anh ấy cao một mét tám."
+  }
+ },
+ {
+  "hz": "面前",
+  "py": "miànqián",
+  "en": "in front of",
+  "vi": "trước mặt",
+  "hv": "Diện Tiền",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "老师站在我面前。",
+   "py": "Lǎoshī zhàn zài wǒ miànqián.",
+   "en": "The teacher is standing in front of me.",
+   "vi": "Giáo viên đang đứng trước mặt tôi."
+  }
+ },
+ {
+  "hz": "明白",
+  "py": "míngbai",
+  "en": "to understand; clear",
+  "vi": "hiểu; rõ ràng",
+  "hv": "Minh Bạch",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "adjective, verb",
+  "sent": {
+   "zh": "我明白你的意思。",
+   "py": "Wǒ míngbai nǐ de yìsi.",
+   "en": "I understand what you mean.",
+   "vi": "Tôi hiểu ý của bạn."
+  }
+ },
+ {
+  "hz": "名单",
+  "py": "míngdān",
+  "en": "name list",
+  "vi": "danh sách tên",
+  "hv": "Danh Đơn",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "名单上有你的名字。",
+   "py": "Míngdān shàng yǒu nǐ de míngzi.",
+   "en": "Your name is on the list.",
+   "vi": "Trong danh sách có tên của bạn."
+  }
+ },
+ {
+  "hz": "名人",
+  "py": "míngrén",
+  "en": "famous person",
+  "vi": "người nổi tiếng; danh nhân",
+  "hv": "Danh Nhân",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他是一位名人。",
+   "py": "Tā shì yí wèi míngrén.",
+   "en": "He is a famous person.",
+   "vi": "Ông ấy là một người nổi tiếng."
+  }
+ },
+ {
+  "hz": "南",
+  "py": "nán",
+  "en": "south",
+  "vi": "phía nam",
+  "hv": "Nam",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "学校在城南。",
+   "py": "Xuéxiào zài chéng nán.",
+   "en": "The school is in the south of the city.",
+   "vi": "Trường học ở phía nam thành phố."
+  }
+ },
+ {
+  "hz": "难",
+  "py": "nán",
+  "en": "difficult; to make difficult",
+  "vi": "khó; làm khó",
+  "hv": "Nan",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, verb",
+  "sent": {
+   "zh": "这个问题不难。",
+   "py": "Zhège wèntí bù nán.",
+   "en": "This question isn't difficult.",
+   "vi": "Câu hỏi này không khó."
+  }
+ },
+ {
+  "hz": "南方",
+  "py": "nánfāng",
+  "en": "the south",
+  "vi": "phương nam; miền Nam",
+  "hv": "Nam Phương",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "南方冬天不太冷。",
+   "py": "Nánfāng dōngtiān bú tài lěng.",
+   "en": "Winter in the south isn't very cold.",
+   "vi": "Mùa đông ở miền Nam không lạnh lắm."
+  }
+ },
+ {
+  "hz": "难过",
+  "py": "nánguò",
+  "en": "sad",
+  "vi": "buồn; khó chịu",
+  "hv": "Nan Quá",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "别难过，我陪你。",
+   "py": "Bié nánguò, wǒ péi nǐ.",
+   "en": "Don't be sad; I'll stay with you.",
+   "vi": "Đừng buồn, tôi ở bên bạn."
+  }
+ },
+ {
+  "hz": "难看",
+  "py": "nánkàn",
+  "en": "ugly",
+  "vi": "xấu; khó coi",
+  "hv": "Nan Khán",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这件衣服很难看。",
+   "py": "Zhè jiàn yīfu hěn nánkàn.",
+   "en": "These clothes are ugly.",
+   "vi": "Bộ quần áo này rất xấu."
+  }
+ },
+ {
+  "hz": "男生",
+  "py": "nánshēng",
+  "en": "male student",
+  "vi": "nam sinh",
+  "hv": "Nam Sinh",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "那个男生是我同学。",
+   "py": "Nàge nánshēng shì wǒ tóngxué.",
+   "en": "That boy is my classmate.",
+   "vi": "Nam sinh đó là bạn học của tôi."
+  }
+ },
+ {
+  "hz": "难题",
+  "py": "nántí",
+  "en": "difficult problem",
+  "vi": "bài toán khó; vấn đề khó",
+  "hv": "Nan Đề",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我会做这道难题。",
+   "py": "Wǒ huì zuò zhè dào nántí.",
+   "en": "I can solve this difficult problem.",
+   "vi": "Tôi biết làm bài khó này."
+  }
+ },
+ {
+  "hz": "难听",
+  "py": "nántīng",
+  "en": "unpleasant to hear",
+  "vi": "khó nghe; dở",
+  "hv": "Nan Thính",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这首歌真难听。",
+   "py": "Zhè shǒu gē zhēn nántīng.",
+   "en": "This song sounds awful.",
+   "vi": "Bài hát này thật khó nghe."
+  }
+ },
+ {
+  "hz": "年级",
+  "py": "niánjí",
+  "en": "grade",
+  "vi": "khối; lớp",
+  "hv": "Niên Cấp",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你上几年级？",
+   "py": "Nǐ shàng jǐ niánjí?",
+   "en": "What grade are you in?",
+   "vi": "Bạn học lớp mấy?"
+  }
+ },
+ {
+  "hz": "年轻",
+  "py": "niánqīng",
+  "en": "young",
+  "vi": "trẻ; trẻ tuổi",
+  "hv": "Niên Khinh",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "王老师很年轻。",
+   "py": "Wáng lǎoshī hěn niánqīng.",
+   "en": "Teacher Wang is very young.",
+   "vi": "Thầy Vương rất trẻ."
+  }
+ },
+ {
+  "hz": "牛",
+  "py": "niú",
+  "en": "cow; awesome",
+  "vi": "bò; tuyệt vời",
+  "hv": "Ngưu",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun, adjective",
+  "sent": {
+   "zh": "山上有三头牛。",
+   "py": "Shān shàng yǒu sān tóu niú.",
+   "en": "There are three cows on the mountain.",
+   "vi": "Trên núi có ba con bò."
+  }
+ },
+ {
+  "hz": "努力",
+  "py": "nǔlì",
+  "en": "to work hard; hardworking",
+  "vi": "nỗ lực; chăm chỉ",
+  "hv": "Nỗ Lực",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, adjective",
+  "sent": {
+   "zh": "他学习很努力。",
+   "py": "Tā xuéxí hěn nǔlì.",
+   "en": "He studies very hard.",
+   "vi": "Anh ấy học rất chăm chỉ."
+  }
+ },
+ {
+  "hz": "女生",
+  "py": "nǚshēng",
+  "en": "female student",
+  "vi": "nữ sinh",
+  "hv": "Nữ Sinh",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "那个女生会唱歌。",
+   "py": "Nàge nǚshēng huì chànggē.",
+   "en": "That girl can sing.",
+   "vi": "Nữ sinh đó biết hát."
+  }
+ },
+ {
+  "hz": "爬",
+  "py": "pá",
+  "en": "to climb",
+  "vi": "leo; bò",
+  "hv": "Ba",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们一起爬山吧。",
+   "py": "Wǒmen yìqǐ páshān ba.",
+   "en": "Let's climb the mountain together.",
+   "vi": "Chúng ta cùng leo núi nhé."
+  }
+ },
+ {
+  "hz": "怕",
+  "py": "pà",
+  "en": "to fear; perhaps",
+  "vi": "sợ; e rằng",
+  "hv": "Phạ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, adverb",
+  "sent": {
+   "zh": "妹妹很怕狗。",
+   "py": "Mèimei hěn pà gǒu.",
+   "en": "My younger sister is very afraid of dogs.",
+   "vi": "Em gái tôi rất sợ chó."
+  }
+ },
+ {
+  "hz": "拍照",
+  "py": "pāizhào",
+  "en": "to take a photo",
+  "vi": "chụp ảnh",
+  "hv": "Phách Chiếu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们在这里拍照吧。",
+   "py": "Wǒmen zài zhèlǐ pāizhào ba.",
+   "en": "Let's take a photo here.",
+   "vi": "Chúng ta chụp ảnh ở đây nhé."
+  }
+ },
+ {
+  "hz": "盘子",
+  "py": "pánzi",
+  "en": "plate",
+  "vi": "đĩa",
+  "hv": "Bàn Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "盘子里有鱼。",
+   "py": "Pánzi lǐ yǒu yú.",
+   "en": "There is fish on the plate.",
+   "vi": "Trong đĩa có cá."
+  }
+ },
+ {
+  "hz": "胖",
+  "py": "pàng",
+  "en": "fat",
+  "vi": "béo; mập",
+  "hv": "Bàn",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "那只猫有点儿胖。",
+   "py": "Nà zhī māo yǒudiǎnr pàng.",
+   "en": "That cat is a little fat.",
+   "vi": "Con mèo đó hơi mập."
+  }
+ },
+ {
+  "hz": "啤酒",
+  "py": "píjiǔ",
+  "en": "beer",
+  "vi": "bia",
+  "hv": "Ti Tửu",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "爸爸不喝啤酒。",
+   "py": "Bàba bù hē píjiǔ.",
+   "en": "Dad doesn't drink beer.",
+   "vi": "Bố không uống bia."
+  }
+ },
+ {
+  "hz": "平时",
+  "py": "píngshí",
+  "en": "usually",
+  "vi": "bình thường; thường ngày",
+  "hv": "Bình Thời",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我平时坐地铁上班。",
+   "py": "Wǒ píngshí zuò dìtiě shàngbān.",
+   "en": "I usually take the subway to work.",
+   "vi": "Bình thường tôi đi tàu điện ngầm đến chỗ làm."
+  }
+ },
+ {
+  "hz": "瓶子",
+  "py": "píngzi",
+  "en": "bottle",
+  "vi": "chai; lọ",
+  "hv": "Bình Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "瓶子里没有水。",
+   "py": "Píngzi lǐ méiyǒu shuǐ.",
+   "en": "There is no water in the bottle.",
+   "vi": "Trong chai không có nước."
+  }
+ },
+ {
+  "hz": "骑",
+  "py": "qí",
+  "en": "to ride",
+  "vi": "cưỡi; đi (xe đạp)",
+  "hv": "Kỵ",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我骑自行车上班。",
+   "py": "Wǒ qí zìxíngchē shàngbān.",
+   "en": "I ride a bicycle to work.",
+   "vi": "Tôi đi xe đạp đến chỗ làm."
+  }
+ },
+ {
+  "hz": "奇怪",
+  "py": "qíguài",
+  "en": "strange",
+  "vi": "kỳ lạ",
+  "hv": "Kỳ Quái",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这件事很奇怪。",
+   "py": "Zhè jiàn shì hěn qíguài.",
+   "en": "This matter is very strange.",
+   "vi": "Chuyện này rất kỳ lạ."
+  }
+ },
+ {
+  "hz": "其实",
+  "py": "qíshí",
+  "en": "actually",
+  "vi": "thật ra; thực ra",
+  "hv": "Kỳ Thực",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "其实我也不知道。",
+   "py": "Qíshí wǒ yě bù zhīdào.",
+   "en": "Actually, I don't know either.",
+   "vi": "Thật ra tôi cũng không biết."
+  }
+ },
+ {
+  "hz": "其他",
+  "py": "qítā",
+  "en": "other",
+  "vi": "khác; những cái khác",
+  "hv": "Kỳ Tha",
+  "theme": "PRON",
+  "hsk": 3,
+  "pos": "pronoun",
+  "sent": {
+   "zh": "你还有其他问题吗？",
+   "py": "Nǐ hái yǒu qítā wèntí ma?",
+   "en": "Do you have any other questions?",
+   "vi": "Bạn còn câu hỏi nào khác không?"
+  }
+ },
+ {
+  "hz": "起",
+  "py": "qǐ",
+  "en": "to rise; to get up; measure word for events",
+  "vi": "dậy; đứng lên; vụ",
+  "hv": "Khởi",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, measure word",
+  "sent": {
+   "zh": "我每天六点起。",
+   "py": "Wǒ měitiān liù diǎn qǐ.",
+   "en": "I get up at six every day.",
+   "vi": "Mỗi ngày tôi dậy lúc sáu giờ."
+  }
+ },
+ {
+  "hz": "起飞",
+  "py": "qǐfēi",
+  "en": "to take off",
+  "vi": "cất cánh",
+  "hv": "Khởi Phi",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "飞机马上起飞。",
+   "py": "Fēijī mǎshàng qǐfēi.",
+   "en": "The plane is about to take off.",
+   "vi": "Máy bay sắp cất cánh."
+  }
+ },
+ {
+  "hz": "汽车",
+  "py": "qìchē",
+  "en": "car",
+  "vi": "ô tô",
+  "hv": "Khí Xa",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这辆汽车很新。",
+   "py": "Zhè liàng qìchē hěn xīn.",
+   "en": "This car is very new.",
+   "vi": "Chiếc ô tô này rất mới."
+  }
+ },
+ {
+  "hz": "铅笔",
+  "py": "qiānbǐ",
+  "en": "pencil",
+  "vi": "bút chì",
+  "hv": "Duyên Bút",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请用铅笔写。",
+   "py": "Qǐng yòng qiānbǐ xiě.",
+   "en": "Please write with a pencil.",
+   "vi": "Vui lòng viết bằng bút chì."
+  }
+ },
+ {
+  "hz": "前年",
+  "py": "qiánnián",
+  "en": "the year before last",
+  "vi": "năm kia",
+  "hv": "Tiền Niên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我前年去了北京。",
+   "py": "Wǒ qiánnián qù le Běijīng.",
+   "en": "I went to Beijing the year before last.",
+   "vi": "Năm kia tôi đã đi Bắc Kinh."
+  }
+ },
+ {
+  "hz": "前天",
+  "py": "qiántiān",
+  "en": "the day before yesterday",
+  "vi": "hôm kia",
+  "hv": "Tiền Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他前天回来了。",
+   "py": "Tā qiántiān huílai le.",
+   "en": "He came back the day before yesterday.",
+   "vi": "Hôm kia anh ấy đã về."
+  }
+ },
+ {
+  "hz": "清楚",
+  "py": "qīngchu",
+  "en": "clear; to understand",
+  "vi": "rõ ràng; hiểu rõ",
+  "hv": "Thanh Sở",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "adjective, verb",
+  "sent": {
+   "zh": "你听清楚了吗？",
+   "py": "Nǐ tīng qīngchu le ma?",
+   "en": "Did you hear clearly?",
+   "vi": "Bạn nghe rõ chưa?"
+  }
+ },
+ {
+  "hz": "请假",
+  "py": "qǐngjià",
+  "en": "to ask for leave",
+  "vi": "xin nghỉ phép",
+  "hv": "Thỉnh Giả",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我今天想请假。",
+   "py": "Wǒ jīntiān xiǎng qǐngjià.",
+   "en": "I want to ask for leave today.",
+   "vi": "Hôm nay tôi muốn xin nghỉ phép."
+  }
+ },
+ {
+  "hz": "请客",
+  "py": "qǐngkè",
+  "en": "to treat someone; to invite guests",
+  "vi": "mời khách; đãi",
+  "hv": "Thỉnh Khách",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "今天我请客。",
+   "py": "Jīntiān wǒ qǐngkè.",
+   "en": "It's my treat today.",
+   "vi": "Hôm nay tôi mời."
+  }
+ },
+ {
+  "hz": "秋天",
+  "py": "qiūtiān",
+  "en": "autumn",
+  "vi": "mùa thu",
+  "hv": "Thu Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "秋天的天气很好。",
+   "py": "Qiūtiān de tiānqì hěn hǎo.",
+   "en": "The weather is nice in autumn.",
+   "vi": "Thời tiết mùa thu rất đẹp."
+  }
+ },
+ {
+  "hz": "球场",
+  "py": "qiúchǎng",
+  "en": "sports field; court",
+  "vi": "sân bóng; sân thể thao",
+  "hv": "Cầu Trường",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他们在球场踢球。",
+   "py": "Tāmen zài qiúchǎng tī qiú.",
+   "en": "They are playing ball on the field.",
+   "vi": "Họ đang chơi bóng trên sân."
+  }
+ },
+ {
+  "hz": "裙子",
+  "py": "qúnzi",
+  "en": "skirt",
+  "vi": "váy",
+  "hv": "Quần Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这条裙子很漂亮。",
+   "py": "Zhè tiáo qúnzi hěn piàoliang.",
+   "en": "This skirt is very pretty.",
+   "vi": "Chiếc váy này rất đẹp."
+  }
+ },
+ {
+  "hz": "然后",
+  "py": "ránhòu",
+  "en": "then; afterwards",
+  "vi": "sau đó; rồi",
+  "hv": "Nhiên Hậu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "先吃饭，然后学习。",
+   "py": "Xiān chīfàn, ránhòu xuéxí.",
+   "en": "Eat first, then study.",
+   "vi": "Ăn cơm trước, sau đó học bài."
+  }
+ },
+ {
+  "hz": "热情",
+  "py": "rèqíng",
+  "en": "enthusiastic",
+  "vi": "nhiệt tình; niềm nở",
+  "hv": "Nhiệt Tình",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这里的人很热情。",
+   "py": "Zhèlǐ de rén hěn rèqíng.",
+   "en": "The people here are very welcoming.",
+   "vi": "Người ở đây rất nhiệt tình."
+  }
+ },
+ {
+  "hz": "认得",
+  "py": "rènde",
+  "en": "to recognize; to know",
+  "vi": "nhận ra; quen biết",
+  "hv": "Nhận Đắc",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你认得这个人吗？",
+   "py": "Nǐ rènde zhège rén ma?",
+   "en": "Do you recognize this person?",
+   "vi": "Bạn có nhận ra người này không?"
+  }
+ },
+ {
+  "hz": "认为",
+  "py": "rènwéi",
+  "en": "to think; to consider",
+  "vi": "cho rằng; nghĩ rằng",
+  "hv": "Nhận Vi",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我认为他说得对。",
+   "py": "Wǒ rènwéi tā shuō de duì.",
+   "en": "I think what he said is right.",
+   "vi": "Tôi cho rằng anh ấy nói đúng."
+  }
+ },
+ {
+  "hz": "认真",
+  "py": "rènzhēn",
+  "en": "serious; earnest",
+  "vi": "nghiêm túc; chăm chỉ",
+  "hv": "Nhận Chân",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "请认真听老师说。",
+   "py": "Qǐng rènzhēn tīng lǎoshī shuō.",
+   "en": "Please listen carefully to the teacher.",
+   "vi": "Hãy nghiêm túc nghe giáo viên nói."
+  }
+ },
+ {
+  "hz": "容易",
+  "py": "róngyì",
+  "en": "easy",
+  "vi": "dễ; dễ dàng",
+  "hv": "Dung Dị",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这个汉字很容易。",
+   "py": "Zhège Hànzì hěn róngyì.",
+   "en": "This Chinese character is easy.",
+   "vi": "Chữ Hán này rất dễ."
+  }
+ },
+ {
+  "hz": "如果",
+  "py": "rúguǒ",
+  "en": "if",
+  "vi": "nếu; nếu như",
+  "hv": "Như Quả",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "如果下雨，就别去。",
+   "py": "Rúguǒ xiàyǔ, jiù bié qù.",
+   "en": "If it rains, don't go.",
+   "vi": "Nếu trời mưa thì đừng đi."
+  }
+ },
+ {
+  "hz": "伞",
+  "py": "sǎn",
+  "en": "umbrella",
+  "vi": "ô; dù",
+  "hv": "Tản",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "下雨了，带上伞。",
+   "py": "Xiàyǔ le, dài shàng sǎn.",
+   "en": "It's raining; take an umbrella.",
+   "vi": "Trời mưa rồi, hãy mang ô theo."
+  }
+ },
+ {
+  "hz": "扫",
+  "py": "sǎo",
+  "en": "to sweep",
+  "vi": "quét",
+  "hv": "Tảo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我来扫房间。",
+   "py": "Wǒ lái sǎo fángjiān.",
+   "en": "I'll sweep the room.",
+   "vi": "Để tôi quét phòng."
+  }
+ },
+ {
+  "hz": "沙发",
+  "py": "shāfā",
+  "en": "sofa",
+  "vi": "ghế sofa",
+  "hv": "Sa Phát",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "猫在沙发上睡觉。",
+   "py": "Māo zài shāfā shàng shuìjiào.",
+   "en": "The cat is sleeping on the sofa.",
+   "vi": "Con mèo đang ngủ trên ghế sofa."
+  }
+ },
+ {
+  "hz": "山",
+  "py": "shān",
+  "en": "mountain",
+  "vi": "núi",
+  "hv": "Sơn",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "那座山很高。",
+   "py": "Nà zuò shān hěn gāo.",
+   "en": "That mountain is very high.",
+   "vi": "Ngọn núi đó rất cao."
+  }
+ },
+ {
+  "hz": "上衣",
+  "py": "shàngyī",
+  "en": "jacket; top garment",
+  "vi": "áo; áo ngoài",
+  "hv": "Thượng Y",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这件上衣有点儿大。",
+   "py": "Zhè jiàn shàngyī yǒudiǎnr dà.",
+   "en": "This top is a little big.",
+   "vi": "Chiếc áo này hơi rộng."
+  }
+ },
+ {
+  "hz": "勺子",
+  "py": "sháozi",
+  "en": "spoon",
+  "vi": "thìa; muỗng",
+  "hv": "Chước Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请给我一个勺子。",
+   "py": "Qǐng gěi wǒ yí ge sháozi.",
+   "en": "Please give me a spoon.",
+   "vi": "Vui lòng cho tôi một chiếc thìa."
+  }
+ },
+ {
+  "hz": "身边",
+  "py": "shēnbiān",
+  "en": "by one's side",
+  "vi": "bên cạnh; bên mình",
+  "hv": "Thân Biên",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "朋友都在我身边。",
+   "py": "Péngyou dōu zài wǒ shēnbiān.",
+   "en": "My friends are all by my side.",
+   "vi": "Bạn bè đều ở bên cạnh tôi."
+  }
+ },
+ {
+  "hz": "身高",
+  "py": "shēngāo",
+  "en": "height",
+  "vi": "chiều cao",
+  "hv": "Thân Cao",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你的身高是多少？",
+   "py": "Nǐ de shēngāo shì duōshao?",
+   "en": "How tall are you?",
+   "vi": "Chiều cao của bạn là bao nhiêu?"
+  }
+ },
+ {
+  "hz": "声",
+  "py": "shēng",
+  "en": "sound; voice; measure word for sounds",
+  "vi": "tiếng; giọng; tiếng (lượng từ)",
+  "hv": "Thanh",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "noun, measure word",
+  "sent": {
+   "zh": "我听见一声猫叫。",
+   "py": "Wǒ tīngjiàn yì shēng māo jiào.",
+   "en": "I heard a cat meow.",
+   "vi": "Tôi nghe thấy một tiếng mèo kêu."
+  }
+ },
+ {
+  "hz": "生活",
+  "py": "shēnghuó",
+  "en": "life; to live",
+  "vi": "cuộc sống; sinh sống",
+  "hv": "Sinh Hoạt",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "noun, verb",
+  "sent": {
+   "zh": "我喜欢这里的生活。",
+   "py": "Wǒ xǐhuan zhèlǐ de shēnghuó.",
+   "en": "I like life here.",
+   "vi": "Tôi thích cuộc sống ở đây."
+  }
+ },
+ {
+  "hz": "生气",
+  "py": "shēngqì",
+  "en": "to get angry",
+  "vi": "tức giận",
+  "hv": "Sinh Khí",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "别生气，我错了。",
+   "py": "Bié shēngqì, wǒ cuò le.",
+   "en": "Don't be angry; I was wrong.",
+   "vi": "Đừng giận, tôi sai rồi."
+  }
+ },
+ {
+  "hz": "声音",
+  "py": "shēngyīn",
+  "en": "sound; voice",
+  "vi": "âm thanh; giọng nói",
+  "hv": "Thanh Âm",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她的声音很好听。",
+   "py": "Tā de shēngyīn hěn hǎotīng.",
+   "en": "Her voice sounds lovely.",
+   "vi": "Giọng của cô ấy rất hay."
+  }
+ },
+ {
+  "hz": "市",
+  "py": "shì",
+  "en": "city",
+  "vi": "thành phố; thị",
+  "hv": "Thị",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他住在河内市。",
+   "py": "Tā zhù zài Hénèi Shì.",
+   "en": "He lives in Hanoi City.",
+   "vi": "Anh ấy sống ở thành phố Hà Nội."
+  }
+ },
+ {
+  "hz": "试",
+  "py": "shì",
+  "en": "to try",
+  "vi": "thử",
+  "hv": "Thí",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你试一下这件衣服。",
+   "py": "Nǐ shì yíxià zhè jiàn yīfu.",
+   "en": "Try on these clothes.",
+   "vi": "Bạn thử bộ quần áo này đi."
+  }
+ },
+ {
+  "hz": "室",
+  "py": "shì",
+  "en": "room",
+  "vi": "phòng",
+  "hv": "Thất",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他在办公室工作。",
+   "py": "Tā zài bàngōngshì gōngzuò.",
+   "en": "He works in the office.",
+   "vi": "Anh ấy làm việc trong văn phòng."
+  }
+ },
+ {
+  "hz": "世界",
+  "py": "shìjiè",
+  "en": "world",
+  "vi": "thế giới",
+  "hv": "Thế Giới",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "世界很大。",
+   "py": "Shìjiè hěn dà.",
+   "en": "The world is big.",
+   "vi": "Thế giới rất rộng lớn."
+  }
+ },
+ {
+  "hz": "收",
+  "py": "shōu",
+  "en": "receive",
+  "vi": "nhận; thu",
+  "hv": "Thu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请收好你的钱。",
+   "py": "Qǐng shōu hǎo nǐ de qián.",
+   "en": "Please put your money away safely.",
+   "vi": "Hãy cất tiền của bạn cho kỹ."
+  }
+ },
+ {
+  "hz": "收到",
+  "py": "shōudào",
+  "en": "receive",
+  "vi": "nhận được",
+  "hv": "Thu Đáo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我收到你的信了。",
+   "py": "Wǒ shōudào nǐ de xìn le.",
+   "en": "I received your letter.",
+   "vi": "Tôi đã nhận được thư của bạn."
+  }
+ },
+ {
+  "hz": "受",
+  "py": "shòu",
+  "en": "receive; be affected",
+  "vi": "chịu; nhận",
+  "hv": "Thụ",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "这里不受天气影响。",
+   "py": "Zhèlǐ bú shòu tiānqì yǐngxiǎng.",
+   "en": "This place is not affected by the weather.",
+   "vi": "Nơi đây không bị ảnh hưởng bởi thời tiết."
+  }
+ },
+ {
+  "hz": "瘦",
+  "py": "shòu",
+  "en": "thin; slim",
+  "vi": "gầy; thon",
+  "hv": "Sấu",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "他比以前瘦了。",
+   "py": "Tā bǐ yǐqián shòu le.",
+   "en": "He is thinner than before.",
+   "vi": "Anh ấy gầy hơn trước rồi."
+  }
+ },
+ {
+  "hz": "受到",
+  "py": "shòudào",
+  "en": "receive; be subjected to",
+  "vi": "nhận được; chịu",
+  "hv": "Thụ Đáo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他受到大家的欢迎。",
+   "py": "Tā shòudào dàjiā de huānyíng.",
+   "en": "He is welcomed by everyone.",
+   "vi": "Anh ấy được mọi người chào đón."
+  }
+ },
+ {
+  "hz": "叔叔",
+  "py": "shūshu",
+  "en": "uncle",
+  "vi": "chú; chú bác",
+  "hv": "Thúc Thúc",
+  "theme": "FAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "叔叔在医院工作。",
+   "py": "Shūshu zài yīyuàn gōngzuò.",
+   "en": "Uncle works at a hospital.",
+   "vi": "Chú làm việc ở bệnh viện."
+  }
+ },
+ {
+  "hz": "树",
+  "py": "shù",
+  "en": "tree",
+  "vi": "cây",
+  "hv": "Thụ",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "门前有一棵树。",
+   "py": "Mén qián yǒu yì kē shù.",
+   "en": "There is a tree in front of the door.",
+   "vi": "Trước cửa có một cái cây."
+  }
+ },
+ {
+  "hz": "数学",
+  "py": "shùxué",
+  "en": "mathematics",
+  "vi": "toán học",
+  "hv": "Số Học",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我很喜欢数学。",
+   "py": "Wǒ hěn xǐhuan shùxué.",
+   "en": "I really like mathematics.",
+   "vi": "Tôi rất thích toán học."
+  }
+ },
+ {
+  "hz": "刷",
+  "py": "shuā",
+  "en": "brush; scrub",
+  "vi": "chải; cọ",
+  "hv": "Loát",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我每天刷两次牙。",
+   "py": "Wǒ měitiān shuā liǎng cì yá.",
+   "en": "I brush my teeth twice a day.",
+   "vi": "Mỗi ngày tôi đánh răng hai lần."
+  }
+ },
+ {
+  "hz": "双",
+  "py": "shuāng",
+  "en": "pair; measure word for pairs",
+  "vi": "đôi; cặp",
+  "hv": "Song",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "我买了一双鞋。",
+   "py": "Wǒ mǎi le yì shuāng xié.",
+   "en": "I bought a pair of shoes.",
+   "vi": "Tôi đã mua một đôi giày."
+  }
+ },
+ {
+  "hz": "水平",
+  "py": "shuǐpíng",
+  "en": "level; standard",
+  "vi": "trình độ; mức độ",
+  "hv": "Thủy Bình",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他的汉语水平很高。",
+   "py": "Tā de Hànyǔ shuǐpíng hěn gāo.",
+   "en": "His Chinese level is high.",
+   "vi": "Trình độ tiếng Trung của anh ấy rất cao."
+  }
+ },
+ {
+  "hz": "司机",
+  "py": "sījī",
+  "en": "driver",
+  "vi": "tài xế; lái xe",
+  "hv": "Ti Cơ",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "司机在车里等你。",
+   "py": "Sījī zài chē lǐ děng nǐ.",
+   "en": "The driver is waiting for you in the car.",
+   "vi": "Tài xế đang đợi bạn trong xe."
+  }
+ },
+ {
+  "hz": "四季",
+  "py": "sìjì",
+  "en": "four seasons",
+  "vi": "bốn mùa",
+  "hv": "Tứ Quý",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这里四季都很美。",
+   "py": "Zhèlǐ sìjì dōu hěn měi.",
+   "en": "It is beautiful here in all four seasons.",
+   "vi": "Nơi đây bốn mùa đều rất đẹp."
+  }
+ },
+ {
+  "hz": "太阳",
+  "py": "tàiyáng",
+  "en": "sun",
+  "vi": "mặt trời",
+  "hv": "Thái Dương",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "太阳出来了。",
+   "py": "Tàiyáng chūlái le.",
+   "en": "The sun has come out.",
+   "vi": "Mặt trời đã ló dạng."
+  }
+ },
+ {
+  "hz": "糖",
+  "py": "táng",
+  "en": "candy; sugar",
+  "vi": "kẹo; đường",
+  "hv": "Đường",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "咖啡里别放糖。",
+   "py": "Kāfēi lǐ bié fàng táng.",
+   "en": "Don't put sugar in the coffee.",
+   "vi": "Đừng cho đường vào cà phê."
+  }
+ },
+ {
+  "hz": "特别",
+  "py": "tèbié",
+  "en": "special; particularly",
+  "vi": "đặc biệt; rất",
+  "hv": "Đặc Biệt",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, adverb",
+  "sent": {
+   "zh": "今天特别冷。",
+   "py": "Jīntiān tèbié lěng.",
+   "en": "It is especially cold today.",
+   "vi": "Hôm nay đặc biệt lạnh."
+  }
+ },
+ {
+  "hz": "提高",
+  "py": "tígāo",
+  "en": "raise; improve",
+  "vi": "nâng cao; cải thiện",
+  "hv": "Đề Cao",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我要提高汉语水平。",
+   "py": "Wǒ yào tígāo Hànyǔ shuǐpíng.",
+   "en": "I want to improve my Chinese level.",
+   "vi": "Tôi muốn nâng cao trình độ tiếng Trung."
+  }
+ },
+ {
+  "hz": "体育",
+  "py": "tǐyù",
+  "en": "physical education; sports",
+  "vi": "thể dục; thể thao",
+  "hv": "Thể Dục",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我最喜欢体育课。",
+   "py": "Wǒ zuì xǐhuan tǐyù kè.",
+   "en": "I like PE class the most.",
+   "vi": "Tôi thích tiết thể dục nhất."
+  }
+ },
+ {
+  "hz": "体育馆",
+  "py": "tǐyùguǎn",
+  "en": "gymnasium",
+  "vi": "nhà thi đấu; phòng thể dục",
+  "hv": "Thể Dục Quán",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们去体育馆吧。",
+   "py": "Wǒmen qù tǐyùguǎn ba.",
+   "en": "Let's go to the gymnasium.",
+   "vi": "Chúng ta đi nhà thi đấu nhé."
+  }
+ },
+ {
+  "hz": "甜",
+  "py": "tián",
+  "en": "sweet",
+  "vi": "ngọt",
+  "hv": "Điềm",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这个西瓜很甜。",
+   "py": "Zhège xīguā hěn tián.",
+   "en": "This watermelon is sweet.",
+   "vi": "Quả dưa hấu này rất ngọt."
+  }
+ },
+ {
+  "hz": "跳",
+  "py": "tiào",
+  "en": "jump",
+  "vi": "nhảy",
+  "hv": "Khiêu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "孩子高兴地跳起来。",
+   "py": "Háizi gāoxìng de tiào qǐlái.",
+   "en": "The child jumped up happily.",
+   "vi": "Đứa trẻ vui vẻ nhảy lên."
+  }
+ },
+ {
+  "hz": "听说",
+  "py": "tīngshuō",
+  "en": "hear; be told",
+  "vi": "nghe nói",
+  "hv": "Thính Thuyết",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "听说他要结婚了。",
+   "py": "Tīngshuō tā yào jiéhūn le.",
+   "en": "I heard that he is getting married.",
+   "vi": "Nghe nói anh ấy sắp kết hôn."
+  }
+ },
+ {
+  "hz": "挺",
+  "py": "tǐng",
+  "en": "quite; endure",
+  "vi": "khá; chịu đựng",
+  "hv": "Đĩnh",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb, verb",
+  "sent": {
+   "zh": "这件衣服挺好看。",
+   "py": "Zhè jiàn yīfu tǐng hǎokàn.",
+   "en": "This piece of clothing is quite nice.",
+   "vi": "Bộ quần áo này khá đẹp."
+  }
+ },
+ {
+  "hz": "同事",
+  "py": "tóngshì",
+  "en": "colleague",
+  "vi": "đồng nghiệp",
+  "hv": "Đồng Sự",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她是我的同事。",
+   "py": "Tā shì wǒ de tóngshì.",
+   "en": "She is my colleague.",
+   "vi": "Cô ấy là đồng nghiệp của tôi."
+  }
+ },
+ {
+  "hz": "同意",
+  "py": "tóngyì",
+  "en": "agree",
+  "vi": "đồng ý",
+  "hv": "Đồng Ý",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我同意你的办法。",
+   "py": "Wǒ tóngyì nǐ de bànfǎ.",
+   "en": "I agree with your solution.",
+   "vi": "Tôi đồng ý với cách của bạn."
+  }
+ },
+ {
+  "hz": "头发",
+  "py": "tóufa",
+  "en": "hair",
+  "vi": "tóc",
+  "hv": "Đầu Phát",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她的头发很长。",
+   "py": "Tā de tóufa hěn cháng.",
+   "en": "Her hair is long.",
+   "vi": "Tóc cô ấy rất dài."
+  }
+ },
+ {
+  "hz": "突然",
+  "py": "tūrán",
+  "en": "sudden; suddenly",
+  "vi": "đột nhiên; bất ngờ",
+  "hv": "Đột Nhiên",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "天突然下雨了。",
+   "py": "Tiān tūrán xiàyǔ le.",
+   "en": "It suddenly started raining.",
+   "vi": "Trời đột nhiên mưa."
+  }
+ },
+ {
+  "hz": "图书馆",
+  "py": "túshūguǎn",
+  "en": "library",
+  "vi": "thư viện",
+  "hv": "Đồ Thư Quán",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我在图书馆看书。",
+   "py": "Wǒ zài túshūguǎn kàn shū.",
+   "en": "I read at the library.",
+   "vi": "Tôi đọc sách ở thư viện."
+  }
+ },
+ {
+  "hz": "腿",
+  "py": "tuǐ",
+  "en": "leg",
+  "vi": "chân",
+  "hv": "Thối",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的腿有点儿疼。",
+   "py": "Wǒ de tuǐ yǒudiǎnr téng.",
+   "en": "My leg hurts a little.",
+   "vi": "Chân tôi hơi đau."
+  }
+ },
+ {
+  "hz": "外地",
+  "py": "wàidì",
+  "en": "another place; out of town",
+  "vi": "nơi khác; ngoại tỉnh",
+  "hv": "Ngoại Địa",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他去外地工作了。",
+   "py": "Tā qù wàidì gōngzuò le.",
+   "en": "He went to work out of town.",
+   "vi": "Anh ấy đã đi nơi khác làm việc."
+  }
+ },
+ {
+  "hz": "外卖",
+  "py": "wàimài",
+  "en": "takeaway; order takeout",
+  "vi": "đồ ăn mang về; gọi đồ ăn",
+  "hv": "Ngoại Mại",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "今天晚上叫外卖吧。",
+   "py": "Jīntiān wǎnshang jiào wàimài ba.",
+   "en": "Let's order takeout tonight.",
+   "vi": "Tối nay gọi đồ ăn nhé."
+  }
+ },
+ {
+  "hz": "外语",
+  "py": "wàiyǔ",
+  "en": "foreign language",
+  "vi": "ngoại ngữ",
+  "hv": "Ngoại Ngữ",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "她会说两种外语。",
+   "py": "Tā huì shuō liǎng zhǒng wàiyǔ.",
+   "en": "She can speak two foreign languages.",
+   "vi": "Cô ấy biết nói hai ngoại ngữ."
+  }
+ },
+ {
+  "hz": "完成",
+  "py": "wánchéng",
+  "en": "complete; finish",
+  "vi": "hoàn thành",
+  "hv": "Hoàn Thành",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我完成作业了。",
+   "py": "Wǒ wánchéng zuòyè le.",
+   "en": "I finished my homework.",
+   "vi": "Tôi đã hoàn thành bài tập."
+  }
+ },
+ {
+  "hz": "碗",
+  "py": "wǎn",
+  "en": "bowl",
+  "vi": "bát; chén",
+  "hv": "Oản",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "桌上有三个碗。",
+   "py": "Zhuō shàng yǒu sān ge wǎn.",
+   "en": "There are three bowls on the table.",
+   "vi": "Trên bàn có ba cái bát."
+  }
+ },
+ {
+  "hz": "晚点",
+  "py": "wǎndiǎn",
+  "en": "be late",
+  "vi": "trễ; muộn giờ",
+  "hv": "Vãn Điểm",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "火车晚点了。",
+   "py": "Huǒchē wǎndiǎn le.",
+   "en": "The train is late.",
+   "vi": "Tàu hỏa bị trễ rồi."
+  }
+ },
+ {
+  "hz": "晚会",
+  "py": "wǎnhuì",
+  "en": "evening party",
+  "vi": "buổi liên hoan tối; dạ hội",
+  "hv": "Vãn Hội",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "晚会八点开始。",
+   "py": "Wǎnhuì bā diǎn kāishǐ.",
+   "en": "The evening party starts at eight.",
+   "vi": "Buổi liên hoan bắt đầu lúc tám giờ."
+  }
+ },
+ {
+  "hz": "网球",
+  "py": "wǎngqiú",
+  "en": "tennis",
+  "vi": "quần vợt",
+  "hv": "Võng Cầu",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我周末常打网球。",
+   "py": "Wǒ zhōumò cháng dǎ wǎngqiú.",
+   "en": "I often play tennis on weekends.",
+   "vi": "Cuối tuần tôi thường chơi quần vợt."
+  }
+ },
+ {
+  "hz": "网站",
+  "py": "wǎngzhàn",
+  "en": "website",
+  "vi": "trang web",
+  "hv": "Võng Trạm",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个网站很有用。",
+   "py": "Zhège wǎngzhàn hěn yǒuyòng.",
+   "en": "This website is very useful.",
+   "vi": "Trang web này rất hữu ích."
+  }
+ },
+ {
+  "hz": "忘记",
+  "py": "wàngjì",
+  "en": "forget",
+  "vi": "quên",
+  "hv": "Vong Ký",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "别忘记带雨伞。",
+   "py": "Bié wàngjì dài yǔsǎn.",
+   "en": "Don't forget to bring an umbrella.",
+   "vi": "Đừng quên mang ô."
+  }
+ },
+ {
+  "hz": "为了",
+  "py": "wèile",
+  "en": "in order to; for",
+  "vi": "để; vì",
+  "hv": "Vị Liễu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "preposition",
+  "sent": {
+   "zh": "为了健康，他每天跑步。",
+   "py": "Wèile jiànkāng, tā měitiān pǎobù.",
+   "en": "For his health, he runs every day.",
+   "vi": "Vì sức khỏe, anh ấy chạy bộ mỗi ngày."
+  }
+ },
+ {
+  "hz": "卫生间",
+  "py": "wèishēngjiān",
+  "en": "bathroom; restroom",
+  "vi": "nhà vệ sinh",
+  "hv": "Vệ Sinh Gian",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "卫生间在右边。",
+   "py": "Wèishēngjiān zài yòubian.",
+   "en": "The restroom is on the right.",
+   "vi": "Nhà vệ sinh ở bên phải."
+  }
+ },
+ {
+  "hz": "文化",
+  "py": "wénhuà",
+  "en": "culture",
+  "vi": "văn hóa",
+  "hv": "Văn Hóa",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢中国文化。",
+   "py": "Wǒ xǐhuan Zhōngguó wénhuà.",
+   "en": "I like Chinese culture.",
+   "vi": "Tôi thích văn hóa Trung Quốc."
+  }
+ },
+ {
+  "hz": "屋子",
+  "py": "wūzi",
+  "en": "room; house",
+  "vi": "căn phòng; ngôi nhà",
+  "hv": "Ốc Tử",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "屋子里很安静。",
+   "py": "Wūzi lǐ hěn ānjìng.",
+   "en": "It is quiet in the room.",
+   "vi": "Trong phòng rất yên tĩnh."
+  }
+ },
+ {
+  "hz": "西",
+  "py": "xī",
+  "en": "west",
+  "vi": "phía tây; tây",
+  "hv": "Tây",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "太阳从西边下去。",
+   "py": "Tàiyáng cóng xībian xiàqu.",
+   "en": "The sun sets in the west.",
+   "vi": "Mặt trời lặn ở phía tây."
+  }
+ },
+ {
+  "hz": "西北",
+  "py": "xīběi",
+  "en": "northwest",
+  "vi": "tây bắc",
+  "hv": "Tây Bắc",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "学校在城西北。",
+   "py": "Xuéxiào zài chéng xīběi.",
+   "en": "The school is in the northwest of the city.",
+   "vi": "Trường học nằm ở phía tây bắc thành phố."
+  }
+ },
+ {
+  "hz": "西方",
+  "py": "xīfāng",
+  "en": "the West; west",
+  "vi": "phương Tây; phía tây",
+  "hv": "Tây Phương",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他很了解西方文化。",
+   "py": "Tā hěn liǎojiě Xīfāng wénhuà.",
+   "en": "He knows Western culture well.",
+   "vi": "Anh ấy rất hiểu văn hóa phương Tây."
+  }
+ },
+ {
+  "hz": "西南",
+  "py": "xīnán",
+  "en": "southwest",
+  "vi": "tây nam",
+  "hv": "Tây Nam",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "机场在城西南。",
+   "py": "Jīchǎng zài chéng xīnán.",
+   "en": "The airport is in the southwest of the city.",
+   "vi": "Sân bay nằm ở phía tây nam thành phố."
+  }
+ },
+ {
+  "hz": "习惯",
+  "py": "xíguàn",
+  "en": "be used to; habit",
+  "vi": "quen; thói quen",
+  "hv": "Tập Quán",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "我习惯早起。",
+   "py": "Wǒ xíguàn zǎoqǐ.",
+   "en": "I am used to getting up early.",
+   "vi": "Tôi quen dậy sớm."
+  }
+ },
+ {
+  "hz": "喜爱",
+  "py": "xǐ’ài",
+  "en": "like; love",
+  "vi": "yêu thích",
+  "hv": "Hỉ Ái",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "孩子们喜爱动物。",
+   "py": "Háizimen xǐ’ài dòngwù.",
+   "en": "Children love animals.",
+   "vi": "Trẻ em yêu thích động vật."
+  }
+ },
+ {
+  "hz": "洗衣机",
+  "py": "xǐyījī",
+  "en": "washing machine",
+  "vi": "máy giặt",
+  "hv": "Tẩy Y Cơ",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "洗衣机坏了。",
+   "py": "Xǐyījī huài le.",
+   "en": "The washing machine is broken.",
+   "vi": "Máy giặt bị hỏng rồi."
+  }
+ },
+ {
+  "hz": "洗澡",
+  "py": "xǐzǎo",
+  "en": "take a bath; shower",
+  "vi": "tắm",
+  "hv": "Tẩy Tảo",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我运动后洗澡。",
+   "py": "Wǒ yùndòng hòu xǐzǎo.",
+   "en": "I shower after exercising.",
+   "vi": "Tôi tắm sau khi tập thể dục."
+  }
+ },
+ {
+  "hz": "夏天",
+  "py": "xiàtiān",
+  "en": "summer",
+  "vi": "mùa hè",
+  "hv": "Hạ Thiên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "夏天常常下雨。",
+   "py": "Xiàtiān chángcháng xiàyǔ.",
+   "en": "It often rains in summer.",
+   "vi": "Mùa hè thường hay mưa."
+  }
+ },
+ {
+  "hz": "先",
+  "py": "xiān",
+  "en": "first; before",
+  "vi": "trước; trước tiên",
+  "hv": "Tiên",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "你先吃饭吧。",
+   "py": "Nǐ xiān chīfàn ba.",
+   "en": "You eat first.",
+   "vi": "Bạn ăn cơm trước đi."
+  }
+ },
+ {
+  "hz": "香蕉",
+  "py": "xiāngjiāo",
+  "en": "banana",
+  "vi": "chuối",
+  "hv": "Hương Tiêu",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我买了几根香蕉。",
+   "py": "Wǒ mǎi le jǐ gēn xiāngjiāo.",
+   "en": "I bought some bananas.",
+   "vi": "Tôi đã mua mấy quả chuối."
+  }
+ },
+ {
+  "hz": "相信",
+  "py": "xiāngxìn",
+  "en": "believe; trust",
+  "vi": "tin; tin tưởng",
+  "hv": "Tương Tín",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我相信你。",
+   "py": "Wǒ xiāngxìn nǐ.",
+   "en": "I believe you.",
+   "vi": "Tôi tin bạn."
+  }
+ },
+ {
+  "hz": "箱子",
+  "py": "xiāngzi",
+  "en": "box; case",
+  "vi": "thùng; va-li",
+  "hv": "Tương Tử",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "箱子里都是书。",
+   "py": "Xiāngzi lǐ dōu shì shū.",
+   "en": "The box is full of books.",
+   "vi": "Trong thùng toàn là sách."
+  }
+ },
+ {
+  "hz": "像",
+  "py": "xiàng",
+  "en": "resemble; be like; image",
+  "vi": "giống; như; hình tượng",
+  "hv": "Tượng",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb, adverb, noun",
+  "sent": {
+   "zh": "她长得像妈妈。",
+   "py": "Tā zhǎng de xiàng māma.",
+   "en": "She looks like her mother.",
+   "vi": "Cô ấy trông giống mẹ."
+  }
+ },
+ {
+  "hz": "相机",
+  "py": "xiàngjī",
+  "en": "camera",
+  "vi": "máy ảnh",
+  "hv": "Tướng Cơ",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这台相机很轻。",
+   "py": "Zhè tái xiàngjī hěn qīng.",
+   "en": "This camera is light.",
+   "vi": "Chiếc máy ảnh này rất nhẹ."
+  }
+ },
+ {
+  "hz": "小区",
+  "py": "xiǎoqū",
+  "en": "residential community",
+  "vi": "khu dân cư; khu chung cư",
+  "hv": "Tiểu Khu",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个小区很安静。",
+   "py": "Zhège xiǎoqū hěn ānjìng.",
+   "en": "This residential community is quiet.",
+   "vi": "Khu dân cư này rất yên tĩnh."
+  }
+ },
+ {
+  "hz": "小心",
+  "py": "xiǎoxīn",
+  "en": "be careful; careful",
+  "vi": "cẩn thận",
+  "hv": "Tiểu Tâm",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, adjective",
+  "sent": {
+   "zh": "下雨了，小心路滑。",
+   "py": "Xiàyǔ le, xiǎoxīn lù huá.",
+   "en": "It's raining; be careful, the road is slippery.",
+   "vi": "Trời mưa rồi, cẩn thận đường trơn."
+  }
+ },
+ {
+  "hz": "校园",
+  "py": "xiàoyuán",
+  "en": "campus",
+  "vi": "khuôn viên trường",
+  "hv": "Hiệu Viên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "校园里有很多树。",
+   "py": "Xiàoyuán lǐ yǒu hěn duō shù.",
+   "en": "There are many trees on campus.",
+   "vi": "Trong khuôn viên trường có nhiều cây."
+  }
+ },
+ {
+  "hz": "校长",
+  "py": "xiàozhǎng",
+  "en": "principal; headmaster",
+  "vi": "hiệu trưởng",
+  "hv": "Hiệu Trưởng",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "校长正在开会。",
+   "py": "Xiàozhǎng zhèngzài kāihuì.",
+   "en": "The principal is in a meeting.",
+   "vi": "Hiệu trưởng đang họp."
+  }
+ },
+ {
+  "hz": "鞋",
+  "py": "xié",
+  "en": "shoe",
+  "vi": "giày",
+  "hv": "Hài",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这双鞋很舒服。",
+   "py": "Zhè shuāng xié hěn shūfu.",
+   "en": "This pair of shoes is comfortable.",
+   "vi": "Đôi giày này rất thoải mái."
+  }
+ },
+ {
+  "hz": "心里",
+  "py": "xīnlǐ",
+  "en": "heart; mind",
+  "vi": "trong lòng; trong tâm trí",
+  "hv": "Tâm Lý",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我心里很高兴。",
+   "py": "Wǒ xīnlǐ hěn gāoxìng.",
+   "en": "I feel very happy inside.",
+   "vi": "Trong lòng tôi rất vui."
+  }
+ },
+ {
+  "hz": "新年",
+  "py": "xīnnián",
+  "en": "New Year",
+  "vi": "năm mới",
+  "hv": "Tân Niên",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "新年快到了。",
+   "py": "Xīnnián kuài dào le.",
+   "en": "New Year is coming soon.",
+   "vi": "Năm mới sắp đến rồi."
+  }
+ },
+ {
+  "hz": "新闻",
+  "py": "xīnwén",
+  "en": "news",
+  "vi": "tin tức; thời sự",
+  "hv": "Tân Văn",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "爸爸在看新闻。",
+   "py": "Bàba zài kàn xīnwén.",
+   "en": "Dad is watching the news.",
+   "vi": "Bố đang xem tin tức."
+  }
+ },
+ {
+  "hz": "新鲜",
+  "py": "xīnxiān",
+  "en": "fresh",
+  "vi": "tươi; tươi mới",
+  "hv": "Tân Tiên",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这些鱼很新鲜。",
+   "py": "Zhèxiē yú hěn xīnxiān.",
+   "en": "These fish are fresh.",
+   "vi": "Những con cá này rất tươi."
+  }
+ },
+ {
+  "hz": "信",
+  "py": "xìn",
+  "en": "believe; letter",
+  "vi": "tin; thư",
+  "hv": "Tín",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "我给朋友写了一封信。",
+   "py": "Wǒ gěi péngyou xiě le yì fēng xìn.",
+   "en": "I wrote a letter to my friend.",
+   "vi": "Tôi đã viết một lá thư cho bạn."
+  }
+ },
+ {
+  "hz": "信用卡",
+  "py": "xìnyòngkǎ",
+  "en": "credit card",
+  "vi": "thẻ tín dụng",
+  "hv": "Tín Dụng Tạp",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这里能用信用卡吗？",
+   "py": "Zhèlǐ néng yòng xìnyòngkǎ ma?",
+   "en": "Can I use a credit card here?",
+   "vi": "Ở đây có thể dùng thẻ tín dụng không?"
+  }
+ },
+ {
+  "hz": "行",
+  "py": "xíng",
+  "en": "go; okay; permissible",
+  "vi": "đi; được; ổn",
+  "hv": "Hành",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, adjective",
+  "sent": {
+   "zh": "这样做也行。",
+   "py": "Zhèyàng zuò yě xíng.",
+   "en": "Doing it this way is also okay.",
+   "vi": "Làm như thế này cũng được."
+  }
+ },
+ {
+  "hz": "行李",
+  "py": "xíngli",
+  "en": "luggage",
+  "vi": "hành lý",
+  "hv": "Hành Lý",
+  "theme": "TRANS",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的行李很重。",
+   "py": "Wǒ de xíngli hěn zhòng.",
+   "en": "My luggage is heavy.",
+   "vi": "Hành lý của tôi rất nặng."
+  }
+ },
+ {
+  "hz": "兴趣",
+  "py": "xìngqù",
+  "en": "interest",
+  "vi": "hứng thú; sở thích",
+  "hv": "Hứng Thú",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我对音乐有兴趣。",
+   "py": "Wǒ duì yīnyuè yǒu xìngqù.",
+   "en": "I am interested in music.",
+   "vi": "Tôi có hứng thú với âm nhạc."
+  }
+ },
+ {
+  "hz": "休假",
+  "py": "xiūjià",
+  "en": "take a holiday",
+  "vi": "nghỉ phép",
+  "hv": "Hưu Giả",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我下周休假。",
+   "py": "Wǒ xià zhōu xiūjià.",
+   "en": "I am taking leave next week.",
+   "vi": "Tuần sau tôi nghỉ phép."
+  }
+ },
+ {
+  "hz": "需要",
+  "py": "xūyào",
+  "en": "need; requirement",
+  "vi": "cần; nhu cầu",
+  "hv": "Nhu Yếu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "你需要帮助吗？",
+   "py": "Nǐ xūyào bāngzhù ma?",
+   "en": "Do you need help?",
+   "vi": "Bạn có cần giúp đỡ không?"
+  }
+ },
+ {
+  "hz": "选",
+  "py": "xuǎn",
+  "en": "choose; select",
+  "vi": "chọn",
+  "hv": "Tuyển",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你想选哪一个？",
+   "py": "Nǐ xiǎng xuǎn nǎ yí ge?",
+   "en": "Which one do you want to choose?",
+   "vi": "Bạn muốn chọn cái nào?"
+  }
+ },
+ {
+  "hz": "选择",
+  "py": "xuǎnzé",
+  "en": "choose; select",
+  "vi": "lựa chọn",
+  "hv": "Tuyển Trạch",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请选择一个颜色。",
+   "py": "Qǐng xuǎnzé yí ge yánsè.",
+   "en": "Please choose a color.",
+   "vi": "Vui lòng chọn một màu."
+  }
+ },
+ {
+  "hz": "学期",
+  "py": "xuéqī",
+  "en": "semester",
+  "vi": "học kỳ",
+  "hv": "Học Kỳ",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "新学期开始了。",
+   "py": "Xīn xuéqī kāishǐ le.",
+   "en": "The new semester has begun.",
+   "vi": "Học kỳ mới đã bắt đầu."
+  }
+ },
+ {
+  "hz": "牙",
+  "py": "yá",
+  "en": "tooth",
+  "vi": "răng",
+  "hv": "Nha",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的牙有点儿疼。",
+   "py": "Wǒ de yá yǒudiǎnr téng.",
+   "en": "My tooth hurts a little.",
+   "vi": "Răng tôi hơi đau."
+  }
+ },
+ {
+  "hz": "牙刷",
+  "py": "yáshuā",
+  "en": "toothbrush",
+  "vi": "bàn chải đánh răng",
+  "hv": "Nha Loát",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这是我的牙刷。",
+   "py": "Zhè shì wǒ de yáshuā.",
+   "en": "This is my toothbrush.",
+   "vi": "Đây là bàn chải đánh răng của tôi."
+  }
+ },
+ {
+  "hz": "羊",
+  "py": "yáng",
+  "en": "sheep",
+  "vi": "con cừu",
+  "hv": "Dương",
+  "theme": "ANIM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "山上有很多羊。",
+   "py": "Shān shàng yǒu hěn duō yáng.",
+   "en": "There are many sheep on the mountain.",
+   "vi": "Trên núi có rất nhiều cừu."
+  }
+ },
+ {
+  "hz": "养",
+  "py": "yǎng",
+  "en": "raise; keep",
+  "vi": "nuôi",
+  "hv": "Dưỡng",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我想养一只猫。",
+   "py": "Wǒ xiǎng yǎng yì zhī māo.",
+   "en": "I want to keep a cat.",
+   "vi": "Tôi muốn nuôi một con mèo."
+  }
+ },
+ {
+  "hz": "要求",
+  "py": "yāoqiú",
+  "en": "demand; requirement",
+  "vi": "yêu cầu",
+  "hv": "Yêu Cầu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "老师要求我们早到。",
+   "py": "Lǎoshī yāoqiú wǒmen zǎo dào.",
+   "en": "The teacher requires us to arrive early.",
+   "vi": "Giáo viên yêu cầu chúng tôi đến sớm."
+  }
+ },
+ {
+  "hz": "页",
+  "py": "yè",
+  "en": "page",
+  "vi": "trang",
+  "hv": "Hiệt",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "请看第十页。",
+   "py": "Qǐng kàn dì shí yè.",
+   "en": "Please look at page ten.",
+   "vi": "Xin hãy xem trang mười."
+  }
+ },
+ {
+  "hz": "一定",
+  "py": "yídìng",
+  "en": "certain; certainly",
+  "vi": "nhất định; chắc chắn",
+  "hv": "Nhất Định",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective, adverb",
+  "sent": {
+   "zh": "我明天一定来。",
+   "py": "Wǒ míngtiān yídìng lái.",
+   "en": "I will definitely come tomorrow.",
+   "vi": "Ngày mai tôi nhất định sẽ đến."
+  }
+ },
+ {
+  "hz": "一共",
+  "py": "yígòng",
+  "en": "altogether; in total",
+  "vi": "tổng cộng",
+  "hv": "Nhất Cộng",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "一共来了十个人。",
+   "py": "Yígòng lái le shí ge rén.",
+   "en": "Ten people came in total.",
+   "vi": "Tổng cộng có mười người đến."
+  }
+ },
+ {
+  "hz": "一块儿",
+  "py": "yíkuàir",
+  "en": "same place; together",
+  "vi": "cùng nhau; cùng một chỗ",
+  "hv": "Nhất Khối Nhi",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "noun, adverb",
+  "sent": {
+   "zh": "我们一块儿回家。",
+   "py": "Wǒmen yíkuàir huí jiā.",
+   "en": "Let's go home together.",
+   "vi": "Chúng ta cùng nhau về nhà."
+  }
+ },
+ {
+  "hz": "一样",
+  "py": "yíyàng",
+  "en": "same",
+  "vi": "giống nhau",
+  "hv": "Nhất Dạng",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这两件衣服一样。",
+   "py": "Zhè liǎng jiàn yīfu yíyàng.",
+   "en": "These two pieces of clothing are the same.",
+   "vi": "Hai bộ quần áo này giống nhau."
+  }
+ },
+ {
+  "hz": "以后",
+  "py": "yǐhòu",
+  "en": "later; after",
+  "vi": "sau này; sau khi",
+  "hv": "Dĩ Hậu",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "以后我会常来。",
+   "py": "Yǐhòu wǒ huì cháng lái.",
+   "en": "I will come often in the future.",
+   "vi": "Sau này tôi sẽ thường xuyên đến."
+  }
+ },
+ {
+  "hz": "以前",
+  "py": "yǐqián",
+  "en": "before",
+  "vi": "trước đây",
+  "hv": "Dĩ Tiền",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我以前住在北京。",
+   "py": "Wǒ yǐqián zhù zài Běijīng.",
+   "en": "I used to live in Beijing.",
+   "vi": "Trước đây tôi sống ở Bắc Kinh."
+  }
+ },
+ {
+  "hz": "以上",
+  "py": "yǐshàng",
+  "en": "above; more than",
+  "vi": "trở lên; bên trên",
+  "hv": "Dĩ Thượng",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "十岁以上可以买票。",
+   "py": "Shí suì yǐshàng kěyǐ mǎi piào.",
+   "en": "Those aged ten or above can buy tickets.",
+   "vi": "Người từ mười tuổi trở lên có thể mua vé."
+  }
+ },
+ {
+  "hz": "以外",
+  "py": "yǐwài",
+  "en": "except; besides",
+  "vi": "ngoài ra; ngoài",
+  "hv": "Dĩ Ngoại",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他以外，大家都来了。",
+   "py": "Tā yǐwài, dàjiā dōu lái le.",
+   "en": "Everyone except him came.",
+   "vi": "Ngoài anh ấy ra, mọi người đều đã đến."
+  }
+ },
+ {
+  "hz": "以为",
+  "py": "yǐwéi",
+  "en": "think; believe",
+  "vi": "tưởng rằng; cho rằng",
+  "hv": "Dĩ Vi",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我以为你不来了。",
+   "py": "Wǒ yǐwéi nǐ bù lái le.",
+   "en": "I thought you weren't coming.",
+   "vi": "Tôi tưởng bạn không đến nữa."
+  }
+ },
+ {
+  "hz": "以下",
+  "py": "yǐxià",
+  "en": "below; less than",
+  "vi": "trở xuống; bên dưới",
+  "hv": "Dĩ Hạ",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "十岁以下不用买票。",
+   "py": "Shí suì yǐxià bú yòng mǎi piào.",
+   "en": "Children under ten don't need a ticket.",
+   "vi": "Trẻ từ mười tuổi trở xuống không cần mua vé."
+  }
+ },
+ {
+  "hz": "一般",
+  "py": "yìbān",
+  "en": "general; ordinary",
+  "vi": "bình thường; thông thường",
+  "hv": "Nhất Ban",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "他的成绩一般。",
+   "py": "Tā de chéngjì yìbān.",
+   "en": "His grades are average.",
+   "vi": "Thành tích của anh ấy bình thường."
+  }
+ },
+ {
+  "hz": "一边",
+  "py": "yìbiān",
+  "en": "at the same time",
+  "vi": "vừa... vừa...",
+  "hv": "Nhất Biên",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "她一边走一边唱。",
+   "py": "Tā yìbiān zǒu yìbiān chàng.",
+   "en": "She sings while walking.",
+   "vi": "Cô ấy vừa đi vừa hát."
+  }
+ },
+ {
+  "hz": "一直",
+  "py": "yìzhí",
+  "en": "always; straight",
+  "vi": "luôn luôn; thẳng",
+  "hv": "Nhất Trực",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "他一直在等你。",
+   "py": "Tā yìzhí zài děng nǐ.",
+   "en": "He has been waiting for you all along.",
+   "vi": "Anh ấy vẫn luôn đợi bạn."
+  }
+ },
+ {
+  "hz": "音乐",
+  "py": "yīnyuè",
+  "en": "music",
+  "vi": "âm nhạc",
+  "hv": "Âm Nhạc",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我喜欢听音乐。",
+   "py": "Wǒ xǐhuan tīng yīnyuè.",
+   "en": "I like listening to music.",
+   "vi": "Tôi thích nghe nhạc."
+  }
+ },
+ {
+  "hz": "银行",
+  "py": "yínháng",
+  "en": "bank",
+  "vi": "ngân hàng",
+  "hv": "Ngân Hàng",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "银行在学校旁边。",
+   "py": "Yínháng zài xuéxiào pángbiān.",
+   "en": "The bank is beside the school.",
+   "vi": "Ngân hàng ở bên cạnh trường học."
+  }
+ },
+ {
+  "hz": "银行卡",
+  "py": "yínhángkǎ",
+  "en": "bank card",
+  "vi": "thẻ ngân hàng",
+  "hv": "Ngân Hàng Tạp",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的银行卡不见了。",
+   "py": "Wǒ de yínhángkǎ bú jiàn le.",
+   "en": "My bank card is missing.",
+   "vi": "Thẻ ngân hàng của tôi bị mất rồi."
+  }
+ },
+ {
+  "hz": "饮料",
+  "py": "yǐnliào",
+  "en": "beverage",
+  "vi": "đồ uống; nước giải khát",
+  "hv": "Ẩm Liệu",
+  "theme": "FOOD",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你想喝什么饮料？",
+   "py": "Nǐ xiǎng hē shénme yǐnliào?",
+   "en": "What drink would you like?",
+   "vi": "Bạn muốn uống đồ uống gì?"
+  }
+ },
+ {
+  "hz": "应该",
+  "py": "yīnggāi",
+  "en": "should; ought to",
+  "vi": "nên; cần phải",
+  "hv": "Ưng Cai",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你应该早点睡。",
+   "py": "Nǐ yīnggāi zǎodiǎn shuì.",
+   "en": "You should go to bed earlier.",
+   "vi": "Bạn nên đi ngủ sớm hơn."
+  }
+ },
+ {
+  "hz": "影响",
+  "py": "yǐngxiǎng",
+  "en": "affect; influence",
+  "vi": "ảnh hưởng",
+  "hv": "Ảnh Hưởng",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb, noun",
+  "sent": {
+   "zh": "这会影响你的学习。",
+   "py": "Zhè huì yǐngxiǎng nǐ de xuéxí.",
+   "en": "This will affect your studies.",
+   "vi": "Điều này sẽ ảnh hưởng đến việc học của bạn."
+  }
+ },
+ {
+  "hz": "用",
+  "py": "yòng",
+  "en": "use",
+  "vi": "dùng; sử dụng",
+  "hv": "Dụng",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我用手机学习。",
+   "py": "Wǒ yòng shǒujī xuéxí.",
+   "en": "I use my phone to study.",
+   "vi": "Tôi dùng điện thoại để học."
+  }
+ },
+ {
+  "hz": "邮件",
+  "py": "yóujiàn",
+  "en": "mail; email",
+  "vi": "thư; thư điện tử",
+  "hv": "Bưu Kiện",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我收到你的邮件了。",
+   "py": "Wǒ shōudào nǐ de yóujiàn le.",
+   "en": "I received your email.",
+   "vi": "Tôi đã nhận được thư của bạn."
+  }
+ },
+ {
+  "hz": "游客",
+  "py": "yóukè",
+  "en": "tourist",
+  "vi": "du khách; khách du lịch",
+  "hv": "Du Khách",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这里有很多游客。",
+   "py": "Zhèlǐ yǒu hěn duō yóukè.",
+   "en": "There are many tourists here.",
+   "vi": "Ở đây có rất nhiều du khách."
+  }
+ },
+ {
+  "hz": "游戏",
+  "py": "yóuxì",
+  "en": "game",
+  "vi": "trò chơi",
+  "hv": "Du Hí",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们玩一个游戏吧。",
+   "py": "Wǒmen wán yí ge yóuxì ba.",
+   "en": "Let's play a game.",
+   "vi": "Chúng ta chơi một trò chơi nhé."
+  }
+ },
+ {
+  "hz": "邮箱",
+  "py": "yóuxiāng",
+  "en": "mailbox; email inbox",
+  "vi": "hộp thư",
+  "hv": "Bưu Tương",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "邮件已经到邮箱了。",
+   "py": "Yóujiàn yǐjīng dào yóuxiāng le.",
+   "en": "The email has arrived in the inbox.",
+   "vi": "Thư đã vào hộp thư rồi."
+  }
+ },
+ {
+  "hz": "有关",
+  "py": "yǒuguān",
+  "en": "be related to; concerning",
+  "vi": "có liên quan; về",
+  "hv": "Hữu Quan",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "verb, preposition",
+  "sent": {
+   "zh": "这是有关健康的书。",
+   "py": "Zhè shì yǒuguān jiànkāng de shū.",
+   "en": "This is a book about health.",
+   "vi": "Đây là cuốn sách về sức khỏe."
+  }
+ },
+ {
+  "hz": "有名",
+  "py": "yǒumíng",
+  "en": "famous",
+  "vi": "nổi tiếng",
+  "hv": "Hữu Danh",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这家饭店很有名。",
+   "py": "Zhè jiā fàndiàn hěn yǒumíng.",
+   "en": "This restaurant is famous.",
+   "vi": "Nhà hàng này rất nổi tiếng."
+  }
+ },
+ {
+  "hz": "有用",
+  "py": "yǒuyòng",
+  "en": "useful",
+  "vi": "có ích; hữu ích",
+  "hv": "Hữu Dụng",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这本字典很有用。",
+   "py": "Zhè běn zìdiǎn hěn yǒuyòng.",
+   "en": "This dictionary is very useful.",
+   "vi": "Cuốn từ điển này rất hữu ích."
+  }
+ },
+ {
+  "hz": "又",
+  "py": "yòu",
+  "en": "again; also",
+  "vi": "lại; vừa... vừa...",
+  "hv": "Hựu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "今天又下雨了。",
+   "py": "Jīntiān yòu xiàyǔ le.",
+   "en": "It is raining again today.",
+   "vi": "Hôm nay lại mưa rồi."
+  }
+ },
+ {
+  "hz": "羽毛球",
+  "py": "yǔmáoqiú",
+  "en": "badminton",
+  "vi": "cầu lông",
+  "hv": "Vũ Mao Cầu",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我们去打羽毛球吧。",
+   "py": "Wǒmen qù dǎ yǔmáoqiú ba.",
+   "en": "Let's go play badminton.",
+   "vi": "Chúng ta đi chơi cầu lông nhé."
+  }
+ },
+ {
+  "hz": "语言",
+  "py": "yǔyán",
+  "en": "language",
+  "vi": "ngôn ngữ",
+  "hv": "Ngữ Ngôn",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "语言学习很有意思。",
+   "py": "Yǔyán xuéxí hěn yǒuyìsi.",
+   "en": "Language learning is interesting.",
+   "vi": "Học ngôn ngữ rất thú vị."
+  }
+ },
+ {
+  "hz": "雨衣",
+  "py": "yǔyī",
+  "en": "raincoat",
+  "vi": "áo mưa",
+  "hv": "Vũ Y",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "下雨了，穿上雨衣吧。",
+   "py": "Xiàyǔ le, chuān shàng yǔyī ba.",
+   "en": "It's raining; put on your raincoat.",
+   "vi": "Trời mưa rồi, mặc áo mưa vào nhé."
+  }
+ },
+ {
+  "hz": "遇到",
+  "py": "yùdào",
+  "en": "encounter; run into",
+  "vi": "gặp; gặp phải",
+  "hv": "Ngộ Đáo",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我遇到一个问题。",
+   "py": "Wǒ yùdào yí ge wèntí.",
+   "en": "I encountered a problem.",
+   "vi": "Tôi gặp phải một vấn đề."
+  }
+ },
+ {
+  "hz": "遇见",
+  "py": "yùjiàn",
+  "en": "meet; run into",
+  "vi": "gặp; gặp gỡ",
+  "hv": "Ngộ Kiến",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我在路上遇见他。",
+   "py": "Wǒ zài lùshang yùjiàn tā.",
+   "en": "I met him on the road.",
+   "vi": "Tôi gặp anh ấy trên đường."
+  }
+ },
+ {
+  "hz": "园",
+  "py": "yuán",
+  "en": "garden",
+  "vi": "vườn; khuôn viên",
+  "hv": "Viên",
+  "theme": "PLACE",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这个园里花很多。",
+   "py": "Zhè ge yuán lǐ huā hěn duō.",
+   "en": "There are many flowers in this garden.",
+   "vi": "Trong khu vườn này có rất nhiều hoa."
+  }
+ },
+ {
+  "hz": "员",
+  "py": "yuán",
+  "en": "person in a certain job",
+  "vi": "nhân viên; người làm nghề",
+  "hv": "Viên",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "suffix",
+  "sent": {
+   "zh": "她是一名服务员。",
+   "py": "Tā shì yì míng fúwùyuán.",
+   "en": "She is a server.",
+   "vi": "Cô ấy là một nhân viên phục vụ."
+  }
+ },
+ {
+  "hz": "愿意",
+  "py": "yuànyì",
+  "en": "be willing; want to",
+  "vi": "sẵn lòng; bằng lòng",
+  "hv": "Nguyện Ý",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "你愿意和我去吗？",
+   "py": "Nǐ yuànyì hé wǒ qù ma?",
+   "en": "Would you like to go with me?",
+   "vi": "Bạn có sẵn lòng đi cùng tôi không?"
+  }
+ },
+ {
+  "hz": "越",
+  "py": "yuè",
+  "en": "more; increasingly",
+  "vi": "càng",
+  "hv": "Việt",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "天气越来越冷了。",
+   "py": "Tiānqì yuè lái yuè lěng le.",
+   "en": "The weather is getting colder and colder.",
+   "vi": "Thời tiết ngày càng lạnh hơn."
+  }
+ },
+ {
+  "hz": "月亮",
+  "py": "yuèliang",
+  "en": "moon",
+  "vi": "mặt trăng",
+  "hv": "Nguyệt Lượng",
+  "theme": "NAT",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "今晚的月亮真美。",
+   "py": "Jīnwǎn de yuèliang zhēn měi.",
+   "en": "The moon is beautiful tonight.",
+   "vi": "Mặt trăng tối nay thật đẹp."
+  }
+ },
+ {
+  "hz": "运动会",
+  "py": "yùndònghuì",
+  "en": "sports meet",
+  "vi": "đại hội thể thao; hội thao",
+  "hv": "Vận Động Hội",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "学校明天开运动会。",
+   "py": "Xuéxiào míngtiān kāi yùndònghuì.",
+   "en": "The school will hold a sports meet tomorrow.",
+   "vi": "Ngày mai trường tổ chức hội thao."
+  }
+ },
+ {
+  "hz": "运动员",
+  "py": "yùndòngyuán",
+  "en": "athlete",
+  "vi": "vận động viên",
+  "hv": "Vận Động Viên",
+  "theme": "PPL",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他是一名运动员。",
+   "py": "Tā shì yì míng yùndòngyuán.",
+   "en": "He is an athlete.",
+   "vi": "Anh ấy là một vận động viên."
+  }
+ },
+ {
+  "hz": "咱们",
+  "py": "zánmen",
+  "en": "we; us",
+  "vi": "chúng ta",
+  "hv": "Tạm Môn",
+  "theme": "PRON",
+  "hsk": 3,
+  "pos": "pronoun",
+  "sent": {
+   "zh": "咱们一起吃饭吧。",
+   "py": "Zánmen yìqǐ chīfàn ba.",
+   "en": "Let's eat together.",
+   "vi": "Chúng ta cùng ăn cơm nhé."
+  }
+ },
+ {
+  "hz": "脏",
+  "py": "zāng",
+  "en": "dirty",
+  "vi": "bẩn",
+  "hv": "Tạng",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "你的手太脏了。",
+   "py": "Nǐ de shǒu tài zāng le.",
+   "en": "Your hands are too dirty.",
+   "vi": "Tay bạn bẩn quá."
+  }
+ },
+ {
+  "hz": "怎么办",
+  "py": "zěnme bàn",
+  "en": "what to do",
+  "vi": "làm thế nào; phải làm sao",
+  "hv": "Chẩm Ma Biện",
+  "theme": "Q",
+  "hsk": 3,
+  "pos": "expression",
+  "sent": {
+   "zh": "我忘带钱了，怎么办？",
+   "py": "Wǒ wàng dài qián le, zěnme bàn?",
+   "en": "I forgot to bring money. What should I do?",
+   "vi": "Tôi quên mang tiền rồi, phải làm sao đây?"
+  }
+ },
+ {
+  "hz": "怎样",
+  "py": "zěnyàng",
+  "en": "how; what kind",
+  "vi": "như thế nào",
+  "hv": "Chẩm Dạng",
+  "theme": "Q",
+  "hsk": 3,
+  "pos": "pronoun",
+  "sent": {
+   "zh": "这个菜味道怎样？",
+   "py": "Zhè ge cài wèidào zěnyàng?",
+   "en": "How does this dish taste?",
+   "vi": "Món này có vị thế nào?"
+  }
+ },
+ {
+  "hz": "着急",
+  "py": "zháojí",
+  "en": "anxious; worried",
+  "vi": "lo lắng; sốt ruột",
+  "hv": "Trứ Cấp",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "别着急，他快来了。",
+   "py": "Bié zháojí, tā kuài lái le.",
+   "en": "Don't worry; he will be here soon.",
+   "vi": "Đừng lo, anh ấy sắp đến rồi."
+  }
+ },
+ {
+  "hz": "照",
+  "py": "zhào",
+  "en": "shine; photograph",
+  "vi": "chiếu; chụp",
+  "hv": "Chiếu",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "太阳照着大地。",
+   "py": "Tàiyáng zhào zhe dàdì.",
+   "en": "The sun shines on the earth.",
+   "vi": "Mặt trời chiếu xuống mặt đất."
+  }
+ },
+ {
+  "hz": "照顾",
+  "py": "zhàogù",
+  "en": "take care of",
+  "vi": "chăm sóc",
+  "hv": "Chiếu Cố",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "请照顾好自己。",
+   "py": "Qǐng zhàogù hǎo zìjǐ.",
+   "en": "Please take good care of yourself.",
+   "vi": "Hãy chăm sóc tốt cho bản thân."
+  }
+ },
+ {
+  "hz": "照片",
+  "py": "zhàopiàn",
+  "en": "photo",
+  "vi": "ảnh; bức ảnh",
+  "hv": "Chiếu Phiến",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "这张照片真漂亮。",
+   "py": "Zhè zhāng zhàopiàn zhēn piàoliang.",
+   "en": "This photo is beautiful.",
+   "vi": "Bức ảnh này thật đẹp."
+  }
+ },
+ {
+  "hz": "照相",
+  "py": "zhàoxiàng",
+  "en": "take a picture",
+  "vi": "chụp ảnh",
+  "hv": "Chiếu Tướng",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我们在这里照相吧。",
+   "py": "Wǒmen zài zhèlǐ zhàoxiàng ba.",
+   "en": "Let's take a picture here.",
+   "vi": "Chúng ta chụp ảnh ở đây nhé."
+  }
+ },
+ {
+  "hz": "直到",
+  "py": "zhídào",
+  "en": "until",
+  "vi": "cho đến; mãi đến",
+  "hv": "Trực Đáo",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "我直到十点才睡。",
+   "py": "Wǒ zhídào shí diǎn cái shuì.",
+   "en": "I didn't sleep until ten.",
+   "vi": "Mãi đến mười giờ tôi mới ngủ."
+  }
+ },
+ {
+  "hz": "纸",
+  "py": "zhǐ",
+  "en": "paper",
+  "vi": "giấy",
+  "hv": "Chỉ",
+  "theme": "OBJ",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "请给我一张纸。",
+   "py": "Qǐng gěi wǒ yì zhāng zhǐ.",
+   "en": "Please give me a sheet of paper.",
+   "vi": "Xin đưa tôi một tờ giấy."
+  }
+ },
+ {
+  "hz": "只能",
+  "py": "zhǐ néng",
+  "en": "can only",
+  "vi": "chỉ có thể",
+  "hv": "Chỉ Năng",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "expression",
+  "sent": {
+   "zh": "我今天只能走路。",
+   "py": "Wǒ jīntiān zhǐ néng zǒulù.",
+   "en": "I can only walk today.",
+   "vi": "Hôm nay tôi chỉ có thể đi bộ."
+  }
+ },
+ {
+  "hz": "只是",
+  "py": "zhǐshì",
+  "en": "only; merely; but",
+  "vi": "chỉ là; nhưng",
+  "hv": "Chỉ Thị",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb, conjunction",
+  "sent": {
+   "zh": "我只是有点累。",
+   "py": "Wǒ zhǐshì yǒudiǎn lèi.",
+   "en": "I'm just a little tired.",
+   "vi": "Tôi chỉ hơi mệt thôi."
+  }
+ },
+ {
+  "hz": "只要",
+  "py": "zhǐyào",
+  "en": "as long as",
+  "vi": "chỉ cần",
+  "hv": "Chỉ Yếu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "只要努力就会成功。",
+   "py": "Zhǐyào nǔlì jiù huì chénggōng.",
+   "en": "As long as you work hard, you will succeed.",
+   "vi": "Chỉ cần cố gắng thì sẽ thành công."
+  }
+ },
+ {
+  "hz": "只有",
+  "py": "zhǐyǒu",
+  "en": "only if; only",
+  "vi": "chỉ có; chỉ khi",
+  "hv": "Chỉ Hữu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "conjunction",
+  "sent": {
+   "zh": "只有他知道答案。",
+   "py": "Zhǐyǒu tā zhīdào dá'àn.",
+   "en": "Only he knows the answer.",
+   "vi": "Chỉ có anh ấy biết đáp án."
+  }
+ },
+ {
+  "hz": "中",
+  "py": "zhōng",
+  "en": "middle; in",
+  "vi": "giữa; trong",
+  "hv": "Trung",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他坐在车中。",
+   "py": "Tā zuò zài chē zhōng.",
+   "en": "He is sitting in the car.",
+   "vi": "Anh ấy ngồi trong xe."
+  }
+ },
+ {
+  "hz": "中间",
+  "py": "zhōngjiān",
+  "en": "middle; between",
+  "vi": "ở giữa; trung gian",
+  "hv": "Trung Gian",
+  "theme": "DIR",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我坐在他们中间。",
+   "py": "Wǒ zuò zài tāmen zhōngjiān.",
+   "en": "I sit between them.",
+   "vi": "Tôi ngồi giữa họ."
+  }
+ },
+ {
+  "hz": "终于",
+  "py": "zhōngyú",
+  "en": "finally",
+  "vi": "cuối cùng",
+  "hv": "Chung Vu",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "他终于回来了。",
+   "py": "Tā zhōngyú huílai le.",
+   "en": "He finally came back.",
+   "vi": "Cuối cùng anh ấy cũng về rồi."
+  }
+ },
+ {
+  "hz": "种",
+  "py": "zhǒng",
+  "en": "kind; type",
+  "vi": "loại; giống",
+  "hv": "Chủng",
+  "theme": "NUM",
+  "hsk": 3,
+  "pos": "measure word",
+  "sent": {
+   "zh": "我喜欢这种水果。",
+   "py": "Wǒ xǐhuan zhè zhǒng shuǐguǒ.",
+   "en": "I like this kind of fruit.",
+   "vi": "Tôi thích loại trái cây này."
+  }
+ },
+ {
+  "hz": "重要",
+  "py": "zhòngyào",
+  "en": "important",
+  "vi": "quan trọng",
+  "hv": "Trọng Yếu",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "健康比钱更重要。",
+   "py": "Jiànkāng bǐ qián gèng zhòngyào.",
+   "en": "Health is more important than money.",
+   "vi": "Sức khỏe quan trọng hơn tiền bạc."
+  }
+ },
+ {
+  "hz": "周末",
+  "py": "zhōumò",
+  "en": "weekend",
+  "vi": "cuối tuần",
+  "hv": "Chu Mạt",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "周末我们去爬山。",
+   "py": "Zhōumò wǒmen qù páshān.",
+   "en": "We will go hiking this weekend.",
+   "vi": "Cuối tuần chúng ta đi leo núi."
+  }
+ },
+ {
+  "hz": "主要",
+  "py": "zhǔyào",
+  "en": "main; primary",
+  "vi": "chủ yếu; chính",
+  "hv": "Chủ Yếu",
+  "theme": "ADJ",
+  "hsk": 3,
+  "pos": "adjective",
+  "sent": {
+   "zh": "这是主要问题。",
+   "py": "Zhè shì zhǔyào wèntí.",
+   "en": "This is the main problem.",
+   "vi": "Đây là vấn đề chính."
+  }
+ },
+ {
+  "hz": "注意",
+  "py": "zhùyì",
+  "en": "pay attention to",
+  "vi": "chú ý",
+  "hv": "Chú Ý",
+  "theme": "VERB",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "过马路要注意安全。",
+   "py": "Guò mǎlù yào zhùyì ānquán.",
+   "en": "Pay attention to safety when crossing the road.",
+   "vi": "Qua đường phải chú ý an toàn."
+  }
+ },
+ {
+  "hz": "住院",
+  "py": "zhùyuàn",
+  "en": "be hospitalized",
+  "vi": "nằm viện; nhập viện",
+  "hv": "Trú Viện",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "他生病住院了。",
+   "py": "Tā shēngbìng zhùyuàn le.",
+   "en": "He got sick and was hospitalized.",
+   "vi": "Anh ấy bị bệnh và nhập viện rồi."
+  }
+ },
+ {
+  "hz": "字典",
+  "py": "zìdiǎn",
+  "en": "dictionary",
+  "vi": "từ điển",
+  "hv": "Tự Điển",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我用字典查生词。",
+   "py": "Wǒ yòng zìdiǎn chá shēngcí.",
+   "en": "I use a dictionary to look up new words.",
+   "vi": "Tôi dùng từ điển để tra từ mới."
+  }
+ },
+ {
+  "hz": "子",
+  "py": "zi",
+  "en": "noun suffix",
+  "vi": "hậu tố danh từ",
+  "hv": "Tử",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "suffix",
+  "sent": {
+   "zh": "这把椅子很舒服。",
+   "py": "Zhè bǎ yǐzi hěn shūfu.",
+   "en": "This chair is comfortable.",
+   "vi": "Chiếc ghế này rất thoải mái."
+  }
+ },
+ {
+  "hz": "总",
+  "py": "zǒng",
+  "en": "always; total; overall",
+  "vi": "luôn; tổng; tổng thể",
+  "hv": "Tổng",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb, verb, adjective",
+  "sent": {
+   "zh": "他总忘记带手机。",
+   "py": "Tā zǒng wàngjì dài shǒujī.",
+   "en": "He always forgets to bring his phone.",
+   "vi": "Anh ấy luôn quên mang điện thoại."
+  }
+ },
+ {
+  "hz": "总是",
+  "py": "zǒngshì",
+  "en": "always",
+  "vi": "luôn luôn",
+  "hv": "Tổng Thị",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "她总是笑着说话。",
+   "py": "Tā zǒngshì xiào zhe shuōhuà.",
+   "en": "She always speaks with a smile.",
+   "vi": "Cô ấy luôn mỉm cười khi nói chuyện."
+  }
+ },
+ {
+  "hz": "嘴",
+  "py": "zuǐ",
+  "en": "mouth",
+  "vi": "miệng",
+  "hv": "Chủy",
+  "theme": "BODY",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "张开嘴说啊。",
+   "py": "Zhāngkāi zuǐ shuō a.",
+   "en": "Open your mouth and speak.",
+   "vi": "Mở miệng ra nói đi."
+  }
+ },
+ {
+  "hz": "最好",
+  "py": "zuìhǎo",
+  "en": "had better; best",
+  "vi": "tốt nhất; nên",
+  "hv": "Tối Hảo",
+  "theme": "GRAM",
+  "hsk": 3,
+  "pos": "adverb",
+  "sent": {
+   "zh": "你最好早点回家。",
+   "py": "Nǐ zuìhǎo zǎodiǎn huí jiā.",
+   "en": "You had better go home earlier.",
+   "vi": "Tốt nhất bạn nên về nhà sớm hơn."
+  }
+ },
+ {
+  "hz": "最后",
+  "py": "zuìhòu",
+  "en": "last; final",
+  "vi": "cuối cùng; sau cùng",
+  "hv": "Tối Hậu",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "他最后一个到。",
+   "py": "Tā zuìhòu yí ge dào.",
+   "en": "He was the last to arrive.",
+   "vi": "Anh ấy là người cuối cùng đến."
+  }
+ },
+ {
+  "hz": "最近",
+  "py": "zuìjìn",
+  "en": "recently",
+  "vi": "gần đây; dạo này",
+  "hv": "Tối Cận",
+  "theme": "TIME",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "你最近身体好吗？",
+   "py": "Nǐ zuìjìn shēntǐ hǎo ma?",
+   "en": "How have you been recently?",
+   "vi": "Dạo này sức khỏe bạn tốt không?"
+  }
+ },
+ {
+  "hz": "做客",
+  "py": "zuòkè",
+  "en": "be a guest",
+  "vi": "làm khách; đến chơi",
+  "hv": "Tố Khách",
+  "theme": "SOC",
+  "hsk": 3,
+  "pos": "verb",
+  "sent": {
+   "zh": "欢迎来我家做客。",
+   "py": "Huānyíng lái wǒ jiā zuòkè.",
+   "en": "Welcome to visit my home.",
+   "vi": "Hoan nghênh bạn đến nhà tôi chơi."
+  }
+ },
+ {
+  "hz": "作业",
+  "py": "zuòyè",
+  "en": "homework",
+  "vi": "bài tập về nhà",
+  "hv": "Tác Nghiệp",
+  "theme": "LANG",
+  "hsk": 3,
+  "pos": "noun",
+  "sent": {
+   "zh": "我的作业写完了。",
+   "py": "Wǒ de zuòyè xiě wán le.",
+   "en": "I have finished my homework.",
+   "vi": "Tôi đã làm xong bài tập về nhà."
+  }
+ }
+]

@@ -28,12 +28,17 @@ export interface NodeDatum {
   theme: string;
   hsk: number;
   pos: string;
-  freq: number;
+  /** SUBTLEX-CH corpus rank (lower is more common); null when absent. */
+  freq: number | null;
+  /** Raw occurrences in the 33.5-million-word SUBTLEX-CH corpus. */
+  freqCount?: number | null;
+  /** Normalized SUBTLEX-CH occurrences per million words. */
+  freqPerMillion?: number | null;
   isHub: boolean;
   deg: number;
   sent?: Sentence;
   members?: number;
-  /** Useful vocabulary retained outside the referenced HSK 1–2 lists. */
+  /** Useful vocabulary retained outside the referenced HSK 1–3 lists. */
   supplementary?: boolean;
 }
 
@@ -47,10 +52,14 @@ export interface GraphMeta {
   total_words: number;
   hsk1: number;
   hsk2: number;
+  hsk3: number;
   hub_nodes: number;
   word_hubs: number;
   char_edges: number;
   theme_edges: number;
+  frequency_source: string;
+  frequency_corpus_words: number;
+  frequency_ranked_words: number;
 }
 
 export interface RawEdge {

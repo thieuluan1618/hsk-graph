@@ -9,7 +9,7 @@ const wordCount = graphData.meta.total_words;
 const hubCount = graphData.meta.hub_nodes + graphData.meta.word_hubs;
 ---
 
-<BaseLayout title="HSK 1 & 2 · Vocabulary Graph">
+<BaseLayout title="HSK 1–3 · Vocabulary Graph">
   <div id="stage"><canvas id="cv"></canvas></div>
 
   <Header wordCount={wordCount} hubCount={hubCount} />
@@ -17,9 +17,9 @@ const hubCount = graphData.meta.hub_nodes + graphData.meta.word_hubs;
   <DetailPanel />
 
   <div id="hint">
-    <span>🖱️ <b>Kéo</b> để di chuyển</span><span>🔍 <b>Cuộn</b> để phóng to</span><span>🔊 <b>Bấm</b> vào từ để nghe &amp; xem chi tiết</span><span class="x" id="hintX">✕</span>
+    <span data-i18n-html="hint1">🖱️ <b>Kéo</b> để di chuyển</span><span data-i18n-html="hint2">🔍 <b>Cuộn</b> để phóng to</span><span data-i18n-html="hint3">🔊 <b>Bấm</b> vào từ để nghe &amp; xem chi tiết</span><span class="x" id="hintX">✕</span>
   </div>
-  <div id="loading"><div class="sp"></div><div class="lt">加油! Đang dựng bản đồ từ vựng…</div></div>
+  <div id="loading"><div class="sp"></div><div class="lt" data-i18n="loading">加油! Đang dựng bản đồ từ vựng…</div></div>
 
   <script src="../components/VocabularyGraph.ts"></script>
 </BaseLayout>
