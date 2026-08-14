@@ -8,10 +8,12 @@
     <div class="glow" id="dglow"></div>
     <button class="dclose" id="dclose">✕</button>
     <div class="zh" id="d-zh"></div>
-    <div class="row1"><span class="py" id="d-py"></span><span id="d-badges"></span></div>
-    <button class="audio-btn" id="d-audio">
-      <span class="pw">▶</span><span id="d-audio-t" data-i18n="playWordSoon">Nghe phát âm — sắp ra mắt</span>
-    </button>
+    <div class="row1">
+      <span class="py" id="d-py"></span><span id="d-badges"></span>
+      <button class="sound-btn audio-btn" id="d-audio" type="button">
+        <span class="pw" aria-hidden="true">▶</span><span class="sound-label" id="d-audio-t" data-i18n="playWordSoon">Nghe phát âm — sắp ra mắt</span>
+      </button>
+    </div>
     <button class="known-btn" id="d-known">
       <span class="pw">✓</span><span id="d-known-t" data-i18n="markKnown">Đánh dấu đã thuộc</span>
     </button>
@@ -32,12 +34,16 @@
       </div>
     </div>
     <div class="ex" id="d-ex">
-      <div class="rh" data-i18n="example">Ví dụ · Example</div>
+      <div class="rh">
+        <span data-i18n="example">Ví dụ · Example</span>
+        <button class="sound-btn ex-audio" id="d-ex-audio" type="button">
+          <span class="pw" aria-hidden="true">▶</span><span class="sound-label" id="d-ex-audio-t" data-i18n="playSentSoon">Nghe câu — sắp có</span>
+        </button>
+      </div>
       <div class="ex-zh" id="d-ex-zh"></div>
       <div class="ex-py" id="d-ex-py"></div>
       <div class="ex-en" id="d-ex-en"></div>
       <div class="ex-vi vi-only" id="d-ex-vi"></div>
-      <button class="ex-audio" id="d-ex-audio"><span class="pw">▶</span><span id="d-ex-audio-t" data-i18n="playSentSoon">Nghe câu — sắp có</span></button>
     </div>
     <div class="strokes" id="d-strokes">
       <div class="rh">

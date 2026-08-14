@@ -15,7 +15,7 @@ import { createRenderer } from '../lib/graph-renderer';
 import { applyTranslations, loadLang, saveLang, t, type Lang } from '../lib/i18n';
 import { loadKnown, saveKnown } from '../lib/progress';
 import { matchWords } from '../lib/search';
-import { createState, type LevelFilter } from '../lib/state';
+import { createState, visible, type LevelFilter } from '../lib/state';
 import type { GraphData, GraphNode } from '../lib/types';
 
 const data = graphDataJson as unknown as GraphData;
@@ -60,11 +60,11 @@ const detail = createDetailPanel(scene, state, {
   },
 });
 
-function selectNode(n: GraphNode): void {
+function selectNode(n: GraphNode, playAudio = true): void {
   state.selNode = n;
   interactions.setFocus(n);
   detail.open(n);
-  void playWord(n.hz);
+  if (playAudio) void playWord(n.hz);
   clearSearch();
 }
 
@@ -293,6 +293,18 @@ const MAX_SEARCH_RESULTS = 8;
 let searchResultNodes: GraphNode[] = [];
 let activeSearchResult = -1;
 
+document.addEventListener('keydown', (e) => {
+  if (e.defaultPrevented) return;
+  const target = e.target as HTMLElement | null;
+  const editable = target?.isContentEditable || target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement;
+  const commandK = (e.metaKey || e.ctrlKey) && !e.altKey && e.key.toLowerCase() === 'k';
+  const slash = e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey && !editable;
+  if (!commandK && !slash) return;
+  e.preventDefault();
+  searchEl.focus();
+  searchEl.select();
+});
+
 function chooseSearchResult(n: GraphNode): void {
   selectNode(n);
   interactions.focusOn(n);
@@ -415,6 +427,68 @@ searchEl.addEventListener('keydown', (e) => {
     chooseSearchResult(searchResultNodes[Math.max(activeSearchResult, 0)]!);
   }
   if (e.key === 'Escape') searchClear.click();
+});
+
+const ARROW_DIRECTIONS: Partial<Record<string, readonly [number, number]>> = {
+  ArrowLeft: [-1, 0],
+  ArrowRight: [1, 0],
+  ArrowUp: [0, -1],
+  ArrowDown: [0, 1],
+};
+
+function isUiControl(target: EventTarget | null): boolean {
+  return target instanceof HTMLElement
+    && (target.isContentEditable || !!target.closest('a,button,input,select,textarea,[role="option"]'));
+}
+
+function nextNodeInDirection(direction: readonly [number, number]): GraphNode | null {
+  const current = state.selNode && visible(state, state.selNode) ? state.selNode : null;
+  const originX = current?.x ?? state.transform.invertX(state.W / 2);
+  const originY = current?.y ?? state.transform.invertY(state.H / 2);
+  let best: GraphNode | null = null;
+  let bestScore = Infinity;
+
+  for (const candidate of scene.nodes) {
+    if (candidate.kind === 'theme' || candidate.id === current?.id || !visible(state, candidate)) continue;
+    const dx = candidate.x - originX;
+    const dy = candidate.y - originY;
+    const distance = Math.hypot(dx, dy);
+    if (!distance) continue;
+    const forward = dx * direction[0] + dy * direction[1];
+    if (forward <= 0) continue;
+    const alignment = forward / distance;
+    if (alignment < 0.25) continue;
+    const score = distance * (1 + (1 - alignment) * 3);
+    if (score < bestScore) {
+      best = candidate;
+      bestScore = score;
+    }
+  }
+  return best;
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.defaultPrevented || isUiControl(e.target)) return;
+  const direction = ARROW_DIRECTIONS[e.key];
+  if (direction) {
+    const next = nextNodeInDirection(direction);
+    if (!next) return;
+    e.preventDefault();
+    selectNode(next, false);
+    interactions.focusOn(next);
+    cv.focus({ preventScroll: true });
+    return;
+  }
+  if (e.key === 'Enter' && state.selNode) {
+    e.preventDefault();
+    void playWord(state.selNode.hz);
+  }
+  if (e.key === 'Escape' && state.selNode) {
+    e.preventDefault();
+    clearSelection();
+    detail.close();
+    cv.focus({ preventScroll: true });
+  }
 });
 
 // buttons

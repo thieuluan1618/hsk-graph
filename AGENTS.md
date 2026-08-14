@@ -22,13 +22,16 @@
   listed in `src/data/audio-manifest.json`; clips live under `public/audio/{w,s}/`.
 - **Single page:** `src/pages/index.astro` renders the shell; the client island
   entry point is `src/components/VocabularyGraph.ts`, which owns UI state and
-  wires controls, search, detail panel, and audio to the graph modules.
+  wires controls, search, keyboard navigation, detail panel, and audio to the
+  graph modules.
 - **Graph modules** in `src/lib/`:
   - `graph-layout` — scene + D3 force simulation + node radius/color helpers
   - `graph-renderer` — pure Canvas drawing driven by scene + state
   - `graph-interactions` — zoom/drag/hover/click hit-testing and view transitions
-  - `detail-panel` — word detail panel DOM updates
-  - `search` — diacritic-insensitive match by hanzi/pinyin/en/vi
+  - `detail-panel` — word detail panel DOM updates, compact audio controls, and
+    Hanzi Writer stroke animations with radical strokes highlighted
+  - `search` — diacritic-insensitive match by hanzi/pinyin/en/vi, prioritizing
+    exact pinyin matches
   - `audio` — lazy per-word and per-sentence MP3 playback
   - `state` — single typed UI-state store (`GraphState`); `activeAlpha` /
     `visible` drive dimming and filtering
@@ -36,6 +39,10 @@
 - **State invariants:** selection (`selNode`), hover, `focusSet`, and
   `searchMatch` are all kept in `state`. Selecting a node clears any active
   search match (and its UI) so dimming doesn't stack on top of focus highlight.
+- **Keyboard invariants:** `/` and `Ctrl/Cmd + K` focus search. Outside form
+  controls, arrow keys select the nearest visible node in that spatial direction,
+  `Enter` plays its word audio, and `Escape` closes it. Arrow navigation opens
+  details without auto-playing audio and respects all visibility filters.
 
 ## Code Style
 - TypeScript strict; Canvas drawing is imperative, DOM wiring is in
@@ -53,6 +60,7 @@
 
 ## Notes
 - The original embedded ~6.2 MB of base64 audio inline; it now lives as static
-  files loaded on demand, so the initial page is ~200 KB of JS (gzip ~59 KB).
+  files loaded on demand. The current client bundle is ~645 KB of JS
+  (gzip ~170 KB), while audio is fetched only when played.
 - The "Đường nối chủ đề" (theme spokes) toggle drew nothing in the original
   because theme links were never resolved to node references; this is fixed.

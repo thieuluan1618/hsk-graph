@@ -86,8 +86,8 @@ export function visible(state: GraphState, n: GraphNode): boolean {
 /** Focus (hover/sel) dims non-neighbors; search dims non-matches. */
 export function activeAlpha(state: GraphState, n: GraphNode): number {
   let a = 1;
-  if (state.focusSet && !state.focusSet.has(n.id)) a = Math.min(a, 0.10);
-  if (state.searchMatch && n.kind === 'word' && !state.searchMatch.has(n.id)) a = Math.min(a, 0.12);
+  if (state.focusSet && !state.focusSet.has(n.id)) a = Math.min(a, 0.24);
+  if (state.searchMatch && n.kind === 'word' && !state.searchMatch.has(n.id)) a = Math.min(a, 0.26);
   if (state.searchMatch && n.kind !== 'word') a = Math.min(a, 0.5);
   return a;
 }

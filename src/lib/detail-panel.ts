@@ -184,8 +184,12 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
       D('d-ex-vi').textContent = s.vi;
       const hasS = hasSentenceAudio(n.hz);
       const sb = D('d-ex-audio');
+      const sentenceAudioLabel = t(state.lang, hasS ? 'playSent' : 'playSentSoon');
       sb.classList.toggle('on', hasS);
-      D('d-ex-audio-t').textContent = t(state.lang, hasS ? 'playSent' : 'playSentSoon');
+      sb.toggleAttribute('disabled', !hasS);
+      sb.setAttribute('aria-label', sentenceAudioLabel);
+      sb.title = sentenceAudioLabel;
+      D('d-ex-audio-t').textContent = sentenceAudioLabel;
       sb.onclick = hasS ? () => void playSentence(n.hz) : null;
     } else {
       ex.style.display = 'none';
@@ -194,8 +198,12 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
     // audio button
     const hasA = hasWordAudio(n.hz);
     const ab = D('d-audio');
+    const wordAudioLabel = t(state.lang, hasA ? 'playWord' : 'noAudio');
     ab.classList.toggle('on', hasA);
-    D('d-audio-t').textContent = t(state.lang, hasA ? 'playWord' : 'noAudio');
+    ab.toggleAttribute('disabled', !hasA);
+    ab.setAttribute('aria-label', wordAudioLabel);
+    ab.title = wordAudioLabel;
+    D('d-audio-t').textContent = wordAudioLabel;
     ab.onclick = hasA ? () => void playWord(n.hz) : null;
 
     // known toggle (words only; hubs aren't study items)

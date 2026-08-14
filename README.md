@@ -7,6 +7,29 @@ since expanded to cover HSK 1–3.
 An interactive force-directed graph of HSK 1–3 vocabulary with search, theme
 filters, a word detail panel, and pronunciation audio (word + example sentence).
 
+## Features
+
+- Explore words spatially by shared characters and themes, with HSK, frequency,
+  known-word, theme, and spacing controls.
+- Search Hanzi, pinyin, English, or Vietnamese with ranked suggestions and
+  exact-pinyin prioritization.
+- Inspect bilingual meanings, Hán–Việt, corpus frequency, examples, related
+  words, pronunciation audio, and animated stroke order. Radical strokes are
+  highlighted in amber.
+- Navigate without a mouse using the shortcuts below. Arrow navigation follows
+  the nearest visible node in the requested direction and respects active filters.
+
+## Keyboard controls
+
+| Keys | Action |
+| --- | --- |
+| `/` or `Ctrl/Cmd + K` | Focus and select the search field |
+| `↑` `↓` in search | Move through search suggestions |
+| `Enter` in search | Open the highlighted suggestion |
+| `←` `→` `↑` `↓` on the graph | Move to the nearest visible node in that direction |
+| `Enter` on the graph | Play the selected node's pronunciation |
+| `Escape` | Clear search or close the selected node |
+
 ## Commands
 
 - `pnpm install` — install dependencies (build-script approval for esbuild is
@@ -38,7 +61,8 @@ filters, a word detail panel, and pronunciation audio (word + example sentence).
 ## Notes
 
 - The original embedded ~6.2 MB of base64 audio inline; it now lives as static
-  files loaded on demand, so the initial page is ~200 KB of JS (gzip ~59 KB).
+  files loaded on demand. The current client bundle is ~645 KB of JS
+  (gzip ~170 KB), while audio is fetched only when played.
 - Spoken-language frequency rank and occurrences-per-million come from
   [SUBTLEX-CH](https://doi.org/10.1371/journal.pone.0010729), a 33.5-million-word
   film and television subtitle corpus. Words absent from the corpus remain
