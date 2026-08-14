@@ -21,9 +21,11 @@ const { wordCount, hubCount } = Astro.props;
     </div>
     <div id="searchWrap">
       <span class="ic">⌕</span>
-      <input id="search" placeholder="Tìm từ · pinyin · nghĩa…" data-i18n-placeholder="searchPh" autocomplete="off" spellcheck="false" />
-      <button id="searchClear">✕</button>
+      <input id="search" placeholder="Tìm từ · pinyin · nghĩa…" data-i18n-placeholder="searchPh" autocomplete="off" spellcheck="false"
+        role="combobox" aria-autocomplete="list" aria-controls="searchResults" aria-expanded="false" />
+      <button id="searchClear" type="button" aria-label="Clear search">✕</button>
       <div id="searchCount"></div>
+      <div id="searchResults" role="listbox"></div>
     </div>
   </div>
 </div>

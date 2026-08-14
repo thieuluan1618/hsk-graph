@@ -59,17 +59,15 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
           count: formatNumber(n.freqCount!),
         })
       : t(state.lang, 'frequencyUnavailable');
-    const priorityBadge = D('d-freq-pareto');
-    priorityBadge.style.display = state.paretoOn && state.paretoIds.has(n.id) ? '' : 'none';
-    priorityBadge.textContent = t(state.lang, 'topPercent', {
-      percent: Math.round(state.paretoRatio * 100),
-    });
   }
 
   // ---- stroke order (HanziWriter) ----
   let writers: HanziWriter[] = [];
 
   function clearStrokes(): void {
+    writers.forEach((w) => {
+      void w.hideCharacter({ duration: 0 }).catch(() => {});
+    });
     writers = [];
     D('d-stroke-grid').innerHTML = '';
   }
@@ -95,19 +93,16 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
           showOutline: true,
           strokeAnimationSpeed: 1,
           delayBetweenStrokes: 120,
+          delayBetweenLoops: 800,
         });
         writers.push(w);
-        w.animateCharacter();
+        void w.loopCharacterAnimation();
       } catch {
         // character not in hanzi-writer database
         cell.textContent = ch;
         cell.classList.add('fallback');
       }
     }
-  }
-
-  function replayStrokes(): void {
-    writers.forEach((w) => w.animateCharacter());
   }
 
   /** Group sibling words by shared hub character. */
@@ -237,7 +232,6 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
     close();
     cb.onClose();
   });
-  D('d-stroke-play').addEventListener('click', replayStrokes);
 
   return {
     open,

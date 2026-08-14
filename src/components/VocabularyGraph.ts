@@ -78,7 +78,7 @@ function clearSelection(): void {
 function setHanziFont(font: string): void {
   state.hanziFont = font;
   // update all DOM elements that hardcode 'Noto Sans SC'
-  document.querySelectorAll<HTMLElement>('#brand h1 .zh, #detail .zh, .ex-zh, .rel .grp .gc b, .chip .z').forEach((el) => {
+  document.querySelectorAll<HTMLElement>('#brand h1 .zh, #detail .zh, .ex-zh, .rel .grp .gc b, .chip .z, .search-result-hz').forEach((el) => {
     el.style.fontFamily = `'${font}', sans-serif`;
   });
   // update font picker button states
@@ -185,23 +185,6 @@ function setThemeSolo(code: string | null): void {
   renderer.draw();
 }
 
-function setSearch(query: string): void {
-  if (!query) {
-    state.searchMatch = null;
-    scEl.textContent = '';
-    renderer.draw();
-    return;
-  }
-  const list = matchWords(scene.nodes, query);
-  state.searchMatch = new Set(list.map((n) => n.id));
-  scEl.textContent = list.length ? t(state.lang, 'matches', { n: list.length }) : t(state.lang, 'noMatch');
-  renderer.draw();
-  if (list.length) {
-    const sorted = [...list].sort(compareFrequency);
-    interactions.focusOn(sorted[0]!);
-  }
-}
-
 // ---- language ----
 
 function setLang(lang: Lang): void {
@@ -212,6 +195,12 @@ function setLang(lang: Lang): void {
   document.querySelectorAll<HTMLButtonElement>('#langPick button').forEach((b) =>
     b.classList.toggle('on', b.dataset.lang === lang),
   );
+  if (searchEl.value.trim()) {
+    scEl.textContent = state.searchMatch?.size
+      ? t(state.lang, 'matches', { n: state.searchMatch.size })
+      : t(state.lang, 'noMatch');
+    renderSearchResults();
+  }
   if (state.selNode) detail.open(state.selNode); // re-render open panel strings
   renderer.draw(); // theme anchor labels on canvas
 }
@@ -299,21 +288,112 @@ D('legReset').addEventListener('click', () => setThemeSolo(null));
 const searchEl = D('search') as HTMLInputElement;
 const scEl = D('searchCount');
 const searchClear = D('searchClear');
+const searchResultsEl = D('searchResults');
+const MAX_SEARCH_RESULTS = 8;
+let searchResultNodes: GraphNode[] = [];
+let activeSearchResult = -1;
+
+function chooseSearchResult(n: GraphNode): void {
+  selectNode(n);
+  interactions.focusOn(n);
+}
+
+function setActiveSearchResult(index: number): void {
+  if (!searchResultNodes.length) return;
+  activeSearchResult = (index + searchResultNodes.length) % searchResultNodes.length;
+  searchResultsEl.querySelectorAll<HTMLElement>('.search-result').forEach((el, i) => {
+    const active = i === activeSearchResult;
+    el.classList.toggle('active', active);
+    el.setAttribute('aria-selected', String(active));
+    if (active) {
+      searchEl.setAttribute('aria-activedescendant', el.id);
+      el.scrollIntoView({ block: 'nearest' });
+    }
+  });
+}
+
+function renderSearchResults(): void {
+  searchResultsEl.replaceChildren();
+  activeSearchResult = -1;
+  searchEl.removeAttribute('aria-activedescendant');
+
+  for (const [i, n] of searchResultNodes.entries()) {
+    const result = document.createElement('button');
+    result.type = 'button';
+    result.id = `search-result-${i}`;
+    result.className = 'search-result';
+    result.setAttribute('role', 'option');
+    result.setAttribute('aria-selected', 'false');
+
+    const hanzi = document.createElement('span');
+    hanzi.className = 'search-result-hz';
+    hanzi.textContent = n.hz;
+    hanzi.style.fontFamily = `'${state.hanziFont}', sans-serif`;
+
+    const copy = document.createElement('span');
+    copy.className = 'search-result-copy';
+    const pinyin = document.createElement('span');
+    pinyin.className = 'search-result-py';
+    pinyin.textContent = n.py;
+    const meaning = document.createElement('span');
+    meaning.className = 'search-result-meaning';
+    meaning.textContent = state.lang === 'vi' ? n.vi : n.en;
+    copy.append(pinyin, meaning);
+
+    const level = document.createElement('span');
+    level.className = 'search-result-level';
+    level.textContent = `HSK ${n.hsk}`;
+
+    result.append(hanzi, copy, level);
+    result.addEventListener('pointerdown', (e) => e.preventDefault());
+    result.addEventListener('click', () => chooseSearchResult(n));
+    searchResultsEl.append(result);
+  }
+
+  const show = document.activeElement === searchEl && !!searchEl.value.trim() && searchResultNodes.length > 0;
+  searchResultsEl.classList.toggle('show', show);
+  searchEl.setAttribute('aria-expanded', String(show));
+}
+
+function setSearch(query: string): void {
+  if (!query) {
+    state.searchMatch = null;
+    searchResultNodes = [];
+    scEl.textContent = '';
+    renderSearchResults();
+    renderer.draw();
+    return;
+  }
+  const list = matchWords(scene.nodes, query).sort(compareFrequency);
+  state.searchMatch = new Set(list.map((n) => n.id));
+  searchResultNodes = list.slice(0, MAX_SEARCH_RESULTS);
+  scEl.textContent = list.length ? t(state.lang, 'matches', { n: list.length }) : t(state.lang, 'noMatch');
+  renderSearchResults();
+  renderer.draw();
+  if (list.length) interactions.focusOn(list[0]!);
+}
 
 /** Clear any active search match + its UI. Called when a node is selected
  *  so the search fade-out doesn't persist on top of the focus highlight. */
 function clearSearch(): void {
   if (!state.searchMatch && !searchEl.value) return;
   state.searchMatch = null;
+  searchResultNodes = [];
   searchEl.value = '';
   scEl.textContent = '';
   searchClear.style.display = 'none';
+  renderSearchResults();
   renderer.draw();
 }
 
 searchEl.addEventListener('input', () => {
   searchClear.style.display = searchEl.value ? 'block' : 'none';
   setSearch(searchEl.value.trim());
+});
+searchEl.addEventListener('focus', renderSearchResults);
+searchEl.addEventListener('blur', () => {
+  searchResultsEl.classList.remove('show');
+  searchEl.setAttribute('aria-expanded', 'false');
 });
 searchClear.addEventListener('click', () => {
   searchEl.value = '';
@@ -322,14 +402,17 @@ searchClear.addEventListener('click', () => {
   searchEl.focus();
 });
 searchEl.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && state.searchMatch && state.searchMatch.size) {
-    const first = scene.nodes
-      .filter((n) => state.searchMatch!.has(n.id))
-      .sort(compareFrequency)[0];
-    if (first) {
-      selectNode(first);
-      interactions.focusOn(first);
-    }
+  if (e.key === 'ArrowDown' && searchResultNodes.length) {
+    e.preventDefault();
+    setActiveSearchResult(activeSearchResult + 1);
+  }
+  if (e.key === 'ArrowUp' && searchResultNodes.length) {
+    e.preventDefault();
+    setActiveSearchResult(activeSearchResult < 0 ? searchResultNodes.length - 1 : activeSearchResult - 1);
+  }
+  if (e.key === 'Enter' && searchResultNodes.length) {
+    e.preventDefault();
+    chooseSearchResult(searchResultNodes[Math.max(activeSearchResult, 0)]!);
   }
   if (e.key === 'Escape') searchClear.click();
 });
