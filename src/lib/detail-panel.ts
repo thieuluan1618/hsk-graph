@@ -88,6 +88,7 @@ export function createDetailPanel(scene: Scene, state: GraphState, cb: DetailPan
           height: 72,
           padding: 4,
           strokeColor: '#eef1fa',
+          radicalColor: '#ffd166',
           outlineColor: 'rgba(255,255,255,.08)',
           drawingColor: '#8be8dd',
           showOutline: true,

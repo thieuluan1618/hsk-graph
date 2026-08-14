@@ -178,7 +178,11 @@ body[data-lang='en'] .lg .nm .n-en{display:block}
 .frequency-card.unranked .rank{color:var(--muted2)}
 .rel{padding-top:12px}
 .strokes{padding:13px 0;border-bottom:1px solid var(--stroke)}
-.strokes .rh{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted2);font-weight:600;margin-bottom:10px}
+.strokes .rh{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted2);font-weight:600;margin-bottom:10px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px}
+.radical-key{display:inline-flex;align-items:center;gap:5px;letter-spacing:0;text-transform:none;font-size:10px;font-weight:500;
+  color:var(--muted);white-space:nowrap}
+.radical-dot{width:7px;height:7px;border-radius:2px;background:#ffd166;box-shadow:0 0 7px rgba(255,209,102,.45)}
 .stroke-grid{display:flex;flex-wrap:wrap;gap:10px}
 .stroke-cell{width:80px;height:80px;border:1px solid var(--stroke);border-radius:10px;background:rgba(0,0,0,.2);
   display:grid;place-items:center;overflow:hidden}
