@@ -6,6 +6,7 @@ Astro + D3 refactor of the single-file demo `../HSK 1-2 Vocabulary Graph.html`,
 since expanded to cover HSK 1–3.
 An interactive force-directed graph of HSK 1–3 vocabulary with search, theme
 filters, a word detail panel, and pronunciation audio (word + example sentence).
+It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`.
 
 ## Features
 
@@ -18,6 +19,10 @@ filters, a word detail panel, and pronunciation audio (word + example sentence).
   highlighted in amber.
 - Navigate without a mouse using the shortcuts below. Arrow navigation follows
   the nearest visible node in the requested direction and respects active filters.
+- Play HSK Rush with HSK 1, 2, 3, or mixed vocabulary. Clear rising cards in any
+  order by typing Hanzi or tone-insensitive pinyin; tap a card to pin its EN/VI
+  meaning. Danger saves earn more points, related words build combos, and high
+  scores stay on the current device.
 
 ## Keyboard controls
 
@@ -29,6 +34,8 @@ filters, a word detail panel, and pronunciation audio (word + example sentence).
 | `←` `→` `↑` `↓` on the graph | Move to the nearest visible node in that direction |
 | `Enter` on the graph | Play the selected node's pronunciation |
 | `Escape` | Clear search or close the selected node |
+
+In HSK Rush, `Enter` submits a typed answer and `Escape` pauses or resumes the game.
 
 ## Commands
 
@@ -48,15 +55,16 @@ filters, a word detail panel, and pronunciation audio (word + example sentence).
   availability manifest, extracted from the original demo
 - `public/audio/{w,s}/` — per-word and per-sentence MP3 clips, decoded from the
   original inline base64 payload; fetched lazily on first play
-- `src/pages/index.astro` — the single page; static shell rendered by Astro
+- `src/pages/index.astro` — vocabulary graph shell
+- `src/pages/play.astro` — HSK Rush game shell
 - `src/layouts/BaseLayout.astro` — document head, fonts, global CSS
 - `src/components/` — `Header`, `ControlDock` (legend is data-driven),
-  `DetailPanel` (static shell), and `VocabularyGraph.ts` (the client island
-  entry point that owns UI state and wiring)
+  `DetailPanel` (static shell), `VocabularyGraph.ts` (graph client island), and
+  `VocabularyGame.ts` (HSK Rush state, input, scoring, and animation)
 - `src/lib/` — graph modules: `graph-layout` (scene + force simulation),
   `graph-renderer` (canvas drawing), `graph-interactions` (zoom/drag/hover/hit
-  testing), `detail-panel` (panel DOM updates), `search`, `audio`, `state`
-  (single typed UI-state store), `types`
+  testing), `detail-panel` (panel DOM updates), `search`, `audio`, `game-i18n`,
+  `state` (single typed graph UI-state store), `types`
 
 ## Notes
 

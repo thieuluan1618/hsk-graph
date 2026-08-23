@@ -4,6 +4,7 @@ interface Props {
   hubCount: number;
 }
 const { wordCount, hubCount } = Astro.props;
+const playHref = `${import.meta.env.BASE_URL}play/`;
 ---
 
 <div id="top">
@@ -15,6 +16,10 @@ const { wordCount, hubCount } = Astro.props;
     </div>
   </div>
   <div id="topRight">
+    <a class="play-link" href={playHref} aria-label="Chơi HSK Rush · Play HSK Rush">
+      <span class="play-link-icon" aria-hidden="true">▶</span>
+      <span class="play-link-label">HSK Rush</span>
+    </a>
     <div id="langPick">
       <button data-lang="vi" class="on">VI</button>
       <button data-lang="en">EN</button>

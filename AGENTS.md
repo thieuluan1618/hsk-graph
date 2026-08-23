@@ -20,10 +20,14 @@
 - **Data:** `src/data/graph.json` is the single source of truth for nodes
   (word/hub/theme), char edges, theme edges, and `meta`. Audio availability is
   listed in `src/data/audio-manifest.json`; clips live under `public/audio/{w,s}/`.
-- **Single page:** `src/pages/index.astro` renders the shell; the client island
+- **Graph page:** `src/pages/index.astro` renders the shell; the client island
   entry point is `src/components/VocabularyGraph.ts`, which owns UI state and
   wires controls, search, keyboard navigation, detail panel, and audio to the
   graph modules.
+- **Game page:** `src/pages/play.astro` renders HSK Rush at `/play/`; its client
+  entry point is `src/components/VocabularyGame.ts`. The game reuses
+  `graph.json`, audio helpers, and the saved VI/EN language preference. Scores
+  are device-local and do not mutate graph learner progress.
 - **Graph modules** in `src/lib/`:
   - `graph-layout` — scene + D3 force simulation + node radius/color helpers
   - `graph-renderer` — pure Canvas drawing driven by scene + state

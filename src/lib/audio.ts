@@ -60,9 +60,9 @@ async function play(key: string, url: string, btnId: string): Promise<boolean> {
   }
 }
 
-export function playWord(hz: string): Promise<boolean> {
+export function playWord(hz: string, btnId = 'd-audio'): Promise<boolean> {
   if (!hasWordAudio(hz)) return Promise.resolve(false);
-  return play(`w:${hz}`, `${BASE}audio/w/${encodeURIComponent(hz)}.mp3`, 'd-audio');
+  return play(`w:${hz}`, `${BASE}audio/w/${encodeURIComponent(hz)}.mp3`, btnId);
 }
 
 export function playSentence(hz: string): Promise<boolean> {

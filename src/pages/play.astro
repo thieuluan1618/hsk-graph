@@ -1,0 +1,189 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/game.css';
+
+const graphHref = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="HSK Rush · HSK Buddy"
+  description="A fast Hanzi and pinyin vocabulary game for HSK 1–3 learners."
+  bodyClass="game-page"
+  ogImage={`${import.meta.env.BASE_URL}og.png`}
+  ogImageAlt="HSK Rush game with Chinese vocabulary cards rising toward a danger line"
+>
+  <main id="gameApp" class="game-shell" data-game-state="ready">
+    <header class="game-topbar">
+      <a class="game-brand" href={graphHref} aria-label="Về đồ thị từ vựng · Back to vocabulary graph">
+        <span class="game-brand-arrow" aria-hidden="true">←</span>
+        <span>
+          <span class="game-kicker" data-game-i18n="gameKicker">HSK Buddy · Trò chơi</span>
+          <strong>HSK Rush <span lang="zh-Hans">词语冲刺</span></strong>
+        </span>
+      </a>
+
+      <dl class="game-stats" aria-label="Game statistics">
+        <div>
+          <dt data-game-i18n="score">Điểm</dt>
+          <dd id="gameScore">0</dd>
+        </div>
+        <div>
+          <dt data-game-i18n="streak">Combo</dt>
+          <dd><span id="gameStreak">0</span><small>×</small></dd>
+        </div>
+        <div>
+          <dt data-game-i18n="best">Kỷ lục</dt>
+          <dd id="gameBest">0</dd>
+        </div>
+      </dl>
+
+      <div class="game-top-actions">
+        <div id="gameLangPick" class="game-lang-pick" aria-label="Language">
+          <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button id="pauseGame" class="game-icon-button" type="button" aria-label="Tạm dừng · Pause" disabled>
+          <span aria-hidden="true">Ⅱ</span>
+          <span class="game-action-label" data-game-i18n="pause">Tạm dừng</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="game-layout">
+      <section id="gameBoard" class="game-board" aria-label="Rising vocabulary cards">
+        <div class="game-board-glow game-board-glow-a"></div>
+        <div class="game-board-glow game-board-glow-b"></div>
+        <div class="game-board-label">
+          <span data-game-i18n="level">Cấp độ</span>
+          <b id="activeLevelLabel">HSK 1</b>
+        </div>
+        <div class="danger-line" aria-hidden="true">
+          <span data-game-i18n="danger">Vạch nguy hiểm</span>
+        </div>
+        <div id="wordField" class="word-field"></div>
+        <div class="board-floor" aria-hidden="true"></div>
+      </section>
+
+      <aside class="game-console" aria-label="Current vocabulary clue">
+        <div class="console-accent" aria-hidden="true"></div>
+        <div class="prompt-heading">
+          <div>
+            <span data-game-i18n="findWord">Gợi ý đang ghim</span>
+            <b id="promptLevel">HSK 1</b>
+          </div>
+          <button id="gameAudio" class="game-audio-button" type="button" aria-label="Nghe phát âm · Hear pronunciation" disabled>
+            <span aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <p id="promptMeaning" class="prompt-meaning">—</p>
+
+        <div class="pressure" aria-hidden="true">
+          <div id="pressureFill" class="pressure-fill"></div>
+        </div>
+
+        <form id="answerForm" class="answer-form" autocomplete="off">
+          <label class="answer-input-wrap" for="gameAnswer">
+            <span class="answer-symbol" aria-hidden="true">拼</span>
+            <input
+              id="gameAnswer"
+              type="text"
+              inputmode="text"
+              data-game-i18n-placeholder="answerPlaceholder"
+              placeholder="Nhập chữ Hán hoặc pinyin…"
+              spellcheck="false"
+              autocapitalize="off"
+              disabled
+            />
+          </label>
+          <button id="submitAnswer" class="answer-submit" type="submit" disabled>
+            <span data-game-i18n="answer">Trả lời</span>
+            <span aria-hidden="true">↵</span>
+          </button>
+        </form>
+        <p class="answer-hint" data-game-i18n="answerHint">Xóa bất kỳ thẻ nào: gõ chữ Hán hoặc pinyin. Chạm thẻ để ghim nghĩa.</p>
+
+        <div id="answerFeedback" class="answer-feedback" data-result="idle" aria-live="polite">
+          <span class="feedback-label" data-game-i18n="lastAnswer">Đáp án gần nhất</span>
+          <div class="feedback-word">
+            <b id="feedbackHanzi" lang="zh-Hans">加油</b>
+            <span id="feedbackPinyin">jiāyóu</span>
+          </div>
+          <p id="feedbackMeaning">Keep going.</p>
+        </div>
+
+        <div class="game-tip">
+          <span aria-hidden="true">⌨</span>
+          <p data-game-i18n="howToPlayBody">Gõ chữ Hán hoặc pinyin của bất kỳ thẻ nào. Chạm thẻ để ghim nghĩa; thẻ phát sáng nối được combo. Đáp án sai đẩy cả bảng gần vạch hơn.</p>
+        </div>
+      </aside>
+    </div>
+
+    <div id="gameOverlay" class="game-overlay" data-view="ready">
+      <section class="overlay-card" data-overlay-view="ready" aria-labelledby="readyTitle">
+        <span class="overlay-eyebrow" data-game-i18n="warmup">Khởi động trí nhớ</span>
+        <h1 id="readyTitle" data-game-i18n="readyTitle">Sẵn sàng chạy từ?</h1>
+        <p class="overlay-lead" data-game-i18n="readyBody">Xóa từ theo bất kỳ thứ tự nào. Cứu thẻ gần vạch để lấy nhiều điểm hoặc nối từ liên quan để tăng combo.</p>
+
+        <fieldset class="level-picker">
+          <legend data-game-i18n="chooseLevel">Chọn bộ từ</legend>
+          <button type="button" data-level="1" class="selected" aria-pressed="true">
+            <b>HSK 1</b><small>310</small>
+          </button>
+          <button type="button" data-level="2" aria-pressed="false">
+            <b>HSK 2</b><small>206</small>
+          </button>
+          <button type="button" data-level="3" aria-pressed="false">
+            <b>HSK 3</b><small>491</small>
+          </button>
+          <button type="button" data-level="all" aria-pressed="false">
+            <b data-game-i18n="mixed">Trộn 1–3</b><small>1,007</small>
+          </button>
+        </fieldset>
+
+        <button id="startGame" class="game-primary" type="button">
+          <span data-game-i18n="start">Bắt đầu</span>
+          <span aria-hidden="true">→</span>
+        </button>
+
+        <div class="overlay-how">
+          <b data-game-i18n="howToPlay">Cách chơi</b>
+          <p data-game-i18n="howToPlayBody">Gõ chữ Hán hoặc pinyin của bất kỳ thẻ nào. Chạm thẻ để ghim nghĩa; thẻ phát sáng nối được combo. Đáp án sai đẩy cả bảng gần vạch hơn.</p>
+        </div>
+      </section>
+
+      <section class="overlay-card overlay-card-compact" data-overlay-view="paused" aria-labelledby="pausedTitle">
+        <span class="overlay-eyebrow" data-game-i18n="pause">Tạm dừng</span>
+        <h2 id="pausedTitle" data-game-i18n="pausedTitle">Đã tạm dừng</h2>
+        <p class="overlay-lead" data-game-i18n="pausedBody">Hít thở đi. Đám từ vẫn đang đợi để hành bạn.</p>
+        <div class="overlay-actions">
+          <button id="resumeGame" class="game-primary" type="button">
+            <span data-game-i18n="resume">Tiếp tục</span><span aria-hidden="true">→</span>
+          </button>
+          <button id="restartGame" class="game-secondary" type="button" data-game-i18n="restart">Chơi lại từ đầu</button>
+        </div>
+      </section>
+
+      <section class="overlay-card overlay-card-compact" data-overlay-view="over" aria-labelledby="overTitle">
+        <span class="overlay-eyebrow" data-game-i18n="gameOver">Hết lượt</span>
+        <h2 id="overTitle" data-game-i18n="gameOverTitle">Một từ đã chạm vạch.</h2>
+        <div class="final-score-card">
+          <span data-game-i18n="finalScore">Điểm lần này</span>
+          <strong id="finalScore">0</strong>
+          <small><b id="finalCorrect">0</b> <span data-game-i18n="correctCount">từ đúng</span></small>
+          <em id="newBest" data-game-i18n="newBest" hidden>Kỷ lục mới!</em>
+        </div>
+        <div class="overlay-actions">
+          <button id="playAgain" class="game-primary" type="button">
+            <span data-game-i18n="playAgain">Chơi lại</span><span aria-hidden="true">↻</span>
+          </button>
+          <a class="game-secondary game-secondary-link" href={graphHref} data-game-i18n="backToGraph">Về đồ thị</a>
+        </div>
+      </section>
+    </div>
+
+    <div id="gameAnnouncement" class="sr-only" aria-live="assertive"></div>
+  </main>
+
+  <script src="../components/VocabularyGame.ts"></script>
+</BaseLayout>
