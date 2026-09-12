@@ -106,7 +106,8 @@ for (const [ch, ids] of hubChars) {
     hv: '',
     theme: 'HUB',
     hsk: 0,
-    pos: 'bound morpheme',
+    // Absence from this vocabulary does not establish bound-morpheme status.
+    pos: '',
     freq: 0,
     isHub: true,
     deg: ids.length,
