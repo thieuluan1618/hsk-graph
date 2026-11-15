@@ -1,6 +1,6 @@
 # HSK 1–3 Vocabulary Graph
 
-**Live demo:** https://main.d1ve9js1shhxc6.amplifyapp.com/
+**Live demo:** https://hsk-graph.vercel.app/
 
 Astro + D3 refactor of the single-file demo `../HSK 1-2 Vocabulary Graph.html`,
 since expanded to cover HSK 1–3.
@@ -110,3 +110,13 @@ to generate each question. Audio uses the same lazy MP3 playback as the graph.
     provider or voice ID, so its exact identity is unconfirmed.
 - The "Đường nối chủ đề" (theme spokes) toggle drew nothing in the original
   because theme links were never resolved to node references; this is fixed.
+
+## Deployment
+
+Vercel builds this static Astro site using `vercel.json`: pnpm installs from the
+lockfile, `pnpm build` generates `dist/`, and Vercel serves that directory.
+The connected GitHub repository deploys `main` to production. For manual deploys,
+run `vercel deploy --prod` from this directory. Canonical and social image URLs
+use `VERCEL_PROJECT_PRODUCTION_URL`, falling back to the production demo URL.
+
+The previous Amplify deployment is not deleted by this migration.

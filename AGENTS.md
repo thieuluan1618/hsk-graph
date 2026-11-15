@@ -1,7 +1,7 @@
 # AGENTS.md — hsk-graph
 
 ## Live
-- **Demo:** https://main.d1ve9js1shhxc6.amplifyapp.com/
+- **Demo:** https://hsk-graph.vercel.app/
 - **Source:** https://github.com/thieuluan1618/hsk-graph
 
 ## Commands
@@ -70,8 +70,11 @@
 - No tests configured. Validate with `pnpm exec tsc --noEmit` and `pnpm build`.
 
 ## Deploy
-- Static site; `pnpm build` outputs to `dist/`. Deployed on AWS Amplify
-  (auto-deploy from `main`). The live demo URL above is the Amplify main branch.
+- Static site; `pnpm build` outputs to `dist/`. Deployed on Vercel
+  (auto-deploy from `main` via the connected GitHub repository). Build settings
+  live in `vercel.json`; `vercel deploy --prod` deploys from the CLI.
+- Canonical URLs use `VERCEL_PROJECT_PRODUCTION_URL` during Vercel builds,
+  with the production URL above as the local fallback.
 - Data changes: edit `src/data/graph.json` directly, or re-run `pnpm extract`
   against the original HTML if the source changes.
 
