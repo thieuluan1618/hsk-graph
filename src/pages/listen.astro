@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/listen.css';
+
+const graphHref = import.meta.env.BASE_URL;
+const rushHref = `${import.meta.env.BASE_URL}play/`;
+---
+
+<BaseLayout
+  title="HSK Echo · Listening Challenge"
+  description="A replayable HSK 1–3 Chinese listening game. Hear a word, choose its meaning, and build a streak."
+  bodyClass="listen-page"
+  ogImage={`${import.meta.env.BASE_URL}og.png`}
+  ogImageAlt="HSK Echo Chinese listening challenge"
+>
+  <main id="listenApp" class="listen-shell" data-listen-state="ready">
+    <header class="listen-topbar">
+      <a class="listen-brand" href={graphHref} aria-label="Về đồ thị từ vựng · Back to vocabulary graph">
+        <span class="listen-brand-arrow" aria-hidden="true">←</span>
+        <span>
+          <span class="listen-kicker" data-listen-i18n="gameKicker">HSK Buddy · Luyện nghe</span>
+          <strong>HSK Echo <span lang="zh-Hans">听力挑战</span></strong>
+        </span>
+      </a>
+
+      <dl class="listen-stats" aria-label="Game statistics">
+        <div>
+          <dt data-listen-i18n="score">Điểm</dt>
+          <dd id="listenScore">0</dd>
+        </div>
+        <div>
+          <dt data-listen-i18n="streak">Chuỗi đúng</dt>
+          <dd><span id="listenStreak">0</span><small>×</small></dd>
+        </div>
+        <div>
+          <dt data-listen-i18n="best">Kỷ lục</dt>
+          <dd id="listenBest">0</dd>
+        </div>
+      </dl>
+
+      <div class="listen-top-actions">
+        <a class="listen-rush-link" href={rushHref}>
+          <span aria-hidden="true">▶</span><span data-listen-i18n="rush">HSK Rush</span>
+        </a>
+        <div id="listenLangPick" class="listen-lang-pick" aria-label="Language">
+          <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button id="pauseListen" class="listen-icon-button" type="button" aria-label="Tạm dừng · Pause" disabled>
+          <span aria-hidden="true">Ⅱ</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="listen-stage" aria-labelledby="listenPrompt">
+      <div class="listen-stage-noise" aria-hidden="true"></div>
+      <div class="listen-progress-row">
+        <span id="listenRoundLabel" class="listen-round">—</span>
+        <div class="listen-progress" aria-hidden="true"><span id="listenProgressFill"></span></div>
+        <span id="listenTimer" class="listen-timer" aria-live="off"><span aria-hidden="true">◷</span><b>15</b>s</span>
+        <span id="listenLevelLabel" class="listen-level">HSK 1</span>
+      </div>
+
+      <div class="listen-orb-wrap">
+        <div class="listen-orb-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+        <button id="listenAudio" class="listen-orb" type="button" disabled data-listen-i18n-aria="listen">
+          <span class="listen-orb-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="listen-orb-label" data-listen-i18n="listen">Nghe lại</span>
+        </button>
+      </div>
+
+      <div class="listen-instruction">
+        <span class="listen-instruction-mark" aria-hidden="true">耳</span>
+        <div>
+          <p id="listenPrompt" data-listen-i18n="chooseMeaning">Chọn nghĩa đúng</p>
+          <small data-listen-i18n="listenHint">Nghe kỹ, rồi chọn nghĩa bạn vừa nghe.</small>
+        </div>
+      </div>
+
+      <div id="listenChoices" class="listen-choices" role="group" aria-label="Answer choices"></div>
+      <p class="listen-keyboard-hint"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> <span data-listen-i18n="replayHint">Có thể nghe lại bất cứ lúc nào.</span> <kbd>R</kbd></p>
+    </section>
+
+    <aside id="listenReveal" class="listen-reveal" data-result="idle" aria-live="polite">
+      <div class="listen-reveal-top">
+        <span id="listenResultMark" class="listen-result-mark" aria-hidden="true">◌</span>
+        <div>
+          <span id="listenResultLabel" class="listen-result-label" data-listen-i18n="waiting">Âm thanh đang chờ bạn.</span>
+          <strong id="listenRevealTitle" data-listen-i18n="answerReveal">Bạn vừa nghe</strong>
+        </div>
+      </div>
+      <div class="listen-word">
+        <b id="listenHanzi" lang="zh-Hans">耳朵</b>
+        <span id="listenPinyin">ěrduo</span>
+      </div>
+      <p id="listenMeaning">ear</p>
+      <button id="listenNext" class="listen-next" type="button" disabled hidden>
+        <span data-listen-i18n="next">Từ tiếp theo</span><span aria-hidden="true">→</span>
+      </button>
+    </aside>
+
+    <div id="listenOverlay" class="listen-overlay" data-view="ready">
+      <section class="listen-overlay-card" data-overlay-view="ready" aria-labelledby="listenReadyTitle">
+        <span class="listen-overlay-eyebrow" data-listen-i18n="warmup">Khởi động tai</span>
+        <h1 id="listenReadyTitle" data-listen-i18n="readyTitle">Sẵn sàng nghe chưa?</h1>
+        <p class="listen-overlay-lead" data-listen-i18n="readyBody">Nghe một từ tiếng Trung và chọn nghĩa của nó. Mỗi lượt có 10 câu, mỗi câu 15 giây. Bạn có thể nghe lại trong thời gian đó.</p>
+
+        <fieldset class="listen-level-picker">
+          <legend data-listen-i18n="chooseLevel">Chọn bộ từ</legend>
+          <button type="button" data-level="1" class="selected" aria-pressed="true"><b>HSK 1</b><small>310</small></button>
+          <button type="button" data-level="2" aria-pressed="false"><b>HSK 2</b><small>206</small></button>
+          <button type="button" data-level="3" aria-pressed="false"><b>HSK 3</b><small>491</small></button>
+          <button type="button" data-level="all" aria-pressed="false"><b data-listen-i18n="mixed">Trộn 1–3</b><small>1,007</small></button>
+        </fieldset>
+
+        <button id="startListen" class="listen-primary" type="button"><span data-listen-i18n="start">Bắt đầu nghe</span><span aria-hidden="true">→</span></button>
+        <div class="listen-how"><b data-listen-i18n="howToPlay">Cách chơi</b><p data-listen-i18n="howToPlayBody">Mỗi lượt phát một từ. Chọn nghĩa đúng để ghi điểm và nối chuỗi. Nhấn 1–4 để chọn nhanh, R để nghe lại.</p></div>
+      </section>
+
+      <section class="listen-overlay-card listen-overlay-card-compact" data-overlay-view="paused" aria-labelledby="listenPausedTitle">
+        <span class="listen-overlay-eyebrow" data-listen-i18n="paused">Đã tạm dừng</span>
+        <h2 id="listenPausedTitle" data-listen-i18n="paused">Đã tạm dừng</h2>
+        <p class="listen-overlay-lead" data-listen-i18n="pausedBody">Tai nghỉ một chút. Từ vựng sẽ không trốn đâu.</p>
+        <div class="listen-overlay-actions"><button id="resumeListen" class="listen-primary" type="button"><span data-listen-i18n="resume">Tiếp tục</span><span aria-hidden="true">→</span></button><button id="restartListen" class="listen-secondary" type="button" data-listen-i18n="restart">Chơi lại</button></div>
+      </section>
+
+      <section class="listen-overlay-card listen-overlay-card-compact" data-overlay-view="over" aria-labelledby="listenOverTitle">
+        <span class="listen-overlay-eyebrow" data-listen-i18n="complete">Hoàn thành</span>
+        <h2 id="listenOverTitle" data-listen-i18n="completeTitle">Bạn đã nghe hết lượt.</h2>
+        <div class="listen-final-score"><span data-listen-i18n="finalScore">Điểm lần này</span><strong id="listenFinalScore">0</strong><small><b id="listenCorrectCount">0</b> <span data-listen-i18n="correctCount">đáp án đúng</span></small><em id="listenNewBest" data-listen-i18n="newBest" hidden>Kỷ lục mới!</em></div>
+        <div class="listen-overlay-actions"><button id="playListenAgain" class="listen-primary" type="button"><span data-listen-i18n="playAgain">Chơi lại</span><span aria-hidden="true">↻</span></button><a class="listen-secondary listen-secondary-link" href={graphHref} data-listen-i18n="backToGraphAction">Về đồ thị</a></div>
+      </section>
+    </div>
+
+    <div id="listenAnnouncement" class="sr-only" aria-live="assertive"></div>
+  </main>
+  <script src="../components/ListeningGame.ts"></script>
+</BaseLayout>

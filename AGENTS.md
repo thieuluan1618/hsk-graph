@@ -28,6 +28,19 @@
   entry point is `src/components/VocabularyGame.ts`. The game reuses
   `graph.json`, audio helpers, and the saved VI/EN language preference. Scores
   are device-local and do not mutate graph learner progress.
+- **Listening page:** `src/pages/listen.astro` renders HSK Echo at `/listen/`;
+  `src/components/ListeningGame.ts` owns its rounds, choices, timer, and scoring.
+  It reuses graph word nodes with audio listed in the manifest, the audio
+  helpers, and the saved VI/EN preference. Copy lives in `src/lib/listen-i18n.ts`
+  and styles in `src/styles/listen.css`. Best score uses localStorage key
+  `hsk-echo:best`, separate from Rush and graph learner progress.
+- **Listening rules:** 10 questions, 15 seconds each, four meaning choices;
+  answers/timeouts reveal the word and advance after 1.25 seconds. Correct
+  answers earn 100 plus a streak bonus of 20 per preceding consecutive correct
+  answer, capped at 180. Wrong answers/timeouts reset the streak. `1`–`4` answer,
+  `R` replays without resetting the timer, and `Escape` pauses/resumes. Hiding
+  the tab pauses the countdown and cancels pending auto-advance; resuming
+  continues the countdown or schedules the next question after a reveal.
 - **Graph modules** in `src/lib/`:
   - `graph-layout` — scene + D3 force simulation + node radius/color helpers
   - `graph-renderer` — pure Canvas drawing driven by scene + state

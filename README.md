@@ -6,7 +6,8 @@ Astro + D3 refactor of the single-file demo `../HSK 1-2 Vocabulary Graph.html`,
 since expanded to cover HSK 1–3.
 An interactive force-directed graph of HSK 1–3 vocabulary with search, theme
 filters, a word detail panel, and pronunciation audio (word + example sentence).
-It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`.
+It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`, and
+**HSK Echo**, a listening challenge at `/listen/`.
 
 ## Features
 
@@ -23,6 +24,16 @@ It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`.
   order by typing Hanzi or tone-insensitive pinyin; tap a card to pin its EN/VI
   meaning. Danger saves earn more points, related words build combos, and high
   scores stay on the current device.
+- Practice listening with HSK Echo: choose HSK 1, 2, 3, or a mixed set, hear
+  a word, and pick its English or Vietnamese meaning from four choices.
+  Each game has 10 questions with 15 seconds per question. Replay the audio
+  as needed; replaying does not reset the timer. Answers and timeouts reveal
+  the Hanzi, pinyin, and meaning before advancing automatically after 1.25 seconds.
+- Echo awards 100 points per correct answer plus 20 for each preceding answer
+  in the current streak (up to a 180-point bonus). Mistakes and timeouts reset
+  the streak. Its best score is saved on the current device, separately from
+  Rush scores and graph learner progress. Both games share the graph's VI/EN
+  language preference.
 
 ## Keyboard controls
 
@@ -37,6 +48,10 @@ It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`.
 
 In HSK Rush, `Enter` submits a typed answer and `Escape` pauses or resumes the game.
 
+In HSK Echo, `1`–`4` select an answer, `R` replays the word, and `Escape` pauses
+or resumes. Switching away from the tab also pauses the game; resume it manually
+when you return.
+
 ## Commands
 
 - `pnpm install` — install dependencies (build-script approval for esbuild is
@@ -44,6 +59,8 @@ In HSK Rush, `Enter` submits a typed answer and `Escape` pauses or resumes the g
 - `pnpm dev` — dev server at `localhost:4321`
 - `pnpm build` — static production build into `dist/`
 - `pnpm preview` — serve the production build
+- `pnpm exec tsc --noEmit` — typecheck TypeScript; run this and `pnpm build`
+  before committing (no test runner is configured)
 - `pnpm extract` — re-extract graph data and audio from the original HTML
   (only needed if the original file changes; expects it at `../HSK 1-2 Vocabulary Graph.html`)
 - `pnpm frequency /path/to/SUBTLEX-CH-WF` — refresh corpus rank and occurrence
@@ -57,14 +74,22 @@ In HSK Rush, `Enter` submits a typed answer and `Escape` pauses or resumes the g
   original inline base64 payload; fetched lazily on first play
 - `src/pages/index.astro` — vocabulary graph shell
 - `src/pages/play.astro` — HSK Rush game shell
+- `src/pages/listen.astro` — HSK Echo listening game shell
 - `src/layouts/BaseLayout.astro` — document head, fonts, global CSS
 - `src/components/` — `Header`, `ControlDock` (legend is data-driven),
-  `DetailPanel` (static shell), `VocabularyGraph.ts` (graph client island), and
-  `VocabularyGame.ts` (HSK Rush state, input, scoring, and animation)
+  `DetailPanel` (static shell), `VocabularyGraph.ts` (graph client island),
+  `VocabularyGame.ts` (HSK Rush state, input, scoring, and animation), and
+  `ListeningGame.ts` (HSK Echo rounds, timer, choices, scoring, and playback)
+- `src/styles/listen.css` — HSK Echo layout, answer states, and overlays
 - `src/lib/` — graph modules: `graph-layout` (scene + force simulation),
   `graph-renderer` (canvas drawing), `graph-interactions` (zoom/drag/hover/hit
-  testing), `detail-panel` (panel DOM updates), `search`, `audio`, `game-i18n`,
+  testing), `detail-panel` (panel DOM updates), `search`, `audio`, `game-i18n`, `listen-i18n`,
   `state` (single typed graph UI-state store), `types`
+
+Echo draws its questions from word nodes in `graph.json` whose Hanzi appear in
+the word-audio manifest. It avoids repeating question words within a game while
+unused words remain, and filters duplicate choice meanings in the language used
+to generate each question. Audio uses the same lazy MP3 playback as the graph.
 
 ## Notes
 
