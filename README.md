@@ -119,4 +119,4 @@ The connected GitHub repository deploys `main` to production. For manual deploys
 run `vercel deploy --prod` from this directory. Canonical and social image URLs
 use `VERCEL_PROJECT_PRODUCTION_URL`, falling back to the production demo URL.
 
-The previous Amplify deployment is not deleted by this migration.
+The previous Amplify app was deleted after the Vercel deployment was verified.
