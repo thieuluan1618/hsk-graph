@@ -33,6 +33,8 @@ canvas.pointing{cursor:pointer}
 .play-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .play-link-icon{font-size:9px}
 .listen-link{color:#d0baff;border-color:rgba(182,155,241,.34);background:rgba(182,155,241,.1)}
+.words-link{color:#ffd166;border-color:rgba(255,209,102,.34);background:rgba(255,209,102,.08)}
+.words-link:hover{background:rgba(255,209,102,.16);border-color:#ffd166}
 .listen-link:hover{background:rgba(182,155,241,.18);border-color:#cbb7ff}
 #langPick{display:flex;gap:2px;background:var(--panel);border:1px solid var(--stroke2);border-radius:9px;padding:3px}
 #langPick button{border:0;background:none;color:var(--muted);font-family:inherit;font-size:11.5px;font-weight:700;

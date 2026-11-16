@@ -41,6 +41,14 @@
   `R` replays without resetting the timer, and `Escape` pauses/resumes. Hiding
   the tab pauses the countdown and cancels pending auto-advance; resuming
   continues the countdown or schedules the next question after a reveal.
+- **Word list page:** `src/pages/words.astro` renders `/words/` as a static
+  table (No · Chinese · Pinyin · VI/EN meaning) grouped by theme, words sorted
+  by HSK level then frequency. `src/components/WordTable.ts` handles HSK/text
+  filtering (row numbers recount over visible rows), the shared VI/EN
+  preference, word audio, per-topic collapse/expand (persisted in localStorage
+  key `hsk-words:collapsed`; ignored while a text filter is active), and an
+  inline stroke-order row (Hanzi Writer loop
+  animation + quiz-mode practice). Styles live in `src/styles/words.css`.
 - **Graph modules** in `src/lib/`:
   - `graph-layout` — scene + D3 force simulation + node radius/color helpers
   - `graph-renderer` — pure Canvas drawing driven by scene + state

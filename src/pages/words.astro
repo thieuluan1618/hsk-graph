@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import graph from '../data/graph.json';
+import type { GraphData, NodeDatum } from '../lib/types';
+import '../styles/words.css';
+
+const data = graph as GraphData;
+const graphHref = import.meta.env.BASE_URL;
+
+const words = data.nodes.filter((n): n is NodeDatum => n.kind === 'word');
+const byFreq = (a: NodeDatum, b: NodeDatum) => (a.freq ?? Infinity) - (b.freq ?? Infinity);
+
+// One section per theme (in theme order), words sorted by HSK level then frequency.
+const groups = data.themes
+  .filter((t) => t.code !== 'HUB')
+  .map((theme) => ({
+    theme,
+    words: words.filter((w) => w.theme === theme.code).sort((a, b) => a.hsk - b.hsk || byFreq(a, b)),
+  }))
+  .filter((g) => g.words.length > 0);
+
+const counts = { 1: data.meta.hsk1, 2: data.meta.hsk2, 3: data.meta.hsk3 };
+let no = 0;
+---
+
+<BaseLayout
+  title="HSK 1–3 Word List · Stroke Order"
+  description="HSK 1–3 vocabulary as a table grouped by topic, with pinyin, meanings, audio, and animated stroke order."
+  bodyClass="words-page"
+  ogImage={`${import.meta.env.BASE_URL}og.png`}
+  ogImageAlt="HSK 1–3 word list"
+>
+  <main class="words-shell">
+    <header class="words-top">
+      <a class="words-brand" href={graphHref}>
+        <span class="words-brand-arrow" aria-hidden="true">←</span>
+        <span>
+          <span class="words-kicker" data-w-i18n="kicker">HSK Buddy · Bảng từ</span>
+          <strong>HSK 1–3 <span lang="zh-Hans">词汇表</span></strong>
+        </span>
+      </a>
+      <div id="wordsLangPick" class="words-lang" aria-label="Language">
+        <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <div class="words-controls">
+      <div class="words-search">
+        <span aria-hidden="true">⌕</span>
+        <input id="wordsSearch" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Lọc theo chữ Hán · pinyin · nghĩa…" data-w-i18n-ph="searchPh" />
+      </div>
+      <div id="wordsLevels" class="words-levels" role="group" aria-label="HSK level">
+        <button type="button" data-level="all" aria-pressed="true"><span data-w-i18n="all">Tất cả</span> <small>{words.length}</small></button>
+        {[1, 2, 3].map((l) => (
+          <button type="button" data-level={l} aria-pressed="false">HSK {l} <small>{counts[l as 1 | 2 | 3]}</small></button>
+        ))}
+      </div>
+      <button id="wordsFoldAll" type="button" class="words-fold" data-w-i18n="collapseAll">Thu gọn tất cả</button>
+      <nav class="words-jump" aria-label="Topics">
+        {groups.map(({ theme }) => (
+          <a href={`#t-${theme.code}`} data-jump={theme.code} style={`--c:${theme.color}`}>
+            <span class="n-vi">{theme.vi}</span><span class="n-en">{theme.en}</span>
+          </a>
+        ))}
+      </nav>
+    </div>
+
+    <table class="words-table">
+      <thead>
+        <tr>
+          <th class="c-no">No</th>
+          <th class="c-hz">Chinese</th>
+          <th class="c-py">Pinyin</th>
+          <th class="c-mean"><span class="n-vi">Tiếng Việt</span><span class="n-en">English</span></th>
+          <th class="c-act"><span class="sr-only">Actions</span></th>
+        </tr>
+      </thead>
+      {groups.map(({ theme, words: list }) => (
+        <tbody class="words-group" id={`t-${theme.code}`} data-theme={theme.code} style={`--c:${theme.color}`}>
+          <tr class="group-row">
+            <th colspan="5" scope="colgroup">
+              <button type="button" class="group-toggle" aria-expanded="true" aria-controls={`t-${theme.code}`}>
+                <span class="group-chev" aria-hidden="true"></span>
+                <span class="group-dot" aria-hidden="true"></span>
+                <span class="n-vi">{theme.vi}</span><span class="n-en">{theme.en}</span>
+                <small class="group-count"></small>
+              </button>
+            </th>
+          </tr>
+          {list.map((w) => {
+            no += 1;
+            return (
+              <tr
+                class="word-row"
+                tabindex="0"
+                aria-expanded="false"
+                data-hz={w.hz}
+                data-py={w.py}
+                data-en={w.en}
+                data-vi={w.vi}
+                data-hsk={w.hsk}
+              >
+                <td class="c-no">{no}</td>
+                <td class="c-hz" lang="zh-Hans">{w.hz}<span class={`hsk-tag h${w.hsk}`}>{w.hsk}</span></td>
+                <td class="c-py">{w.py}</td>
+                <td class="c-mean"><span class="n-vi">{w.vi}</span><span class="n-en">{w.en}</span></td>
+                <td class="c-act">
+                  <button type="button" class="row-btn" data-act="audio" aria-label={`Play ${w.hz}`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg></button>
+                  <button type="button" class="row-btn" data-act="strokes" aria-label={`Stroke order for ${w.hz}`}>笔</button>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      ))}
+    </table>
+    <p id="wordsEmpty" class="words-empty" hidden data-w-i18n="empty">Không tìm thấy từ nào.</p>
+  </main>
+  <script src="../components/WordTable.ts"></script>
+</BaseLayout>

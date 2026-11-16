@@ -35,6 +35,12 @@ It also includes **HSK Rush**, a fast vocabulary-recall game at `/play/`, and
   Rush scores and graph learner progress. Both games share the graph's VI/EN
   language preference.
 
+- Browse every word as a table at `/words/`, grouped by topic with No,
+  Chinese, Pinyin, and meaning columns. Collapse or expand topics (remembered per device),
+  filter by HSK level or text, click a
+  row for animated stroke order (or switch to writing practice), and press 🔊
+  to hear it.
+
 ## Keyboard controls
 
 | Keys | Action |

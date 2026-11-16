@@ -6,6 +6,7 @@ interface Props {
 const { wordCount, hubCount } = Astro.props;
 const playHref = `${import.meta.env.BASE_URL}play/`;
 const listenHref = `${import.meta.env.BASE_URL}listen/`;
+const wordsHref = `${import.meta.env.BASE_URL}words/`;
 ---
 
 <div id="top">
@@ -25,6 +26,10 @@ const listenHref = `${import.meta.env.BASE_URL}listen/`;
       <a class="play-link listen-link" href={listenHref} aria-label="Chơi HSK Echo · Play HSK Echo listening game">
         <span class="play-link-icon" aria-hidden="true">◖◗</span>
         <span class="play-link-label">HSK Echo</span>
+      </a>
+      <a class="play-link words-link" href={wordsHref} aria-label="Bảng từ vựng · Word list with stroke order">
+        <span class="play-link-icon" aria-hidden="true">☰</span>
+        <span class="play-link-label">Words</span>
       </a>
     </div>
     <div id="langPick">
