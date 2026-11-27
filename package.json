@@ -12,6 +12,7 @@
     "frequency": "node scripts/update-frequency-data.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "astro": "^5.7.0",
     "d3": "^7.9.0",
     "hanzi-writer": "^3.7.3"
